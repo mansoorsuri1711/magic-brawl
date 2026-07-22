@@ -62,9 +62,14 @@ const BASE_PAGES: BasePage[] = [
     priority: 0.92,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
-        title: "Master Royale Vanilla vs Infinity",
-        caption: "Compare Master Royale Vanilla and Infinity private server experiences",
+        loc: `${SITE_ORIGIN}/mr-vanilla-master-royale.webp`,
+        title: "MR Vanilla",
+        caption: "Master Royale Vanilla experience badge",
+      },
+      {
+        loc: `${SITE_ORIGIN}/mr-infinity-master-royale.webp`,
+        title: "MR Infinity",
+        caption: "Master Royale Infinity experience badge",
       },
     ],
   },
@@ -75,7 +80,7 @@ const BASE_PAGES: BasePage[] = [
     priority: 0.9,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
+        loc: `${SITE_ORIGIN}/master-royale-tournaments.webp`,
         title: "Master Royale for PC",
         caption: "Play Master Royale on PC with an Android emulator",
       },

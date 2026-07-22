@@ -15,7 +15,7 @@ import {
   SITE_ORIGIN,
   SUPPORT_EMAIL,
 } from "@/lib/site";
-import { ASSETS } from "@/lib/assets";
+import { ASSETS, HIGHLIGHT_ICONS } from "@/lib/assets";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -357,11 +357,11 @@ export default async function Home({ params }: PageProps) {
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-[#0A1029] rounded-2xl p-6 border border-[#FDB402]/40 text-center">
               <Image
-                src={ASSETS.chest}
+                src={ASSETS.vanilla}
                 alt={t("vanillaTitle")}
-                width={140}
-                height={140}
-                className="object-contain mx-auto mb-4 w-[120px] h-[120px]"
+                width={160}
+                height={160}
+                className="object-contain mx-auto mb-4 w-[128px] h-[128px] rounded-2xl"
               />
               <h3 className="text-xl font-semibold text-white mb-3">{t("vanillaTitle")}</h3>
               <p className="text-gray-300 leading-relaxed text-left">{t("vanillaP")}</p>
@@ -370,9 +370,9 @@ export default async function Home({ params }: PageProps) {
               <Image
                 src={ASSETS.infinity}
                 alt={t("infinityTitle")}
-                width={140}
-                height={140}
-                className="object-contain mx-auto mb-4 w-[120px] h-[120px]"
+                width={160}
+                height={160}
+                className="object-contain mx-auto mb-4 w-[128px] h-[128px] rounded-2xl"
               />
               <h3 className="text-xl font-semibold text-white mb-3">{t("infinityTitle")}</h3>
               <p className="text-gray-300 leading-relaxed text-left">{t("infinityP")}</p>
@@ -390,39 +390,30 @@ export default async function Home({ params }: PageProps) {
       </section>
 
       <section id="features" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FDB402] text-center">{t("featuresTitle")}</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
-            {[
-              { src: ASSETS.gems, i: 0 },
-              { src: ASSETS.chest, i: 1 },
-              { src: ASSETS.tournaments, i: 2 },
-              { src: ASSETS.wizard, i: 3 },
-              { src: ASSETS.emote, i: 4 },
-              { src: ASSETS.apkIcon, i: 5 },
-            ].map(({ src, i }) => {
-              const f = features[i % features.length];
-              return (
-                <div
-                  key={`${f.title}-${i}`}
-                  className="bg-[#0A1029] rounded-2xl p-5 border border-gray-800 text-center hover:border-[#FDB402]/40 transition-colors"
-                >
-                  <Image
-                    src={src}
-                    alt={f.title}
-                    width={80}
-                    height={80}
-                    className="object-contain mx-auto mb-3 w-16 h-16 md:w-20 md:h-20"
-                  />
-                  <h3 className="text-white font-semibold mb-2">{f.title}</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">{f.text}</p>
-                </div>
-              );
-            })}
+        <div className="rounded-xl p-6 md:p-10 bg-[#F5F3FF]/5 border border-gray-800">
+          <h2 className="text-3xl font-bold mb-10 text-[#FDB402] text-center">
+            {t("highlightsTitle")}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6">
+            {(t.raw("highlights") as { title: string; text: string }[]).map((item, i) => (
+              <div key={item.title} className="text-center px-2">
+                <Image
+                  src={HIGHLIGHT_ICONS[i]}
+                  alt={item.title}
+                  width={120}
+                  height={120}
+                  className="object-contain mx-auto mb-5 w-[100px] h-[100px] md:w-[120px] md:h-[120px]"
+                />
+                <h3 className="text-white font-bold uppercase tracking-wide text-sm md:text-base mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{item.text}</p>
+              </div>
+            ))}
           </div>
-          {features.length > 6 && (
-            <ul className="space-y-3 text-gray-300">
-              {features.slice(6).map((f) => (
+          {features.length > 0 && (
+            <ul className="mt-10 space-y-3 text-gray-300 border-t border-gray-800 pt-8">
+              {features.map((f) => (
                 <li key={f.title} className="flex gap-3">
                   <span className="text-[#FDB402] font-bold">•</span>
                   <span>
@@ -615,13 +606,22 @@ export default async function Home({ params }: PageProps) {
 
       <section id="closing-cta" className="py-12 px-4 md:px-8 max-w-7xl mx-auto mb-8">
         <div className="bg-secondary rounded-xl p-8 text-center border border-[#FDB402]/30">
-          <Image
-            src={ASSETS.infinity}
-            alt=""
-            width={160}
-            height={160}
-            className="object-contain mx-auto mb-6 w-[140px] h-[140px]"
-          />
+          <div className="flex justify-center gap-4 mb-6">
+            <Image
+              src={ASSETS.vanilla}
+              alt="MR Vanilla"
+              width={96}
+              height={96}
+              className="object-contain w-20 h-20 md:w-24 md:h-24 rounded-2xl"
+            />
+            <Image
+              src={ASSETS.infinity}
+              alt="MR Infinity"
+              width={96}
+              height={96}
+              className="object-contain w-20 h-20 md:w-24 md:h-24 rounded-2xl"
+            />
+          </div>
           <h2 className="text-3xl font-bold mb-4 text-[#FDB402]">{t("ctaTitle")}</h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">{t("ctaText")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

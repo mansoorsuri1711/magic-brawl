@@ -177,6 +177,23 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
             />
           </div>
 
+          <div className="flex justify-center gap-4 mb-10">
+            <Image
+              src="/mr-vanilla-master-royale.webp"
+              alt="MR Vanilla"
+              width={88}
+              height={88}
+              className="object-contain w-20 h-20 rounded-2xl"
+            />
+            <Image
+              src="/mr-infinity-master-royale.webp"
+              alt="MR Infinity"
+              width={88}
+              height={88}
+              className="object-contain w-20 h-20 rounded-2xl"
+            />
+          </div>
+
           <section
             id="apk-download"
             className="bg-secondary rounded-2xl p-8 mb-10 text-center border border-[#0ea5e9]/40"

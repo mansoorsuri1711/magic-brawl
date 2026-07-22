@@ -271,7 +271,26 @@
       }
     ],
     "ctaTitle": "Pronto para Experimentar o Master Royale?",
-    "ctaText": "Baixe o APK grátis em masterroyaleapk.com, crie uma conta de servidor privado e explore Vanilla ou Infinity no seu ritmo. Prefere uma tela maior? Siga o guia do emulador Master Royale para PC depois de pegar o arquivo — ou veja as notas de sideload iOS na página de download."
+    "ctaText": "Baixe o APK grátis em masterroyaleapk.com, crie uma conta de servidor privado e explore Vanilla ou Infinity no seu ritmo. Prefere uma tela maior? Siga o guia do emulador Master Royale para PC depois de pegar o arquivo — ou veja as notas de sideload iOS na página de download.",
+    "highlightsTitle": "Recursos do Master Royale",
+    "highlights": [
+      {
+        "title": "GEMAS ILIMITADAS",
+        "text": "Você começa com 1 milhão de gemas grátis para desbloquear todas as cartas e abrir baús infinitos."
+      },
+      {
+        "title": "DESBLOQUEAR TORNEIOS",
+        "text": "No servidor privado Master Royale você desbloqueia torneios e compete contra outros jogadores."
+      },
+      {
+        "title": "BAÚ LENDÁRIO GRÁTIS",
+        "text": "Para evoluir cartas você precisa de baús lendários. Master Royale oferece baús lendários ilimitados."
+      },
+      {
+        "title": "BLOQUEAR CHAMADAS",
+        "text": "Bloqueie chamadas durante as batalhas. Nada de interrupções no meio da arena."
+      }
+    ]
   },
   "Download": {
     "h1": "Baixar Master Royale APK",

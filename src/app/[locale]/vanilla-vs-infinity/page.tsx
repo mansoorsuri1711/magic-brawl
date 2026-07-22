@@ -233,7 +233,7 @@ export default async function VanillaVsInfinityPage({ params }: PageProps) {
                 cta={t("vanillaCta")}
                 href={DOWNLOAD_VANILLA_URL}
                 accent="vanilla"
-                imageSrc="/master-royale-chest.webp"
+                imageSrc="/mr-vanilla-master-royale.webp"
                 imageAlt="Master Royale Vanilla"
               />
               <VersionCard
@@ -243,7 +243,7 @@ export default async function VanillaVsInfinityPage({ params }: PageProps) {
                 cta={t("infinityCta")}
                 href={DOWNLOAD_INFINITY_URL}
                 accent="infinity"
-                imageSrc="/master-royale-infinity-server.webp"
+                imageSrc="/mr-infinity-master-royale.webp"
                 imageAlt="Master Royale Infinity"
               />
             </div>

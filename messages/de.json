@@ -271,7 +271,26 @@
       }
     ],
     "ctaTitle": "Bereit, Master Royale auszuprobieren?",
-    "ctaText": "Lade das kostenlose APK von masterroyaleapk.com herunter, erstelle ein Privateserver-Konto und erkunde Vanilla oder Infinity in deinem Tempo. Lieber ein größerer Bildschirm? Folge der Master-Royale-für-PC-Emulator-Anleitung nach dem Download — oder sieh dir iOS-Sideload-Hinweise auf der Download-Seite an."
+    "ctaText": "Lade das kostenlose APK von masterroyaleapk.com herunter, erstelle ein Privateserver-Konto und erkunde Vanilla oder Infinity in deinem Tempo. Lieber ein größerer Bildschirm? Folge der Master-Royale-für-PC-Emulator-Anleitung nach dem Download — oder sieh dir iOS-Sideload-Hinweise auf der Download-Seite an.",
+    "highlightsTitle": "Master Royale Funktionen",
+    "highlights": [
+      {
+        "title": "UNBEGRENZTE EDELSTEINE",
+        "text": "Du startest mit 1 Million kostenlosen Edelsteinen, um alle Karten freizuschalten und unendlich Truhen zu öffnen."
+      },
+      {
+        "title": "TURNIERE FREISCHALTEN",
+        "text": "Auf dem Master-Royale-Privateserver kannst du Turniere freischalten und gegen andere Spieler antreten."
+      },
+      {
+        "title": "KOSTENLOSE LEGENDÄRE TRUHE",
+        "text": "Zum Aufwerten brauchst du legendäre Truhen. Master Royale gibt unbegrenzte legendäre Truhen."
+      },
+      {
+        "title": "ANRUFE BLOCKIEREN",
+        "text": "Blockiere Anrufe während spannender Kämpfe. Keine störenden Unterbrechungen mehr."
+      }
+    ]
   },
   "Download": {
     "h1": "Master Royale APK Herunterladen",

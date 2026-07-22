@@ -271,7 +271,26 @@
       }
     ],
     "ctaTitle": "Master Royale'i Denemeye Hazır mısınız?",
-    "ctaText": "masterroyaleapk.com'dan ücretsiz APK'yi indirin, bir özel sunucu hesabı oluşturun ve Vanilla veya Infinity'yi kendi temponuzda keşfedin. Daha büyük ekran mı tercih edersiniz? Dosyayı aldıktan sonra PC için Master Royale emülatör rehberini izleyin — veya indirme sayfasındaki iOS sideload notlarına bakın."
+    "ctaText": "masterroyaleapk.com'dan ücretsiz APK'yi indirin, bir özel sunucu hesabı oluşturun ve Vanilla veya Infinity'yi kendi temponuzda keşfedin. Daha büyük ekran mı tercih edersiniz? Dosyayı aldıktan sonra PC için Master Royale emülatör rehberini izleyin — veya indirme sayfasındaki iOS sideload notlarına bakın.",
+    "highlightsTitle": "Master Royale Özellikleri",
+    "highlights": [
+      {
+        "title": "SINIRSIZ ELMAS",
+        "text": "Oyuna 1 milyon ücretsiz elmasla başlarsınız; tüm kartları açıp sonsuz sandık açabilirsiniz."
+      },
+      {
+        "title": "TURNUVALARI AÇ",
+        "text": "Master Royale özel sunucusunda çeşitli turnuvalara katılıp diğer oyuncularla yarışabilirsiniz."
+      },
+      {
+        "title": "ÜCRETSİZ EFSANE SANDIK",
+        "text": "Kart yükseltmek için efsane sandık gerekir. Master Royale sınırsız efsane sandık sunar."
+      },
+      {
+        "title": "ARAMALARI ENGELLE",
+        "text": "Heyecanlı savaşlarda aramaları engelleyin. Rahatsız edici çağrılar eğlencenizi bozmasın."
+      }
+    ]
   },
   "Download": {
     "h1": "Master Royale APK İndir",

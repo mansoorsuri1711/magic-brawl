@@ -1,19 +1,31 @@
-/** Central map of public artwork — placement mirrors masterroyale.net / masterroyale.io patterns */
+/** Central artwork map — icons matched to masterroyale.io feature row + Vanilla/Infinity badges */
 export const ASSETS = {
   logo: "/master-royale-apk-logo.webp",
   apkIcon: "/master-royale-apk.webp",
-  /** Hero / mascot (like .net character hero) */
+  /** Homepage / download hero mascot */
   king: "/master-royale-king.webp",
-  /** Infinity / action character (like .net Infinity visuals) */
-  infinity: "/master-royale-infinity-server.webp",
-  /** Unlimited gems feature (.io UNLIMITED GEMS) */
+  /** Action art for Infinity / closing CTA */
+  infinityArt: "/master-royale-infinity-server.webp",
+  /** Official MR Vanilla badge */
+  vanilla: "/mr-vanilla-master-royale.webp",
+  /** Official MR Infinity badge */
+  infinity: "/mr-infinity-master-royale.webp",
+  /** .io row: UNLIMITED GEMS */
   gems: "/master-royale-gems.webp",
-  /** Chests / Vanilla / rewards (.io FREE LEGENDARY CHEST) */
+  /** .io row: FREE LEGENDARY CHEST */
   chest: "/master-royale-chest.webp",
-  /** Tournaments / compete (.io UNLOCK TOURNAMENTS) */
+  /** .io row: UNLOCK TOURNAMENTS */
   tournaments: "/master-royale-tournaments.webp",
-  /** Magic / custom cards / Infinity vibe */
-  wizard: "/master-royale-wizard.webp",
-  /** Fun / community / emotes */
+  /** .io row: BLOCK CALLS (angry king emote) */
   emote: "/master-royale-emote.webp",
+  /** Install / tips accent */
+  wizard: "/master-royale-wizard.webp",
 } as const;
+
+/** Fixed 4-up benefits strip (screenshot order) */
+export const HIGHLIGHT_ICONS = [
+  ASSETS.gems,
+  ASSETS.tournaments,
+  ASSETS.chest,
+  ASSETS.emote,
+] as const;
