@@ -15,6 +15,7 @@ import {
   SITE_ORIGIN,
   SUPPORT_EMAIL,
 } from "@/lib/site";
+import { ASSETS } from "@/lib/assets";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -269,16 +270,16 @@ export default async function Home({ params }: PageProps) {
 
           <figure className="mt-8 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
             <Image
-              src="/master-royale-apk.webp"
+              src={ASSETS.king}
               alt={t("h1")}
               title={t("h1")}
-              width={320}
-              height={320}
-              className="object-contain drop-shadow-2xl w-[260px] h-[260px] md:w-[320px] md:h-[320px]"
+              width={400}
+              height={400}
+              className="object-contain drop-shadow-2xl w-[280px] h-[280px] md:w-[380px] md:h-[380px]"
               priority
               fetchPriority="high"
               quality={80}
-              sizes="(max-width: 768px) 260px, 320px"
+              sizes="(max-width: 768px) 280px, 380px"
             />
           </figure>
         </div>
@@ -316,7 +317,16 @@ export default async function Home({ params }: PageProps) {
 
       <section id="what-is-master-royale" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">{t("whatTitle")}</h2>
+          <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
+            <Image
+              src={ASSETS.apkIcon}
+              alt={t("whatTitle")}
+              width={160}
+              height={160}
+              className="object-contain w-32 h-32 md:w-40 md:h-40 flex-shrink-0"
+            />
+            <h2 className="text-3xl font-bold text-[#FDB402]">{t("whatTitle")}</h2>
+          </div>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>{t("whatP1")}</p>
             <p>{t("whatP2")}</p>
@@ -343,29 +353,85 @@ export default async function Home({ params }: PageProps) {
 
       <section id="vanilla-vs-infinity" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">{t("modesTitle")}</h2>
-          <div className="space-y-6 text-gray-300 leading-relaxed">
-            <h3 className="text-xl font-semibold text-white">{t("vanillaTitle")}</h3>
-            <p>{t("vanillaP")}</p>
-            <h3 className="text-xl font-semibold text-white">{t("infinityTitle")}</h3>
-            <p>{t("infinityP")}</p>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402] text-center">{t("modesTitle")}</h2>
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-[#0A1029] rounded-2xl p-6 border border-[#FDB402]/40 text-center">
+              <Image
+                src={ASSETS.chest}
+                alt={t("vanillaTitle")}
+                width={140}
+                height={140}
+                className="object-contain mx-auto mb-4 w-[120px] h-[120px]"
+              />
+              <h3 className="text-xl font-semibold text-white mb-3">{t("vanillaTitle")}</h3>
+              <p className="text-gray-300 leading-relaxed text-left">{t("vanillaP")}</p>
+            </div>
+            <div className="bg-[#0A1029] rounded-2xl p-6 border border-[#0ea5e9]/40 text-center">
+              <Image
+                src={ASSETS.infinity}
+                alt={t("infinityTitle")}
+                width={140}
+                height={140}
+                className="object-contain mx-auto mb-4 w-[120px] h-[120px]"
+              />
+              <h3 className="text-xl font-semibold text-white mb-3">{t("infinityTitle")}</h3>
+              <p className="text-gray-300 leading-relaxed text-left">{t("infinityP")}</p>
+            </div>
+          </div>
+          <div className="text-center">
+            <Link
+              href="/vanilla-vs-infinity"
+              className="inline-flex items-center px-6 py-3 rounded-full border-2 border-[#FDB402] text-white font-semibold hover:bg-[#FDB402]/10 transition-all"
+            >
+              {t("modesTitle")} →
+            </Link>
           </div>
         </div>
       </section>
 
       <section id="features" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">{t("featuresTitle")}</h2>
-          <ul className="space-y-4 text-gray-300">
-            {features.map((f) => (
-              <li key={f.title} className="flex gap-3">
-                <span className="text-[#FDB402] font-bold">•</span>
-                <span>
-                  <strong className="text-white">{f.title}:</strong> {f.text}
-                </span>
-              </li>
-            ))}
-          </ul>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402] text-center">{t("featuresTitle")}</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
+            {[
+              { src: ASSETS.gems, i: 0 },
+              { src: ASSETS.chest, i: 1 },
+              { src: ASSETS.tournaments, i: 2 },
+              { src: ASSETS.wizard, i: 3 },
+              { src: ASSETS.emote, i: 4 },
+              { src: ASSETS.apkIcon, i: 5 },
+            ].map(({ src, i }) => {
+              const f = features[i % features.length];
+              return (
+                <div
+                  key={`${f.title}-${i}`}
+                  className="bg-[#0A1029] rounded-2xl p-5 border border-gray-800 text-center hover:border-[#FDB402]/40 transition-colors"
+                >
+                  <Image
+                    src={src}
+                    alt={f.title}
+                    width={80}
+                    height={80}
+                    className="object-contain mx-auto mb-3 w-16 h-16 md:w-20 md:h-20"
+                  />
+                  <h3 className="text-white font-semibold mb-2">{f.title}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed">{f.text}</p>
+                </div>
+              );
+            })}
+          </div>
+          {features.length > 6 && (
+            <ul className="space-y-3 text-gray-300">
+              {features.slice(6).map((f) => (
+                <li key={f.title} className="flex gap-3">
+                  <span className="text-[#FDB402] font-bold">•</span>
+                  <span>
+                    <strong className="text-white">{f.title}:</strong> {f.text}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </section>
 
@@ -403,13 +469,24 @@ export default async function Home({ params }: PageProps) {
 
       <section id="how-to-download-install" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">{t("installTitle")}</h2>
-          <ol className="space-y-6 text-gray-300 list-decimal list-inside">
-            {installSteps.map((step) => (
-              <li key={step}>{step}</li>
-            ))}
-          </ol>
-          <div className="mt-8 flex justify-center">
+          <div className="flex flex-col md:flex-row gap-8 items-start mb-8">
+            <Image
+              src={ASSETS.wizard}
+              alt={t("installTitle")}
+              width={140}
+              height={140}
+              className="object-contain w-[120px] h-[120px] flex-shrink-0 mx-auto md:mx-0"
+            />
+            <div className="flex-1">
+              <h2 className="text-3xl font-bold mb-6 text-[#FDB402]">{t("installTitle")}</h2>
+              <ol className="space-y-6 text-gray-300 list-decimal list-inside">
+                {installSteps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+            </div>
+          </div>
+          <div className="mt-4 flex justify-center">
             <DownloadButton />
           </div>
         </div>
@@ -461,7 +538,16 @@ export default async function Home({ params }: PageProps) {
 
       <section id="safety" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">{t("safetyTitle")}</h2>
+          <div className="flex flex-col sm:flex-row gap-6 items-center mb-6">
+            <Image
+              src={ASSETS.emote}
+              alt=""
+              width={96}
+              height={96}
+              className="object-contain w-20 h-20"
+            />
+            <h2 className="text-3xl font-bold text-[#FDB402]">{t("safetyTitle")}</h2>
+          </div>
           <p className="text-gray-300 leading-relaxed">{t("safetyP")}</p>
           <p className="text-gray-300 mt-4">
             <Link href="/disclaimer" className="text-accent hover:underline">
@@ -529,9 +615,24 @@ export default async function Home({ params }: PageProps) {
 
       <section id="closing-cta" className="py-12 px-4 md:px-8 max-w-7xl mx-auto mb-8">
         <div className="bg-secondary rounded-xl p-8 text-center border border-[#FDB402]/30">
+          <Image
+            src={ASSETS.infinity}
+            alt=""
+            width={160}
+            height={160}
+            className="object-contain mx-auto mb-6 w-[140px] h-[140px]"
+          />
           <h2 className="text-3xl font-bold mb-4 text-[#FDB402]">{t("ctaTitle")}</h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">{t("ctaText")}</p>
-          <DownloadButton />
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <DownloadButton />
+            <Link
+              href="/vanilla-vs-infinity"
+              className="inline-flex items-center px-6 py-3 rounded-full border-2 border-[#0ea5e9] text-white font-semibold hover:bg-[#0ea5e9]/10 transition-all"
+            >
+              {t("modesTitle")}
+            </Link>
+          </div>
         </div>
       </section>
     </>

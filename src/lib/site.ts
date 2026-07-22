@@ -40,7 +40,7 @@ export const NAV_LINKS = [
 
 export const OG_IMAGE = `${SITE_ORIGIN}/feature/og-image.webp`;
 export const LOGO_IMAGE = `${SITE_ORIGIN}/master-royale-apk-logo.webp`;
-export const HERO_IMAGE = `${SITE_ORIGIN}/master-royale-apk.webp`;
+export const HERO_IMAGE = `${SITE_ORIGIN}/master-royale-king.webp`;
 export const FAVICON = `${SITE_ORIGIN}/favicon.ico`;
-export const HERO_PATH = "/master-royale-apk.webp";
+export const HERO_PATH = "/master-royale-king.webp";
 export const LOGO_PATH = "/master-royale-apk-logo.webp";

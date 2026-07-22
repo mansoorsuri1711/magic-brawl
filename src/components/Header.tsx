@@ -32,7 +32,7 @@ export default function Header() {
         <Link href="/" className="flex items-center shrink-0">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/master-royale-apk.webp"
+              src="/master-royale-apk-logo.webp"
               alt={`${SITE_NAME} Logo`}
               width={40}
               height={40}

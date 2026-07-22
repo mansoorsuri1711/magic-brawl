@@ -167,7 +167,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
 
           <div className="flex justify-center mb-10">
             <Image
-              src="/master-royale-apk.webp"
+              src="/master-royale-king.webp"
               alt={t("h1")}
               title={t("h1")}
               width={240}

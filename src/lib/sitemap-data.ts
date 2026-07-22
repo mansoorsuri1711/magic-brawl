@@ -21,15 +21,24 @@ const BASE_PAGES: BasePage[] = [
     priority: 1.0,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
-        title: "Master Royale APK – Official App Icon",
-        caption:
-          "Master Royale APK icon for the Clash Royale private server. Download free for Android.",
+        loc: `${SITE_ORIGIN}/master-royale-king.webp`,
+        title: "Master Royale King – Hero Artwork",
+        caption: "Master Royale king character used on the homepage hero",
       },
       {
         loc: `${SITE_ORIGIN}/master-royale-apk-logo.webp`,
         title: "Master Royale Logo",
         caption: "Master Royale logo used across masterroyaleapk.com",
+      },
+      {
+        loc: `${SITE_ORIGIN}/master-royale-gems.webp`,
+        title: "Master Royale Unlimited Gems",
+        caption: "Gems artwork representing unlimited resources on Master Royale",
+      },
+      {
+        loc: `${SITE_ORIGIN}/master-royale-infinity-server.webp`,
+        title: "Master Royale Infinity",
+        caption: "Infinity server action artwork for Master Royale",
       },
     ],
   },

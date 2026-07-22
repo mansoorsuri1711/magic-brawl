@@ -115,7 +115,7 @@ export default async function MasterRoyaleForPcPage({ params }: PageProps) {
 
           <div className="flex justify-center mb-10">
             <Image
-              src="/master-royale-apk.webp"
+              src="/master-royale-tournaments.webp"
               alt={t("h1")}
               title={t("h1")}
               width={220}
