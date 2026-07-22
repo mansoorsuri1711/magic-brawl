@@ -252,7 +252,7 @@ export default function MobileNavigation() {
               </div>
             </a>
             <p className="text-center text-gray-500 text-xs mt-3">
-              {APP.fileSize} · {APP.os} · v{APP.version}
+              {APP.fileSizeShort} · {APP.os} · {APP.version}
             </p>
           </div>
         </div>

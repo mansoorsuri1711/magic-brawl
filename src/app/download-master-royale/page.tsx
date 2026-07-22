@@ -15,21 +15,22 @@ import {
 } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Download Master Royale APK – Free Android Install Guide",
-  description: `Download Master Royale APK ${APP.version} (${APP.fileSize}) free for Android ${APP.os}. Step-by-step private server install, APK details, and safety tips on ${SITE_DOMAIN}.`,
+  title: "Download Master Royale APK – Free Android & iOS Install Guide",
+  description: `Download Master Royale APK ${APP.version} (${APP.fileSize}) free for Android. Step-by-step private server install, iOS sideload notes, APK details, and safety tips on ${SITE_DOMAIN}.`,
   keywords: [
     "download Master Royale",
     "Master Royale APK download",
     "Master Royale install",
     "Master Royale Android",
+    "Master Royale iOS",
     "Clash Royale private server APK",
   ],
   alternates: {
     canonical: `${SITE_ORIGIN}/download-master-royale`,
   },
   openGraph: {
-    title: "Download Master Royale APK – Free Android Install Guide",
-    description: `Free Master Royale APK ${APP.version}. Full install steps for Android private server with Vanilla & Infinity.`,
+    title: "Download Master Royale APK – Free Android & iOS Install Guide",
+    description: `Free Master Royale APK ${APP.version}. Full install steps for Android private server with Vanilla & Infinity, plus iOS sideload notes.`,
     url: `${SITE_ORIGIN}/download-master-royale`,
     siteName: SITE_NAME,
     type: "website",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Download Master Royale APK – Free Android Install Guide",
+    title: "Download Master Royale APK – Free Android & iOS Install Guide",
     description: `Install Master Royale ${APP.version} (${APP.fileSize}) on Android with our clear guide.`,
     images: [HERO_IMAGE],
   },
@@ -51,8 +52,8 @@ export default function DownloadMasterRoyalePage() {
         "@type": "WebPage",
         "@id": `${SITE_ORIGIN}/download-master-royale#webpage`,
         url: `${SITE_ORIGIN}/download-master-royale`,
-        name: "Download Master Royale APK – Free Android Install Guide",
-        description: `Download and install Master Royale APK ${APP.version} for Android.`,
+        name: "Download Master Royale APK – Free Android & iOS Install Guide",
+        description: `Download and install Master Royale APK ${APP.version} for Android, with iOS sideload notes.`,
         isPartOf: { "@id": `${SITE_ORIGIN}/#website` },
         primaryImageOfPage: {
           "@type": "ImageObject",
@@ -63,6 +64,7 @@ export default function DownloadMasterRoyalePage() {
       {
         "@type": "SoftwareApplication",
         name: APP.name,
+        alternateName: APP.displayName,
         operatingSystem: "Android",
         applicationCategory: "GameApplication",
         image: HERO_IMAGE,
@@ -82,44 +84,39 @@ export default function DownloadMasterRoyalePage() {
           priceCurrency: "USD",
         },
         description:
-          "Master Royale private server APK for Android — unlimited gems/gold environment, Vanilla and Infinity modes. Free download.",
+          "Master Royale private server APK for Android — unlimited gems/gold environment, Vanilla and Infinity modes. Free download on masterroyaleapk.com.",
       },
       {
         "@type": "HowTo",
         name: "Install Master Royale APK on Android",
-        description: "Complete steps to download and install the Master Royale private server APK.",
+        description:
+          "Enable unknown sources, download Master Royale from masterroyaleapk.com, install the APK, and launch.",
         totalTime: "PT10M",
         estimatedCost: { "@type": "MonetaryAmount", currency: "USD", value: "0" },
         step: [
           {
             "@type": "HowToStep",
             position: 1,
-            name: "Open this download page",
-            text: `Visit ${SITE_ORIGIN}/download-master-royale on your Android phone.`,
+            name: "Enable unknown sources",
+            text: "On Android, open Settings → Apps → Special access → Install unknown apps and allow your browser or Files app to install packages.",
           },
           {
             "@type": "HowToStep",
             position: 2,
-            name: "Download the APK file",
-            text: `Tap DOWNLOAD NOW in the apk-download section and wait for the ${APP.fileSize} file to finish.`,
+            name: "Download from this site",
+            text: `Visit ${SITE_ORIGIN}/download-master-royale, tap DOWNLOAD NOW in the apk-download section, and wait for the full ${APP.fileSize} file (${APP.version}) to finish.`,
           },
           {
             "@type": "HowToStep",
             position: 3,
-            name: "Enable Install unknown apps",
-            text: "Allow your browser or file manager to install unknown apps in Android settings.",
+            name: "Install the APK",
+            text: "Open the downloaded package, review the prompt, and tap Install.",
           },
           {
             "@type": "HowToStep",
             position: 4,
-            name: "Install and launch",
-            text: "Open the APK, tap Install, then Open. Register a new private-server account.",
-          },
-          {
-            "@type": "HowToStep",
-            position: 5,
-            name: "Choose Vanilla or Infinity",
-            text: "Pick your preferred mode in the server or lobby picker and start battling.",
+            name: "Launch Master Royale",
+            text: "Tap Open, create a new private-server account, and choose Vanilla or Infinity. Never use official Supercell credentials.",
           },
         ],
       },
@@ -150,7 +147,8 @@ export default function DownloadMasterRoyalePage() {
             </h1>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
               Free Android install guide for the Master Royale Clash Royale-style private server —
-              version {APP.version}, {APP.fileSize}.
+              version {APP.version}, {APP.fileSize}. iOS players use IPA sideload only (see below);
+              PC players use an emulator with this same APK.
             </p>
           </header>
 
@@ -183,17 +181,20 @@ export default function DownloadMasterRoyalePage() {
             />
           </div>
 
-          <section id="apk-download" className="bg-secondary rounded-2xl p-8 mb-10 text-center border border-[#0ea5e9]/40">
+          <section
+            id="apk-download"
+            className="bg-secondary rounded-2xl p-8 mb-10 text-center border border-[#0ea5e9]/40"
+          >
             <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-4">
               Get the Master Royale APK
             </h2>
             <p className="text-gray-300 mb-6 max-w-xl mx-auto">
-              Tap below to start the free download. After install, create a fresh private-server login
-              — never enter official Supercell credentials.
+              Tap below to start the free download from {SITE_DOMAIN}. After install, create a fresh
+              private-server login — never enter official Supercell credentials.
             </p>
             <DownloadButton />
             <p className="text-gray-500 text-sm mt-4">
-              Package {APP.packageId} · {APP.os}
+              Package {APP.packageId} · {APP.os} · {APP.price}
             </p>
           </section>
 
@@ -203,30 +204,39 @@ export default function DownloadMasterRoyalePage() {
               <table className="min-w-full divide-y divide-gray-800">
                 <tbody className="divide-y divide-gray-800 text-white">
                   <tr className="bg-[#0a1029]/50">
-                    <td className="py-3 px-5 font-medium">Name</td>
-                    <td className="py-3 px-5">{APP.name}</td>
-                  </tr>
-                  <tr className="bg-[#06091F]/50">
-                    <td className="py-3 px-5 font-medium">Version</td>
-                    <td className="py-3 px-5">{APP.version}</td>
-                  </tr>
-                  <tr className="bg-[#0a1029]/50">
-                    <td className="py-3 px-5 font-medium">Size</td>
-                    <td className="py-3 px-5">{APP.fileSize}</td>
-                  </tr>
-                  <tr className="bg-[#06091F]/50">
-                    <td className="py-3 px-5 font-medium">OS</td>
-                    <td className="py-3 px-5">{APP.os}</td>
-                  </tr>
-                  <tr className="bg-[#0a1029]/50">
-                    <td className="py-3 px-5 font-medium">Category</td>
-                    <td className="py-3 px-5">{APP.category}</td>
+                    <td className="py-3 px-5 font-medium">App Name</td>
+                    <td className="py-3 px-5">{APP.displayName}</td>
                   </tr>
                   <tr className="bg-[#06091F]/50">
                     <td className="py-3 px-5 font-medium">Package</td>
                     <td className="py-3 px-5">{APP.packageId}</td>
                   </tr>
                   <tr className="bg-[#0a1029]/50">
+                    <td className="py-3 px-5 font-medium">Category</td>
+                    <td className="py-3 px-5">{APP.category}</td>
+                  </tr>
+                  <tr className="bg-[#06091F]/50">
+                    <td className="py-3 px-5 font-medium">Latest Version</td>
+                    <td className="py-3 px-5">
+                      {APP.version}{" "}
+                      <span className="text-gray-400">(also seen as {APP.versionAlt})</span>
+                    </td>
+                  </tr>
+                  <tr className="bg-[#0a1029]/50">
+                    <td className="py-3 px-5 font-medium">File Size</td>
+                    <td className="py-3 px-5">{APP.fileSize}</td>
+                  </tr>
+                  <tr className="bg-[#06091F]/50">
+                    <td className="py-3 px-5 font-medium">Required OS</td>
+                    <td className="py-3 px-5">
+                      {APP.os} — {APP.osNote}
+                    </td>
+                  </tr>
+                  <tr className="bg-[#0a1029]/50">
+                    <td className="py-3 px-5 font-medium">Price</td>
+                    <td className="py-3 px-5">{APP.price}</td>
+                  </tr>
+                  <tr className="bg-[#06091F]/50">
                     <td className="py-3 px-5 font-medium">Rating</td>
                     <td className="py-3 px-5">
                       {APP.ratingValue} / 5 · {APP.ratingCountDisplay} ratings · Free · Android · Game
@@ -243,20 +253,26 @@ export default function DownloadMasterRoyalePage() {
             </h2>
             <ol className="space-y-5 text-gray-300 list-decimal list-inside leading-relaxed">
               <li>
-                Stay on Wi-Fi if possible — the APK is about {APP.fileSize}.
+                <strong className="text-white">Enable unknown sources.</strong> Open Settings → Apps →
+                Special access → Install unknown apps and allow Chrome, Firefox, or Files to install
+                packages.
               </li>
               <li>
-                Jump to the <a href="#apk-download" className="text-accent hover:underline">apk-download</a>{" "}
-                section and tap DOWNLOAD NOW.
+                <strong className="text-white">Download from this site.</strong> Jump to the{" "}
+                <a href="#apk-download" className="text-accent hover:underline">
+                  apk-download
+                </a>{" "}
+                section and tap DOWNLOAD NOW. Stay on Wi-Fi if possible — the APK is about{" "}
+                {APP.fileSize} ({APP.version}).
               </li>
               <li>
-                When Android asks, allow Install unknown apps for Chrome, Firefox, or Files.
+                <strong className="text-white">Install the APK.</strong> Open the downloaded package,
+                confirm Install, and only proceed past Play Protect if you intentionally chose this
+                file from {SITE_DOMAIN}.
               </li>
               <li>
-                Open the downloaded package, confirm Install, then Open Master Royale.
-              </li>
-              <li>
-                Register a new account, pick Vanilla or Infinity, and start a practice battle.
+                <strong className="text-white">Launch Master Royale.</strong> Tap Open, register a new
+                private-server account, pick Vanilla or Infinity, and start a practice battle.
               </li>
             </ol>
             <p className="text-gray-400 text-sm mt-6">
@@ -264,8 +280,50 @@ export default function DownloadMasterRoyalePage() {
               <Link href="/master-royale-for-pc" className="text-accent hover:underline">
                 Master Royale for PC
               </Link>{" "}
-              for BlueStacks / LDPlayer steps using this same APK.
+              for BlueStacks-style steps using this same APK.
             </p>
+          </section>
+
+          <section id="ios-install" className="bg-secondary rounded-2xl p-8 mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">
+              iOS Install Notes (IPA Sideload Only)
+            </h2>
+            <div className="space-y-4 text-gray-300 leading-relaxed">
+              <p>
+                Apple blocks Android APKs on iPhone and iPad. There is no Play Store–style APK install
+                path on iOS. If a Master Royale IPA build is available from a source you trust, you
+                must sideload it — typically with AltStore (or similar) and a free developer
+                certificate that needs a roughly 7-day refresh cycle.
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  Install AltStore (or an equivalent sideload tool) from its official documentation,
+                  then trust the developer certificate under Settings → General → VPN &amp; Device
+                  Management.
+                </li>
+                <li>
+                  Expect to refresh the IPA about every 7 days on free Apple IDs, or the app icon will
+                  stop launching.
+                </li>
+                <li>
+                  Some mirrors push enterprise provisioning profiles. Treat those carefully: enterprise
+                  profiles can grant broad device trust. Only install profiles you understand, and
+                  remove them immediately if anything feels off.
+                </li>
+                <li>
+                  Minimum device guidance commonly cited for these clients: iOS 10+ on iPhone 6 or
+                  newer. Performance varies — newer hardware is safer for live battles.
+                </li>
+              </ul>
+              <p>
+                If you prefer a simpler path, install the Android APK on a phone or run it inside a
+                Windows emulator via our{" "}
+                <Link href="/master-royale-for-pc" className="text-accent hover:underline">
+                  Master Royale for PC
+                </Link>{" "}
+                guide.
+              </p>
+            </div>
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
@@ -273,9 +331,8 @@ export default function DownloadMasterRoyalePage() {
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
                 Grant only the permissions the game requests to run (storage/network). You do not need
-                SMS or contacts access for a private-server arena client. If Play Protect warns about
-                sideloading, that is common for unofficial APKs — proceed only if you chose this
-                download intentionally from {SITE_DOMAIN}.
+                SMS or contacts access for a private-server arena client. Keep Unknown Sources limited
+                to the installer you used, then revoke it.
               </p>
               <p>
                 For overview content, return to the{" "}

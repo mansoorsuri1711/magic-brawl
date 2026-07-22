@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Download Master Royale APK free for Android. Clash Royale-style private server with unlimited gems, gold, unlocked cards, Vanilla & Infinity modes. Install guide, PC emulator tips & FAQ.",
+    "Download Master Royale APK free for Android, PC & iOS sideload. Clash Royale-style private server with unlimited gems, gold, unlocked cards, Vanilla & Infinity modes. Install guide & FAQ.",
   keywords: [
     "Master Royale",
     "Master Royale APK",
@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     "Master Royale 2026",
     "Master Royale APK download",
     "Master Royale for PC",
+    "Master Royale iOS",
   ],
   alternates: {
     canonical: SITE_ORIGIN,
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Master Royale APK 2026 – Free Download Private Server",
     description:
-      "Free Master Royale APK for Android. Private server with unlimited gems & gold, Vanilla and Infinity modes. Fast install guide on masterroyaleapk.com.",
+      "Free Master Royale APK for Android, PC & iOS. Private server with unlimited gems & gold, Vanilla and Infinity modes. Fast install guide on masterroyaleapk.com.",
     url: SITE_ORIGIN,
     siteName: SITE_NAME,
     locale: "en_US",
@@ -73,44 +74,52 @@ export const metadata: Metadata = {
 
 const FAQS = [
   {
-    q: "What is Master Royale?",
-    a: "Master Royale is a free Clash Royale-style private server / mod APK for Android. It lets you play arena battles with server-side resources such as unlimited gems and gold, unlocked cards, and two popular modes: Vanilla and Infinity. It is not affiliated with Supercell and is not a real-money earning app.",
+    q: "How do I download the latest Master Royale APK?",
+    a: `Open masterroyaleapk.com, go to Download Master Royale, tap DOWNLOAD NOW, and save the ${APP.version} package (${APP.fileSize}). Enable Install unknown apps for your browser or Files app, open the APK, install, then launch. Full steps are on /download-master-royale.`,
   },
   {
-    q: "How do I download Master Royale APK?",
-    a: "Open masterroyaleapk.com, go to the Download Master Royale page, tap DOWNLOAD NOW, save the APK, enable Install unknown apps for your browser or file manager, then open the file and install. Full steps are on /download-master-royale.",
+    q: "Is Master Royale on Google Play or the App Store?",
+    a: "No. Master Royale is an unofficial private-server client. It is not listed on Google Play or the Apple App Store. Android users sideload the APK from this site; iOS players need IPA sideloading tools such as AltStore, and PC players run the same APK inside an Android emulator.",
   },
   {
-    q: "What is the difference between Vanilla and Infinity?",
-    a: "Vanilla keeps gameplay closer to classic ladder rules with boosted resources. Infinity focuses on heavily unlocked decks, faster progression, and experimental card access so you can try almost every combination without long grinding.",
+    q: "Will my official Clash Royale / Supercell account get banned?",
+    a: "Master Royale accounts are isolated from the retail Supercell environment. Progress and logins live on the private server’s own database, not on your official Clash Royale profile. Still, never enter your Supercell ID or password into any third-party client — create a fresh private-server login instead.",
+  },
+  {
+    q: "What is the best Clash Royale private server?",
+    a: "“Best” depends on uptime, community size, and whether you want a familiar ladder or a sandbox. Master Royale is one of the more widely discussed options thanks to Vanilla and Infinity modes, regular client updates, and a large resource sandbox. Other private servers (including projects like Plenix) exist with different rulesets — try what fits your goals and always download from a source you trust.",
+  },
+  {
+    q: "Does Master Royale work on PC and iOS?",
+    a: "Yes, with caveats. On PC, install an Android emulator (BlueStacks or similar), then sideload the Master Royale APK from this site — see our Master Royale for PC guide. On iOS, Apple does not run Android APKs; you need an IPA sideload via AltStore or a carefully vetted enterprise profile, with certificate refresh and trust steps. Details are on the download page.",
   },
   {
     q: "Is Master Royale free?",
-    a: "Yes. The Master Royale APK listed on this site is free to download (price 0). In-game gems and gold on the private server are provided by the modded environment — this is not a cash-out or JazzCash-style earning product.",
+    a: `Yes. The Master Royale APK listed here is ${APP.price.toLowerCase()} to download (schema price 0). Gems, gold, and unlocks on the private server come from the modded environment — this is not a cash-out or real-money earning product.`,
   },
   {
-    q: "Does Master Royale work on PC?",
-    a: "Yes. Install an Android emulator such as BlueStacks or LDPlayer, then install the same Master Royale APK inside the emulator. See our Master Royale for PC guide for requirements and tips.",
-  },
-  {
-    q: "Is Master Royale safe to install?",
-    a: "Only install the APK from trusted informational pages like masterroyaleapk.com, keep Unknown Sources limited to the installer you use, and never share your main Supercell ID password. Private servers are third-party software — use a separate account and read our Disclaimer.",
+    q: "What is the difference between Vanilla and Infinity?",
+    a: "Vanilla keeps match flow closer to classic ladder habits with boosted private-server resources. Infinity is a full sandbox: massive starting coin/gem pools (often framed around the 1M+ style economy), instant max-level access, and experimental custom cards (builds sometimes include standouts like Infinite Sparky). Many players use Vanilla for practice and Infinity for chaotic theory-crafting.",
   },
   {
     q: "What Android version does Master Royale need?",
-    a: `Master Royale requires ${APP.os}. The current package size is about ${APP.fileSize} and the listed version is ${APP.version}.`,
+    a: `Master Royale lists ${APP.os}. ${APP.osNote}. For smoother battles we recommend Android 8+, a quad-core ~2 GHz CPU, 4 GB RAM, and enough free storage for roughly 1 GB+ after install (APK is about ${APP.fileSize}).`,
   },
   {
-    q: "Can I use my official Clash Royale account?",
-    a: "No. Master Royale runs on a separate private server. Create a new login inside the mod APK. Do not enter your official Clash Royale / Supercell credentials on third-party servers.",
+    q: "What is Master Royale?",
+    a: "Master Royale is a free Clash Royale-style private server / mod client. Your device runs a modified game client that talks to a custom host instead of the official Supercell servers, with server-side resources such as unlimited gems and gold, unlocked cards, and Vanilla plus Infinity modes. It is not affiliated with Supercell and is not a real-money earning app.",
   },
   {
-    q: "Why won't the APK install?",
-    a: `Common fixes: enable Install unknown apps, free storage above 500 MB, download the full ${APP.fileSize} file again, and temporarily disable aggressive antivirus blocks that quarantine sideloaded APKs. See the troubleshooting section on this page.`,
+    q: "Is Master Royale safe to install?",
+    a: "Only install from trusted informational pages like masterroyaleapk.com, keep Unknown Sources limited to the installer you use, revoke that permission afterward, and never share banking details or your main Supercell password. Private servers are third-party software — use a separate account and read our Disclaimer.",
   },
   {
-    q: "How do I contact Master Royale support on this site?",
-    a: `For questions about this informational website (guides, broken links, privacy), email ${SUPPORT_EMAIL} or visit the Contact Us page. In-game private-server issues are handled by the third-party server operators, not Supercell.`,
+    q: "Why won't the APK install or connect?",
+    a: `Common fixes: enable Install unknown apps, free storage for the ${APP.fileSize} package plus cache, re-download if the file was truncated, clear app cache after a bad update, and avoid stacking multiple private-server APKs that share conflicting package data. Connection errors often mean server capacity, maintenance, or a client/server version mismatch — confirm you installed ${APP.version}.`,
+  },
+  {
+    q: "How do I contact support on this site?",
+    a: `For questions about this informational website (guides, broken links, privacy), email ${SUPPORT_EMAIL} or visit the Contact Us page. In-game private-server outages are handled by the third-party operators, not Supercell.`,
   },
 ];
 
@@ -124,7 +133,7 @@ export default function Home() {
         url: `${SITE_ORIGIN}/`,
         name: SITE_NAME,
         description:
-          "Master Royale APK download hub — Clash Royale-style private server guides for Android and PC emulators.",
+          "Master Royale APK download hub — Clash Royale-style private server guides for Android, PC emulators, and iOS sideload.",
         inLanguage: "en-US",
         publisher: { "@id": `${SITE_ORIGIN}/#organization` },
       },
@@ -134,7 +143,7 @@ export default function Home() {
         url: `${SITE_ORIGIN}/`,
         name: "Master Royale APK 2026 – Free Download Private Server",
         description:
-          "Download Master Royale APK free for Android. Private server with unlimited gems, gold, Vanilla & Infinity modes.",
+          "Download Master Royale APK free for Android, PC & iOS. Private server with unlimited gems, gold, Vanilla & Infinity modes.",
         isPartOf: { "@id": `${SITE_ORIGIN}/#website` },
         about: { "@id": `${SITE_ORIGIN}/#software` },
         speakable: {
@@ -194,6 +203,7 @@ export default function Home() {
         "@type": "SoftwareApplication",
         "@id": `${SITE_ORIGIN}/#software`,
         name: APP.name,
+        alternateName: APP.displayName,
         operatingSystem: "Android",
         applicationCategory: "GameApplication",
         image: HERO_IMAGE,
@@ -213,7 +223,7 @@ export default function Home() {
         softwareVersion: APP.version,
         fileSize: APP.fileSize,
         description:
-          "Master Royale is a free Clash Royale-style private server APK for Android featuring unlimited gems and gold, unlocked cards, and Vanilla plus Infinity play modes. Informational download guides on masterroyaleapk.com.",
+          "Master Royale is a free Clash Royale-style private server APK featuring unlimited gems and gold, unlocked cards, and Vanilla plus Infinity play modes. Informational download guides on masterroyaleapk.com.",
         author: {
           "@type": "Organization",
           name: SITE_NAME,
@@ -221,9 +231,9 @@ export default function Home() {
       },
       {
         "@type": "HowTo",
-        name: "How to Download and Install Master Royale APK",
+        name: "How to Download and Install Master Royale APK on Android",
         description:
-          "Step-by-step guide to download and install the Master Royale private server APK on Android.",
+          "Step-by-step guide to enable unknown sources, download Master Royale from masterroyaleapk.com, install the APK, and launch.",
         totalTime: "PT10M",
         estimatedCost: {
           "@type": "MonetaryAmount",
@@ -234,26 +244,26 @@ export default function Home() {
           {
             "@type": "HowToStep",
             position: 1,
-            name: "Open the download page",
-            text: "Visit masterroyaleapk.com and open Download Master Royale.",
+            name: "Enable unknown sources",
+            text: "On Android, open Settings → Apps → Special access → Install unknown apps and allow your browser or Files app to install packages.",
           },
           {
             "@type": "HowToStep",
             position: 2,
-            name: "Download the APK",
-            text: `Tap DOWNLOAD NOW and wait until the full ${APP.fileSize} file finishes saving.`,
+            name: "Download from this site",
+            text: `Visit masterroyaleapk.com, open Download Master Royale, tap DOWNLOAD NOW, and wait until the full ${APP.fileSize} file (${APP.version}) finishes saving.`,
           },
           {
             "@type": "HowToStep",
             position: 3,
-            name: "Allow unknown apps",
-            text: "Enable Install unknown apps for your browser or file manager in Android settings.",
+            name: "Install the APK",
+            text: "Open the downloaded package, review the prompt, and tap Install.",
           },
           {
             "@type": "HowToStep",
             position: 4,
-            name: "Install Master Royale",
-            text: "Open the APK, tap Install, then Open and create a new private-server account.",
+            name: "Launch Master Royale",
+            text: "Tap Open, create a new private-server account, and choose Vanilla or Infinity. Never use official Supercell credentials.",
           },
         ],
       },
@@ -288,7 +298,7 @@ export default function Home() {
                 <span className="text-white">Master Royale</span>
               </h1>
               <p className="text-2xl md:text-3xl font-bold text-[#FFC107]">
-                Free APK Download — Clash Royale Private Server
+                APK Download (Latest Version) for Android, PC &amp; iOS
               </p>
             </div>
 
@@ -296,20 +306,19 @@ export default function Home() {
               <Link href="/" className="text-accent hover:underline">
                 Master Royale
               </Link>{" "}
-              is a free Android private-server APK built around Clash Royale-style arena battles.
-              Grab unlimited gems and gold on the modded server, pick Vanilla or Infinity, and jump
-              into ladder fights without real-money deposits. Follow the{" "}
+              lets you skip chest timers and retail paywalls by connecting a Clash Royale-style client
+              to a community private server. Grab unlimited gems and gold, unlock the card pool, and
+              jump into Vanilla or Infinity without real-money deposits. Follow the{" "}
               <Link href="/download-master-royale" className="text-accent hover:underline">
                 Master Royale download guide
               </Link>{" "}
-              or play on a PC emulator via our{" "}
+              for Android (and iOS sideload notes), or play on a desktop emulator via our{" "}
               <Link href="/master-royale-for-pc" className="text-accent hover:underline">
                 PC version page
               </Link>
               .
             </p>
 
-            {/* Visible rating UI matching SoftwareApplication schema */}
             <div
               className="flex flex-col sm:flex-row sm:items-center gap-3 bg-[#0A1029] rounded-2xl px-5 py-4 border border-gray-800"
               aria-label={`Rated ${APP.ratingValue} out of 5 from ${APP.ratingCountDisplay} ratings`}
@@ -350,13 +359,14 @@ export default function Home() {
                 <svg className="w-6 h-6 mb-3 text-[#FFC107] mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
                   <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
                 </svg>
-                <div className="text-white text-2xl font-bold mb-1">{APP.fileSize}</div>
+                <div className="text-white text-2xl font-bold mb-1">{APP.fileSizeShort}</div>
                 <div className="text-gray-400 text-sm">App Size</div>
               </div>
             </div>
 
             <p className="text-gray-400 text-sm text-center italic">
-              *Android APK · private server / third-party mod · not affiliated with Supercell
+              *Unofficial private server / third-party mod · not affiliated with Supercell · Android APK
+              with PC emulator &amp; iOS sideload paths
             </p>
           </div>
 
@@ -399,11 +409,22 @@ export default function Home() {
               <tbody className="divide-y divide-gray-800">
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 font-medium text-white">App Name</td>
-                  <td className="py-4 px-6 text-white">{APP.name}</td>
+                  <td className="py-4 px-6 text-white">{APP.displayName}</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 font-medium text-white">Version</td>
-                  <td className="py-4 px-6 text-white">{APP.version}</td>
+                  <td className="py-4 px-6 font-medium text-white">Package</td>
+                  <td className="py-4 px-6 text-white">{APP.packageId}</td>
+                </tr>
+                <tr className="bg-[#0a1029]/50">
+                  <td className="py-4 px-6 font-medium text-white">Category</td>
+                  <td className="py-4 px-6 text-white">{APP.category}</td>
+                </tr>
+                <tr className="bg-[#06091F]/50">
+                  <td className="py-4 px-6 font-medium text-white">Latest Version</td>
+                  <td className="py-4 px-6 text-white">
+                    {APP.version}{" "}
+                    <span className="text-gray-400">(also seen as {APP.versionAlt} on some mirrors)</span>
+                  </td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 font-medium text-white">File Size</td>
@@ -411,25 +432,19 @@ export default function Home() {
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 font-medium text-white">Required OS</td>
-                  <td className="py-4 px-6 text-white">{APP.os}</td>
+                  <td className="py-4 px-6 text-white">
+                    {APP.os} — {APP.osNote}
+                  </td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
-                  <td className="py-4 px-6 font-medium text-white">Category</td>
-                  <td className="py-4 px-6 text-white">{APP.category}</td>
+                  <td className="py-4 px-6 font-medium text-white">Price</td>
+                  <td className="py-4 px-6 text-white">{APP.price}</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 font-medium text-white">Package</td>
-                  <td className="py-4 px-6 text-white">{APP.packageId}</td>
-                </tr>
-                <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 font-medium text-white">Rating</td>
                   <td className="py-4 px-6 text-white">
                     {APP.ratingValue} / 5 ({APP.ratingCountDisplay} ratings) · Free · Android · Game
                   </td>
-                </tr>
-                <tr className="bg-[#06091F]/50">
-                  <td className="py-4 px-6 font-medium text-white">Price</td>
-                  <td className="py-4 px-6 text-white">Free</td>
                 </tr>
               </tbody>
             </table>
@@ -442,23 +457,25 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">What Is Master Royale?</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
-              Master Royale is a community-run Clash Royale-style private server packaged as an Android
-              APK. Instead of grinding seasons on the official client, you connect to a third-party
-              environment where resources such as gems, gold, and card unlocks are controlled by the
-              modded server. Players in Pakistan and worldwide use it to practice decks, test rare
-              cards early, and enjoy faster progression — purely for fun, not for cash withdrawals.
+              Master Royale is a Clash Royale-style private server packaged as a modified Android
+              client. Instead of talking to Supercell’s official hosts, the app points at a custom
+              community server that owns its own matchmaking, economy, and progression rules. That
+              split — your client versus the retail host — is the core private-server idea.
             </p>
             <p>
-              The experience still feels familiar: towers, elixir timing, three-minute battles, and
-              clan-style social features depending on the live build. What changes is the economy and
-              unlock pace. On Master Royale you spend less time waiting for chests and more time
-              refining strategies. Always remember this project is unofficial and not endorsed by
-              Supercell.
+              Under the hood, private servers rely on database decoupling: player inventories, gem
+              balances, and card levels live in the custom environment’s data store, not in your
+              retail Clash Royale profile. Resource emancipation follows from that design — the
+              operators can grant generous gems, gold, and unlocks so you spend less time waiting on
+              chest cycles. Sandbox mechanics (especially in Infinity) then let you experiment with
+              decks, levels, and even custom cards without the official progression wall.
             </p>
             <p>
-              On {SITE_DOMAIN} we publish clear install steps, Vanilla vs Infinity explanations, PC
-              emulator tips, and safety notes so you can decide whether a private server fits your
-              play style before you sideload anything.
+              Account safety matters. A Master Royale login is isolated from your retail Supercell
+              account. Create a throwaway nickname and password for the private server only. Do not
+              reuse banking credentials or your official Clash Royale ID. On {SITE_DOMAIN} we publish
+              install steps, Vanilla vs Infinity notes, PC and iOS sideload paths, and honest safety
+              caveats so you can decide before you sideload anything.
             </p>
           </div>
         </div>
@@ -474,15 +491,19 @@ export default function Home() {
             </p>
             <h3 className="text-xl font-semibold text-white">Vanilla</h3>
             <p>
-              Vanilla keeps match flow closer to classic Clash Royale rules. You still get generous
-              gems and gold from the private server, but card availability and ladder structure feel
-              more grounded. It is ideal if you want to practice real ladder habits with less waiting.
+              Vanilla keeps match flow closer to classic Clash Royale habits. You still receive
+              generous private-server resources, but card availability and ladder structure feel more
+              grounded. It is ideal if you want to practice elixir timing and tower trading with less
+              waiting.
             </p>
-            <h3 className="text-xl font-semibold text-white">Infinity</h3>
+            <h3 className="text-xl font-semibold text-white">Infinity benefits</h3>
             <p>
-              Infinity leans into maximum freedom: nearly every card unlocked, rapid upgrades, and
-              experimental decks that would take months on the official game. Use Infinity to stress-test
-              synergies, meme comps, and max-level interactions without worrying about chest cycles.
+              Infinity is the sandbox lane. Builds commonly open with a huge resource pool (often
+              framed around the 1M+ coins and gems style economy), instant access toward max levels,
+              and experimental custom cards. Some client builds include standout custom units such as
+              Infinite Sparky — treat those as community creations that can change between updates,
+              not as official Supercell cards. Use Infinity to stress-test synergies, meme comps, and
+              max-level interactions without chest cycles.
             </p>
             <p>
               Many players keep both: Vanilla for “serious” practice sessions and Infinity when they
@@ -495,47 +516,112 @@ export default function Home() {
 
       <section id="features" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Master Royale Features Players Look For</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Master Royale Features</h2>
           <ul className="space-y-4 text-gray-300">
             <li className="flex gap-3">
               <span className="text-[#FFC107] font-bold">•</span>
               <span>
-                <strong className="text-white">Unlimited gems &amp; gold (server-side):</strong> shop and
-                upgrade loops without real-money purchases.
+                <strong className="text-white">Unlimited gems &amp; gold:</strong> shop and upgrade
+                loops driven by the private-server economy, without retail IAP gates.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-[#FFC107] font-bold">•</span>
               <span>
-                <strong className="text-white">Unlocked card pools:</strong> try legendaries and evolving
-                cards without long collection walls (especially in Infinity).
+                <strong className="text-white">All cards unlocked:</strong> open the collection early so
+                you can theory-craft instead of grinding chests for months.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-[#FFC107] font-bold">•</span>
               <span>
-                <strong className="text-white">Fast arena battles:</strong> short matches focused on
-                elixir timing and tower pressure.
+                <strong className="text-white">Instant max levels:</strong> push cards toward top tiers
+                quickly (especially in Infinity) to test real endgame interactions.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-[#FFC107] font-bold">•</span>
               <span>
-                <strong className="text-white">Android + emulator support:</strong> phone install or{" "}
-                <Link href="/master-royale-for-pc" className="text-accent hover:underline">
-                  Master Royale on PC
-                </Link>{" "}
-                via BlueStacks / LDPlayer-style emulators.
+                <strong className="text-white">1v1 and 2v2 battles:</strong> classic arena pressure plus
+                duo modes when the live shard supports them.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-[#FFC107] font-bold">•</span>
               <span>
-                <strong className="text-white">Separate private accounts:</strong> create a fresh login so
-                your official Supercell ID stays untouched.
+                <strong className="text-white">Custom OP cards:</strong> community creations (for example
+                Infinite Sparky-style units on some builds) for sandbox experimentation.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#FFC107] font-bold">•</span>
+              <span>
+                <strong className="text-white">Stable community servers:</strong> operators aim for
+                regular uptime so you can queue beyond a one-night LAN feel.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#FFC107] font-bold">•</span>
+              <span>
+                <strong className="text-white">Clans &amp; social play:</strong> join clans, chat, and
+                share decks when the active build exposes those features.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#FFC107] font-bold">•</span>
+              <span>
+                <strong className="text-white">Regular updates:</strong> clients track toward current
+                package versions such as {APP.version} / {APP.versionAlt}.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#FFC107] font-bold">•</span>
+              <span>
+                <strong className="text-white">Safe isolated environment:</strong> progress stays on the
+                private database — keep it separate from your retail Supercell login.
               </span>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section id="system-requirements" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">System Requirements</h2>
+          <div className="grid md:grid-cols-3 gap-8 text-gray-300 leading-relaxed">
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-4">Android</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  OS: {APP.os} ({APP.osNote}; Android 8+ recommended for smooth matches)
+                </li>
+                <li>CPU: quad-core ~2 GHz or better</li>
+                <li>RAM: 4 GB recommended</li>
+                <li>
+                  Storage: free space for roughly 1 GB+ after install (APK {APP.fileSize} plus cache —
+                  you do not need absurd amounts like hundreds of GB)
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-4">iOS (sideload)</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>iOS 10 or newer</li>
+                <li>iPhone 6 or newer (or equivalent iPad)</li>
+                <li>IPA sideload only — Apple does not install Android APKs</li>
+                <li>AltStore-style refresh or trusted certificate required</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-4">Windows (emulator)</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Windows 11 preferred (Windows 10 still common)</li>
+                <li>RAM: 8–16 GB</li>
+                <li>CPU: Intel i3 8th gen / AMD Ryzen 3000 series or better</li>
+                <li>SSD strongly recommended; enable VT-x / AMD-V in BIOS</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -544,24 +630,27 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">How to Download &amp; Install Master Royale</h2>
           <ol className="space-y-6 text-gray-300 list-decimal list-inside">
             <li>
-              <strong className="text-white">Open the download hub.</strong> Go to{" "}
+              <strong className="text-white">Enable unknown sources.</strong> In Android Settings →
+              Apps → Special access → Install unknown apps, allow your browser or Files app to install
+              packages.
+            </li>
+            <li>
+              <strong className="text-white">Download from this site.</strong> Open{" "}
               <Link href="/download-master-royale" className="text-accent hover:underline">
                 /download-master-royale
               </Link>{" "}
-              on {SITE_DOMAIN}.
+              on {SITE_DOMAIN}, tap DOWNLOAD NOW, and wait for the full {APP.fileSize} file (
+              {APP.version}) to finish.
             </li>
             <li>
-              <strong className="text-white">Tap DOWNLOAD NOW.</strong> Save the APK ({APP.fileSize},
-              version {APP.version}) and wait until the transfer completes.
+              <strong className="text-white">Install the APK.</strong> Open the downloaded package, tap
+              Install, and confirm any Play Protect review only if you intentionally chose this file
+              from {SITE_DOMAIN}.
             </li>
             <li>
-              <strong className="text-white">Allow installation from that source.</strong> In Android
-              Settings → Apps → Special access → Install unknown apps, enable your browser or Files app.
-            </li>
-            <li>
-              <strong className="text-white">Install and open.</strong> Open the downloaded APK, tap
-              Install, then Open. Create a new Master Royale private-server account — never use your
-              official Clash Royale password.
+              <strong className="text-white">Launch and play.</strong> Tap Open, create a new
+              private-server account, and pick Vanilla or Infinity. Never enter official Supercell
+              credentials.
             </li>
           </ol>
           <div className="mt-8 flex justify-center">
@@ -575,19 +664,26 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Create Account &amp; Log In</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
-              After the first launch, Master Royale usually asks you to register with a nickname, email
-              or guest ID, and password defined by that private server build. Treat this as a throwaway
-              gaming login. Do not recycle banking passwords or your Supercell ID.
+              After the first launch, Master Royale usually asks you to register with a nickname,
+              email or guest ID, and a password defined by that private-server build. Treat this as a
+              throwaway gaming login. Because the environment is database-decoupled from retail
+              Supercell servers, your Master Royale profile does not migrate into official Clash
+              Royale — and your official account stays separate as long as you never paste those
+              credentials here.
             </p>
             <h3 className="text-xl font-semibold text-white">First-time setup tips</h3>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Write down the server name you join (Vanilla / Infinity / seasonal shard).</li>
+              <li>Write down the server or mode you join (Vanilla / Infinity / seasonal shard).</li>
               <li>Enable a simple PIN on your phone so sideloaded apps are harder for others to open.</li>
-              <li>If login fails, check internet, VPN interference, and whether the APK version matches the live server.</li>
+              <li>
+                If login fails, check internet, VPN interference, and whether the APK version matches
+                the live server ({APP.version} vs older builds).
+              </li>
             </ul>
             <p>
               Returning players tap Login, enter the same credentials, and pick the mode they used
-              before. If the server wiped progress during a reset, you may need to start a fresh profile.
+              before. If the server wiped progress during a reset, you may need to start a fresh
+              profile.
             </p>
           </div>
         </div>
@@ -603,10 +699,20 @@ export default function Home() {
             </p>
             <ul className="list-disc pl-6 space-y-3">
               <li>Practice one win condition for a full session instead of swapping decks every battle.</li>
-              <li>In Infinity, force yourself to play mid-ladder comps so muscle memory transfers to the official game.</li>
+              <li>
+                In Infinity, force yourself to play mid-ladder comps so muscle memory transfers to the
+                official game.
+              </li>
               <li>Watch replays when available; private servers are best used as a training gym.</li>
-              <li>Keep storage free — {APP.fileSize} plus cache adds up quickly on budget Android phones common in Pakistan.</li>
-              <li>Update only from this site’s download page so you do not mix incompatible APK forks.</li>
+              <li>
+                Keep storage free — {APP.fileSize} plus cache adds up quickly on budget Android phones.
+              </li>
+              <li>
+                Update only from this site’s download page so you do not mix incompatible APK forks.
+              </li>
+              <li>
+                Prefer a stable Wi-Fi link for 2v2 and peak-hour queues; packet loss hurts tower races.
+              </li>
             </ul>
           </div>
         </div>
@@ -619,19 +725,22 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-semibold text-white mb-4">Pros</h3>
               <ul className="space-y-2 text-gray-300 list-disc pl-6">
-                <li>Free APK with no paid storefront gate</li>
-                <li>Fast card access for theory-crafting</li>
+                <li>Easy to pick up if you already know arena battles</li>
+                <li>Multi-language community builds are common</li>
+                <li>Clans and social features when the shard is live</li>
+                <li>Useful for stats practice and strategy theory-crafting</li>
                 <li>Vanilla / Infinity choice for different moods</li>
-                <li>Works on many Android 5.0+ devices and emulators</li>
+                <li>{APP.price} APK with no paid storefront gate</li>
               </ul>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-white mb-4">Cons</h3>
               <ul className="space-y-2 text-gray-300 list-disc pl-6">
-                <li>Unofficial — progress can reset when servers update</li>
-                <li>Not affiliated with Supercell; features may break</li>
-                <li>Sideloading requires careful permission habits</li>
-                <li>Online population varies by time zone and shard</li>
+                <li>Unofficial — progress can reset when operators wipe or migrate databases</li>
+                <li>Possible lag, queue waits, or maintenance windows on busy shards</li>
+                <li>Sideloading always carries malware risk if you grab APKs from random mirrors</li>
+                <li>Online population varies by time zone and server shard</li>
+                <li>Not affiliated with Supercell; features may break between client updates</li>
               </ul>
             </div>
           </div>
@@ -648,12 +757,14 @@ export default function Home() {
                 our download page
               </Link>
               , keep “Install unknown apps” enabled only for the installer you trust, and revoke it
-              afterward. Never share SMS OTPs, bank details, or official Clash Royale credentials inside
-              a private-server client.
+              afterward. Never share SMS OTPs, bank details, or official Clash Royale credentials
+              inside a private-server client.
             </p>
             <p>
-              This website is informational. We do not claim Master Royale replaces the official Clash
-              Royale experience, and we do not promise real-money earnings. Read the{" "}
+              Because accounts are isolated from retail Supercell servers, a private-server ban or wipe
+              should not touch your official ladder profile — as long as you never linked those
+              credentials. This website is informational. We do not claim Master Royale replaces the
+              official Clash Royale experience, and we do not promise real-money earnings. Read the{" "}
               <Link href="/disclaimer" className="text-accent hover:underline">
                 Disclaimer
               </Link>{" "}
@@ -669,18 +780,44 @@ export default function Home() {
 
       <section id="troubleshooting" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Troubleshooting Common Install Issues</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Troubleshooting Common Issues</h2>
           <div className="space-y-4 text-gray-300">
             <div>
-              <h3 className="text-lg font-semibold text-white mb-2">APK parse error</h3>
-              <p>Re-download the full file; incomplete transfers often corrupt the package.</p>
+              <h3 className="text-lg font-semibold text-white mb-2">Connection errors / capacity</h3>
+              <p>
+                Peak hours can fill private-server capacity. Switch networks, retry later, or disable
+                conflicting VPN routes. If the client reports a version mismatch, reinstall{" "}
+                {APP.version} from this site.
+              </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-white mb-2">Blocked by Play Protect</h3>
+              <h3 className="text-lg font-semibold text-white mb-2">Clear cache after bad updates</h3>
               <p>
-                Sideloaded private-server APKs may trigger warnings. Review the warning carefully; only
-                proceed if you intentionally installed Master Royale from this site.
+                Android Settings → Apps → Master Royale → Storage → Clear cache (avoid Clear data
+                unless you accept losing local login tokens). Then relaunch.
               </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-2">Free storage</h3>
+              <p>
+                Incomplete installs often happen when the device cannot finish writing the{" "}
+                {APP.fileSize} package plus unpack space. Keep roughly 1 GB+ free, not mythical
+                hundreds of GB.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-2">
+                Multiple private-server APKs conflicting
+              </h3>
+              <p>
+                Stacking several Clash Royale private-server clients can overwrite shared data or
+                confuse signatures. Uninstall older forks before installing Master Royale, then
+                download a clean copy from {SITE_DOMAIN}.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-2">APK parse error</h3>
+              <p>Re-download the full file; truncated transfers often corrupt the package.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-white mb-2">App crashes on launch</h3>
@@ -692,13 +829,6 @@ export default function Home() {
                 .
               </p>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-2">Cannot connect to server</h3>
-              <p>
-                Switch networks, disable conflicting VPN routes, and confirm you installed version{" "}
-                {APP.version}. Private servers sometimes go offline for maintenance.
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -707,7 +837,8 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Website Support</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
-            Need help with guides on {SITE_DOMAIN}, broken download anchors, or privacy requests? Email{" "}
+            Need help with guides on {SITE_DOMAIN}, broken download anchors, or privacy requests?
+            Email{" "}
             <a href={`mailto:${SUPPORT_EMAIL}`} className="text-accent hover:underline">
               {SUPPORT_EMAIL}
             </a>{" "}
@@ -715,8 +846,8 @@ export default function Home() {
             <Link href="/contact-us" className="text-accent hover:underline">
               Contact Us
             </Link>
-            . We cover this informational site — not Supercell customer care and not every third-party
-            server outage.
+            . We cover this informational site — not Supercell customer care and not every
+            third-party server outage.
           </p>
         </div>
       </section>
@@ -747,12 +878,16 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8 text-center border border-[#FFC107]/30">
           <h2 className="text-3xl font-bold mb-4 text-[#FFC107]">Ready to Try Master Royale?</h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Download the free Android APK, create a private-server account, and explore Vanilla or
-            Infinity at your own pace. Prefer a bigger screen? Follow the{" "}
+            Download the free APK from {SITE_DOMAIN}, create a private-server account, and explore
+            Vanilla or Infinity at your own pace. Prefer a bigger screen? Follow the{" "}
             <Link href="/master-royale-for-pc" className="text-accent hover:underline">
               Master Royale for PC
             </Link>{" "}
-            emulator walkthrough after you grab the file.
+            emulator walkthrough after you grab the file — or see iOS sideload notes on the{" "}
+            <Link href="/download-master-royale#ios-install" className="text-accent hover:underline">
+              download page
+            </Link>
+            .
           </p>
           <DownloadButton />
         </div>
