@@ -1,3 +1,4 @@
+import { defaultLocale, locales } from "@/i18n/config";
 import { SITE_ORIGIN } from "./site";
 
 export type SitemapPage = {
@@ -10,7 +11,9 @@ export type SitemapPage = {
 
 const today = () => new Date().toISOString().split("T")[0];
 
-export const SITEMAP_PAGES: SitemapPage[] = [
+type BasePage = Omit<SitemapPage, "path"> & { path: string };
+
+const BASE_PAGES: BasePage[] = [
   {
     path: "/",
     lastMod: today(),
@@ -81,6 +84,18 @@ export const SITEMAP_PAGES: SitemapPage[] = [
     priority: 0.4,
   },
 ];
+
+function localizedPath(locale: string, path: string): string {
+  if (locale === defaultLocale) return path;
+  return path === "/" ? `/${locale}` : `/${locale}${path}`;
+}
+
+export const SITEMAP_PAGES: SitemapPage[] = locales.flatMap((locale) =>
+  BASE_PAGES.map((page) => ({
+    ...page,
+    path: localizedPath(locale, page.path),
+  }))
+);
 
 export function escapeXml(value: string): string {
   return value

@@ -1,0 +1,469 @@
+{
+  "Meta": {
+    "homeTitle": "Master Royale APK 2026 – Ücretsiz İndirme Özel Sunucu",
+    "homeDescription": "Master Royale APK'yi Android, PC ve iOS sideload için ücretsiz indirin. Sınırsız elmas, altın, açık kartlar, Vanilla ve Infinity modlarıyla Clash Royale tarzı özel sunucu. Kurulum rehberi ve SSS.",
+    "downloadTitle": "Master Royale APK İndir – Ücretsiz Android ve iOS Kurulum Rehberi",
+    "downloadDescription": "Master Royale APK {version} ({fileSize}) dosyasını Android için ücretsiz indirin. Adım adım özel sunucu kurulumu, iOS sideload notları, APK ayrıntıları ve güvenlik ipuçları masterroyaleapk.com'da.",
+    "pcTitle": "PC için Master Royale – BlueStacks Emülatör Rehberi",
+    "pcDescription": "BlueStacks gibi Android emülatörleriyle Master Royale'i PC'de oynayın. Windows gereksinimleri, VT-x ayarı, APK sürükle-bırak kurulumu, klavye eşleme ipuçları ve sorun giderme.",
+    "aboutTitle": "Hakkımızda – Master Royale APK Rehberleri",
+    "aboutDescription": "masterroyaleapk.com'da Master Royale hakkında bilgi edinin — Master Royale özel sunucu APK indirmeleri, Vanilla ve Infinity rehberleri ile PC emülatör ipuçları için bilgilendirici bir merkez.",
+    "contactTitle": "Bize Ulaşın – Master Royale Destek",
+    "contactDescription": "masterroyaleapk.com üzerinden Master Royale ile iletişime geçin. Rehberler, gizlilik talepleri veya site sorunları için support@masterroyaleapk.com adresine yazın.",
+    "privacyTitle": "Gizlilik Politikası – Master Royale",
+    "privacyDescription": "masterroyaleapk.com gizlilik politikası. Bu bilgilendirici Master Royale APK sitesinin verileri, çerezleri ve iletişim e-postalarını nasıl işlediği.",
+    "disclaimerTitle": "Sorumluluk Reddi – Master Royale Özel Sunucu",
+    "disclaimerDescription": "masterroyaleapk.com sorumluluk reddi: Master Royale, Supercell ile bağlı olmayan üçüncü taraf Clash Royale tarzı özel sunucu / mod APK'dir. Yalnızca bilgilendirici site.",
+    "notFoundTitle": "Sayfa Bulunamadı – Master Royale"
+  },
+  "Nav": {
+    "home": "Ana Sayfa",
+    "download": "İndir",
+    "pc": "PC Sürümü",
+    "about": "Hakkımızda",
+    "contact": "Bize Ulaşın",
+    "downloadNow": "İNDİR",
+    "main": "ANA",
+    "guides": "REHBERLER",
+    "info": "BİLGİ",
+    "installGuide": "Kurulum Rehberi"
+  },
+  "Footer": {
+    "aboutText": "Master Royale, açık kaynaklar, özel savaşlar ve ücretsiz Android APK erişimi sunan bir Clash Royale özel sunucu deneyimidir. Kurulum adımlarını, PC kurulumunu ve güvenlik ipuçlarını masterroyaleapk.com'da öğrenin.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "resources": "Kaynaklar",
+    "downloadApp": "Uygulamayı İndir",
+    "downloadAppText": "Android için en güncel Master Royale APK'yi alın ve sınırsız elmas, altın ve açık kartlarla savaşmaya başlayın.",
+    "privacy": "Gizlilik Politikası",
+    "disclaimer": "Sorumluluk Reddi",
+    "copyright": "© 2026 Master Royale. Tüm hakları saklıdır."
+  },
+  "Common": {
+    "freeAndroidGame": "Ücretsiz · Android · Oyun",
+    "ratings": "değerlendirme",
+    "downloads": "İndirmeler",
+    "appSize": "Uygulama Boyutu",
+    "breadcrumbsHome": "Ana Sayfa",
+    "readMore": "Devamını oku"
+  },
+  "Languages": {
+    "label": "Dil",
+    "en": "ENGLISH",
+    "fr": "FRANÇAIS",
+    "tr": "TÜRK",
+    "es": "ESPAÑOL",
+    "pt": "PORTUGUESE",
+    "de": "DEUTSCH"
+  },
+  "Home": {
+    "h1": "Master Royale",
+    "subtitle": "Android, PC ve iOS için APK İndirme (En Son Sürüm)",
+    "intro": "Master Royale, Clash Royale tarzı bir istemciyi topluluk özel sunucusuna bağlayarak sandık zamanlayıcılarını ve perakende ödeme duvarlarını atlamanızı sağlar. Sınırsız elmas ve altın alın, kart havuzunu açın ve gerçek para yatırmadan Vanilla veya Infinity'ye atlayın. Android (ve iOS sideload notları) için Master Royale indirme rehberini izleyin veya PC sürümü sayfamız üzerinden masaüstü emülatöründe oynayın.",
+    "androidOnlyNote": "*Resmi olmayan özel sunucu / üçüncü taraf mod · Supercell ile bağlı değil · PC emülatör ve iOS sideload yollarıyla Android APK",
+    "tableTitle": "Master Royale APK Ayrıntıları",
+    "table": {
+      "appName": "Uygulama Adı",
+      "package": "Paket Adı",
+      "category": "Kategori",
+      "version": "En Son Sürüm",
+      "size": "Dosya Boyutu",
+      "os": "Gerekli OS",
+      "price": "Fiyat",
+      "rating": "Puan"
+    },
+    "whatTitle": "Master Royale Nedir?",
+    "whatP1": "Master Royale, değiştirilmiş bir Android istemcisi olarak paketlenmiş Clash Royale tarzı bir özel sunucudur. Supercell'in resmi sunucularıyla konuşmak yerine uygulama, kendi eşleştirme, ekonomi ve ilerleme kurallarını yöneten özel bir topluluk sunucusuna yönlenir. Bu ayrım — sizin istemciniz ile perakende sunucu — özel sunucunun temel fikridir.",
+    "whatP2": "Özel sunucular veritabanı ayrıştırmasına dayanır: oyuncu envanterleri, elmas bakiyeleri ve kart seviyeleri perakende Clash Royale profilinizde değil, özel ortamın veri deposunda yaşar. Kaynak özgürlüğü bu tasarımdan gelir — operatörler cömert elmas, altın ve açılımlar verebilir, böylece sandık döngülerini bekleyerek daha az zaman harcarsınız. Sandbox mekanikleri (özellikle Infinity'de) ardından resmi ilerleme duvarı olmadan desteler, seviyeler ve hatta özel kartlarla deneme yapmanızı sağlar.",
+    "whatP3": "Hesap güvenliği önemlidir. Master Royale girişi, perakende Supercell hesabınızdan izole edilir. Yalnızca özel sunucu için tek kullanımlık bir takma ad ve şifre oluşturun. Banka kimlik bilgilerinizi veya resmi Clash Royale kimliğinizi yeniden kullanmayın. masterroyaleapk.com'da kurulum adımları, Vanilla vs Infinity notları, PC ve iOS sideload yolları ile dürüst güvenlik uyarıları yayınlarız; böylece herhangi bir şeyi sideload etmeden önce karar verebilirsiniz.",
+    "privateServerTitle": "Özel Sunucuları Anlamak",
+    "privateServerP1": "Özel sunucu, resmi Clash Royale arka ucunun içinde değil — yanında çalışan, topluluk tarafından barındırılan bir oyun ortamıdır. Cihazınız özel eşleştirme ve ekonomi kurallarına bağlanan değiştirilmiş bir istemci kurar. İlerleme, elmaslar ve kart seviyeleri bu üçüncü taraf veritabanında yaşar; bu yüzden IAP'ye gerçek para harcamadan perakende sandık zamanlayıcılarını atlayabilirsiniz.",
+    "privateServerAdv1Title": "Veritabanı Ayrıştırması",
+    "privateServerAdv1": "Oyuncu envanterleri, elmas bakiyeleri ve merdiven sıralamaları özel sunucunun kendi veri deposunda saklanır. Bu izolasyon, Master Royale profillerinin resmi Clash Royale hesabınıza senkronize olmadığı anlamına gelir — ve Supercell kimlik bilgilerini asla mod istemcisine yapıştırmadığınız sürece perakende ilerleme ayrı kalır.",
+    "privateServerAdv2Title": "Tam Kaynak Özgürlüğü",
+    "privateServerAdv2": "Ekonomi operatör kontrolünde olduğu için derlemeler genellikle sınırsız elmas ve altın, erken kart açılımları ve hızlı yükseltme yolları sunar. Bu kaynaklar yalnızca özel sunucu sandbox'ında vardır — bankaya yatırılabilir nakit değildir ve JazzCash, EasyPaisa veya benzeri cüzdanlar üzerinden çekilemez.",
+    "privateServerAdv3Title": "Sandbox Mekanikleri",
+    "privateServerAdv3": "Sandbox modları (özellikle Infinity) desteleri teorize etmenizi, anında maksimum seviyelere çıkmanızı ve aylarca sandık grind'i olmadan topluluk özel kartlarını denemenizi sağlar. Deneysel birimleri güncellemeler arasında değişebilen topluluk yaratımları olarak görün; resmi Supercell içeriği olarak değil.",
+    "accountSafetyNote": "Her zaman taze bir özel sunucu takma adı ve şifresi oluşturun. Resmi Supercell kimliğinizi, banka bilgilerinizi veya SMS OTP'lerini asla Master Royale veya herhangi bir üçüncü taraf istemciye girmeyin.",
+    "modesTitle": "Vanilla vs Infinity Modları",
+    "vanillaTitle": "Vanilla",
+    "vanillaP": "Vanilla, maç akışını klasik Clash Royale alışkanlıklarına daha yakın tutar. Hâlâ cömert özel sunucu kaynakları alırsınız, ancak kart kullanılabilirliği ve merdiven yapısı daha temellidir. Daha az bekleyerek iksir zamanlaması ve kule ticareti pratik yapmak istiyorsanız idealdir.",
+    "infinityTitle": "Infinity",
+    "infinityP": "Infinity sandbox yoludur. Derlemeler genellikle büyük bir kaynak havuzuyla (sıkça 1M+ para ve elmas tarzı ekonomi çerçevesinde), maksimum seviyelere anında erişimle ve deneysel özel kartlarla açılır. Bazı istemci derlemeleri Infinite Sparky gibi öne çıkan özel birimler içerir — bunları güncellemeler arasında değişebilen topluluk yaratımları olarak görün. Infinity'yi sandık döngüleri olmadan sinerjileri, meme kompozisyonlarını ve maksimum seviye etkileşimlerini stres test etmek için kullanın.",
+    "featuresTitle": "Master Royale'in Temel Özellikleri",
+    "features": [
+      {
+        "title": "Sınırsız elmas ve altın",
+        "text": "Perakende IAP kapıları olmadan, özel sunucu ekonomisiyle çalışan mağaza ve yükseltme döngüleri."
+      },
+      {
+        "title": "Tüm kartlar açık",
+        "text": "Aylarca sandık grind'i yapmak yerine teorize edebilmek için koleksiyonu erken açın."
+      },
+      {
+        "title": "Anında maksimum seviyeler",
+        "text": "Gerçek son oyun etkileşimlerini test etmek için kartları hızla üst kademelere itin (özellikle Infinity'de)."
+      },
+      {
+        "title": "1v1 ve 2v2 savaşları",
+        "text": "Canlı shard desteklediğinde klasik arena baskısı artı ikili modlar."
+      },
+      {
+        "title": "Özel OP kartlar",
+        "text": "Sandbox denemeleri için topluluk yaratımları (örneğin bazı derlemelerde Infinite Sparky tarzı birimler)."
+      },
+      {
+        "title": "Stabil topluluk sunucuları",
+        "text": "Operatörler, tek gecelik LAN hissinin ötesinde kuyruğa girebilmeniz için düzenli uptime hedefler."
+      },
+      {
+        "title": "Klanlar ve sosyal oyun",
+        "text": "Aktif derleme bu özellikleri açtığında klanlara katılın, sohbet edin ve deste paylaşın."
+      },
+      {
+        "title": "Düzenli güncellemeler",
+        "text": "İstemciler {version} / {versionAlt} gibi güncel paket sürümlerine doğru takip eder."
+      },
+      {
+        "title": "Güvenli izole ortam",
+        "text": "İlerleme özel veritabanında kalır — perakende Supercell girişinizden ayrı tutun."
+      }
+    ],
+    "reqTitle": "Sistem Gereksinimleri",
+    "reqAndroidTitle": "Android",
+    "reqAndroid": [
+      "OS: {os} (en iyisi Android 5.0+ / akıcı maçlar için Android 8+ önerilir)",
+      "CPU: dört çekirdekli ~2 GHz veya daha iyi",
+      "RAM: 4 GB önerilir",
+      "Depolama: kurulumdan sonra yaklaşık 1 GB+ boş alan (APK {fileSize} artı önbellek)"
+    ],
+    "reqIosTitle": "iPhone",
+    "reqIos": [
+      "iOS 10 veya daha yeni",
+      "iPhone 6 veya daha yeni (veya eşdeğer iPad)",
+      "Yalnızca IPA sideload — Apple Android APK kurmaz",
+      "AltStore tarzı yenileme veya güvenilen sertifika gerekir"
+    ],
+    "reqWinTitle": "Windows",
+    "reqWin": [
+      "Windows 11 tercih edilir (Windows 10 hâlâ yaygındır)",
+      "RAM: 8–16 GB",
+      "CPU: Intel i3 8. nesil / AMD Ryzen 3000 serisi veya daha iyi",
+      "SSD güçlü şekilde önerilir; BIOS'ta VT-x / AMD-V'yi etkinleştirin"
+    ],
+    "installTitle": "Android'de Nasıl İndirilir ve Kurulur",
+    "installSteps": [
+      "Bilinmeyen kaynakları etkinleştirin. Android Ayarlar → Uygulamalar → Özel erişim → Bilinmeyen uygulamaları yükle içinde tarayıcınızın veya Dosyalar uygulamasının paket kurmasına izin verin.",
+      "Bu siteden indirin. masterroyaleapk.com'da /download-master-royale sayfasını açın, İNDİR'e dokunun ve tam {fileSize} dosyasının ({version}) bitmesini bekleyin.",
+      "APK'yi kurun. İndirilen paketi açın, Yükle'ye dokunun ve yalnızca bu dosyayı bilerek masterroyaleapk.com'dan seçtiyseniz Play Protect incelemesini onaylayın.",
+      "Başlatın ve oynayın. Aç'a dokunun, yeni bir özel sunucu hesabı oluşturun ve Vanilla veya Infinity seçin. Asla resmi Supercell kimlik bilgilerini girmeyin."
+    ],
+    "accountTitle": "Hesap Oluşturun ve Giriş Yapın",
+    "accountP": "İlk başlatmadan sonra Master Royale genellikle bir takma ad, e-posta veya misafir kimliği ve o özel sunucu derlemesinin tanımladığı bir şifreyle kayıt olmanızı ister. Bunu tek kullanımlık bir oyun girişi olarak görün. Ortam perakende Supercell sunucularından veritabanı olarak ayrıştırıldığı için Master Royale profiliniz resmi Clash Royale'e taşınmaz — ve bu kimlik bilgilerini buraya asla yapıştırmadığınız sürece resmi hesabınız ayrı kalır.",
+    "tipsTitle": "Pratik İpuçları",
+    "tips": [
+      "Her savaşta deste değiştirmek yerine bir oturum boyunca tek bir kazanma koşulu pratik edin.",
+      "Infinity'de kas belleğinin resmi oyuna aktarılması için kendinizi orta merdiven kompozisyonları oynamaya zorlayın.",
+      "Mümkün olduğunda tekrarları izleyin; özel sunucular en iyi eğitim salonu olarak kullanılır.",
+      "Depolamayı boş tutun — {fileSize} artı önbellek bütçe Android telefonlarda hızla birikir.",
+      "Uyumsuz APK çatallarını karıştırmamak için yalnızca bu sitenin indirme sayfasından güncelleyin.",
+      "2v2 ve yoğun saat kuyrukları için stabil Wi-Fi tercih edin; paket kaybı kule yarışlarına zarar verir."
+    ],
+    "prosTitle": "Artılar",
+    "pros": [
+      "Arena savaşlarını zaten biliyorsanız kolayca alışılır",
+      "Çok dilli topluluk derlemeleri yaygındır",
+      "Shard canlıyken klanlar ve sosyal özellikler",
+      "İstatistik pratiği ve strateji teorize etme için faydalı",
+      "Farklı ruh halleri için Vanilla / Infinity seçimi",
+      "Ücretli mağaza kapısı olmadan {price} APK"
+    ],
+    "consTitle": "Eksiler",
+    "cons": [
+      "Resmi değil — operatörler veritabanlarını siler veya taşırsa ilerleme sıfırlanabilir",
+      "Yoğun shard'larda olası gecikme, kuyruk beklemeleri veya bakım pencereleri",
+      "Rastgele aynalardan APK alırsanız sideloading her zaman zararlı yazılım riski taşır",
+      "Çevrimiçi nüfus saat dilimine ve sunucu shard'ına göre değişir",
+      "Supercell ile bağlı değil; özellikler istemci güncellemeleri arasında bozulabilir"
+    ],
+    "safetyTitle": "Güvenlik Notları",
+    "safetyP": "Master Royale üçüncü taraf yazılımdır. Yalnızca indirme sayfamızdaki CTA üzerinden indirin, « Bilinmeyen uygulamaları yükle »yi yalnızca güvendiğiniz yükleyici için açık tutun ve ardından iptal edin. Özel sunucu istemcisinde SMS OTP, banka bilgileri veya resmi Clash Royale kimlik bilgilerini asla paylaşmayın. Hesaplar perakende Supercell sunucularından izole olduğu için, bu kimlik bilgilerini hiç bağlamadığınız sürece özel sunucu yasağı veya silmesi resmi merdiven profilinize dokunmamalıdır. Bu web sitesi bilgilendiricidir. Master Royale'in resmi Clash Royale deneyiminin yerini aldığını iddia etmiyoruz ve gerçek para kazancı vaat etmiyoruz. Kurmadan önce Sorumluluk Reddi ve Gizlilik Politikası'nı okuyun.",
+    "troubleTitle": "Sorun Giderme",
+    "trouble": [
+      {
+        "title": "Bağlantı hataları / kapasite",
+        "text": "Yoğun saatler özel sunucu kapasitesini doldurabilir. Ağ değiştirin, sonra tekrar deneyin veya çakışan VPN rotalarını kapatın. İstemci sürüm uyumsuzluğu bildirirse bu siteden {version} yeniden kurun."
+      },
+      {
+        "title": "Kötü güncellemeden sonra önbelleği temizleyin",
+        "text": "Android Ayarlar → Uygulamalar → Master Royale → Depolama → Önbelleği temizle (yerel giriş jetonlarını kaybetmeyi kabul etmiyorsanız Verileri temizle'den kaçının). Ardından yeniden başlatın."
+      },
+      {
+        "title": "Depolama boşaltın",
+        "text": "Eksik kurulumlar genellikle cihaz {fileSize} paketini artı açma alanını yazmayı bitiremediğinde olur. Mitolojik yüzlerce GB değil, yaklaşık 1 GB+ boş tutun."
+      },
+      {
+        "title": "Çakışan birden fazla özel sunucu APK'si",
+        "text": "Birkaç Clash Royale özel sunucu istemcisini üst üste yığmak paylaşılan verileri üzerine yazabilir veya imzaları karıştırabilir. Master Royale kurmadan önce eski çatalları kaldırın, ardından masterroyaleapk.com'dan temiz bir kopya indirin."
+      },
+      {
+        "title": "APK ayrıştırma hatası",
+        "text": "Dosyanın tamamını yeniden indirin; kesilmiş aktarımlar paketi sıkça bozar."
+      },
+      {
+        "title": "Uygulama açılışta çöküyor",
+        "text": "RAM boşaltın, varsa WebView/Android Sistem bileşenlerini güncelleyin veya PC'de emülatör deneyin."
+      }
+    ],
+    "supportTitle": "Web Sitesi Desteği",
+    "supportP": "masterroyaleapk.com rehberleri, bozuk indirme bağlantıları veya gizlilik talepleri için yardım mı lazım? support@masterroyaleapk.com adresine yazın veya Bize Ulaşın'ı açın. Bu bilgilendirici siteyi kapsıyoruz — Supercell müşteri hizmetlerini veya her üçüncü taraf sunucu kesintisini değil.",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "faqs": [
+      {
+        "q": "En son Master Royale APK'yi nasıl indiririm?",
+        "a": "masterroyaleapk.com'u açın, Master Royale İndir'e gidin, İNDİR'e dokunun ve {version} paketini ({fileSize}) kaydedin. Tarayıcınız veya Dosyalar uygulaması için Bilinmeyen uygulamaları yükle'yi etkinleştirin, APK'yi açın, kurun, ardından başlatın. Tam adımlar /download-master-royale sayfasındadır."
+      },
+      {
+        "q": "Master Royale Google Play veya App Store'da mı?",
+        "a": "Hayır. Master Royale resmi olmayan bir özel sunucu istemcisidir. Google Play veya Apple App Store'da listelenmez. Android kullanıcıları APK'yi bu siteden sideload eder; iOS oyuncuları AltStore gibi IPA sideload araçlarına ihtiyaç duyar ve PC oyuncuları aynı APK'yi bir Android emülatöründe çalıştırır."
+      },
+      {
+        "q": "Resmi Clash Royale / Supercell hesabım yasaklanır mı?",
+        "a": "Master Royale hesapları perakende Supercell ortamından izole edilir. İlerleme ve girişler resmi Clash Royale profilinizde değil, özel sunucunun kendi veritabanında yaşar. Yine de Supercell kimliğinizi veya şifrenizi asla herhangi bir üçüncü taraf istemciye girmeyin — bunun yerine taze bir özel sunucu girişi oluşturun."
+      },
+      {
+        "q": "En iyi Clash Royale özel sunucusu hangisi?",
+        "a": "« En iyi » uptime'a, topluluk boyutuna ve tanıdık bir merdiven mi yoksa sandbox mu istediğinize bağlıdır. Master Royale, Vanilla ve Infinity modları, düzenli istemci güncellemeleri ve geniş bir kaynak sandbox'ı sayesinde en çok konuşulan seçeneklerden biridir. Farklı kural setleriyle başka özel sunucular da vardır — hedeflerinize uyanı deneyin ve her zaman güvendiğiniz bir kaynaktan indirin."
+      },
+      {
+        "q": "Master Royale PC ve iOS'ta çalışır mı?",
+        "a": "Evet, bazı uyarılarla. PC'de bir Android emülatörü (BlueStacks veya benzeri) kurun, ardından bu siteden Master Royale APK'yi sideload edin — PC için Master Royale rehberimize bakın. iOS'ta Apple Android APK çalıştırmaz; AltStore veya dikkatle incelenmiş bir kurumsal profil üzerinden IPA sideload'a, sertifika yenileme ve güven adımlarına ihtiyacınız vardır. Ayrıntılar indirme sayfasındadır."
+      },
+      {
+        "q": "Master Royale ücretsiz mi?",
+        "a": "Evet. Burada listelenen Master Royale APK indirmesi {price}'dır (şema fiyatı 0). Özel sunucudaki elmaslar, altın ve açılımlar modlanmış ortamdan gelir — bu bir nakit çekim veya gerçek para kazanç ürünü değildir."
+      },
+      {
+        "q": "Vanilla ile Infinity arasındaki fark nedir?",
+        "a": "Vanilla, güçlendirilmiş özel sunucu kaynaklarıyla klasik merdiven alışkanlıklarına daha yakın bir maç akışı tutar. Infinity tam bir sandbox'tır: büyük başlangıç para/elmas havuzları (sıkça 1M+ tarzı ekonomi çerçevesinde), anında maksimum seviye erişimi ve deneysel özel kartlar (derlemeler bazen Infinite Sparky gibi öne çıkanları içerir). Birçok oyuncu pratik için Vanilla, kaotik teorize için Infinity kullanır."
+      },
+      {
+        "q": "Master Royale hangi Android sürümünü gerektirir?",
+        "a": "Master Royale {os} listeler. En iyisi Android 5.0+ / Android 8+ önerilir. Daha akıcı savaşlar için dört çekirdekli ~2 GHz CPU, 4 GB RAM ve kurulumdan sonra yaklaşık 1 GB+ için yeterli boş depolama öneririz (APK yaklaşık {fileSize})."
+      },
+      {
+        "q": "Master Royale nedir?",
+        "a": "Master Royale, ücretsiz Clash Royale tarzı özel sunucu / mod istemcisidir. Cihazınız resmi Supercell sunucuları yerine özel bir host ile konuşan değiştirilmiş bir oyun istemcisi çalıştırır; sınırsız elmas ve altın, açık kartlar ile Vanilla artı Infinity modları gibi sunucu tarafı kaynaklarla. Supercell ile bağlı değildir ve gerçek para kazanç uygulaması değildir."
+      },
+      {
+        "q": "Master Royale kurmak güvenli mi?",
+        "a": "Yalnızca masterroyaleapk.com gibi güvenilir bilgilendirici sayfalardan kurun, Bilinmeyen Kaynaklar'ı kullandığınız yükleyiciyle sınırlayın, ardından bu izni iptal edin ve banka bilgilerinizi veya ana Supercell şifrenizi asla paylaşmayın. Özel sunucular üçüncü taraf yazılımdır — ayrı bir hesap kullanın ve Sorumluluk Reddimizi okuyun."
+      },
+      {
+        "q": "APK neden kurulmuyor veya bağlanmıyor?",
+        "a": "Yaygın çözümler: Bilinmeyen uygulamaları yükle'yi etkinleştirin, {fileSize} paket artı önbellek için depolama boşaltın, dosya kesildiyse yeniden indirin, kötü bir güncellemeden sonra uygulama önbelleğini temizleyin ve çakışan paket verisi paylaşan birden fazla özel sunucu APK'sini üst üste yığmaktan kaçının. Bağlantı hataları genellikle sunucu kapasitesi, bakım veya istemci/sunucu sürüm uyumsuzluğu anlamına gelir — {version} kurduğunuzu doğrulayın."
+      },
+      {
+        "q": "Bu sitede desteğe nasıl ulaşırım?",
+        "a": "Bu bilgilendirici web sitesi hakkında sorular (rehberler, bozuk bağlantılar, gizlilik) için support@masterroyaleapk.com adresine yazın veya Bize Ulaşın sayfasını ziyaret edin. Oyun içi özel sunucu kesintileri üçüncü taraf operatörler tarafından yönetilir, Supercell tarafından değil."
+      }
+    ],
+    "ctaTitle": "Master Royale'i Denemeye Hazır mısınız?",
+    "ctaText": "masterroyaleapk.com'dan ücretsiz APK'yi indirin, bir özel sunucu hesabı oluşturun ve Vanilla veya Infinity'yi kendi temponuzda keşfedin. Daha büyük ekran mı tercih edersiniz? Dosyayı aldıktan sonra PC için Master Royale emülatör rehberini izleyin — veya indirme sayfasındaki iOS sideload notlarına bakın."
+  },
+  "Download": {
+    "h1": "Master Royale APK İndir",
+    "intro": "Master Royale Clash Royale tarzı özel sunucu için ücretsiz Android kurulum rehberi — sürüm {version}, {fileSize}. iOS oyuncuları yalnızca IPA sideload kullanır (aşağıya bakın); PC oyuncuları aynı APK ile bir emülatör kullanır.",
+    "ctaTitle": "Master Royale APK'yi Alın",
+    "ctaText": "masterroyaleapk.com'dan ücretsiz indirmeyi başlatmak için aşağıya dokunun. Kurulumdan sonra taze bir özel sunucu girişi oluşturun — asla resmi Supercell kimlik bilgilerini girmeyin.",
+    "infoTitle": "APK Bilgileri",
+    "installTitle": "Tam Android Kurulum Adımları",
+    "installSteps": [
+      "Bilinmeyen kaynakları etkinleştirin. Ayarlar → Uygulamalar → Özel erişim → Bilinmeyen uygulamaları yükle'yi açın ve Chrome, Firefox veya Dosyalar'ın paket kurmasına izin verin.",
+      "Bu siteden indirin. apk-download bölümüne gidin ve İNDİR'e dokunun. Mümkünse Wi-Fi'de kalın — APK yaklaşık {fileSize} ({version}).",
+      "APK'yi kurun. İndirilen paketi açın, Yükle'yi onaylayın ve yalnızca bu dosyayı bilerek masterroyaleapk.com'dan seçtiyseniz Play Protect'i geçin.",
+      "Master Royale'i başlatın. Aç'a dokunun, yeni bir özel sunucu hesabı kaydedin, Vanilla veya Infinity seçin ve bir pratik savaş başlatın."
+    ],
+    "iosTitle": "iOS'ta Nasıl Kurulur (iPhone ve iPad)",
+    "iosIntro": "Apple, iPhone ve iPad'de Android APK'lerini engeller. iOS'ta Play Store tarzı bir APK kurulum yolu yoktur. Güvendiğiniz bir kaynaktan Master Royale IPA derlemesi varsa sideload etmelisiniz — tipik olarak AltStore (veya benzeri) ve yaklaşık 7 günlük bir yenileme döngüsü gerektiren ücretsiz bir geliştirici sertifikasıyla.",
+    "iosSteps": [
+      "AltStore'u (veya eşdeğer bir sideload aracını) resmi belgelerinden kurun, ardından Ayarlar → Genel → VPN ve Cihaz Yönetimi altında geliştirici sertifikasına güvenin.",
+      "Ücretsiz Apple ID'lerde IPA'yı yaklaşık her 7 günde bir yenilemeyi bekleyin, aksi halde uygulama simgesi açılmayı bırakır.",
+      "Bazı aynalar kurumsal sağlama profilleri iter. Bunlara dikkatli yaklaşın: kurumsal profiller geniş cihaz güveni verebilir. Yalnızca anladığınız profilleri kurun ve bir şey ters gelirse hemen kaldırın.",
+      "Bu istemciler için sıkça anılan minimum cihaz rehberi: iPhone 6 veya daha yenide iOS 10+. Performans değişir — canlı savaşlar için daha yeni donanım daha güvenlidir."
+    ],
+    "afterTitle": "Kurulumdan Sonra",
+    "afterP": "Oyunun çalışmak için istediği izinleri (depolama/ağ) yalnızca verin. Özel sunucu arena istemcisi için SMS veya kişi erişimine ihtiyacınız yoktur. Bilinmeyen Kaynaklar'ı kullandığınız yükleyiciyle sınırlayın, ardından iptal edin. Genel bakış içeriği için Master Royale ana sayfasına dönün. Yasal bağlam için Sorumluluk Reddimizi okuyun.",
+    "againTitle": "Tekrar indir"
+  },
+  "PC": {
+    "h1": "PC için Master Royale",
+    "intro": "Master Royale özel sunucu APK'sini Windows'ta bir Android emülatörü üzerinden çalıştırın — telefondan daha stabil FPS, daha soğuk ısıl değerler ve daha hızlı kart döngüleri için klavye katmanları.",
+    "whyTitle": "Neden Master Royale'i PC'de Oynamalı?",
+    "whyP": "Emülatörler Android'i bilgisayarınızda yansıtır, böylece aynı Master Royale APK telefon olmadan çalışır. Oyuncular kule yarışlarında daha yüksek ve tutarlı FPS, el cihazı bataryasını tüketmeden daha uzun oturumlar ve her kart yuvasını bir tuşa eşleyen klavye katmanları için PC seçer. Bu hâlâ resmi olmayan özel sunucu istemcisidir — yerel bir Steam derlemesi veya resmi Supercell PC sürümü değildir. İlerleme katıldığınız üçüncü taraf sunucuda yaşar.",
+    "reqTitle": "Windows Gereksinimleri",
+    "req": [
+      "Windows 11 tercih edilir (Windows 10 büyük emülatörler tarafından hâlâ yaygın desteklenir)",
+      "RAM: 8–16 GB (Chrome ve Discord açık kaldığında 16 GB daha akıcı hissedilir)",
+      "CPU: Intel Core i3 8. nesil / AMD Ryzen 3000 serisi veya daha iyi",
+      "Emülatör açılışı ve APK kurulum hızı için SSD güçlü şekilde önerilir",
+      "Emülatör görüntüsü artı {fileSize} APK ve önbellek için boş disk alanı (toplam birkaç GB planlayın)",
+      "BlueStacks performansı için BIOS'ta donanım sanallaştırma (VT-x / AMD-V) etkin",
+      "Stabil geniş bant — özel sunucular sürekli bağlantı gerektirir"
+    ],
+    "stepsTitle": "Adım Adım: Dağıt, Kur, Kontrolleri Eşle",
+    "steps": [
+      "Bir emülatör dağıtın. BlueStacks'i (veya karşılaştırılabilir bir Android emülatörünü) resmi sitesinden kurun. Kurulum sihirbazı sanallaştırmadan şikayet ederse BIOS/UEFI'ye yeniden başlayıp Intel VT-x veya AMD-V'yi etkinleştirin, ardından ilk çalıştırmayı bitirin.",
+      "APK'yi bu siteden indirin. Aynı PC'de Master Royale İndir'i açın ve paketi kaydedin ({version}, {fileSize}). Rastgele çatalları karıştırmamak için masterroyaleapk.com'da kalın.",
+      "Sürükle-bırak kurulum. APK'yi emülatör penceresine sürükleyin veya yerleşik « APK Yükle » / « Artı » düğmesini kullanıp dosyaya göz atın. Paket kurulumu bitene kadar bekleyin.",
+      "Kart yuvaları için klavye eşlemesini yapılandırın. Emülatörün kontroller / tuş eşleme düzenleyicisini açın. Dört kart yuvasının her birine tuş atayın (ve kullanıyorsanız isteğe bağlı iksir döngüsü makroları). Profili kaydedin, Master Royale'i başlatın, özel sunucu hesabı oluşturun ve Vanilla veya Infinity seçin."
+    ],
+    "tipsTitle": "PC Emülatör İpuçları",
+    "tips": [
+      "İksir ağır kartları yakındaki tuşlara eşleyin, böylece döngü oyunları kas belleği kadar hızlı kalsın.",
+      "Emülatörün CPU önceliğini koruması için ağır tarayıcı sekmelerini ve arka plan oyunlarını kapatın.",
+      "Mümkün olduğunda kablolu bağlantı kullanın; Wi-Fi paket kaybı kule yarışlarına zarar verir.",
+      "Emülatörün Android görüntüsünü güncel tutun, ardından sunucu istemcisini {version} / {versionAlt}'a yükseltirse Master Royale'i yeniden kurun.",
+      "Ana sayfadaki güvenlik notlarını okuyun — emülatör içinde resmi Clash Royale şifrelerini asla yeniden kullanmayın."
+    ],
+    "problemsTitle": "PC'de Sorun Giderme",
+    "problems": [
+      {
+        "title": "Siyah ekran",
+        "text": "Emülatörü uyumluluk / OpenGL modu değiştirilmiş şekilde yeniden başlatın veya çözünürlüğü düşürün."
+      },
+      {
+        "title": "APK kurulmuyor",
+        "text": "İndirmenin {fileSize} olarak bittiğini ve emülatör Android sürümünün {os} karşıladığını doğrulayın. Dosya kesilmiş görünüyorsa masterroyaleapk.com'dan yeniden indirin."
+      },
+      {
+        "title": "Gecikme ani yükselişleri",
+        "text": "FPS'yi sınırlayın, gereksiz emülatör eklentilerini kapatın ve VT-x / AMD-V'nin gerçekten etkin olduğundan emin olun. Hyper-V kaynakları için yarışan diğer sanallaştırma araçlarını kapatın."
+      },
+      {
+        "title": "Bağlantı / sürüm uyumsuzluğu",
+        "text": "Özel sunucular bazen eski istemcileri reddeder. Bu siteden en son APK'yi kurun, emülatör içinde uygulama önbelleğini temizleyin ve çakışan birden fazla özel sunucu APK'sini üst üste yığmaktan kaçının."
+      }
+    ],
+    "ctaTitle": "Emülatörünüz için APK'yi Alın",
+    "ctaText": "masterroyaleapk.com'dan indirin, ardından dosyayı BlueStacks veya tercih ettiğiniz emülatöre bırakın."
+  },
+  "About": {
+    "h1": "Hakkımızda",
+    "p1": "masterroyaleapk.com'a hoş geldiniz — Vanilla ve Infinity oyun stilleriyle Clash Royale tarzı özel sunucu / mod APK olan Master Royale'e odaklı bilgilendirici bir web sitesi.",
+    "p2": "Oyuncuların ne kurduklarını anlamaları için indirme adımları, APK ayrıntıları, PC emülatör talimatları ve güvenlik hatırlatmaları yayınlıyoruz. Master Royale üçüncü taraf yazılımdır ve Supercell ile bağlı değildir. Bu site gerçek para kumar ürünleri satmaz ve JazzCash veya EasyPaisa nakit çekim özellikleri sunmaz.",
+    "coverTitle": "Neleri Kapsıyoruz",
+    "coverItems": [
+      "Android Master Royale APK indirme ve kurulum adımları",
+      "BlueStacks / LDPlayer tarzı kurulumlar için PC emülatör rehberleri",
+      "Vanilla vs Infinity açıklamaları ve pratik savaş ipuçları",
+      "Özel sunucu riskleri ve hesap güvenliği hakkında net sorumluluk reddi"
+    ],
+    "approachTitle": "Yaklaşımımız",
+    "approachP": "Sayfalar, Master Royale APK bilgisi arayan Pakistan'daki ve başka yerlerdeki oyuncular için anlaşılır İngilizceyle yazılmıştır. İddiaları dürüst tutuyoruz: sınırsız elmas ve altın, bankaya yatırılabilir nakit değil, özel sunucu oyun kaynaklarını ifade eder. Canlı sunucuda özellikler değiştiğinde, doğrulayabildiğimiz anda sürüm numaralarını ve kurulum notlarını güncelleriz.",
+    "touchTitle": "İletişime Geçin",
+    "touchP": "Bu web sitesi hakkında sorularınız mı var? support@masterroyaleapk.com adresine yazın veya Bize Ulaşın'ı ziyaret edin."
+  },
+  "Contact": {
+    "h1": "Bize Ulaşın",
+    "subtitle": "Bu web sitesi konusunda yardımcı olmak için buradayız",
+    "intro": "masterroyaleapk.com arkasındaki ekibe ulaşmak için bu sayfayı kullanın. Master Royale APK rehber soruları, bozuk bağlantılar, Hakkımızda açıklamaları ve gizlilik talepleri konusunda yardımcı olabiliriz. Resmi Supercell desteği sağlamıyoruz ve üçüncü tarafların kontrolündeki özel sunucu hesaplarını geri yükleyemeyiz.",
+    "emailTitle": "Bize E-posta Gönderin",
+    "emailText": "Bu bilgilendirici site hakkında soru veya endişelerinizi gönderin",
+    "responseTitle": "Ne Beklemelisiniz",
+    "responseP": "Web sitesi desteği ve gizlilik e-postalarına genellikle birkaç iş günü içinde yanıt veririz. Daha hızlı yardımcı olabilmemiz için net bir konu ekleyin (bozuk bağlantı, sürüm sorusu, gizlilik talebi). Üçüncü taraf shard'lardaki oyun içi kesintiler ve hesap sıfırlamaları bu site tarafından değil, o sunucu operatörleri tarafından yönetilir."
+  },
+  "Privacy": {
+    "h1": "Gizlilik Politikası",
+    "updated": "Son Güncelleme: 22 Temmuz 2026",
+    "sections": [
+      {
+        "title": "Giriş",
+        "body": "Bu Gizlilik Politikası, Master Royale özel sunucu APK'si hakkında bilgilendirici bir web sitesi olan masterroyaleapk.com'u ziyaret ettiğinizde Master Royale'in (« biz », « bizim » veya « bize ») bilgileri nasıl işlediğini açıklar. Her üçüncü taraf Master Royale oyun sunucusunun operatörü değiliz. APK içinde oluşturulan oyun hesapları, yalnızca bu web sitesi tarafından değil, o sunucu operatörleri tarafından yönetilir."
+      },
+      {
+        "title": "Topladığımız Bilgiler",
+        "body": "Çoğu web sitesi gibi, barındırma veya analitik araçlarımız otomatik olarak IP adresi, tarayıcı türü, yaklaşık bölge, görüntülenen sayfalar, yönlendiren URL, ziyaret zaman damgaları ve temel performans metriklerini alabilir. support@masterroyaleapk.com adresine e-posta gönderirseniz, yanıtlayabilmemiz için dahil ettiğiniz adresi ve içeriği alırız. JazzCash, EasyPaisa veya banka şifreleri istemeyiz. Bize resmi Clash Royale hesap kimlik bilgileri göndermeyin."
+      },
+      {
+        "title": "Bilgileri Nasıl Kullanırız",
+        "body": "Bilgileri masterroyaleapk.com rehberlerini ve indirme sayfalarını işletmek ve iyileştirmek, destek veya gizlilik e-postalarına yanıt vermek, kesintileri, spam'i veya kötüye kullanımı teşhis etmek ve sınırlı süre için güvenlik günlüklerini tutmak amacıyla kullanırız."
+      },
+      {
+        "title": "Çerezler ve Yerel Depolama",
+        "body": "Site tercihleri ve temel analitik için gerekli çerezler veya yerel depolama kullanabiliriz. Tarayıcı ayarlarınızda çerezleri temizleyebilirsiniz. Tüm çerezleri engellemek bazı UI özelliklerini etkileyebilir ancak indirme rehberleri okunabilir kalır."
+      },
+      {
+        "title": "Üçüncü Taraf Hizmetler",
+        "body": "Sayfalar APK indirme uç noktalarına, emülatör satıcı sitelerine veya sosyal profillere bağlantı verebilir. Bu hedeflerin kendi gizlilik politikaları vardır. Cihazınıza Master Royale kurmak, bu web sitesinin doğrudan kontrolü dışında ayrı bir eylemdir. Kişisel bilgi satmayız. Bu sitede gerçek para cüzdanı işletmeyiz."
+      },
+      {
+        "title": "Veri Saklama ve Güvenlik",
+        "body": "E-posta yazışmaları yalnızca talebinizi çözmek veya yasal yükümlülükleri karşılamak için gerektiği kadar tutulur. Web sitesini korumak için makul teknik önlemler kullanırız, ancak hiçbir internet iletimi mükemmel güvenli değildir."
+      },
+      {
+        "title": "Seçenekleriniz",
+        "body": "Bize gönderdiğiniz e-postaların silinmesini talep etmek veya tuttuğumuz iletişim verilerini sormak için support@masterroyaleapk.com adresine yazın. Mesajı bulabilmemiz için yeterli ayrıntı ekleyin. Yasadışı veya dolandırıcılık önleme için gerekli güvenlik günlüklerini bozacak talepleri reddedebiliriz."
+      },
+      {
+        "title": "Çocuklar",
+        "body": "Bu site bir strateji oyunu APK'sini tartışır. 13 yaşından küçük çocuklara yönelik değildir. Bir çocuğun bize e-posta ile kişisel veri gönderdiğine inanıyorsanız desteğe yazın; mümkün olduğunda sileceğiz."
+      },
+      {
+        "title": "Politika Güncellemeleri",
+        "body": "Uygulamalarımız veya yasal gereksinimler değiştiğinde bu Gizlilik Politikası'nı güncelleyebiliriz. Üstteki « Son Güncelleme » tarihi, revizyonları yayınladığımızda değişecektir."
+      },
+      {
+        "title": "İletişim",
+        "body": "Gizlilik soruları: support@masterroyaleapk.com · Bize Ulaşın · Sorumluluk Reddi"
+      }
+    ]
+  },
+  "Disclaimer": {
+    "h1": "Sorumluluk Reddi",
+    "subtitle": "Master Royale indirmeden önce lütfen okuyun",
+    "sections": [
+      {
+        "title": "Önemli Uyarı",
+        "body": "masterroyaleapk.com'u kullanarak, resmi olmayan APK'ler ve özel sunucular hakkında aşağıdaki koşulları kabul etmiş olursunuz."
+      },
+      {
+        "title": "Supercell ile Bağlı Değil",
+        "body": "Master Royale, resmi olmayan Clash Royale tarzı özel sunucu / mod APK'dir. Clash Royale® ve ilgili markalar Supercell Oy'un ticari markalarıdır. Bu web sitesi ve üçüncü taraf Master Royale istemcisi Supercell tarafından onaylanmamış, sponsorlanmamış veya bağlı değildir. Resmi olmayan istemcileri kullanmak, resmi oyun için Supercell'in hizmet şartlarını ihlal edebilir."
+      },
+      {
+        "title": "Üçüncü Taraf APK ve Özel Sunucular",
+        "body": "masterroyaleapk.com'daki indirme bağlantıları ve kurulum rehberleri üçüncü taraf yazılımı açıklar. Özel sunucular çevrimdışı olabilir, ilerlemeyi silebilir, paket adlarını değiştirebilir veya haber vermeden değiştirilmiş ikili dosyalar gönderebilir. Her zaman ayrı bir hesap oluşturun ve resmi Supercell kimlik şifrenizi, e-posta OTP'nizi veya ödeme kimlik bilgilerinizi modlanmış bir istemcide asla yeniden kullanmayın."
+      },
+      {
+        "title": "Yalnızca Bilgilendirici Web Sitesi",
+        "body": "Bu sitedeki içerik genel bilgilendirme içindir: APK sürüm notları, Vanilla vs Infinity açıklamaları, Android ve PC emülatör ipuçları. Herhangi bir indirme hostunun, sunucu shard'ının veya « sınırsız elmas » gibi özellik setinin kesintisiz kullanılabilirliğini garanti etmiyoruz. Bu kaynaklar özel sunucu ortamında vardır ve değişebilir."
+      },
+      {
+        "title": "Gerçek Para Kazanç İddiası Yok",
+        "body": "Burada açıklandığı şekliyle Master Royale bir strateji / arcade özel sunucu deneyimidir. Bu web sitesi JazzCash, EasyPaisa veya diğer gerçek nakit yatırma/çekme kumar ürünlerini tanıtmamaktadır. Oyun içi elmaslar ve altın, Master Royale üzerinden bozdurulabilir banka bakiyeleri değildir."
+      },
+      {
+        "title": "Sideloading Riskleri",
+        "body": "Resmi uygulama mağazalarının dışından APK kurmak güvenlik riski taşır. « Bilinmeyen uygulamaları yükle »yi yalnızca güvendiğiniz kaynaklar için etkinleştirin, cihazları düzenli tarayın ve artık kullanmadığınız derlemeleri kaldırın. Değiştirilmiş oyun istemcileri ve kurduğunuz yazılım konusunda yerel yasalara uymak sizin sorumluluğunuzdadır."
+      },
+      {
+        "title": "Sorumluluk Sınırlaması",
+        "body": "Yasaların izin verdiği en geniş ölçüde, Master Royale ve masterroyaleapk.com cihaz hasarı, veri kaybı, resmi oyunlarda hesap yasakları, CTA'mız dışındaki ayna sitelerden gelen zararlı yazılım veya özel sunucu operatörleriyle anlaşmazlıklardan sorumlu değildir. Yazılımı kendi riskinizle kullanın."
+      },
+      {
+        "title": "Harici Bağlantılar",
+        "body": "Emülatör satıcılarına veya indirme aynalarına bağlantı verebiliriz. Bu siteler kontrolümüz dışındadır. Herhangi bir şey kurmadan önce şartlarını inceleyin."
+      },
+      {
+        "title": "İletişim",
+        "body": "Bu sorumluluk reddi hakkında sorular: support@masterroyaleapk.com veya Bize Ulaşın. Ayrıca Gizlilik Politikamıza bakın."
+      }
+    ]
+  },
+  "NotFound": {
+    "title": "404",
+    "heading": "Sayfa Bulunamadı",
+    "text": "Bu URL eksik veya taşındı. Ücretsiz APK indirme rehberi, Vanilla vs Infinity notları ve PC emülatör ipuçları için Master Royale'e geri dönün.",
+    "home": "Ana Sayfaya Dön"
+  }
+}

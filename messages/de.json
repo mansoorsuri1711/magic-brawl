@@ -1,0 +1,469 @@
+{
+  "Meta": {
+    "homeTitle": "Master Royale APK 2026 – Kostenloser Download Privater Server",
+    "homeDescription": "Master Royale APK kostenlos für Android, PC & iOS-Sideload herunterladen. Clash-Royale-ähnlicher Privateserver mit unbegrenzten Edelsteinen, Gold, freigeschalteten Karten, Vanilla- & Infinity-Modi. Installationsanleitung & FAQ.",
+    "downloadTitle": "Master Royale APK Herunterladen – Kostenlose Android- & iOS-Anleitung",
+    "downloadDescription": "Master Royale APK {version} ({fileSize}) kostenlos für Android herunterladen. Schritt-für-Schritt Privateserver-Installation, iOS-Sideload-Hinweise, APK-Details und Sicherheitstipps auf masterroyaleapk.com.",
+    "pcTitle": "Master Royale für PC – BlueStacks-Emulator-Anleitung",
+    "pcDescription": "Spiele Master Royale auf dem PC mit Android-Emulatoren wie BlueStacks. Windows-Anforderungen, VT-x-Einrichtung, APK-Drag-and-Drop-Installation, Tastatur-Mapping und Fehlerbehebung.",
+    "aboutTitle": "Über Uns – Master Royale APK-Anleitungen",
+    "aboutDescription": "Erfahre mehr über Master Royale auf masterroyaleapk.com — ein Informationshub für Master-Royale-Privateserver-APK-Downloads, Vanilla- & Infinity-Anleitungen und PC-Emulator-Tipps.",
+    "contactTitle": "Kontakt – Master Royale Support",
+    "contactDescription": "Kontaktiere Master Royale auf masterroyaleapk.com. E-Mail an support@masterroyaleapk.com bei Fragen zu Anleitungen, Datenschutzanfragen oder Website-Problemen.",
+    "privacyTitle": "Datenschutzerklärung – Master Royale",
+    "privacyDescription": "Datenschutzerklärung für masterroyaleapk.com. Wie diese informative Master-Royale-APK-Website Daten, Cookies und Kontakt-E-Mails handhabt.",
+    "disclaimerTitle": "Haftungsausschluss – Master Royale Privateserver",
+    "disclaimerDescription": "Haftungsausschluss für masterroyaleapk.com: Master Royale ist ein Drittanbieter-Clash-Royale-ähnlicher Privateserver / Mod-APK, nicht mit Supercell verbunden. Nur Informationsseite.",
+    "notFoundTitle": "Seite Nicht Gefunden – Master Royale"
+  },
+  "Nav": {
+    "home": "Startseite",
+    "download": "Herunterladen",
+    "pc": "PC-Version",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "downloadNow": "JETZT HERUNTERLADEN",
+    "main": "HAUPT",
+    "guides": "ANLEITUNGEN",
+    "info": "INFO",
+    "installGuide": "Installationsanleitung"
+  },
+  "Footer": {
+    "aboutText": "Master Royale ist ein Clash-Royale-Privateserver-Erlebnis mit freigeschalteten Ressourcen, Custom-Battles und kostenlosem Android-APK-Zugang. Lerne Installationsschritte, PC-Setup und Sicherheitstipps auf masterroyaleapk.com.",
+    "quickLinks": "Schnelllinks",
+    "resources": "Ressourcen",
+    "downloadApp": "App Herunterladen",
+    "downloadAppText": "Hole dir das neueste Master Royale APK für Android und starte Battles mit unbegrenzten Edelsteinen, Gold und freigeschalteten Karten.",
+    "privacy": "Datenschutzerklärung",
+    "disclaimer": "Haftungsausschluss",
+    "copyright": "© 2026 Master Royale. Alle Rechte vorbehalten."
+  },
+  "Common": {
+    "freeAndroidGame": "Kostenlos · Android · Spiel",
+    "ratings": "Bewertungen",
+    "downloads": "Downloads",
+    "appSize": "App-Größe",
+    "breadcrumbsHome": "Startseite",
+    "readMore": "Mehr lesen"
+  },
+  "Languages": {
+    "label": "Sprache",
+    "en": "ENGLISH",
+    "fr": "FRANÇAIS",
+    "tr": "TÜRK",
+    "es": "ESPAÑOL",
+    "pt": "PORTUGUESE",
+    "de": "DEUTSCH"
+  },
+  "Home": {
+    "h1": "Master Royale",
+    "subtitle": "APK-Download (Neueste Version) für Android, PC & iOS",
+    "intro": "Master Royale lässt dich Truhen-Timer und Bezahlschranken überspringen, indem ein Clash-Royale-ähnlicher Client mit einem Community-Privateserver verbunden wird. Hol dir unbegrenzte Edelsteine und Gold, schalte den Kartenpool frei und springe in Vanilla oder Infinity ohne Echtgeld-Einzahlungen. Folge der Master-Royale-Download-Anleitung für Android (und iOS-Sideload-Hinweisen) oder spiele auf einem Desktop-Emulator über unsere PC-Versionsseite.",
+    "androidOnlyNote": "*Inoffizieller Privateserver / Drittanbieter-Mod · nicht mit Supercell verbunden · Android-APK mit PC-Emulator- & iOS-Sideload-Pfaden",
+    "tableTitle": "Master Royale APK-Details",
+    "table": {
+      "appName": "App-Name",
+      "package": "Paketname",
+      "category": "Kategorie",
+      "version": "Neueste Version",
+      "size": "Dateigröße",
+      "os": "Erforderliches OS",
+      "price": "Preis",
+      "rating": "Bewertung"
+    },
+    "whatTitle": "Was Ist Master Royale?",
+    "whatP1": "Master Royale ist ein Clash-Royale-ähnlicher Privateserver, der als modifizierter Android-Client gepackt ist. Statt mit den offiziellen Hosts von Supercell zu sprechen, zeigt die App auf einen eigenen Community-Server mit eigenem Matchmaking, eigener Wirtschaft und eigenen Fortschrittsregeln. Diese Trennung — dein Client versus der Retail-Host — ist die Kernidee des Privateservers.",
+    "whatP2": "Unter der Haube setzen Privateserver auf Datenbank-Entkopplung: Spielerinventare, Edelstein-Salden und Kartenlevel leben im Datenspeicher der eigenen Umgebung, nicht in deinem Retail-Clash-Royale-Profil. Ressourcenfreiheit folgt aus diesem Design — die Betreiber können großzügige Edelsteine, Gold und Freischaltungen vergeben, damit du weniger Zeit mit Truhen-Zyklen wartest. Sandbox-Mechaniken (besonders in Infinity) lassen dich dann Decks, Level und sogar Custom-Karten ausprobieren, ohne die offizielle Fortschrittswand.",
+    "whatP3": "Kontosicherheit zählt. Ein Master-Royale-Login ist von deinem Retail-Supercell-Konto isoliert. Erstelle einen Wegwerf-Nickname und ein Passwort nur für den Privateserver. Wiederverwende keine Bankdaten und keine offizielle Clash-Royale-ID. Auf masterroyaleapk.com veröffentlichen wir Installationsschritte, Vanilla-vs-Infinity-Hinweise, PC- und iOS-Sideload-Pfade sowie ehrliche Sicherheitswarnungen, damit du entscheiden kannst, bevor du etwas sideloadest.",
+    "privateServerTitle": "Privateserver Verstehen",
+    "privateServerP1": "Ein Privateserver ist eine von der Community gehostete Spielumgebung, die neben — nicht innerhalb — dem offiziellen Clash-Royale-Backend läuft. Dein Gerät installiert einen modifizierten Client, der sich mit eigenen Matchmaking- und Wirtschaftsregeln verbindet. Fortschritt, Edelsteine und Kartenlevel leben in dieser Drittanbieter-Datenbank — deshalb kannst du Retail-Truhen-Timer überspringen, ohne echtes Geld für IAP auszugeben.",
+    "privateServerAdv1Title": "Datenbank-Entkopplung",
+    "privateServerAdv1": "Spielerinventare, Edelstein-Salden und Ladder-Rankings werden im eigenen Datenspeicher des Privateservers gespeichert. Diese Isolation bedeutet, dass Master-Royale-Profile nicht mit deinem offiziellen Clash-Royale-Konto synchronisieren — und Retail-Fortschritt getrennt bleibt, solange du nie Supercell-Zugangsdaten in den Mod-Client einfügst.",
+    "privateServerAdv2Title": "Vollständige Ressourcenfreiheit",
+    "privateServerAdv2": "Weil die Wirtschaft vom Betreiber gesteuert wird, gewähren Builds oft unbegrenzte Edelsteine und Gold, frühe Kartenfreischaltungen und schnelle Upgrade-Pfade. Diese Ressourcen existieren nur innerhalb der Privateserver-Sandbox — sie sind kein bankfähiges Bargeld und können nicht über JazzCash, EasyPaisa oder ähnliche Wallets abgehoben werden.",
+    "privateServerAdv3Title": "Sandbox-Mechaniken",
+    "privateServerAdv3": "Sandbox-Modi (besonders Infinity) lassen dich Decks theory-craften, sofort Richtung Max-Level pushen und Community-Custom-Karten ausprobieren, ohne monatelanges Truhen-Grinden. Behandle experimentelle Einheiten als Community-Kreationen, die sich zwischen Updates ändern können — nicht als offiziellen Supercell-Inhalt.",
+    "accountSafetyNote": "Erstelle immer einen frischen Privateserver-Nickname und ein Passwort. Gib niemals deine offizielle Supercell-ID, Bankdaten oder SMS-OTPs in Master Royale oder einen anderen Drittanbieter-Client ein.",
+    "modesTitle": "Vanilla vs Infinity Modi",
+    "vanillaTitle": "Vanilla",
+    "vanillaP": "Vanilla hält den Match-Flow näher an klassischen Clash-Royale-Gewohnheiten. Du erhältst weiterhin großzügige Privateserver-Ressourcen, aber Kartenverfügbarkeit und Ladder-Struktur wirken geerdeter. Ideal, wenn du Elixir-Timing und Turm-Trading mit weniger Warten üben willst.",
+    "infinityTitle": "Infinity",
+    "infinityP": "Infinity ist die Sandbox-Spur. Builds starten oft mit einem riesigen Ressourcenpool (häufig im Stil einer 1M+-Münzen-und-Edelsteine-Wirtschaft), sofortigem Zugang Richtung Max-Level und experimentellen Custom-Karten. Einige Client-Builds enthalten auffällige Custom-Einheiten wie Infinite Sparky — behandle sie als Community-Kreationen, die sich zwischen Updates ändern können. Nutze Infinity, um Synergien, Meme-Comps und Max-Level-Interaktionen ohne Truhen-Zyklen zu stresstesten.",
+    "featuresTitle": "Wichtige Features von Master Royale",
+    "features": [
+      {
+        "title": "Unbegrenzte Edelsteine & Gold",
+        "text": "Shop- und Upgrade-Schleifen durch die Privateserver-Wirtschaft, ohne Retail-IAP-Schranken."
+      },
+      {
+        "title": "Alle Karten freigeschaltet",
+        "text": "Öffne die Sammlung früh, damit du theory-craften kannst, statt Monate Truhen zu grinden."
+      },
+      {
+        "title": "Sofortige Max-Level",
+        "text": "Pushe Karten schnell zu Top-Stufen (besonders in Infinity), um echte Endgame-Interaktionen zu testen."
+      },
+      {
+        "title": "1v1- und 2v2-Battles",
+        "text": "Klassischer Arena-Druck plus Duo-Modi, wenn der Live-Shard sie unterstützt."
+      },
+      {
+        "title": "Custom-OP-Karten",
+        "text": "Community-Kreationen (z. B. Infinite-Sparky-ähnliche Einheiten auf manchen Builds) für Sandbox-Experimente."
+      },
+      {
+        "title": "Stabile Community-Server",
+        "text": "Betreiber zielen auf regelmäßige Uptime, damit du länger als eine LAN-Nacht queuen kannst."
+      },
+      {
+        "title": "Clans & Social Play",
+        "text": "Tritt Clans bei, chatte und teile Decks, wenn der aktive Build diese Features freigibt."
+      },
+      {
+        "title": "Regelmäßige Updates",
+        "text": "Clients zielen auf aktuelle Paketversionen wie {version} / {versionAlt}."
+      },
+      {
+        "title": "Sichere isolierte Umgebung",
+        "text": "Fortschritt bleibt auf der privaten Datenbank — halte ihn getrennt von deinem Retail-Supercell-Login."
+      }
+    ],
+    "reqTitle": "Systemanforderungen",
+    "reqAndroidTitle": "Android",
+    "reqAndroid": [
+      "OS: {os} (beste auf Android 5.0+ / empfohlen Android 8+ für flüssige Matches)",
+      "CPU: Quad-Core ~2 GHz oder besser",
+      "RAM: 4 GB empfohlen",
+      "Speicher: freier Platz für ca. 1 GB+ nach der Installation (APK {fileSize} plus Cache)"
+    ],
+    "reqIosTitle": "iPhone",
+    "reqIos": [
+      "iOS 10 oder neuer",
+      "iPhone 6 oder neuer (oder gleichwertiges iPad)",
+      "Nur IPA-Sideload — Apple installiert keine Android-APKs",
+      "AltStore-ähnliche Aktualisierung oder vertrauenswürdiges Zertifikat erforderlich"
+    ],
+    "reqWinTitle": "Windows",
+    "reqWin": [
+      "Windows 11 bevorzugt (Windows 10 weiterhin üblich)",
+      "RAM: 8–16 GB",
+      "CPU: Intel i3 8. Gen / AMD Ryzen 3000-Serie oder besser",
+      "SSD stark empfohlen; VT-x / AMD-V im BIOS aktivieren"
+    ],
+    "installTitle": "So Downloadest & Installierst du auf Android",
+    "installSteps": [
+      "Unbekannte Quellen aktivieren. Unter Android-Einstellungen → Apps → Spezieller Zugriff → Unbekannte Apps installieren erlaube deinem Browser oder der Dateien-App, Pakete zu installieren.",
+      "Von dieser Seite herunterladen. Öffne /download-master-royale auf masterroyaleapk.com, tippe auf JETZT HERUNTERLADEN und warte, bis die vollständige {fileSize}-Datei ({version}) fertig ist.",
+      "APK installieren. Öffne das heruntergeladene Paket, tippe auf Installieren und bestätige eine Play-Protect-Prüfung nur, wenn du diese Datei bewusst von masterroyaleapk.com gewählt hast.",
+      "Starten und spielen. Tippe auf Öffnen, erstelle ein neues Privateserver-Konto und wähle Vanilla oder Infinity. Gib niemals offizielle Supercell-Zugangsdaten ein."
+    ],
+    "accountTitle": "Konto Erstellen & Anmelden",
+    "accountP": "Nach dem ersten Start fordert Master Royale dich meist auf, dich mit Nickname, E-Mail oder Gast-ID und einem von diesem Privateserver-Build definierten Passwort zu registrieren. Behandle das als Wegwerf-Gaming-Login. Weil die Umgebung datenbankmäßig von Retail-Supercell-Servern entkoppelt ist, wandert dein Master-Royale-Profil nicht in offizielles Clash Royale — und dein offizielles Konto bleibt getrennt, solange du diese Zugangsdaten hier nie einfügst.",
+    "tipsTitle": "Praktische Tipps",
+    "tips": [
+      "Übe eine Win-Condition eine ganze Session lang, statt jedes Battle das Deck zu wechseln.",
+      "In Infinity zwinge dich zu Mid-Ladder-Comps, damit Muskelgedächtnis auf das offizielle Spiel überträgt.",
+      "Schau dir Replays an, wenn verfügbar; Privateserver eignen sich am besten als Trainings-Gym.",
+      "Halte Speicher frei — {fileSize} plus Cache summiert sich schnell auf günstigen Android-Handys.",
+      "Aktualisiere nur über die Download-Seite dieser Site, damit du keine inkompatiblen APK-Forks mischst.",
+      "Bevorzuge eine stabile WLAN-Verbindung für 2v2 und Stoßzeiten-Queues; Paketverlust schadet Turmraces."
+    ],
+    "prosTitle": "Vorteile",
+    "pros": [
+      "Leicht zu lernen, wenn du Arena-Battles schon kennst",
+      "Mehrsprachige Community-Builds sind üblich",
+      "Clans und Social Features, wenn der Shard live ist",
+      "Nützlich für Stats-Übung und Strategy-Theory-Crafting",
+      "Vanilla-/Infinity-Wahl für unterschiedliche Stimmungen",
+      "{price}-APK ohne bezahltes Storefront-Tor"
+    ],
+    "consTitle": "Nachteile",
+    "cons": [
+      "Inoffiziell — Fortschritt kann zurückgesetzt werden, wenn Betreiber Datenbanken wipen oder migrieren",
+      "Mögliches Lag, Queue-Warten oder Wartungsfenster auf vollen Shards",
+      "Sideloading birgt immer Malware-Risiko, wenn du APKs von zufälligen Mirrors holst",
+      "Online-Bevölkerung variiert nach Zeitzone und Server-Shard",
+      "Nicht mit Supercell verbunden; Features können zwischen Client-Updates kaputtgehen"
+    ],
+    "safetyTitle": "Sicherheitshinweise",
+    "safetyP": "Master Royale ist Drittanbieter-Software. Lade nur über den CTA auf unserer Download-Seite herunter, halte „Unbekannte Apps installieren“ nur für den Installer aktiviert, dem du vertraust, und widerrufe es danach. Teile niemals SMS-OTPs, Bankdaten oder offizielle Clash-Royale-Zugangsdaten in einem Privateserver-Client. Weil Konten von Retail-Supercell-Servern isoliert sind, sollte ein Privateserver-Ban oder -Wipe dein offizielles Ladder-Profil nicht berühren — solange du diese Zugangsdaten nie verknüpft hast. Diese Website ist informativ. Wir behaupten nicht, dass Master Royale das offizielle Clash-Royale-Erlebnis ersetzt, und versprechen keine Echtgeld-Einnahmen. Lies Haftungsausschluss und Datenschutzerklärung vor der Installation.",
+    "troubleTitle": "Fehlerbehebung",
+    "trouble": [
+      {
+        "title": "Verbindungsfehler / Kapazität",
+        "text": "Stoßzeiten können die Privateserver-Kapazität füllen. Wechsle das Netzwerk, versuche es später oder deaktiviere konfliktierende VPN-Routen. Wenn der Client eine Versionsabweichung meldet, installiere {version} von dieser Seite neu."
+      },
+      {
+        "title": "Cache nach schlechten Updates leeren",
+        "text": "Android-Einstellungen → Apps → Master Royale → Speicher → Cache leeren (vermeide Daten löschen, außer du akzeptierst den Verlust lokaler Login-Token). Dann neu starten."
+      },
+      {
+        "title": "Speicher freigeben",
+        "text": "Unvollständige Installationen passieren oft, wenn das Gerät das {fileSize}-Paket plus Entpack-Speicher nicht fertig schreiben kann. Halte ca. 1 GB+ frei, nicht mythische Hunderte GB."
+      },
+      {
+        "title": "Mehrere Privateserver-APKs im Konflikt",
+        "text": "Mehrere Clash-Royale-Privateserver-Clients zu stapeln kann gemeinsame Daten überschreiben oder Signaturen verwirren. Deinstalliere ältere Forks vor der Installation von Master Royale und lade dann eine saubere Kopie von masterroyaleapk.com."
+      },
+      {
+        "title": "APK-Parse-Fehler",
+        "text": "Lade die vollständige Datei erneut herunter; abgebrochene Transfers korrumpieren oft das Paket."
+      },
+      {
+        "title": "App stürzt beim Start ab",
+        "text": "RAM freigeben, WebView/Android-Systemkomponenten aktualisieren falls verfügbar, oder einen Emulator auf dem PC versuchen."
+      }
+    ],
+    "supportTitle": "Website-Support",
+    "supportP": "Brauchst du Hilfe bei Anleitungen auf masterroyaleapk.com, kaputten Download-Ankern oder Datenschutzanfragen? E-Mail an support@masterroyaleapk.com oder öffne Kontakt. Wir decken diese Informationsseite ab — nicht den Supercell-Kundenservice und nicht jeden Drittanbieter-Serverausfall.",
+    "faqTitle": "Häufig Gestellte Fragen",
+    "faqs": [
+      {
+        "q": "Wie lade ich das neueste Master Royale APK herunter?",
+        "a": "Öffne masterroyaleapk.com, gehe zu Master Royale Herunterladen, tippe auf JETZT HERUNTERLADEN und speichere das {version}-Paket ({fileSize}). Aktiviere Unbekannte Apps installieren für deinen Browser oder die Dateien-App, öffne das APK, installiere und starte dann. Vollständige Schritte findest du unter /download-master-royale."
+      },
+      {
+        "q": "Ist Master Royale bei Google Play oder im App Store?",
+        "a": "Nein. Master Royale ist ein inoffizieller Privateserver-Client. Er ist weder bei Google Play noch im Apple App Store gelistet. Android-Nutzer sideloaden das APK von dieser Seite; iOS-Spieler brauchen IPA-Sideload-Tools wie AltStore, und PC-Spieler führen dasselbe APK in einem Android-Emulator aus."
+      },
+      {
+        "q": "Wird mein offizielles Clash-Royale-/Supercell-Konto gebannt?",
+        "a": "Master-Royale-Konten sind von der Retail-Supercell-Umgebung isoliert. Fortschritt und Logins leben in der eigenen Datenbank des Privateservers, nicht in deinem offiziellen Clash-Royale-Profil. Gib dennoch niemals deine Supercell-ID oder dein Passwort in einen Drittanbieter-Client ein — erstelle stattdessen einen frischen Privateserver-Login."
+      },
+      {
+        "q": "Was ist der beste Clash-Royale-Privateserver?",
+        "a": "„Beste“ hängt von Uptime, Community-Größe und davon ab, ob du eine vertraute Ladder oder eine Sandbox willst. Master Royale ist eine der häufiger diskutierten Optionen dank Vanilla- und Infinity-Modi, regelmäßiger Client-Updates und einer großen Ressourcen-Sandbox. Andere Privateserver existieren mit anderen Regelwerken — probiere, was zu deinen Zielen passt, und lade immer von einer Quelle herunter, der du vertraust."
+      },
+      {
+        "q": "Funktioniert Master Royale auf PC und iOS?",
+        "a": "Ja, mit Einschränkungen. Auf dem PC installiere einen Android-Emulator (BlueStacks oder ähnlich), dann sideloade das Master Royale APK von dieser Seite — siehe unsere Master-Royale-für-PC-Anleitung. Auf iOS führt Apple keine Android-APKs aus; du brauchst einen IPA-Sideload über AltStore oder ein sorgfältig geprüften Enterprise-Profil, mit Zertifikat-Aktualisierung und Vertrauensschritten. Details stehen auf der Download-Seite."
+      },
+      {
+        "q": "Ist Master Royale kostenlos?",
+        "a": "Ja. Das hier gelistete Master Royale APK ist {price} zum Download (Schema-Preis 0). Edelsteine, Gold und Freischaltungen auf dem Privateserver kommen aus der gemoddeten Umgebung — das ist kein Cash-out- oder Echtgeld-Verdienstprodukt."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Vanilla und Infinity?",
+        "a": "Vanilla hält den Match-Flow näher an klassischen Ladder-Gewohnheiten mit verstärkten Privateserver-Ressourcen. Infinity ist eine volle Sandbox: massive Start-Münz-/Edelstein-Pools (oft im Stil der 1M+-Wirtschaft), sofortiger Max-Level-Zugang und experimentelle Custom-Karten (Builds enthalten manchmal Highlights wie Infinite Sparky). Viele Spieler nutzen Vanilla zum Üben und Infinity für chaotisches Theory-Crafting."
+      },
+      {
+        "q": "Welche Android-Version braucht Master Royale?",
+        "a": "Master Royale listet {os}. Beste auf Android 5.0+ / empfohlen Android 8+. Für flüssigere Battles empfehlen wir eine Quad-Core-~2-GHz-CPU, 4 GB RAM und genug freien Speicher für ca. 1 GB+ nach der Installation (APK ca. {fileSize})."
+      },
+      {
+        "q": "Was ist Master Royale?",
+        "a": "Master Royale ist ein kostenloser Clash-Royale-ähnlicher Privateserver / Mod-Client. Dein Gerät führt einen modifizierten Spielclient aus, der mit einem eigenen Host statt den offiziellen Supercell-Servern spricht, mit serverseitigen Ressourcen wie unbegrenzten Edelsteinen und Gold, freigeschalteten Karten sowie Vanilla- und Infinity-Modi. Er ist nicht mit Supercell verbunden und keine Echtgeld-Verdienst-App."
+      },
+      {
+        "q": "Ist Master Royale sicher zu installieren?",
+        "a": "Installiere nur von vertrauenswürdigen Informationsseiten wie masterroyaleapk.com, begrenze Unbekannte Quellen auf den Installer, den du nutzt, widerrufe die Berechtigung danach und teile niemals Bankdaten oder dein Haupt-Supercell-Passwort. Privateserver sind Drittanbieter-Software — nutze ein separates Konto und lies unseren Haftungsausschluss."
+      },
+      {
+        "q": "Warum lässt sich das APK nicht installieren oder verbinden?",
+        "a": "Häufige Fixes: Unbekannte Apps installieren aktivieren, Speicher für das {fileSize}-Paket plus Cache freigeben, erneut herunterladen wenn die Datei abgebrochen war, App-Cache nach einem schlechten Update leeren und vermeiden, mehrere Privateserver-APKs mit konfliktierenden Paketdaten zu stapeln. Verbindungsfehler bedeuten oft Serverkapazität, Wartung oder Client-/Server-Versionsabweichung — bestätige, dass du {version} installiert hast."
+      },
+      {
+        "q": "Wie kontaktiere ich den Support dieser Seite?",
+        "a": "Bei Fragen zu dieser Informationswebsite (Anleitungen, kaputte Links, Datenschutz) schreibe an support@masterroyaleapk.com oder besuche die Kontakt-Seite. In-Game-Privateserver-Ausfälle werden von den Drittanbieter-Betreibern gehandhabt, nicht von Supercell."
+      }
+    ],
+    "ctaTitle": "Bereit, Master Royale auszuprobieren?",
+    "ctaText": "Lade das kostenlose APK von masterroyaleapk.com herunter, erstelle ein Privateserver-Konto und erkunde Vanilla oder Infinity in deinem Tempo. Lieber ein größerer Bildschirm? Folge der Master-Royale-für-PC-Emulator-Anleitung nach dem Download — oder sieh dir iOS-Sideload-Hinweise auf der Download-Seite an."
+  },
+  "Download": {
+    "h1": "Master Royale APK Herunterladen",
+    "intro": "Kostenlose Android-Installationsanleitung für den Master-Royale-Clash-Royale-ähnlichen Privateserver — Version {version}, {fileSize}. iOS-Spieler nutzen nur IPA-Sideload (siehe unten); PC-Spieler nutzen einen Emulator mit demselben APK.",
+    "ctaTitle": "Hol dir das Master Royale APK",
+    "ctaText": "Tippe unten, um den kostenlosen Download von masterroyaleapk.com zu starten. Nach der Installation erstelle einen frischen Privateserver-Login — gib niemals offizielle Supercell-Zugangsdaten ein.",
+    "infoTitle": "APK-Informationen",
+    "installTitle": "Vollständige Android-Installationsanleitung",
+    "installSteps": [
+      "Unbekannte Quellen aktivieren. Öffne Einstellungen → Apps → Spezieller Zugriff → Unbekannte Apps installieren und erlaube Chrome, Firefox oder Dateien, Pakete zu installieren.",
+      "Von dieser Seite herunterladen. Springe zum apk-download-Bereich und tippe auf JETZT HERUNTERLADEN. Bleibe wenn möglich im WLAN — das APK ist ca. {fileSize} ({version}).",
+      "APK installieren. Öffne das heruntergeladene Paket, bestätige Installieren und gehe nur an Play Protect vorbei, wenn du diese Datei bewusst von masterroyaleapk.com gewählt hast.",
+      "Master Royale starten. Tippe auf Öffnen, registriere ein neues Privateserver-Konto, wähle Vanilla oder Infinity und starte ein Übungsbattle."
+    ],
+    "iosTitle": "So Installierst du auf iOS (iPhone & iPad)",
+    "iosIntro": "Apple blockiert Android-APKs auf iPhone und iPad. Es gibt keinen Play-Store-ähnlichen APK-Installationspfad auf iOS. Wenn ein Master-Royale-IPA-Build von einer Quelle verfügbar ist, der du vertraust, musst du ihn sideloaden — typischerweise mit AltStore (oder ähnlich) und einem kostenlosen Entwicklerzertifikat, das etwa alle 7 Tage aktualisiert werden muss.",
+    "iosSteps": [
+      "Installiere AltStore (oder ein gleichwertiges Sideload-Tool) aus der offiziellen Dokumentation und vertraue dann dem Entwicklerzertifikat unter Einstellungen → Allgemein → VPN & Geräteverwaltung.",
+      "Erwarte, das IPA bei kostenlosen Apple-IDs etwa alle 7 Tage zu aktualisieren, sonst startet das App-Symbol nicht mehr.",
+      "Einige Mirrors pushen Enterprise-Provisioning-Profile. Behandle sie vorsichtig: Enterprise-Profile können breites Gerätevertrauen gewähren. Installiere nur Profile, die du verstehst, und entferne sie sofort, wenn etwas seltsam wirkt.",
+      "Häufig genannte Mindestgeräte-Richtlinie für diese Clients: iOS 10+ auf iPhone 6 oder neuer. Die Leistung variiert — neuere Hardware ist sicherer für Live-Battles."
+    ],
+    "afterTitle": "Nach der Installation",
+    "afterP": "Gewähre nur die Berechtigungen, die das Spiel zum Laufen braucht (Speicher/Netzwerk). Du brauchst keinen SMS- oder Kontaktzugriff für einen Privateserver-Arena-Client. Begrenze Unbekannte Quellen auf den Installer, den du genutzt hast, und widerrufe ihn danach. Für Überblick-Inhalte zurück zur Master-Royale-Startseite. Für rechtlichen Kontext lies unseren Haftungsausschluss.",
+    "againTitle": "Erneut herunterladen"
+  },
+  "PC": {
+    "h1": "Master Royale für PC",
+    "intro": "Führe das Master-Royale-Privateserver-APK auf Windows über einen Android-Emulator aus — stabilere FPS, kühlere Thermik als ein Handy und Tastatur-Overlays für schnellere Kartenzyklen.",
+    "whyTitle": "Warum Master Royale auf dem PC spielen?",
+    "whyP": "Emulatoren spiegeln Android auf deinem Computer, sodass dasselbe Master Royale APK ohne Handy läuft. Spieler wählen PC für höhere, konsistentere FPS bei Turmraces, längere Sessions ohne Handyakku-Drain und Tastatur-Overlays, die jeden Kartenslot einer Taste zuordnen. Das ist weiterhin der inoffizielle Privateserver-Client — kein natives Steam-Build und keine offizielle Supercell-PC-Veröffentlichung. Fortschritt lebt auf dem Drittanbieter-Server, dem du beitrittst.",
+    "reqTitle": "Windows-Anforderungen",
+    "req": [
+      "Windows 11 bevorzugt (Windows 10 wird von großen Emulatoren weiterhin breit unterstützt)",
+      "RAM: 8–16 GB (16 GB fühlt sich flüssiger an, wenn Chrome und Discord offen bleiben)",
+      "CPU: Intel Core i3 8. Generation / AMD Ryzen 3000-Serie oder besser",
+      "SSD stark empfohlen für Emulator-Boot und APK-Installationsgeschwindigkeit",
+      "Freier Speicherplatz für das Emulator-Image plus das {fileSize}-APK und Cache (plane mehrere GB insgesamt)",
+      "Hardware-Virtualisierung (VT-x / AMD-V) im BIOS für BlueStacks-Leistung aktiviert",
+      "Stabiles Broadband — Privateserver brauchen eine durchgehende Verbindung"
+    ],
+    "stepsTitle": "Schritt für Schritt: Bereitstellen, Installieren, Steuerung mappen",
+    "steps": [
+      "Emulator bereitstellen. Installiere BlueStacks (oder einen vergleichbaren Android-Emulator) von der offiziellen Seite. Wenn der Setup-Assistent über Virtualisierung meckert, starte in BIOS/UEFI neu, aktiviere Intel VT-x oder AMD-V und beende den First-Run.",
+      "APK von dieser Seite herunterladen. Auf demselben PC öffne Master Royale Herunterladen und speichere das Paket ({version}, {fileSize}). Bleibe bei masterroyaleapk.com, damit du keine zufälligen Forks mischst.",
+      "Drag-and-Drop-Installation. Ziehe das APK auf das Emulatorfenster oder nutze den integrierten „APK installieren“-/„Plus“-Button und navigiere zur Datei. Warte, bis das Paket fertig installiert ist.",
+      "Tastatur-Mapping für Kartenslots konfigurieren. Öffne den Steuerungs-/Keymapping-Editor des Emulators. Weise Tasten den vier Kartenslots zu (und optionale Elixir-Cycle-Makros, falls du sie nutzt). Speichere das Profil, starte Master Royale, erstelle ein Privateserver-Konto und wähle Vanilla oder Infinity."
+    ],
+    "tipsTitle": "PC-Emulator-Tipps",
+    "tips": [
+      "Mappe elixir-schwere Karten auf nahe Tasten, damit Cycle-Plays im Muskelgedächtnis schnell bleiben.",
+      "Schließe schwere Browser-Tabs und Hintergrundspiele, damit der Emulator CPU-Priorität behält.",
+      "Nutze wenn möglich eine Kabelverbindung; WLAN-Paketverlust schadet Turmraces.",
+      "Halte das Android-Image des Emulators aktuell und installiere Master Royale neu, wenn der Server seinen Client Richtung {version} / {versionAlt} anhebt.",
+      "Lies Sicherheitshinweise auf der Startseite — wiederverwende niemals offizielle Clash-Royale-Passwörter im Emulator."
+    ],
+    "problemsTitle": "Fehlerbehebung auf dem PC",
+    "problems": [
+      {
+        "title": "Schwarzer Bildschirm",
+        "text": "Starte den Emulator mit umgeschaltetem Kompatibilitäts-/OpenGL-Modus neu oder senke die Auflösung."
+      },
+      {
+        "title": "APK lässt sich nicht installieren",
+        "text": "Bestätige, dass der Download bei {fileSize} fertig ist und die Emulator-Android-Version {os} erfüllt. Lade von masterroyaleapk.com erneut herunter, wenn die Datei abgebrochen wirkt."
+      },
+      {
+        "title": "Lag-Spitzen",
+        "text": "Begrenze FPS, deaktiviere unnötige Emulator-Plugins und stelle sicher, dass VT-x / AMD-V wirklich aktiviert ist. Schließe andere Virtualisierungstools, die um Hyper-V-Ressourcen kämpfen."
+      },
+      {
+        "title": "Verbindung / Versionsabweichung",
+        "text": "Privateserver lehnen manchmal ältere Clients ab. Installiere das neueste APK von dieser Seite, leere den App-Cache im Emulator und vermeide das Stapeln mehrerer konfliktierender Privateserver-APKs."
+      }
+    ],
+    "ctaTitle": "Hol dir das APK für deinen Emulator",
+    "ctaText": "Lade von masterroyaleapk.com herunter und lege die Datei dann in BlueStacks oder deinen bevorzugten Emulator."
+  },
+  "About": {
+    "h1": "Über Uns",
+    "p1": "Willkommen bei masterroyaleapk.com, einer Informationswebsite zu Master Royale — einem Clash-Royale-ähnlichen Privateserver / Mod-APK mit Vanilla- und Infinity-Spielstilen.",
+    "p2": "Wir veröffentlichen Download-Schritte, APK-Details, PC-Emulator-Anleitungen und Sicherheitserinnerungen, damit Spieler verstehen, was sie installieren. Master Royale ist Drittanbieter-Software und nicht mit Supercell verbunden. Diese Seite verkauft keine Echtgeld-Glücksspielprodukte und bietet keine JazzCash- oder EasyPaisa-Cash-out-Funktionen.",
+    "coverTitle": "Was Wir Abdecken",
+    "coverItems": [
+      "Android-Master-Royale-APK-Download- und Installationsanleitungen",
+      "PC-Emulator-Guides für BlueStacks-/LDPlayer-ähnliche Setups",
+      "Vanilla-vs-Infinity-Erklärungen und praktische Battle-Tipps",
+      "Klare Hinweise zu Privateserver-Risiken und Kontosicherheit"
+    ],
+    "approachTitle": "Unser Ansatz",
+    "approachP": "Seiten sind in klarem Englisch für Spieler in Pakistan und anderswo geschrieben, die nach Master-Royale-APK-Informationen suchen. Wir halten Aussagen ehrlich: unbegrenzte Edelsteine und Gold beziehen sich auf Privateserver-Gameplay-Ressourcen, nicht auf bankfähiges Bargeld. Wenn sich Features auf dem Live-Server ändern, aktualisieren wir Versionsnummern und Installationshinweise, sobald wir sie verifizieren können.",
+    "touchTitle": "Kontakt Aufnehmen",
+    "touchP": "Fragen zu dieser Website? E-Mail an support@masterroyaleapk.com oder besuche Kontakt."
+  },
+  "Contact": {
+    "h1": "Kontakt",
+    "subtitle": "Wir helfen bei dieser Website",
+    "intro": "Nutze diese Seite, um das Team hinter masterroyaleapk.com zu erreichen. Wir können bei Master-Royale-APK-Anleitungsfragen, kaputten Links, Über-uns-Klärungen und Datenschutzanfragen helfen. Wir bieten keinen offiziellen Supercell-Support und können keine Privateserver-Konten von Dritten wiederherstellen.",
+    "emailTitle": "Schreib uns",
+    "emailText": "Sende Fragen oder Anliegen zu dieser Informationsseite",
+    "responseTitle": "Was du erwarten kannst",
+    "responseP": "Wir antworten typischerweise innerhalb weniger Werktage auf Website-Support- und Datenschutz-E-Mails. Füge einen klaren Betreff hinzu (kaputter Link, Versionsfrage, Datenschutzanfrage), damit wir schneller helfen können. In-Game-Ausfälle und Konto-Resets auf Drittanbieter-Shards werden von diesen Server-Betreibern gehandhabt, nicht von dieser Seite."
+  },
+  "Privacy": {
+    "h1": "Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert: 22. Juli 2026",
+    "sections": [
+      {
+        "title": "Einleitung",
+        "body": "Diese Datenschutzerklärung erklärt, wie Master Royale („wir“, „unser“ oder „uns“) Informationen handhabt, wenn du masterroyaleapk.com besuchst, eine Informationswebsite über das Master-Royale-Privateserver-APK. Wir sind nicht die Betreiber jedes Drittanbieter-Master-Royale-Spielservers. Spielkonten, die im APK erstellt werden, unterliegen diesen Server-Betreibern, nicht allein dieser Website."
+      },
+      {
+        "title": "Informationen, die wir erfassen",
+        "body": "Wie die meisten Websites können unsere Hosting- oder Analytics-Tools automatisch IP-Adresse, Browsertyp, ungefähre Region, angesehene Seiten, Referrer-URL, Besuchszeitstempel und grundlegende Leistungsmetriken erhalten. Wenn du support@masterroyaleapk.com anschreibst, erhalten wir die Adresse und den Inhalt, den du angibst, damit wir antworten können. Wir fragen nicht nach JazzCash-, EasyPaisa- oder Bankpasswörtern. Sende uns keine offiziellen Clash-Royale-Kontozugangsdaten."
+      },
+      {
+        "title": "Wie wir Informationen nutzen",
+        "body": "Wir nutzen Informationen, um masterroyaleapk.com-Anleitungen und Download-Seiten zu betreiben und zu verbessern, auf Support- oder Datenschutz-E-Mails zu antworten, Ausfälle, Spam oder Missbrauch zu diagnostizieren und Sicherheitsprotokolle für begrenzte Zeit zu führen."
+      },
+      {
+        "title": "Cookies & lokaler Speicher",
+        "body": "Wir können essenzielle Cookies oder lokalen Speicher für Seiteneinstellungen und grundlegende Analytics nutzen. Du kannst Cookies in den Browser-Einstellungen löschen. Alle Cookies zu blockieren kann manche UI-Funktionen beeinträchtigen, aber Download-Anleitungen bleiben lesbar."
+      },
+      {
+        "title": "Drittanbieter-Dienste",
+        "body": "Seiten können auf APK-Download-Endpunkte, Emulator-Anbieter-Sites oder Social-Profile verlinken. Diese Ziele haben eigene Datenschutzrichtlinien. Master Royale auf deinem Gerät zu installieren ist eine separate Aktion außerhalb der direkten Kontrolle dieser Website. Wir verkaufen keine personenbezogenen Daten. Wir betreiben kein Echtgeld-Wallet auf dieser Seite."
+      },
+      {
+        "title": "Datenspeicherung & Sicherheit",
+        "body": "E-Mail-Korrespondenz wird nur so lange aufbewahrt, wie nötig, um deine Anfrage zu klären oder gesetzlichen Pflichten nachzukommen. Wir nutzen angemessene technische Maßnahmen zum Schutz der Website, aber keine Internetübertragung ist vollkommen sicher."
+      },
+      {
+        "title": "Deine Wahlmöglichkeiten",
+        "body": "Um die Löschung von E-Mails anzufordern, die du uns gesendet hast, oder zu fragen, welche Kontaktdaten wir halten, schreibe an support@masterroyaleapk.com. Gib genug Details an, damit wir die Nachricht finden. Wir können Anfragen ablehnen, die rechtswidrig sind oder Sicherheitsprotokolle zur Betrugsprävention zerstören würden."
+      },
+      {
+        "title": "Kinder",
+        "body": "Diese Seite behandelt ein Strategiespiel-APK. Sie richtet sich nicht an Kinder unter 13 Jahren. Wenn du glaubst, dass ein Kind uns personenbezogene Daten per E-Mail übermittelt hat, kontaktiere den Support und wir löschen sie, soweit machbar."
+      },
+      {
+        "title": "Richtlinien-Updates",
+        "body": "Wir können diese Datenschutzerklärung aktualisieren, wenn sich unsere Praktiken oder gesetzliche Anforderungen ändern. Das Datum „Zuletzt aktualisiert“ oben ändert sich, wenn wir Überarbeitungen veröffentlichen."
+      },
+      {
+        "title": "Kontakt",
+        "body": "Datenschutzfragen: support@masterroyaleapk.com · Kontakt · Haftungsausschluss"
+      }
+    ]
+  },
+  "Disclaimer": {
+    "h1": "Haftungsausschluss",
+    "subtitle": "Bitte vor dem Download von Master Royale lesen",
+    "sections": [
+      {
+        "title": "Wichtiger Hinweis",
+        "body": "Durch die Nutzung von masterroyaleapk.com erkennst du die folgenden Bedingungen zu inoffiziellen APKs und Privateservern an."
+      },
+      {
+        "title": "Nicht mit Supercell verbunden",
+        "body": "Master Royale ist ein inoffizieller Clash-Royale-ähnlicher Privateserver / Mod-APK. Clash Royale® und zugehörige Marken sind Marken von Supercell Oy. Diese Website und der Drittanbieter-Master-Royale-Client werden nicht von Supercell unterstützt, gesponsert oder verbunden. Die Nutzung inoffizieller Clients kann die Nutzungsbedingungen von Supercell für das offizielle Spiel verletzen."
+      },
+      {
+        "title": "Drittanbieter-APK & Privateserver",
+        "body": "Download-Links und Installationsanleitungen auf masterroyaleapk.com beschreiben Drittanbieter-Software. Privateserver können offline gehen, Fortschritt wipen, Paketnamen ändern oder modifizierte Binaries ohne Vorankündigung ausliefern. Erstelle immer ein separates Konto und wiederverwende niemals dein offizielles Supercell-ID-Passwort, E-Mail-OTP oder Zahlungsdaten in einem gemoddeten Client."
+      },
+      {
+        "title": "Nur Informationswebsite",
+        "body": "Inhalte auf dieser Seite sind allgemeine Informationen: APK-Versionshinweise, Vanilla-vs-Infinity-Erklärungen, Android- und PC-Emulator-Tipps. Wir garantieren keine ununterbrochene Verfügbarkeit eines Download-Hosts, Server-Shards oder Feature-Sets wie „unbegrenzte Edelsteine“. Diese Ressourcen existieren in der Privateserver-Umgebung und können sich ändern."
+      },
+      {
+        "title": "Keine Echtgeld-Verdienst-Ansprüche",
+        "body": "Master Royale wie hier beschrieben ist ein Strategie-/Arcade-Privateserver-Erlebnis. Diese Website bewirbt keine JazzCash-, EasyPaisa- oder anderen Echtgeld-Einzahlungs-/Auszahlungs-Glücksspielprodukte. In-Game-Edelsteine und Gold sind über Master Royale keine einlösbaren Banksalden."
+      },
+      {
+        "title": "Sideloading-Risiken",
+        "body": "APKs außerhalb offizieller App-Stores zu installieren birgt Sicherheitsrisiken. Aktiviere „Unbekannte Apps installieren“ nur für Quellen, denen du vertraust, scanne Geräte regelmäßig und deinstalliere Builds, die du nicht mehr nutzt. Du bist verantwortlich, lokale Gesetze zu modifizierten Spielclients und Software einzuhalten, die du installierst."
+      },
+      {
+        "title": "Haftungsbeschränkung",
+        "body": "Soweit gesetzlich zulässig, haften Master Royale und masterroyaleapk.com nicht für Geräteschäden, Datenverlust, Account-Bans in offiziellen Spielen, Malware von Mirror-Sites außerhalb unseres CTAs oder Streitigkeiten mit Privateserver-Betreibern. Nutze die Software auf eigenes Risiko."
+      },
+      {
+        "title": "Externe Links",
+        "body": "Wir können auf Emulator-Anbieter oder Download-Mirrors verlinken. Diese Seiten liegen außerhalb unserer Kontrolle. Prüfe ihre Bedingungen, bevor du etwas installierst."
+      },
+      {
+        "title": "Kontakt",
+        "body": "Fragen zu diesem Haftungsausschluss: support@masterroyaleapk.com oder Kontakt. Siehe auch unsere Datenschutzerklärung."
+      }
+    ]
+  },
+  "NotFound": {
+    "title": "404",
+    "heading": "Seite Nicht Gefunden",
+    "text": "Diese URL fehlt oder wurde verschoben. Zurück zu Master Royale für die kostenlose APK-Download-Anleitung, Vanilla-vs-Infinity-Hinweise und PC-Emulator-Tipps.",
+    "home": "Zur Startseite"
+  }
+}

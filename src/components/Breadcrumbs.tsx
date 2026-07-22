@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import Script from 'next/script';
+import { Link } from '@/i18n/navigation';
 import { SITE_ORIGIN } from '@/lib/site';
 
 export type Crumb = {
@@ -33,14 +33,17 @@ export default function Breadcrumbs({ items }: { items: Crumb[] }) {
           {items.map((item, index) => {
             const isLast = index === items.length - 1;
             return (
-              <li key={item.label} className="flex items-center gap-2">
+              <li key={`${item.label}-${index}`} className="flex items-center gap-2">
                 {index > 0 && <span aria-hidden="true">/</span>}
                 {isLast || !item.href ? (
                   <span className="text-accent" aria-current="page">
                     {item.label}
                   </span>
                 ) : (
-                  <Link href={item.href} className="hover:text-accent transition-colors">
+                  <Link
+                    href={item.href as "/"}
+                    className="hover:text-accent transition-colors"
+                  >
                     {item.label}
                   </Link>
                 )}
