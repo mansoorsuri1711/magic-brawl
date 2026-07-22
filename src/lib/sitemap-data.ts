@@ -47,6 +47,19 @@ const BASE_PAGES: BasePage[] = [
     ],
   },
   {
+    path: "/vanilla-vs-infinity",
+    lastMod: today(),
+    changeFreq: "weekly",
+    priority: 0.92,
+    images: [
+      {
+        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
+        title: "Master Royale Vanilla vs Infinity",
+        caption: "Compare Master Royale Vanilla and Infinity private server experiences",
+      },
+    ],
+  },
+  {
     path: "/master-royale-for-pc",
     lastMod: today(),
     changeFreq: "weekly",

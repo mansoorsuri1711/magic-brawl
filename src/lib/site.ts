@@ -3,8 +3,13 @@ export const SITE_ORIGIN = "https://masterroyaleapk.com";
 export const SITE_DOMAIN = "masterroyaleapk.com";
 export const SUPPORT_EMAIL = "support@masterroyaleapk.com";
 
-/** Update this when the live APK host URL is ready */
+/** Update these when live APK host URLs are ready */
 export const DOWNLOAD_APK_URL = "/download-master-royale#apk-download";
+export const DOWNLOAD_VANILLA_URL = "/download-master-royale#apk-download";
+export const DOWNLOAD_INFINITY_URL = "/download-master-royale#apk-download";
+
+/** Update when Discord invite is ready */
+export const DISCORD_URL = "https://discord.com/invite/masterroyale";
 
 export const APP = {
   name: "Master Royale",

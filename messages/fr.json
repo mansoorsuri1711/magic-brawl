@@ -14,7 +14,9 @@
     "privacyDescription": "Politique de confidentialité de masterroyaleapk.com. Comment ce site informatif Master Royale APK gère les données, cookies et e-mails de contact.",
     "disclaimerTitle": "Avertissement – Serveur privé Master Royale",
     "disclaimerDescription": "Avertissement pour masterroyaleapk.com : Master Royale est un serveur privé / APK mod tiers façon Clash Royale, non affilié à Supercell. Site informatif uniquement.",
-    "notFoundTitle": "Page introuvable – Master Royale"
+    "notFoundTitle": "Page introuvable – Master Royale",
+    "compareTitle": "Vanilla vs Infinity – Choisissez votre expérience Master Royale",
+    "compareDescription": "Comparez Master Royale Vanilla vs Infinity. Tableau des fonctionnalités, guide de jeu, étapes d'installation, dépannage et CTA de téléchargement pour les deux chemins légendaires."
   },
   "Nav": {
     "home": "Accueil",
@@ -26,7 +28,8 @@
     "main": "PRINCIPAL",
     "guides": "GUIDES",
     "info": "INFOS",
-    "installGuide": "Guide d'installation"
+    "installGuide": "Guide d'installation",
+    "compare": "Vanilla vs Infinity"
   },
   "Footer": {
     "aboutText": "Master Royale est une expérience serveur privé Clash Royale avec ressources débloquées, combats personnalisés et accès APK Android gratuit. Découvrez les étapes d'installation, la config PC et les conseils de sécurité sur masterroyaleapk.com.",
@@ -465,5 +468,179 @@
     "heading": "Page introuvable",
     "text": "Cette URL est manquante ou a été déplacée. Retournez à Master Royale pour le guide de téléchargement APK gratuit, les notes Vanilla vs Infinity, et les conseils d'émulateur PC.",
     "home": "Retour à l'accueil"
+  },
+  "Compare": {
+    "h1": "Choisissez votre expérience Master Royale",
+    "subtitle": "Deux chemins légendaires vous attendent. Votre destin de joueur commence ici !",
+    "compareTitle": "Comparer les fonctionnalités",
+    "compareHeading": "Vanilla vs Infinity : quelle différence ?",
+    "colFeature": "Fonctionnalité",
+    "colVanilla": "Vanilla",
+    "colInfinity": "Infinity",
+    "rows": [
+      {
+        "feature": "Expérience de jeu",
+        "vanilla": "Familière et équilibrée",
+        "infinity": "Folle et imprévisible"
+      },
+      {
+        "feature": "Collection de cartes",
+        "vanilla": "Cartes originales uniquement",
+        "infinity": "Custom + originales"
+      },
+      {
+        "feature": "Modes de jeu",
+        "vanilla": "Modes standard",
+        "infinity": "Modes exclusifs"
+      },
+      {
+        "feature": "Style de compétition",
+        "vanilla": "Basé sur le skill",
+        "infinity": "Basé sur la créativité"
+      },
+      {
+        "feature": "Mises à jour",
+        "vanilla": "Méta stable",
+        "infinity": "Nouveau contenu constant"
+      },
+      {
+        "feature": "Commandes en jeu",
+        "vanilla": "Oui",
+        "infinity": "Oui"
+      },
+      {
+        "feature": "Ressources",
+        "vanilla": "Illimitées",
+        "infinity": "Illimitées"
+      },
+      {
+        "feature": "Tout débloqué",
+        "vanilla": "Oui",
+        "infinity": "Oui"
+      },
+      {
+        "feature": "Idéal pour",
+        "vanilla": "Amoureux de stratégie",
+        "infinity": "Amoureux du chaos"
+      }
+    ],
+    "downloadSectionTitle": "Télécharger Master Royale",
+    "downloadSectionIntro": "Deux versions légendaires vous attendent. Vanilla pour le gameplay nostalgique ou Infinity pour le chaos vu sur TikTok. Téléchargez et jouez instantanément !",
+    "vanillaTitle": "MR Vanilla",
+    "vanillaTag": "La nostalgie frappe fort",
+    "vanillaDesc": "L'expérience de jeu originale que vous connaissez et aimez. Gameplay compétitif pur avec cartes équilibrées et événements familiers.",
+    "vanillaCta": "Télécharger Vanilla",
+    "infinityTitle": "MR Infinity",
+    "infinityTag": "Vu sur TikTok",
+    "infinityDesc": "Contenu custom fou qui brise toutes les règles. Mods de jeu, personnages anime et mécaniques jamais vues auparavant.",
+    "infinityCta": "Télécharger Infinity",
+    "guideTitle": "Guide de gameplay Master Royale",
+    "guideIntro": "Dominez l'arène avec des ressources illimitées ! Apprenez stratégies avancées, secrets de deck building et techniques pro pour devenir imparable.",
+    "guides": [
+      {
+        "title": "Construction de deck",
+        "heading": "Construisez le deck parfait",
+        "text": "Avec des ressources illimitées, expérimentez librement ! Mélangez cartes classiques et custom (Infinity) ou misez sur la stratégie pure (Vanilla). Sans murs de progression, des decks plus grands et audacieux.",
+        "tipLabel": "Astuce pro :",
+        "tip": "Essayez des combinaisons folles que vous n'oseriez jamais dans le jeu original. Avec tout débloqué, la créativité est votre seule limite !"
+      },
+      {
+        "title": "Gestion de l'élixir",
+        "heading": "Puissance illimitée",
+        "text": "Oubliez le grind pour les améliorations d'élixir ! Avec des ressources infinies sur le serveur privé, concentrez-vous sur la stratégie et le timing. Déployez des pushes massifs, enchaînez les sorts et créez des batailles épiques.",
+        "tipLabel": "Astuce pro :",
+        "tip": "Créez des combos fous impossibles dans le jeu original. La seule limite, c'est votre imagination !"
+      },
+      {
+        "title": "Positionnement",
+        "heading": "Maîtrisez le positionnement",
+        "text": "Avec des ressources illimitées, le positionnement devient encore plus crucial. Créez des murs défensifs massifs, entourez les ennemis d'armées et utilisez les cartes custom (Infinity) pour des stratégies uniques.",
+        "tipLabel": "Astuce pro :",
+        "tip": "Expérimentez les capacités uniques des cartes custom. Certaines ont des mécaniques de positionnement introuvables ailleurs !"
+      }
+    ],
+    "advancedTitle": "Techniques avancées Master Royale",
+    "advanced": [
+      {
+        "title": "Combos épiques",
+        "text": "Créez des combinaisons dévastatrices avec des ressources illimitées. Spammez les cartes légendaires, enchaînez les sorts et libérez le chaos !"
+      },
+      {
+        "title": "Cartes custom (Infinity)",
+        "text": "Maîtrisez des cartes uniques et des unités crossover sur Infinity. Apprenez leurs capacités spéciales et créez des stratégies imparcables."
+      },
+      {
+        "title": "Dominez les tournois",
+        "text": "Avec tout débloqué, concentrez-vous sur le skill et la stratégie. Montrez votre maîtrise dans les tournois compétitifs du serveur privé !"
+      }
+    ],
+    "unsureTitle": "Toujours indécis ?",
+    "unsureText": "Laissez un message dans notre communauté — les joueurs vous orienteront. Obtenez des recommandations personnalisées de fans expérimentés de Master Royale !",
+    "discordCta": "Demander sur Discord",
+    "installTitle": "Comment installer et jouer à Master Royale",
+    "installIntro": "Commencez en quelques minutes ! Suivez notre guide étape par étape pour télécharger, installer et dominer l'arène. Plus des conseils de dépannage pour les problèmes courants.",
+    "installSteps": [
+      {
+        "title": "Télécharger l'APK",
+        "text": "Cliquez sur le bouton de téléchargement pour Vanilla ou Infinity afin d'obtenir le dernier Master Royale APK. Préférez le hub partagé ? Utilisez notre page Télécharger.",
+        "note": "Fichier d'environ 300 Mo"
+      },
+      {
+        "title": "Autoriser les sources inconnues",
+        "text": "Allez dans Paramètres > Sécurité (ou Apps > Accès spécial) et autorisez Installer des apps inconnues pour votre navigateur ou l'app Fichiers.",
+        "note": "Tous les appareils Android pris en charge"
+      },
+      {
+        "title": "Installer et lancer",
+        "text": "Touchez l'APK téléchargé, suivez les invites, lancez Master Royale et créez un nouveau pseudo serveur privé — n'utilisez jamais votre mot de passe officiel Supercell.",
+        "note": "Compte serveur privé séparé"
+      }
+    ],
+    "troubleTitle": "Guide de dépannage",
+    "trouble": [
+      {
+        "title": "Échec de l'installation ?",
+        "text": "Assurez-vous d'avoir assez d'espace de stockage (au moins 2 Go libres) et que Installer des apps inconnues est activé.",
+        "try": "Essayez : Paramètres > Apps > Accès spécial > Installer des apps inconnues"
+      },
+      {
+        "title": "Le jeu ne démarre pas ?",
+        "text": "Essayez de vider le cache de l'app ou de la réinstaller. Assurez-vous d'avoir une connexion Internet stable.",
+        "try": "Essayez : Paramètres > Apps > Master Royale > Stockage > Vider le cache"
+      },
+      {
+        "title": "Problèmes de performances ?",
+        "text": "Fermez les autres apps, redémarrez votre appareil ou baissez les paramètres graphiques en jeu.",
+        "try": "Essayez : Paramètres du jeu > Graphismes > Faible qualité"
+      },
+      {
+        "title": "Problèmes de connexion ?",
+        "text": "Vérifiez votre connexion Internet et essayez de basculer entre Wi‑Fi et données mobiles. Les serveurs privés peuvent aussi être en maintenance.",
+        "try": "Essayez : Redémarrer le routeur ou utiliser un hotspot mobile"
+      },
+      {
+        "title": "Problèmes de stockage ?",
+        "text": "Libérez de l'espace en supprimant des apps ou médias inutilisés. Gardez au moins 2 Go libres pour l'installation et le cache.",
+        "try": "Essayez : Paramètres > Stockage > Libérer de l'espace"
+      },
+      {
+        "title": "Toujours des problèmes ?",
+        "text": "Rejoignez notre communauté Discord pour de l'aide de joueurs expérimentés, ou écrivez à support@masterroyaleapk.com pour les questions liées au site.",
+        "try": "Obtenir de l'aide : Discord #support ou Nous contacter"
+      }
+    ],
+    "readyTitle": "Prêt à dominer l'arène ?",
+    "readyText": "Votre voyage pour devenir une légende Master Royale commence maintenant. Choisissez Vanilla ou Infinity et montrez au monde de quoi vous êtes capable !",
+    "readyCta": "Choisissez votre serveur",
+    "safetyTitle": "Sécurité et intégrité",
+    "safetyP1": "Nouveau ici ? Téléchargez le jeu, installez-le, et c'est parti. Quand c'est disponible, nous référons des contrôles de scan style VirusTotal sur les pages de téléchargement pour vérifier le package. Préférez les étapes d'installation officielles de masterroyaleapk.com — pas d'installateurs groupés bizarres.",
+    "safetyP2": "Ceci est un projet serveur privé fan-made / communautaire. Non approuvé ni affilié à Supercell. Construit pour la communauté, par la communauté. Jouer sur Master Royale utilise une base de comptes séparée et ne remplace ni n'accède à votre progression Clash Royale retail.",
+    "badges": [
+      "Scanné par la communauté à la publication",
+      "Entièrement gratuit",
+      "Géré par la communauté",
+      "Isolé des comptes retail"
+    ],
+    "breadcrumb": "Vanilla vs Infinity"
   }
 }

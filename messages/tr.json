@@ -14,7 +14,9 @@
     "privacyDescription": "masterroyaleapk.com gizlilik politikası. Bu bilgilendirici Master Royale APK sitesinin verileri, çerezleri ve iletişim e-postalarını nasıl işlediği.",
     "disclaimerTitle": "Sorumluluk Reddi – Master Royale Özel Sunucu",
     "disclaimerDescription": "masterroyaleapk.com sorumluluk reddi: Master Royale, Supercell ile bağlı olmayan üçüncü taraf Clash Royale tarzı özel sunucu / mod APK'dir. Yalnızca bilgilendirici site.",
-    "notFoundTitle": "Sayfa Bulunamadı – Master Royale"
+    "notFoundTitle": "Sayfa Bulunamadı – Master Royale",
+    "compareTitle": "Vanilla vs Infinity – Master Royale Deneyimini Seçin",
+    "compareDescription": "Master Royale Vanilla ile Infinity'yi karşılaştırın. Özellik tablosu, oyun rehberi, kurulum adımları, sorun giderme ve her iki efsanevi yol için indirme CTA'ları."
   },
   "Nav": {
     "home": "Ana Sayfa",
@@ -26,7 +28,8 @@
     "main": "ANA",
     "guides": "REHBERLER",
     "info": "BİLGİ",
-    "installGuide": "Kurulum Rehberi"
+    "installGuide": "Kurulum Rehberi",
+    "compare": "Vanilla vs Infinity"
   },
   "Footer": {
     "aboutText": "Master Royale, açık kaynaklar, özel savaşlar ve ücretsiz Android APK erişimi sunan bir Clash Royale özel sunucu deneyimidir. Kurulum adımlarını, PC kurulumunu ve güvenlik ipuçlarını masterroyaleapk.com'da öğrenin.",
@@ -465,5 +468,179 @@
     "heading": "Sayfa Bulunamadı",
     "text": "Bu URL eksik veya taşındı. Ücretsiz APK indirme rehberi, Vanilla vs Infinity notları ve PC emülatör ipuçları için Master Royale'e geri dönün.",
     "home": "Ana Sayfaya Dön"
+  },
+  "Compare": {
+    "h1": "Master Royale Deneyiminizi Seçin",
+    "subtitle": "İki efsanevi yol sizi bekliyor. Oyun kaderiniz burada başlıyor!",
+    "compareTitle": "Özellikleri Karşılaştır",
+    "compareHeading": "Vanilla vs Infinity: Fark Nedir?",
+    "colFeature": "Özellik",
+    "colVanilla": "Vanilla",
+    "colInfinity": "Infinity",
+    "rows": [
+      {
+        "feature": "Oyun Deneyimi",
+        "vanilla": "Alışılmış ve Dengeli",
+        "infinity": "Çılgın ve Öngörülemez"
+      },
+      {
+        "feature": "Kart Koleksiyonu",
+        "vanilla": "Yalnızca Orijinal Kartlar",
+        "infinity": "Özel + Orijinal"
+      },
+      {
+        "feature": "Oyun Modları",
+        "vanilla": "Standart Modlar",
+        "infinity": "Özel Modlar"
+      },
+      {
+        "feature": "Rekabet Tarzı",
+        "vanilla": "Beceri Odaklı",
+        "infinity": "Yaratıcılık Odaklı"
+      },
+      {
+        "feature": "Güncellemeler",
+        "vanilla": "Stabil Meta",
+        "infinity": "Sürekli Yeni İçerik"
+      },
+      {
+        "feature": "Oyun İçi Komutlar",
+        "vanilla": "Evet",
+        "infinity": "Evet"
+      },
+      {
+        "feature": "Kaynaklar",
+        "vanilla": "Sınırsız",
+        "infinity": "Sınırsız"
+      },
+      {
+        "feature": "Her Şey Açık",
+        "vanilla": "Evet",
+        "infinity": "Evet"
+      },
+      {
+        "feature": "Kimler İçin İdeal",
+        "vanilla": "Strateji Severler",
+        "infinity": "Kaos Severler"
+      }
+    ],
+    "downloadSectionTitle": "Master Royale İndir",
+    "downloadSectionIntro": "İki efsanevi sürüm sizi bekliyor. Nostaljik oyun için Vanilla veya TikTok'ta gördüğünüz kaos için Infinity. İndirin ve hemen oynamaya başlayın!",
+    "vanillaTitle": "MR Vanilla",
+    "vanillaTag": "Nostalji sert vuruyor",
+    "vanillaDesc": "Hatırladığınız ve sevdiğiniz orijinal oyun deneyimi. Dengeli kartlar ve tanıdık etkinliklerle saf rekabetçi oynanış.",
+    "vanillaCta": "Vanilla'yı İndir",
+    "infinityTitle": "MR Infinity",
+    "infinityTag": "TikTok'ta görüldü",
+    "infinityDesc": "Her kuralı yıkan çılgın özel içerik. Oyun modları, anime karakterleri ve daha önce hiç görmediğiniz mekanikler.",
+    "infinityCta": "Infinity'yi İndir",
+    "guideTitle": "Master Royale Oyun Rehberi",
+    "guideIntro": "Sınırsız kaynaklarla arenaya hükmedin! Durdurulamaz olmak için gelişmiş stratejiler, deste kurma sırları ve pro teknikler öğrenin.",
+    "guides": [
+      {
+        "title": "Deste Kurma",
+        "heading": "Mükemmel Desteyi Kurun",
+        "text": "Sınırsız kaynaklarla özgürce deneyin! Klasik kartları özel kartlarla karıştırın (Infinity) veya saf stratejiye odaklanın (Vanilla). İlerleme duvarı yok demek daha büyük, daha cesur desteler demek.",
+        "tipLabel": "Pro İpucu:",
+        "tip": "Orijinal oyunda asla riske atmayacağınız çılgın kombinasyonları deneyin. Her şey açıkken tek sınırınız yaratıcılığınız!"
+      },
+      {
+        "title": "İksir Yönetimi",
+        "heading": "Sınırsız Güç",
+        "text": "İksir yükseltmeleri için grind'i unutun! Özel sunucuda sonsuz kaynaklarla saf strateji ve zamanlamaya odaklanın. Dev push'lar kurun, büyüleri zincirleyin ve epik savaşlar yaratın.",
+        "tipLabel": "Pro İpucu:",
+        "tip": "Orijinal oyunda imkânsız olacak çılgın kombolar yaratın. Tek sınır hayal gücünüz!"
+      },
+      {
+        "title": "Konumlandırma",
+        "heading": "Konumlandırmayı Ustalaştırın",
+        "text": "Sınırsız kaynaklarla konumlandırma daha da kritik hale gelir. Dev savunma duvarları kurun, düşmanları ordularla sarın ve benzersiz stratejiler için özel kartları (Infinity) kullanın.",
+        "tipLabel": "Pro İpucu:",
+        "tip": "Özel kartların benzersiz yeteneklerini deneyin. Bazılarının başka yerde bulamayacağınız özel konumlandırma mekanikleri var!"
+      }
+    ],
+    "advancedTitle": "Master Royale İleri Teknikler",
+    "advanced": [
+      {
+        "title": "Epik Kombolar",
+        "text": "Sınırsız kaynaklarla yıkıcı kombinasyonlar yaratın. Efsanevi kartları spamlayın, büyüleri zincirleyin ve kaos salın!"
+      },
+      {
+        "title": "Özel Kartlar (Infinity)",
+        "text": "Infinity'de benzersiz kartları ve crossover birimleri ustalaştırın. Özel yeteneklerini öğrenin ve durdurulamaz stratejiler oluşturun."
+      },
+      {
+        "title": "Turnuvalara Hükmedin",
+        "text": "Her şey açıkken saf beceri ve stratejiye odaklanın. Rekabetçi özel sunucu turnuvalarında ustalığınızı gösterin!"
+      }
+    ],
+    "unsureTitle": "Hâlâ Kararsız mısınız?",
+    "unsureText": "Topluluğumuza bir mesaj bırakın — oyuncular sizi doğru seçime yönlendirecek. Deneyimli Master Royale hayranlarından kişiselleştirilmiş öneriler alın!",
+    "discordCta": "Discord'da Sor",
+    "installTitle": "Master Royale Nasıl Kurulur ve Oynanır",
+    "installIntro": "Dakikalar içinde başlayın! İndirmek, kurmak ve arenaya hükmetmek için adım adım rehberimizi izleyin. Ayrıca yaygın sorunlar için sorun giderme ipuçları.",
+    "installSteps": [
+      {
+        "title": "APK İndir",
+        "text": "En güncel Master Royale APK'yi almak için Vanilla veya Infinity indirme düğmesine tıklayın. Ortak hub'ı mı tercih edersiniz? İndir sayfamızı kullanın.",
+        "note": "~300MB dosya boyutu"
+      },
+      {
+        "title": "Bilinmeyen Kaynakları Etkinleştir",
+        "text": "Ayarlar > Güvenlik (veya Uygulamalar > Özel erişim) bölümüne gidin ve tarayıcınız veya Dosyalar uygulaması için Bilinmeyen uygulamaları yükle'ye izin verin.",
+        "note": "Tüm Android cihazlar desteklenir"
+      },
+      {
+        "title": "Kur ve Başlat",
+        "text": "İndirilen APK'ye dokunun, istemleri izleyin, Master Royale'i başlatın ve yeni bir özel sunucu takma adı oluşturun — asla resmi Supercell şifrenizi kullanmayın.",
+        "note": "Ayrı özel sunucu hesabı"
+      }
+    ],
+    "troubleTitle": "Sorun Giderme Rehberi",
+    "trouble": [
+      {
+        "title": "Kurulum Başarısız mı?",
+        "text": "Yeterli depolama alanınız olduğundan (en az 2GB boş) ve Bilinmeyen uygulamaları yükle'nin açık olduğundan emin olun.",
+        "try": "Deneyin: Ayarlar > Uygulamalar > Özel Erişim > Bilinmeyen Uygulamaları Yükle"
+      },
+      {
+        "title": "Oyun Başlamıyor mu?",
+        "text": "Uygulama önbelleğini temizlemeyi veya yeniden kurmayı deneyin. Stabil bir internet bağlantınız olduğundan emin olun.",
+        "try": "Deneyin: Ayarlar > Uygulamalar > Master Royale > Depolama > Önbelleği Temizle"
+      },
+      {
+        "title": "Performans Sorunları mı?",
+        "text": "Diğer uygulamaları kapatın, cihazınızı yeniden başlatın veya oyun içi grafik ayarlarını düşürün.",
+        "try": "Deneyin: Oyun Ayarları > Grafikler > Düşük Kalite"
+      },
+      {
+        "title": "Bağlantı Sorunları mı?",
+        "text": "İnternet bağlantınızı kontrol edin ve Wi‑Fi ile mobil veri arasında geçiş yapmayı deneyin. Özel sunucular da bakımda olabilir.",
+        "try": "Deneyin: Yönlendiriciyi yeniden başlatın veya mobil hotspot kullanın"
+      },
+      {
+        "title": "Depolama Sorunları mı?",
+        "text": "Kullanılmayan uygulamaları veya medyayı silerek yer açın. Kurulum ve önbellek için en az 2GB boş tutun.",
+        "try": "Deneyin: Ayarlar > Depolama > Yer aç"
+      },
+      {
+        "title": "Hâlâ Sorun mu Yaşıyorsunuz?",
+        "text": "Deneyimli oyunculardan yardım için Discord topluluğumuza katılın veya siteyle ilgili sorular için support@masterroyaleapk.com adresine yazın.",
+        "try": "Yardım alın: Discord #support veya Bize Ulaşın"
+      }
+    ],
+    "readyTitle": "Arenaya Hükmetmeye Hazır mısınız?",
+    "readyText": "Master Royale efsanesi olma yolculuğunuz şimdi başlıyor. Vanilla veya Infinity'yi seçin ve dünyaya neyinizi gösterin!",
+    "readyCta": "Sunucunuzu Seçin",
+    "safetyTitle": "Güvenlik ve Bütünlük",
+    "safetyP1": "Yeni misiniz? Oyunu indirin, kurun ve içeri girin. Mümkün olduğunda, paketi doğrulayabilmeniz için indirme sayfalarında VirusTotal tarzı tarama kontrollerine atıfta bulunuruz. masterroyaleapk.com'daki resmi kurulum adımlarını tercih edin — garip paket kurulumcular yok.",
+    "safetyP2": "Bu, hayran yapımı / topluluk özel sunucu projesidir. Supercell tarafından onaylanmamış veya bağlı değildir. Topluluk için, topluluk tarafından yapılmıştır. Master Royale'de oynamak ayrı bir hesap veritabanı kullanır ve perakende Clash Royale ilerlemenizin yerini almaz veya erişmez.",
+    "badges": [
+      "Yayınlandığında topluluk tarafından tarandı",
+      "Tamamen Ücretsiz",
+      "Topluluk tarafından yönetilir",
+      "Perakende hesaplardan izole"
+    ],
+    "breadcrumb": "Vanilla vs Infinity"
   }
 }

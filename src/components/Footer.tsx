@@ -29,6 +29,11 @@ export default async function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/vanilla-vs-infinity" className="text-gray-300 hover:text-accent transition-colors">
+                  {tn('compare')}
+                </Link>
+              </li>
+              <li>
                 <Link href="/master-royale-for-pc" className="text-gray-300 hover:text-accent transition-colors">
                   {tn('pc')}
                 </Link>
@@ -52,6 +57,11 @@ export default async function Footer() {
               <li>
                 <Link href="/download-master-royale" className="text-gray-300 hover:text-accent transition-colors">
                   {tn('installGuide')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/vanilla-vs-infinity" className="text-gray-300 hover:text-accent transition-colors">
+                  {tn('compare')}
                 </Link>
               </li>
               <li>

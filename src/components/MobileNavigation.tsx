@@ -8,7 +8,7 @@ import { useMobileMenu } from './MobileMenuProvider';
 import { APP, DOWNLOAD_APK_URL, SITE_NAME } from '@/lib/site';
 
 type NavItem = {
-  href: '/' | '/download-master-royale' | '/master-royale-for-pc' | '/about-us' | '/contact-us';
+  href: '/' | '/download-master-royale' | '/vanilla-vs-infinity' | '/master-royale-for-pc' | '/about-us' | '/contact-us';
   label: string;
   icon: React.ReactNode;
 };
@@ -81,6 +81,15 @@ export default function MobileNavigation() {
       {
         title: t('guides'),
         items: [
+          {
+            href: '/vanilla-vs-infinity',
+            label: t('compare'),
+            icon: (
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+              </svg>
+            ),
+          },
           {
             href: '/master-royale-for-pc',
             label: t('pc'),

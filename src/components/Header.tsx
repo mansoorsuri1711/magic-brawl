@@ -15,6 +15,7 @@ export default function Header() {
   const navLinks = [
     { href: '/' as const, label: t('home') },
     { href: '/download-master-royale' as const, label: t('download') },
+    { href: '/vanilla-vs-infinity' as const, label: t('compare') },
     { href: '/master-royale-for-pc' as const, label: t('pc') },
     { href: '/about-us' as const, label: t('about') },
     { href: '/contact-us' as const, label: t('contact') },

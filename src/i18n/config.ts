@@ -17,6 +17,7 @@ export const localeNames: Record<
 export const pathnames = {
   "/": "/",
   "/download-master-royale": "/download-master-royale",
+  "/vanilla-vs-infinity": "/vanilla-vs-infinity",
   "/master-royale-for-pc": "/master-royale-for-pc",
   "/about-us": "/about-us",
   "/contact-us": "/contact-us",
