@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Script from "next/script";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -58,6 +59,8 @@ function VersionCard({
   cta,
   href,
   accent,
+  imageSrc,
+  imageAlt,
 }: {
   title: string;
   tag: string;
@@ -65,6 +68,8 @@ function VersionCard({
   cta: string;
   href: string;
   accent: "vanilla" | "infinity";
+  imageSrc: string;
+  imageAlt: string;
 }) {
   const border =
     accent === "vanilla" ? "border-[#FDB402]/50" : "border-[#0ea5e9]/50";
@@ -72,6 +77,15 @@ function VersionCard({
 
   return (
     <div className={`bg-[#0A1029] rounded-2xl p-8 border ${border} flex flex-col h-full`}>
+      <div className="flex justify-center mb-6">
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          width={180}
+          height={180}
+          className="object-contain w-[140px] h-[140px] md:w-[180px] md:h-[180px]"
+        />
+      </div>
       <p className={`text-sm font-semibold uppercase tracking-wide mb-2 ${tagColor}`}>{tag}</p>
       <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">{title}</h3>
       <p className="text-gray-300 leading-relaxed flex-1 mb-8">{desc}</p>
@@ -159,6 +173,16 @@ export default async function VanillaVsInfinityPage({ params }: PageProps) {
           />
 
           <header className="text-center mb-12">
+            <div className="flex justify-center mb-6">
+              <Image
+                src="/master-royale-king.webp"
+                alt="Master Royale King"
+                width={200}
+                height={200}
+                className="object-contain w-[160px] h-[160px] md:w-[200px] md:h-[200px]"
+                priority
+              />
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">{t("h1")}</h1>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">{t("subtitle")}</p>
           </header>
@@ -209,6 +233,8 @@ export default async function VanillaVsInfinityPage({ params }: PageProps) {
                 cta={t("vanillaCta")}
                 href={DOWNLOAD_VANILLA_URL}
                 accent="vanilla"
+                imageSrc="/master-royale-chest.webp"
+                imageAlt="Master Royale Vanilla"
               />
               <VersionCard
                 title={t("infinityTitle")}
@@ -217,27 +243,58 @@ export default async function VanillaVsInfinityPage({ params }: PageProps) {
                 cta={t("infinityCta")}
                 href={DOWNLOAD_INFINITY_URL}
                 accent="infinity"
+                imageSrc="/master-royale-infinity-server.webp"
+                imageAlt="Master Royale Infinity"
               />
             </div>
           </section>
 
           {/* Gameplay guide */}
           <section className="mb-14" id="gameplay-guide">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-4">{t("guideTitle")}</h2>
-            <p className="text-gray-300 mb-8 leading-relaxed">{t("guideIntro")}</p>
+            <div className="flex flex-col md:flex-row md:items-center gap-6 mb-8">
+              <Image
+                src="/master-royale-gems.webp"
+                alt="Master Royale gems"
+                width={120}
+                height={120}
+                className="object-contain w-[100px] h-[100px]"
+              />
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-4">{t("guideTitle")}</h2>
+                <p className="text-gray-300 leading-relaxed">{t("guideIntro")}</p>
+              </div>
+            </div>
             <div className="space-y-6">
-              {guides.map((g) => (
+              {guides.map((g, idx) => {
+                const icons = [
+                  "/master-royale-emote.webp",
+                  "/master-royale-wizard.webp",
+                  "/master-royale-tournaments.webp",
+                ];
+                return (
                 <div key={g.title} className="bg-secondary rounded-2xl p-6 md:p-8 border border-gray-800">
-                  <p className="text-[#FDB402] text-sm font-semibold uppercase tracking-wide mb-1">{g.title}</p>
-                  <h3 className="text-xl font-bold text-white mb-3">{g.heading}</h3>
-                  <p className="text-gray-300 leading-relaxed mb-4">{g.text}</p>
-                  <div className="bg-[#0A1029] rounded-xl px-4 py-3 border-l-4 border-[#FDB402]">
-                    <p className="text-sm text-gray-300">
-                      <span className="text-[#FDB402] font-semibold">{g.tipLabel}</span> {g.tip}
-                    </p>
+                  <div className="flex gap-4 items-start">
+                    <Image
+                      src={icons[idx % icons.length]}
+                      alt=""
+                      width={64}
+                      height={64}
+                      className="object-contain w-14 h-14 flex-shrink-0"
+                    />
+                    <div className="flex-1">
+                      <p className="text-[#FDB402] text-sm font-semibold uppercase tracking-wide mb-1">{g.title}</p>
+                      <h3 className="text-xl font-bold text-white mb-3">{g.heading}</h3>
+                      <p className="text-gray-300 leading-relaxed mb-4">{g.text}</p>
+                      <div className="bg-[#0A1029] rounded-xl px-4 py-3 border-l-4 border-[#FDB402]">
+                        <p className="text-sm text-gray-300">
+                          <span className="text-[#FDB402] font-semibold">{g.tipLabel}</span> {g.tip}
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              ))}
+                );
+              })}
             </div>
           </section>
 
