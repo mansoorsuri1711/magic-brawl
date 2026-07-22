@@ -1,4 +1,4 @@
-export const locales = ["en", "fr", "tr", "es", "pt", "de"] as const;
+export const locales = ["en", "fr", "tr", "es", "pt", "de", "it"] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "en";
 
@@ -12,6 +12,7 @@ export const localeNames: Record<
   es: { label: "Spanish", native: "ESPAÑOL", flag: "🇪🇸" },
   pt: { label: "Portuguese", native: "PORTUGUESE", flag: "🇵🇹" },
   de: { label: "German", native: "DEUTSCH", flag: "🇩🇪" },
+  it: { label: "Italian", native: "ITALIANO", flag: "🇮🇹" },
 };
 
 export const pathnames = {
