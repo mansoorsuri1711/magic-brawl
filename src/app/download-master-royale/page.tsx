@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     url: `${SITE_ORIGIN}/download-master-royale`,
     siteName: SITE_NAME,
     type: "website",
-    images: [{ url: HERO_IMAGE, width: 1024, height: 1024, alt: "Download Master Royale APK" }],
+    images: [{ url: HERO_IMAGE, width: 512, height: 512, alt: "Download Master Royale APK" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -157,7 +157,7 @@ export default function DownloadMasterRoyalePage() {
             aria-label={`Rated ${APP.ratingValue} out of 5 from ${APP.ratingCountDisplay} ratings`}
           >
             <div className="flex items-center gap-2 justify-center">
-              <span className="text-[#FFC107] text-xl" aria-hidden="true">
+              <span className="text-[#FDB402] text-xl" aria-hidden="true">
                 ★★★★☆
               </span>
               <span className="text-white text-2xl font-bold">{APP.ratingValue}</span>
@@ -171,7 +171,7 @@ export default function DownloadMasterRoyalePage() {
 
           <div className="flex justify-center mb-10">
             <Image
-              src="/master-royale.webp"
+              src="/master-royale-apk.webp"
               alt="Master Royale APK download"
               title="Download Master Royale for Android"
               width={240}
@@ -185,7 +185,7 @@ export default function DownloadMasterRoyalePage() {
             id="apk-download"
             className="bg-secondary rounded-2xl p-8 mb-10 text-center border border-[#0ea5e9]/40"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-4">
               Get the Master Royale APK
             </h2>
             <p className="text-gray-300 mb-6 max-w-xl mx-auto">
@@ -199,7 +199,7 @@ export default function DownloadMasterRoyalePage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">APK Information</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">APK Information</h2>
             <div className="overflow-hidden rounded-xl border border-gray-800">
               <table className="min-w-full divide-y divide-gray-800">
                 <tbody className="divide-y divide-gray-800 text-white">
@@ -248,7 +248,7 @@ export default function DownloadMasterRoyalePage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">
               Full Android Install Walkthrough
             </h2>
             <ol className="space-y-5 text-gray-300 list-decimal list-inside leading-relaxed">
@@ -285,7 +285,7 @@ export default function DownloadMasterRoyalePage() {
           </section>
 
           <section id="ios-install" className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">
               iOS Install Notes (IPA Sideload Only)
             </h2>
             <div className="space-y-4 text-gray-300 leading-relaxed">
@@ -327,7 +327,7 @@ export default function DownloadMasterRoyalePage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-4">After You Install</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-4">After You Install</h2>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
                 Grant only the permissions the game requests to run (storage/network). You do not need
@@ -349,7 +349,7 @@ export default function DownloadMasterRoyalePage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-4 text-center">
-            <h2 className="text-2xl font-bold text-[#FFC107] mb-4">Download again</h2>
+            <h2 className="text-2xl font-bold text-[#FDB402] mb-4">Download again</h2>
             <DownloadButton />
           </section>
         </div>

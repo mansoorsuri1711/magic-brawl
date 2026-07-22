@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     url: `${SITE_ORIGIN}/about-us`,
     siteName: SITE_NAME,
     type: "website",
-    images: [{ url: `${SITE_ORIGIN}/master-royale-logo.webp`, width: 512, height: 512, alt: SITE_NAME }],
+    images: [{ url: `${SITE_ORIGIN}/master-royale-apk-logo.webp`, width: 512, height: 512, alt: SITE_NAME }],
   },
   twitter: {
     card: "summary",
     title: "About Us – Master Royale",
     description: `Informational Master Royale APK guides on ${SITE_DOMAIN}.`,
-    images: [`${SITE_ORIGIN}/master-royale-logo.webp`],
+    images: [`${SITE_ORIGIN}/master-royale-apk-logo.webp`],
   },
 };
 
@@ -42,7 +42,7 @@ export default function AboutPage() {
               <Link href="/" className="block">
                 <div className="relative w-[240px] h-[240px] rounded-lg overflow-hidden bg-[#0A1029]">
                   <Image
-                    src="/master-royale.webp"
+                    src="/master-royale-apk.webp"
                     alt="Master Royale – Clash Royale private server APK"
                     title="About Master Royale on masterroyaleapk.com"
                     width={240}
@@ -75,7 +75,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">What We Cover</h2>
+          <h2 className="text-2xl font-bold text-[#FDB402] mb-4">What We Cover</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-300 mb-8">
             <li>
               Android{" "}
@@ -94,7 +94,7 @@ export default function AboutPage() {
             <li>Clear disclaimers about private-server risks and account safety</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">Our Approach</h2>
+          <h2 className="text-2xl font-bold text-[#FDB402] mb-4">Our Approach</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
             Pages are written in straightforward English for players in Pakistan and elsewhere who
             search for Master Royale APK information. We keep claims honest: unlimited gems and gold
@@ -102,7 +102,7 @@ export default function AboutPage() {
             live server, we update version numbers and install notes as soon as we can verify them.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#FFC107] mb-4">Get in Touch</h2>
+          <h2 className="text-2xl font-bold text-[#FDB402] mb-4">Get in Touch</h2>
           <p className="text-gray-300 leading-relaxed">
             Questions about this website? Email{" "}
             <a href={`mailto:${SUPPORT_EMAIL}`} className="text-accent hover:underline">

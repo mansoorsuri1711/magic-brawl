@@ -52,7 +52,7 @@ export default function Contact() {
             accounts controlled by third parties.
           </p>
 
-          <div className="bg-[#0A1029] rounded-xl p-6 md:p-8 border-2 border-[#FFC107]/30 overflow-hidden">
+          <div className="bg-[#0A1029] rounded-xl p-6 md:p-8 border-2 border-[#FDB402]/30 overflow-hidden">
             <div className="flex items-center justify-center mb-4">
               <svg
                 aria-hidden="true"

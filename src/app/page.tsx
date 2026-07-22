@@ -51,14 +51,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: HERO_IMAGE,
-        width: 1024,
-        height: 1024,
+        width: 512,
+        height: 512,
         alt: "Master Royale APK – Clash Royale private server for Android",
       },
       {
         url: OG_IMAGE,
-        width: 1200,
-        height: 630,
+        width: 512,
+        height: 512,
         alt: "Master Royale – Free APK Download",
       },
     ],
@@ -159,8 +159,8 @@ export default function Home() {
         primaryImageOfPage: {
           "@type": "ImageObject",
           url: HERO_IMAGE,
-          width: 1024,
-          height: 1024,
+          width: 512,
+          height: 512,
           name: SITE_NAME,
           description:
             "Master Royale APK – Clash Royale private server brand image for Android download.",
@@ -175,8 +175,8 @@ export default function Home() {
         name: SITE_NAME,
         description:
           "Master Royale – free Clash Royale-style private server APK with Vanilla and Infinity modes.",
-        width: 1024,
-        height: 1024,
+        width: 512,
+        height: 512,
         ...imageObjectLicensing,
       },
       {
@@ -297,7 +297,7 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 <span className="text-white">Master Royale</span>
               </h1>
-              <p className="text-2xl md:text-3xl font-bold text-[#FFC107]">
+              <p className="text-2xl md:text-3xl font-bold text-[#FDB402]">
                 APK Download (Latest Version) for Android, PC &amp; iOS
               </p>
             </div>
@@ -324,7 +324,7 @@ export default function Home() {
               aria-label={`Rated ${APP.ratingValue} out of 5 from ${APP.ratingCountDisplay} ratings`}
             >
               <div className="flex items-center gap-2">
-                <span className="text-[#FFC107] text-xl tracking-tight" aria-hidden="true">
+                <span className="text-[#FDB402] text-xl tracking-tight" aria-hidden="true">
                   ★★★★☆
                 </span>
                 <span className="text-white text-2xl font-bold">{APP.ratingValue}</span>
@@ -342,21 +342,21 @@ export default function Home() {
 
             <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: "120px" }}>
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFC107] mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <svg className="w-6 h-6 mb-3 text-[#FDB402] mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
                   <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
                 </svg>
                 <div className="text-white text-2xl font-bold mb-1">{APP.downloadsDisplay}</div>
                 <div className="text-gray-400 text-sm">Downloads</div>
               </div>
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFC107] mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <svg className="w-6 h-6 mb-3 text-[#FDB402] mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
                   <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                 </svg>
                 <div className="text-white text-2xl font-bold mb-1">120K</div>
                 <div className="text-gray-400 text-sm">Ratings</div>
               </div>
               <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: "120px" }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFC107] mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <svg className="w-6 h-6 mb-3 text-[#FDB402] mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
                   <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
                 </svg>
                 <div className="text-white text-2xl font-bold mb-1">{APP.fileSizeShort}</div>
@@ -382,7 +382,7 @@ export default function Home() {
             />
             <meta itemProp="url" content={HERO_IMAGE} />
             <Image
-              src="/master-royale.webp"
+              src="/master-royale-apk.webp"
               alt="Master Royale APK – Clash Royale private server download"
               title="Master Royale – Free APK for Android"
               width={320}
@@ -402,7 +402,7 @@ export default function Home() {
       </section>
 
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="apk-details">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFC107]">Master Royale APK Details</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FDB402]">Master Royale APK Details</h2>
         <div className="overflow-hidden rounded-2xl shadow-2xl border border-gray-800">
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800">
@@ -454,7 +454,7 @@ export default function Home() {
 
       <section id="what-is-master-royale" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">What Is Master Royale?</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">What Is Master Royale?</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
               Master Royale is a Clash Royale-style private server packaged as a modified Android
@@ -483,7 +483,7 @@ export default function Home() {
 
       <section id="vanilla-vs-infinity" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Vanilla vs Infinity Modes</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Vanilla vs Infinity Modes</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
               Most Master Royale builds highlight two play lanes. Choosing the right one depends on
@@ -516,66 +516,66 @@ export default function Home() {
 
       <section id="features" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Master Royale Features</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Master Royale Features</h2>
           <ul className="space-y-4 text-gray-300">
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">Unlimited gems &amp; gold:</strong> shop and upgrade
                 loops driven by the private-server economy, without retail IAP gates.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">All cards unlocked:</strong> open the collection early so
                 you can theory-craft instead of grinding chests for months.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">Instant max levels:</strong> push cards toward top tiers
                 quickly (especially in Infinity) to test real endgame interactions.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">1v1 and 2v2 battles:</strong> classic arena pressure plus
                 duo modes when the live shard supports them.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">Custom OP cards:</strong> community creations (for example
                 Infinite Sparky-style units on some builds) for sandbox experimentation.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">Stable community servers:</strong> operators aim for
                 regular uptime so you can queue beyond a one-night LAN feel.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">Clans &amp; social play:</strong> join clans, chat, and
                 share decks when the active build exposes those features.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">Regular updates:</strong> clients track toward current
                 package versions such as {APP.version} / {APP.versionAlt}.
               </span>
             </li>
             <li className="flex gap-3">
-              <span className="text-[#FFC107] font-bold">•</span>
+              <span className="text-[#FDB402] font-bold">•</span>
               <span>
                 <strong className="text-white">Safe isolated environment:</strong> progress stays on the
                 private database — keep it separate from your retail Supercell login.
@@ -587,7 +587,7 @@ export default function Home() {
 
       <section id="system-requirements" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">System Requirements</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">System Requirements</h2>
           <div className="grid md:grid-cols-3 gap-8 text-gray-300 leading-relaxed">
             <div>
               <h3 className="text-xl font-semibold text-white mb-4">Android</h3>
@@ -627,7 +627,7 @@ export default function Home() {
 
       <section id="how-to-download-install" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">How to Download &amp; Install Master Royale</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">How to Download &amp; Install Master Royale</h2>
           <ol className="space-y-6 text-gray-300 list-decimal list-inside">
             <li>
               <strong className="text-white">Enable unknown sources.</strong> In Android Settings →
@@ -661,7 +661,7 @@ export default function Home() {
 
       <section id="create-account-login" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Create Account &amp; Log In</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Create Account &amp; Log In</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
               After the first launch, Master Royale usually asks you to register with a nickname,
@@ -691,7 +691,7 @@ export default function Home() {
 
       <section id="tips" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Practical Tips for Better Matches</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Practical Tips for Better Matches</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
               Unlimited resources do not replace fundamentals. Elixir counting, cycle awareness, and
@@ -720,7 +720,7 @@ export default function Home() {
 
       <section id="pros-cons" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Pros &amp; Cons of Master Royale</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Pros &amp; Cons of Master Royale</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold text-white mb-4">Pros</h3>
@@ -749,7 +749,7 @@ export default function Home() {
 
       <section id="safety" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Safety Notes Before You Sideload</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Safety Notes Before You Sideload</h2>
           <div className="space-y-6 text-gray-300 leading-relaxed">
             <p>
               Master Royale is third-party software. Download only through the CTA on{" "}
@@ -780,7 +780,7 @@ export default function Home() {
 
       <section id="troubleshooting" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Troubleshooting Common Issues</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Troubleshooting Common Issues</h2>
           <div className="space-y-4 text-gray-300">
             <div>
               <h3 className="text-lg font-semibold text-white mb-2">Connection errors / capacity</h3>
@@ -835,7 +835,7 @@ export default function Home() {
 
       <section id="support" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Website Support</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Website Support</h2>
           <p className="text-gray-300 leading-relaxed mb-4">
             Need help with guides on {SITE_DOMAIN}, broken download anchors, or privacy requests?
             Email{" "}
@@ -854,16 +854,16 @@ export default function Home() {
 
       <section id="faq" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
-          <h2 className="text-3xl font-bold mb-8 text-[#FFC107]">Master Royale FAQ</h2>
+          <h2 className="text-3xl font-bold mb-8 text-[#FDB402]">Master Royale FAQ</h2>
           <div className="space-y-3">
             {FAQS.map((item) => (
               <details
                 key={item.q}
-                className="group bg-[#0A1029] rounded-xl border border-gray-800 open:border-[#FFC107]/40"
+                className="group bg-[#0A1029] rounded-xl border border-gray-800 open:border-[#FDB402]/40"
               >
                 <summary className="cursor-pointer list-none px-5 py-4 font-semibold text-white flex justify-between items-center gap-4">
                   <span>{item.q}</span>
-                  <span className="text-[#FFC107] group-open:rotate-45 transition-transform text-2xl leading-none">
+                  <span className="text-[#FDB402] group-open:rotate-45 transition-transform text-2xl leading-none">
                     +
                   </span>
                 </summary>
@@ -875,8 +875,8 @@ export default function Home() {
       </section>
 
       <section id="closing-cta" className="py-12 px-4 md:px-8 max-w-7xl mx-auto mb-8">
-        <div className="bg-secondary rounded-xl p-8 text-center border border-[#FFC107]/30">
-          <h2 className="text-3xl font-bold mb-4 text-[#FFC107]">Ready to Try Master Royale?</h2>
+        <div className="bg-secondary rounded-xl p-8 text-center border border-[#FDB402]/30">
+          <h2 className="text-3xl font-bold mb-4 text-[#FDB402]">Ready to Try Master Royale?</h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
             Download the free APK from {SITE_DOMAIN}, create a private-server account, and explore
             Vanilla or Infinity at your own pace. Prefer a bigger screen? Follow the{" "}

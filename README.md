@@ -17,14 +17,15 @@ npm run dev
 
 ## Images
 
-Drop final assets into `public/` (replace placeholders):
+Drop final assets into `public/` (replace as needed):
 
-- `master-royale.webp`
-- `master-royale-logo.webp`
+- `master-royale-apk.webp`
+- `master-royale-apk-logo.webp`
+- `master-royale-apk-logo.ico`
+- `favicon.ico`
 - `feature/og-image.webp`
 - `feature/og-image-square.webp`
 - `feature/twitter-card.webp`
-- `favicon.ico`
 
 ## Scripts
 

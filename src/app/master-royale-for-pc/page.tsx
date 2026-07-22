@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: `${SITE_ORIGIN}/master-royale-for-pc`,
     siteName: SITE_NAME,
     type: "website",
-    images: [{ url: HERO_IMAGE, width: 1024, height: 1024, alt: "Master Royale for PC" }],
+    images: [{ url: HERO_IMAGE, width: 512, height: 512, alt: "Master Royale for PC" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -122,7 +122,7 @@ export default function MasterRoyaleForPcPage() {
 
           <div className="flex justify-center mb-10">
             <Image
-              src="/master-royale.webp"
+              src="/master-royale-apk.webp"
               alt="Master Royale for PC via Android emulator"
               title="Master Royale PC version guide"
               width={220}
@@ -133,7 +133,7 @@ export default function MasterRoyaleForPcPage() {
           </div>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">
               Why Play Master Royale on PC?
             </h2>
             <div className="space-y-4 text-gray-300 leading-relaxed">
@@ -154,7 +154,7 @@ export default function MasterRoyaleForPcPage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">
               Windows Requirements
             </h2>
             <ul className="space-y-3 text-gray-300 list-disc pl-6">
@@ -172,7 +172,7 @@ export default function MasterRoyaleForPcPage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">
               Step-by-Step: Deploy, Install, Map Controls
             </h2>
             <ol className="space-y-5 text-gray-300 list-decimal list-inside leading-relaxed">
@@ -213,7 +213,7 @@ export default function MasterRoyaleForPcPage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-6">PC Emulator Tips</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">PC Emulator Tips</h2>
             <ul className="space-y-3 text-gray-300 list-disc pl-6">
               <li>Map elixir-heavy cards to nearby keys so cycle plays stay muscle-memory fast.</li>
               <li>Close heavy browser tabs and background games so the emulator keeps CPU priority.</li>
@@ -233,7 +233,7 @@ export default function MasterRoyaleForPcPage() {
           </section>
 
           <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FFC107] mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-4">
               Troubleshooting on PC
             </h2>
             <div className="space-y-4 text-gray-300 leading-relaxed">
@@ -260,8 +260,8 @@ export default function MasterRoyaleForPcPage() {
             </div>
           </section>
 
-          <section className="bg-secondary rounded-2xl p-8 mb-4 text-center border border-[#FFC107]/30">
-            <h2 className="text-2xl font-bold text-[#FFC107] mb-4">Get the APK for Your Emulator</h2>
+          <section className="bg-secondary rounded-2xl p-8 mb-4 text-center border border-[#FDB402]/30">
+            <h2 className="text-2xl font-bold text-[#FDB402] mb-4">Get the APK for Your Emulator</h2>
             <p className="text-gray-300 mb-6 max-w-xl mx-auto">
               Download from {SITE_DOMAIN}, then drop the file into BlueStacks or your preferred
               emulator.

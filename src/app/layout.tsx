@@ -71,10 +71,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", type: "image/x-icon", sizes: "any" },
-      { url: "/master-royale-logo.webp", type: "image/webp", sizes: "192x192" },
-      { url: "/master-royale.webp", type: "image/webp", sizes: "1024x1024" },
+      { url: "/master-royale-apk-logo.ico", type: "image/x-icon", sizes: "256x256" },
+      { url: "/master-royale-apk-logo.webp", type: "image/webp", sizes: "512x512" },
+      { url: "/master-royale-apk.webp", type: "image/webp", sizes: "512x512" },
     ],
-    apple: [{ url: "/master-royale-logo.webp", sizes: "180x180" }],
+    apple: [{ url: "/master-royale-apk-logo.webp", sizes: "180x180" }],
     shortcut: [{ url: "/favicon.ico", type: "image/x-icon" }],
   },
   alternates: {
@@ -91,14 +92,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: OG_IMAGE,
-        width: 1200,
-        height: 630,
+        width: 512,
+        height: 512,
         alt: "Master Royale APK Download",
       },
       {
         url: `${SITE_ORIGIN}/feature/og-image-square.webp`,
-        width: 800,
-        height: 800,
+        width: 512,
+        height: 512,
         alt: "Master Royale APK",
       },
     ],
@@ -111,8 +112,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${SITE_ORIGIN}/feature/twitter-card.webp`,
-        width: 1200,
-        height: 600,
+        width: 512,
+        height: 512,
         alt: "Master Royale APK Download",
       },
     ],
@@ -132,11 +133,12 @@ export default function RootLayout({
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48 256x256" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/master-royale-logo.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/master-royale.webp" type="image/webp" sizes="1024x1024" />
-        <link rel="apple-touch-icon" href="/master-royale-logo.webp" sizes="180x180" />
+        <link rel="icon" href="/master-royale-apk-logo.ico" type="image/x-icon" sizes="256x256" />
+        <link rel="icon" href="/master-royale-apk-logo.webp" type="image/webp" sizes="512x512" />
+        <link rel="icon" href="/master-royale-apk.webp" type="image/webp" sizes="512x512" />
+        <link rel="apple-touch-icon" href="/master-royale-apk-logo.webp" sizes="180x180" />
 
         <Script id="deferred-manifest" strategy="lazyOnload">
           {`(function(){var l=document.createElement('link');l.rel='manifest';l.href='/manifest.json';document.head.appendChild(l);})();`}

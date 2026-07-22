@@ -18,13 +18,13 @@ export const SITEMAP_PAGES: SitemapPage[] = [
     priority: 1.0,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale.webp`,
+        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
         title: "Master Royale APK – Official App Icon",
         caption:
           "Master Royale APK icon for the Clash Royale private server. Download free for Android.",
       },
       {
-        loc: `${SITE_ORIGIN}/master-royale-logo.webp`,
+        loc: `${SITE_ORIGIN}/master-royale-apk-logo.webp`,
         title: "Master Royale Logo",
         caption: "Master Royale logo used across masterroyaleapk.com",
       },
@@ -37,7 +37,7 @@ export const SITEMAP_PAGES: SitemapPage[] = [
     priority: 0.95,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale.webp`,
+        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
         title: "Download Master Royale APK",
         caption: "Download Master Royale APK for Android with install steps",
       },
@@ -50,7 +50,7 @@ export const SITEMAP_PAGES: SitemapPage[] = [
     priority: 0.9,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale.webp`,
+        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
         title: "Master Royale for PC",
         caption: "Play Master Royale on PC with an Android emulator",
       },

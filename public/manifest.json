@@ -9,17 +9,22 @@
   "icons": [
     {
       "src": "/favicon.ico",
-      "sizes": "16x16 32x32 48x48",
+      "sizes": "16x16 32x32 48x48 256x256",
       "type": "image/x-icon"
     },
     {
-      "src": "/master-royale-logo.webp",
-      "sizes": "192x192 512x512",
+      "src": "/master-royale-apk-logo.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/master-royale-apk-logo.webp",
+      "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "/master-royale.webp",
+      "src": "/master-royale-apk.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any"
