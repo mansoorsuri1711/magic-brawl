@@ -48,7 +48,7 @@ export default function MobileOptimizedImage({
 
   return (
     <div 
-      className={`relative ${className} ${!isLoaded ? 'bg-gray-800 animate-pulse' : ''}`}
+      className={`relative ${className} ${!isLoaded ? 'bg-slate-200 animate-pulse' : ''}`}
       style={{ 
         width: dimensions.width,
         height: dimensions.height,

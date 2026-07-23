@@ -29,7 +29,7 @@ export default function Breadcrumbs({ items }: { items: Crumb[] }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <nav aria-label="Breadcrumb" className="mb-8">
-        <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
+        <ol className="flex flex-wrap items-center gap-2 text-sm text-slate-500">
           {items.map((item, index) => {
             const isLast = index === items.length - 1;
             return (

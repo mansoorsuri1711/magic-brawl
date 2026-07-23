@@ -27,7 +27,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-primary py-3 px-4 md:px-8 sticky top-0 z-30 border-b border-gray-800">
+    <header className="bg-white/90 backdrop-blur-md py-3 px-4 md:px-8 sticky top-0 z-30 border-b border-slate-200/80 shadow-sm">
       <div className="container mx-auto flex justify-between items-center gap-3">
         <Link href="/" className="flex items-center shrink-0">
           <div className="relative h-10 w-10 mr-2">
@@ -41,7 +41,9 @@ export default function Header() {
               fetchPriority="high"
             />
           </div>
-          <span className="text-accent text-xl md:text-2xl font-bold">{SITE_NAME}</span>
+          <span className="font-display text-ink text-xl md:text-2xl font-bold tracking-tight">
+            <span className="text-accent">Master</span> Royale
+          </span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
@@ -50,7 +52,7 @@ export default function Header() {
               key={href}
               href={href}
               className={`relative font-medium transition-colors pb-1 group uppercase text-sm tracking-wide ${
-                isActive(href) ? 'text-accent' : 'text-white hover:text-accent'
+                isActive(href) ? 'text-accent' : 'text-ink hover:text-accent'
               }`}
             >
               {label}

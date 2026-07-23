@@ -43,7 +43,7 @@ export default function LanguageSwitcher() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 text-white hover:text-accent transition-colors p-1"
+        className="flex items-center gap-1.5 text-ink hover:text-accent transition-colors p-1"
         aria-label="Select language"
         aria-expanded={open}
         aria-haspopup="listbox"

@@ -15,15 +15,15 @@ export default function NotFound() {
   return (
     <div className="container mx-auto px-4 py-16 text-center">
       <h1 className="text-4xl md:text-6xl font-bold mb-6 text-accent">404</h1>
-      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">Page Not Found</h2>
-      <p className="text-lg mb-8 text-gray-300 max-w-lg mx-auto">
+      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-ink">Page Not Found</h2>
+      <p className="text-lg mb-8 text-muted max-w-lg mx-auto">
         This URL is missing or moved. Head back to Master Royale for the free APK download guide,
         Vanilla vs Infinity notes, and PC emulator tips.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <Link
           href="/"
-          className="bg-accent hover:bg-accent-hover text-[#06091F] font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
+          className="bg-accent hover:brightness-95 text-ink font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
         >
           Master Royale Home
         </Link>

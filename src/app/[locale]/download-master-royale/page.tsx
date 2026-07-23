@@ -4,9 +4,11 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import DownloadButton from "@/components/DownloadButton";
+import ModeIcon from "@/components/ModeIcon";
 import { Link } from "@/i18n/navigation";
 import { fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
+import { ASSETS } from "@/lib/assets";
 import {
   APP,
   HERO_IMAGE,
@@ -143,24 +145,24 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
           />
 
           <header className="text-center mb-10">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">{t("h1")}</h1>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto">{fillAppVars(t("intro"))}</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-ink mb-4">{t("h1")}</h1>
+            <p className="text-lg text-muted max-w-2xl mx-auto">{fillAppVars(t("intro"))}</p>
           </header>
 
           <div
-            className="flex flex-col sm:flex-row sm:items-center justify-center gap-3 bg-secondary rounded-2xl px-5 py-4 border border-gray-800 mb-10"
+            className="flex flex-col sm:flex-row sm:items-center justify-center gap-3 bg-secondary rounded-2xl px-5 py-4 border border-slate-200 mb-10"
             aria-label={`Rated ${APP.ratingValue} out of 5 from ${APP.ratingCountDisplay} ratings`}
           >
             <div className="flex items-center gap-2 justify-center">
-              <span className="text-[#FDB402] text-xl" aria-hidden="true">
+              <span className="text-accent text-xl" aria-hidden="true">
                 ★★★★☆
               </span>
-              <span className="text-white text-2xl font-bold">{APP.ratingValue}</span>
+              <span className="text-ink text-2xl font-bold">{APP.ratingValue}</span>
             </div>
-            <div className="text-gray-300 text-center sm:text-left text-sm sm:text-base">
-              <span className="text-white font-semibold">{APP.ratingCountDisplay}</span>{" "}
+            <div className="text-muted text-center sm:text-left text-sm sm:text-base">
+              <span className="text-ink font-semibold">{APP.ratingCountDisplay}</span>{" "}
               {tc("ratings")}
-              <span className="mx-2 text-gray-600">·</span>
+              <span className="mx-2 text-slate-400">·</span>
               {tc("freeAndroidGame")}
             </div>
           </div>
@@ -178,39 +180,27 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
           </div>
 
           <div className="flex justify-center gap-4 mb-10">
-            <Image
-              src="/mr-vanilla-master-royale.webp"
-              alt="MR Vanilla"
-              width={88}
-              height={88}
-              className="object-contain w-20 h-20 rounded-2xl"
-            />
-            <Image
-              src="/mr-infinity-master-royale.webp"
-              alt="MR Infinity"
-              width={88}
-              height={88}
-              className="object-contain w-20 h-20 rounded-2xl"
-            />
+            <ModeIcon src={ASSETS.vanilla} alt="MR Vanilla" size="sm" />
+            <ModeIcon src={ASSETS.infinity} alt="MR Infinity" size="sm" />
           </div>
 
           <section
             id="apk-download"
-            className="bg-secondary rounded-2xl p-8 mb-10 text-center border border-[#0ea5e9]/40"
+            className="bg-secondary rounded-2xl p-8 mb-10 text-center border border-sky/40"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-4">{t("ctaTitle")}</h2>
-            <p className="text-gray-300 mb-6 max-w-xl mx-auto">{t("ctaText")}</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-accent mb-4">{t("ctaTitle")}</h2>
+            <p className="text-muted mb-6 max-w-xl mx-auto">{t("ctaText")}</p>
             <DownloadButton />
-            <p className="text-gray-500 text-sm mt-4">
+            <p className="text-slate-500 text-sm mt-4">
               {APP.packageId} · {APP.os} · {APP.price}
             </p>
           </section>
 
-          <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">{t("infoTitle")}</h2>
-            <div className="overflow-hidden rounded-xl border border-gray-800">
-              <table className="min-w-full divide-y divide-gray-800">
-                <tbody className="divide-y divide-gray-800 text-white">
+          <section className="bg-white rounded-2xl p-8 mb-10 border border-slate-200 shadow-sm">
+            <h2 className="text-2xl md:text-3xl font-bold text-accent mb-6">{t("infoTitle")}</h2>
+            <div className="overflow-hidden rounded-xl border border-slate-200">
+              <table className="min-w-full divide-y divide-slate-200">
+                <tbody className="divide-y divide-slate-200 text-ink">
                   {[
                     [th("table.appName"), APP.displayName],
                     [th("table.package"), APP.packageId],
@@ -224,7 +214,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
                       `${APP.ratingValue} / 5 · ${APP.ratingCountDisplay} ${tc("ratings")} · ${tc("freeAndroidGame")}`,
                     ],
                   ].map(([label, value], i) => (
-                    <tr key={label} className={i % 2 === 0 ? "bg-[#0a1029]/50" : "bg-[#06091F]/50"}>
+                    <tr key={label} className={i % 2 === 0 ? "bg-secondary/50" : "bg-white"}>
                       <td className="py-3 px-5 font-medium">{label}</td>
                       <td className="py-3 px-5">{value}</td>
                     </tr>
@@ -234,23 +224,23 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
             </div>
           </section>
 
-          <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">{t("installTitle")}</h2>
-            <ol className="space-y-5 text-gray-300 list-decimal list-inside leading-relaxed">
+          <section className="bg-white rounded-2xl p-8 mb-10 border border-slate-200 shadow-sm">
+            <h2 className="text-2xl md:text-3xl font-bold text-accent mb-6">{t("installTitle")}</h2>
+            <ol className="space-y-5 text-muted list-decimal list-inside leading-relaxed">
               {installSteps.map((step) => (
                 <li key={step}>{step}</li>
               ))}
             </ol>
-            <p className="text-gray-400 text-sm mt-6">
+            <p className="text-slate-500 text-sm mt-6">
               <Link href="/master-royale-for-pc" className="text-accent hover:underline">
                 {tn("pc")}
               </Link>
             </p>
           </section>
 
-          <section id="ios-install" className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-6">{t("iosTitle")}</h2>
-            <div className="space-y-4 text-gray-300 leading-relaxed">
+          <section id="ios-install" className="bg-white rounded-2xl p-8 mb-10 border border-slate-200 shadow-sm">
+            <h2 className="text-2xl md:text-3xl font-bold text-accent mb-6">{t("iosTitle")}</h2>
+            <div className="space-y-4 text-muted leading-relaxed">
               <p>{t("iosIntro")}</p>
               <ul className="list-disc pl-6 space-y-2">
                 {iosSteps.map((step) => (
@@ -265,13 +255,13 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
             </div>
           </section>
 
-          <section className="bg-secondary rounded-2xl p-8 mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#FDB402] mb-4">{t("afterTitle")}</h2>
-            <p className="text-gray-300 leading-relaxed">{t("afterP")}</p>
+          <section className="bg-white rounded-2xl p-8 mb-10 border border-slate-200 shadow-sm">
+            <h2 className="text-2xl md:text-3xl font-bold text-accent mb-4">{t("afterTitle")}</h2>
+            <p className="text-muted leading-relaxed">{t("afterP")}</p>
           </section>
 
-          <section className="bg-secondary rounded-2xl p-8 mb-4 text-center">
-            <h2 className="text-2xl font-bold text-[#FDB402] mb-4">{t("againTitle")}</h2>
+          <section className="bg-white rounded-2xl p-8 mb-4 text-center border border-slate-200 shadow-sm">
+            <h2 className="text-2xl font-bold text-accent mb-4">{t("againTitle")}</h2>
             <DownloadButton />
           </section>
         </div>

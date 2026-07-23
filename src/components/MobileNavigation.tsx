@@ -19,7 +19,7 @@ type NavSection = {
 };
 
 const ChevronRight = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-gray-600" aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-slate-400" aria-hidden="true">
     <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
   </svg>
 );
@@ -175,8 +175,8 @@ export default function MobileNavigation() {
       <MenuButton onClick={toggleMenu} isOpen={isOpen} />
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-[#0d0d0d]">
-          <div className="flex justify-between items-center px-5 py-4 border-b border-gray-800/80">
+        <div className="fixed inset-0 z-50 flex flex-col bg-white">
+          <div className="flex justify-between items-center px-5 py-4 border-b border-slate-200">
             <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
               <div className="relative w-9 h-9 flex-shrink-0 rounded-lg overflow-hidden">
                 <Image
@@ -188,11 +188,13 @@ export default function MobileNavigation() {
                   priority
                 />
               </div>
-              <span className="text-white text-lg font-bold tracking-tight">{SITE_NAME}</span>
+              <span className="font-display text-ink text-lg font-bold tracking-tight">
+                <span className="text-accent">Master</span> Royale
+              </span>
             </Link>
             <button
               onClick={closeMenu}
-              className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1a1f35] text-white hover:bg-[#252b45] transition-colors"
+              className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-ink hover:bg-slate-200 transition-colors"
               aria-label="Close menu"
             >
               <svg
@@ -209,12 +211,12 @@ export default function MobileNavigation() {
           </div>
 
           <div className="relative flex-1 overflow-y-auto">
-            <div className="absolute right-0 top-0 bottom-0 w-1 bg-[#0BA5E9]" aria-hidden="true" />
+            <div className="absolute right-0 top-0 bottom-0 w-1 bg-sky" aria-hidden="true" />
 
             <nav className="px-5 py-2 pb-6">
               {navSections.map((section) => (
                 <div key={section.title} className="mb-2">
-                  <p className="text-[11px] font-semibold tracking-widest text-gray-500 uppercase px-1 pt-5 pb-2">
+                  <p className="text-[11px] font-semibold tracking-widest text-slate-500 uppercase px-1 pt-5 pb-2">
                     {section.title}
                   </p>
                   <ul className="space-y-0.5">
@@ -226,12 +228,12 @@ export default function MobileNavigation() {
                             href={item.href}
                             onClick={closeMenu}
                             className={`flex items-center gap-4 px-1 py-3.5 transition-colors group ${
-                              active ? 'text-accent' : 'text-white hover:text-accent'
+                              active ? 'text-accent' : 'text-ink hover:text-accent'
                             }`}
                           >
                             <span
                               className={`transition-colors flex-shrink-0 ${
-                                active ? 'text-accent' : 'text-gray-400 group-hover:text-accent'
+                                active ? 'text-accent' : 'text-slate-500 group-hover:text-accent'
                               }`}
                             >
                               {item.icon}
@@ -248,21 +250,21 @@ export default function MobileNavigation() {
             </nav>
           </div>
 
-          <div className="px-5 pt-4 pb-8 border-t border-gray-800/80 flex flex-col items-center">
+          <div className="px-5 pt-4 pb-8 border-t border-slate-200 flex flex-col items-center">
             <a
               href={DOWNLOAD_APK_URL}
               onClick={closeMenu}
               aria-label={t('downloadNow')}
-              className="download-btn inline-flex items-center px-8 py-4 text-white font-semibold text-lg rounded-full border-2 border-[#0BA5E9] bg-transparent hover:bg-[#0BA5E9]/10 transition-all group"
+              className="download-btn inline-flex items-center px-8 py-4 text-ink font-semibold text-lg rounded-full border-2 border-sky bg-white hover:bg-sky/10 shadow-sm transition-all group"
             >
               <span>{t('downloadNow')}</span>
-              <div className="download-icon ml-3 bg-[#f97316] rounded-full p-2 group-hover:scale-110 transition-transform">
+              <div className="download-icon ml-3 bg-[#f97316] text-white rounded-full p-2 group-hover:scale-110 transition-transform">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
               </div>
             </a>
-            <p className="text-center text-gray-500 text-xs mt-3">
+            <p className="text-center text-slate-500 text-xs mt-3">
               {APP.fileSizeShort} · {APP.os} · {APP.version}
             </p>
           </div>

@@ -50,14 +50,14 @@ export default async function Contact({ params }: PageProps) {
         />
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t("h1")}</h1>
-          <p className="text-lg text-gray-400">{t("subtitle")}</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-ink">{t("h1")}</h1>
+          <p className="text-lg text-slate-500">{t("subtitle")}</p>
         </div>
 
         <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
-          <p className="text-lg text-gray-300 leading-relaxed mb-8">{t("intro")}</p>
+          <p className="text-lg text-muted leading-relaxed mb-8">{t("intro")}</p>
 
-          <div className="bg-[#0A1029] rounded-xl p-6 md:p-8 border-2 border-[#FDB402]/30 overflow-hidden">
+          <div className="bg-secondary rounded-xl p-6 md:p-8 border-2 border-accent/30 overflow-hidden">
             <div className="flex items-center justify-center mb-4">
               <svg
                 aria-hidden="true"
@@ -74,10 +74,10 @@ export default async function Contact({ params }: PageProps) {
                 />
               </svg>
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-ink">
               {t("emailTitle")}
             </h2>
-            <p className="text-center mb-4 text-gray-400">{t("emailText")}</p>
+            <p className="text-center mb-4 text-slate-500">{t("emailText")}</p>
             <div className="flex justify-center w-full min-w-0 overflow-hidden px-4">
               <a
                 href={`mailto:${SUPPORT_EMAIL}`}
@@ -90,26 +90,26 @@ export default async function Contact({ params }: PageProps) {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-2xl font-bold text-white mb-3">{t("responseTitle")}</h2>
-            <p className="text-gray-300 leading-relaxed">{t("responseP")}</p>
+            <h2 className="text-2xl font-bold text-ink mb-3">{t("responseTitle")}</h2>
+            <p className="text-muted leading-relaxed">{t("responseP")}</p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
-            <h3 className="text-xl font-bold mb-2 text-white">{tn("download")}</h3>
+            <h3 className="text-xl font-bold mb-2 text-ink">{tn("download")}</h3>
             <Link href="/download-master-royale" className="text-accent hover:underline font-semibold">
               {tn("installGuide")}
             </Link>
           </div>
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
-            <h3 className="text-xl font-bold mb-2 text-white">{tn("pc")}</h3>
+            <h3 className="text-xl font-bold mb-2 text-ink">{tn("pc")}</h3>
             <Link href="/master-royale-for-pc" className="text-accent hover:underline font-semibold">
               {tn("pc")}
             </Link>
           </div>
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
-            <h3 className="text-xl font-bold mb-2 text-white">{tf("disclaimer")}</h3>
+            <h3 className="text-xl font-bold mb-2 text-ink">{tf("disclaimer")}</h3>
             <Link href="/disclaimer" className="text-accent hover:underline font-semibold">
               {tf("disclaimer")}
             </Link>

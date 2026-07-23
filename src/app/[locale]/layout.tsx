@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Poppins } from "next/font/google";
+import { Outfit, Syne } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -21,11 +21,19 @@ import {
   SITE_ORIGIN,
 } from "@/lib/site";
 
-const poppins = Poppins({
+const outfit = Outfit({
   subsets: ["latin", "latin-ext"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
-  variable: "--font-poppins",
+  variable: "--font-outfit",
+  preload: true,
+});
+
+const syne = Syne({
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "600", "700", "800"],
+  display: "swap",
+  variable: "--font-syne",
   preload: true,
 });
 
@@ -34,7 +42,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#06091F",
+  themeColor: "#FFFFFF",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
@@ -140,10 +148,14 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={poppins.variable} suppressHydrationWarning>
+    <html
+      lang={locale}
+      className={`${outfit.variable} ${syne.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
         <link rel="icon" href="/master-royale-apk-logo.ico" type="image/x-icon" sizes="256x256" />
         <link rel="apple-touch-icon" href="/master-royale-apk-logo.webp" sizes="180x180" />
@@ -152,20 +164,14 @@ export default async function LocaleLayout({
         </Script>
       </head>
       <body
-        className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col`}
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 10% 20%, rgba(10, 16, 41, 0.4) 0%, rgba(6, 9, 31, 0.01) 90%)",
-          backgroundAttachment: "fixed",
-          minHeight: "100vh",
-        }}
+        className={`${outfit.className} antialiased bg-primary text-ink min-h-screen flex flex-col`}
+        style={{ minHeight: "100vh" }}
         suppressHydrationWarning
       >
         <NextIntlClientProvider messages={messages}>
-          <div className="stars-bg fixed inset-0 z-0 opacity-20" />
           <MobileMenuProvider>
             <Header />
-            <main className="relative z-10">{children}</main>
+            <main className="relative z-10 flex-1">{children}</main>
             <DeferredStyles />
             <Footer />
             <ScrollToTopWrapper />

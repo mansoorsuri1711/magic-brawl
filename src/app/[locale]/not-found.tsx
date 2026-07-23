@@ -23,12 +23,12 @@ export default async function NotFound() {
   return (
     <div className="container mx-auto px-4 py-16 text-center">
       <h1 className="text-4xl md:text-6xl font-bold mb-6 text-accent">{t("title")}</h1>
-      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">{t("heading")}</h2>
-      <p className="text-lg mb-8 text-gray-300 max-w-lg mx-auto">{t("text")}</p>
+      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-ink">{t("heading")}</h2>
+      <p className="text-lg mb-8 text-muted max-w-lg mx-auto">{t("text")}</p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <Link
           href="/"
-          className="bg-accent hover:bg-accent-hover text-[#06091F] font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
+          className="bg-accent hover:brightness-95 text-ink font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
         >
           {t("home")}
         </Link>

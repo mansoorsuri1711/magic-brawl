@@ -49,8 +49,8 @@ export default async function PrivacyPolicyPage({ params }: PageProps) {
         />
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t("h1")}</h1>
-          <p className="text-lg text-gray-400">{t("updated")}</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-ink">{t("h1")}</h1>
+          <p className="text-lg text-slate-500">{t("updated")}</p>
         </div>
 
         <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 space-y-10">
@@ -59,24 +59,24 @@ export default async function PrivacyPolicyPage({ params }: PageProps) {
               key={section.title}
               className={
                 index === 0
-                  ? "bg-[#0A1029] border-l-4 border-accent rounded-r-lg p-6"
+                  ? "bg-secondary border-l-4 border-accent rounded-r-lg p-6"
                   : undefined
               }
             >
               <h2
                 className={
                   index === 0
-                    ? "text-2xl font-bold mb-4 text-white"
-                    : "text-3xl font-bold mb-6 text-white"
+                    ? "text-2xl font-bold mb-4 text-ink"
+                    : "text-3xl font-bold mb-6 text-ink"
                 }
               >
                 {section.title}
               </h2>
-              <p className="text-gray-300 leading-relaxed whitespace-pre-line">{section.body}</p>
+              <p className="text-muted leading-relaxed whitespace-pre-line">{section.body}</p>
             </section>
           ))}
 
-          <p className="text-gray-400 text-sm">
+          <p className="text-slate-500 text-sm">
             <a href={`mailto:${SUPPORT_EMAIL}`} className="text-accent hover:underline">
               {SUPPORT_EMAIL}
             </a>

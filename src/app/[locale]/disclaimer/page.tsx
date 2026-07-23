@@ -52,28 +52,28 @@ export default async function Disclaimer({ params }: PageProps) {
         />
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t("h1")}</h1>
-          <p className="text-lg text-gray-400">{t("subtitle")}</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-ink">{t("h1")}</h1>
+          <p className="text-lg text-slate-500">{t("subtitle")}</p>
         </div>
 
         <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
           {notice && (
-            <div className="bg-[#0A1029] border-l-4 border-accent p-6 mb-8 rounded-r-lg">
+            <div className="bg-secondary border-l-4 border-accent p-6 mb-8 rounded-r-lg">
               <h2 className="text-xl font-bold text-accent mb-2">{notice.title}</h2>
               <p className="text-accent mb-0">{notice.body}</p>
             </div>
           )}
 
-          <div className="space-y-8 text-gray-300 leading-relaxed">
+          <div className="space-y-8 text-muted leading-relaxed">
             {rest.map((section) => (
               <section key={section.title}>
-                <h2 className="text-2xl font-bold text-white mb-3">{section.title}</h2>
+                <h2 className="text-2xl font-bold text-ink mb-3">{section.title}</h2>
                 <p>{section.body}</p>
               </section>
             ))}
           </div>
 
-          <p className="text-gray-400 text-sm mt-8">
+          <p className="text-slate-500 text-sm mt-8">
             <a href={`mailto:${SUPPORT_EMAIL}`} className="text-accent hover:underline">
               {SUPPORT_EMAIL}
             </a>

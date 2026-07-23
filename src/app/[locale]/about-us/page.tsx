@@ -50,14 +50,14 @@ export default async function AboutPage({ params }: PageProps) {
         />
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t("h1")}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-ink">{t("h1")}</h1>
         </div>
 
         <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-12">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16 mb-8">
             <div className="w-full md:w-1/3 flex justify-center">
               <Link href="/" className="block">
-                <div className="relative w-[240px] h-[240px] rounded-lg overflow-hidden bg-[#0A1029]">
+                <div className="relative w-[240px] h-[240px] rounded-lg overflow-hidden bg-secondary">
                   <Image
                     src="/master-royale-king.webp"
                     alt={SITE_NAME}
@@ -70,24 +70,24 @@ export default async function AboutPage({ params }: PageProps) {
                 </div>
               </Link>
             </div>
-            <div className="md:w-2/3 space-y-4 text-gray-300 leading-relaxed">
+            <div className="md:w-2/3 space-y-4 text-muted leading-relaxed">
               <p>{t("p1")}</p>
               <p>{t("p2")}</p>
             </div>
           </div>
 
-          <h2 className="text-2xl font-bold text-[#FDB402] mb-4">{t("coverTitle")}</h2>
-          <ul className="list-disc pl-6 space-y-2 text-gray-300 mb-8">
+          <h2 className="text-2xl font-bold text-accent mb-4">{t("coverTitle")}</h2>
+          <ul className="list-disc pl-6 space-y-2 text-muted mb-8">
             {coverItems.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
 
-          <h2 className="text-2xl font-bold text-[#FDB402] mb-4">{t("approachTitle")}</h2>
-          <p className="text-gray-300 leading-relaxed mb-6">{t("approachP")}</p>
+          <h2 className="text-2xl font-bold text-accent mb-4">{t("approachTitle")}</h2>
+          <p className="text-muted leading-relaxed mb-6">{t("approachP")}</p>
 
-          <h2 className="text-2xl font-bold text-[#FDB402] mb-4">{t("touchTitle")}</h2>
-          <p className="text-gray-300 leading-relaxed">
+          <h2 className="text-2xl font-bold text-accent mb-4">{t("touchTitle")}</h2>
+          <p className="text-muted leading-relaxed">
             {t("touchP")}{" "}
             <a href={`mailto:${SUPPORT_EMAIL}`} className="text-accent hover:underline">
               {SUPPORT_EMAIL}

@@ -33,26 +33,26 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-secondary rounded-lg p-6 md:p-8">
-      <h2 className="text-2xl font-bold mb-6 text-white text-center">Send Us a Message</h2>
+    <div className="bg-white rounded-lg p-6 md:p-8 border border-slate-200 shadow-sm">
+      <h2 className="text-2xl font-bold mb-6 text-ink text-center">Send Us a Message</h2>
       
       {formSubmitted ? (
-        <div className="bg-green-900/50 border border-green-700 text-green-100 rounded-lg p-4 mb-6 text-center">
+        <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-lg p-4 mb-6 text-center">
           <p>Thank you for your message. We'll get back to you soon!</p>
         </div>
       ) : null}
       
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
+          <label htmlFor="name" className="block text-sm font-medium text-muted mb-1">
             Your Name
           </label>
           <input
             id="name"
             type="text"
-            className={`w-full px-4 py-2 bg-primary-light border ${
-              errors.name ? 'border-red-500' : 'border-gray-700'
-            } rounded-md text-white focus:outline-none focus:ring-2 focus:ring-accent`}
+            className={`w-full px-4 py-2 bg-white border ${
+              errors.name ? 'border-red-500' : 'border-slate-300'
+            } rounded-md text-ink focus:outline-none focus:ring-2 focus:ring-accent`}
             placeholder="John Doe"
             {...register('name', { required: 'Name is required' })}
           />
@@ -62,15 +62,15 @@ export default function ContactForm() {
         </div>
         
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
+          <label htmlFor="email" className="block text-sm font-medium text-muted mb-1">
             Email Address
           </label>
           <input
             id="email"
             type="email"
-            className={`w-full px-4 py-2 bg-primary-light border ${
-              errors.email ? 'border-red-500' : 'border-gray-700'
-            } rounded-md text-white focus:outline-none focus:ring-2 focus:ring-accent`}
+            className={`w-full px-4 py-2 bg-white border ${
+              errors.email ? 'border-red-500' : 'border-slate-300'
+            } rounded-md text-ink focus:outline-none focus:ring-2 focus:ring-accent`}
             placeholder="john@example.com"
             {...register('email', {
               required: 'Email is required',
@@ -86,15 +86,15 @@ export default function ContactForm() {
         </div>
         
         <div>
-          <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-1">
+          <label htmlFor="subject" className="block text-sm font-medium text-muted mb-1">
             Subject
           </label>
           <input
             id="subject"
             type="text"
-            className={`w-full px-4 py-2 bg-primary-light border ${
-              errors.subject ? 'border-red-500' : 'border-gray-700'
-            } rounded-md text-white focus:outline-none focus:ring-2 focus:ring-accent`}
+            className={`w-full px-4 py-2 bg-white border ${
+              errors.subject ? 'border-red-500' : 'border-slate-300'
+            } rounded-md text-ink focus:outline-none focus:ring-2 focus:ring-accent`}
             placeholder="How can we help?"
             {...register('subject', { required: 'Subject is required' })}
           />
@@ -104,15 +104,15 @@ export default function ContactForm() {
         </div>
         
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
+          <label htmlFor="message" className="block text-sm font-medium text-muted mb-1">
             Message
           </label>
           <textarea
             id="message"
             rows={5}
-            className={`w-full px-4 py-2 bg-primary-light border ${
-              errors.message ? 'border-red-500' : 'border-gray-700'
-            } rounded-md text-white focus:outline-none focus:ring-2 focus:ring-accent`}
+            className={`w-full px-4 py-2 bg-white border ${
+              errors.message ? 'border-red-500' : 'border-slate-300'
+            } rounded-md text-ink focus:outline-none focus:ring-2 focus:ring-accent`}
             placeholder="Your message here..."
             {...register('message', {
               required: 'Message is required',
@@ -130,7 +130,7 @@ export default function ContactForm() {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-accent hover:bg-accent-hover text-white font-medium py-2 px-6 rounded inline-flex items-center"
+            className="bg-accent hover:brightness-95 text-ink font-medium py-2 px-6 rounded inline-flex items-center"
           >
             <span>Send Message</span>
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
