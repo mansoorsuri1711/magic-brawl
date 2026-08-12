@@ -6,16 +6,19 @@ import { DOWNLOAD_APK_URL } from '@/lib/site';
 export default function DownloadButton({
   className = '',
   label,
+  href = DOWNLOAD_APK_URL,
 }: {
   className?: string;
   label?: string;
+  /** Override target; defaults to direct APK URL */
+  href?: string;
 }) {
   const t = useTranslations('Nav');
   const text = label ?? t('downloadNow');
 
   return (
     <a
-      href={DOWNLOAD_APK_URL}
+      href={href}
       aria-label={text}
       className={`download-btn relative inline-flex items-center px-8 py-4 text-ink font-semibold text-lg rounded-full border-2 border-sky bg-white hover:bg-sky/10 shadow-sm transition-all group ${className}`}
     >

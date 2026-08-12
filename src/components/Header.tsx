@@ -36,7 +36,7 @@ export default function Header() {
               alt={`${SITE_NAME} Logo`}
               width={40}
               height={40}
-              className="object-contain"
+              className="object-contain w-10 h-10"
               priority
               fetchPriority="high"
             />

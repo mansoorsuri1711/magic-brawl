@@ -4,11 +4,9 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import DownloadButton from "@/components/DownloadButton";
-import ModeIcon from "@/components/ModeIcon";
 import { Link } from "@/i18n/navigation";
-import { fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-format";
+import { appVars, fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
-import { ASSETS } from "@/lib/assets";
 import {
   APP,
   HERO_IMAGE,
@@ -78,7 +76,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
         "@id": `${pageUrl}#webpage`,
         url: pageUrl,
         name: t("h1"),
-        description: fillAppVars(t("intro")),
+        description: t("intro", appVars),
         isPartOf: { "@id": `${SITE_ORIGIN}/#website` },
         primaryImageOfPage: {
           "@type": "ImageObject",
@@ -108,7 +106,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
           price: "0",
           priceCurrency: "USD",
         },
-        description: fillAppVars(t("intro")),
+        description: t("intro", appVars),
       },
       {
         "@type": "HowTo",
@@ -146,7 +144,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
 
           <header className="text-center mb-10">
             <h1 className="text-4xl md:text-5xl font-bold text-ink mb-4">{t("h1")}</h1>
-            <p className="text-lg text-muted max-w-2xl mx-auto">{fillAppVars(t("intro"))}</p>
+            <p className="text-lg text-muted max-w-2xl mx-auto">{t("intro", appVars)}</p>
           </header>
 
           <div
@@ -174,14 +172,9 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
               title={t("h1")}
               width={240}
               height={240}
-              className="object-contain drop-shadow-xl"
+              className="object-contain drop-shadow-xl w-[240px] h-[240px]"
               priority
             />
-          </div>
-
-          <div className="flex justify-center gap-4 mb-10">
-            <ModeIcon src={ASSETS.vanilla} alt="MR Vanilla" size="sm" />
-            <ModeIcon src={ASSETS.infinity} alt="MR Infinity" size="sm" />
           </div>
 
           <section

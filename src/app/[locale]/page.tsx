@@ -9,6 +9,7 @@ import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
 import { fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import {
   APP,
+  DOWNLOAD_PAGE_URL,
   HERO_IMAGE,
   LOGO_IMAGE,
   OG_IMAGE,
@@ -239,7 +240,7 @@ export default async function Home({ params }: PageProps) {
             </div>
 
             <div className="flex justify-center my-8">
-              <DownloadButton />
+              <DownloadButton href={DOWNLOAD_PAGE_URL} />
             </div>
 
             <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: "120px" }}>
@@ -471,7 +472,7 @@ export default async function Home({ params }: PageProps) {
             </div>
           </div>
           <div className="mt-4 flex justify-center">
-            <DownloadButton />
+            <DownloadButton href={DOWNLOAD_PAGE_URL} />
           </div>
         </div>
       </section>
@@ -606,7 +607,10 @@ export default async function Home({ params }: PageProps) {
           <h2 className="text-3xl font-bold mb-4 text-accent">{t("ctaTitle")}</h2>
           <p className="text-muted max-w-2xl mx-auto mb-8 leading-relaxed">{t("ctaText")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <DownloadButton className="min-h-[3.75rem] min-w-[17rem] justify-center" />
+            <DownloadButton
+              href={DOWNLOAD_PAGE_URL}
+              className="min-h-[3.75rem] min-w-[17rem] justify-center"
+            />
             <Link
               href="/vanilla-vs-infinity"
               className="inline-flex items-center justify-center min-h-[3.75rem] min-w-[17rem] px-8 py-4 text-lg rounded-full border-2 border-sky bg-white text-ink font-semibold hover:bg-sky/10 shadow-sm transition-all"

@@ -66,9 +66,15 @@ h6,
   }
 }
 
-/* Prevent CLS by ensuring images don't shift layout */
-img {
+/* Responsive default for plain <img>. next/image sets its own size. */
+img:not([data-nimg]) {
   max-width: 100%;
+  height: auto;
+}
+
+img[data-nimg="fill"] {
+  max-width: none;
+  height: 100%;
 }
 
 /* Footer: contain layout to reduce CLS from reflow */

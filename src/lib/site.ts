@@ -3,10 +3,15 @@ export const SITE_ORIGIN = "https://masterroyaleapk.com";
 export const SITE_DOMAIN = "masterroyaleapk.com";
 export const SUPPORT_EMAIL = "support@masterroyaleapk.com";
 
-/** Update these when live APK host URLs are ready */
-export const DOWNLOAD_APK_URL = "/download-master-royale#apk-download";
-export const DOWNLOAD_VANILLA_URL = "/download-master-royale#apk-download";
-export const DOWNLOAD_INFINITY_URL = "/download-master-royale#apk-download";
+/** Direct APK file (use on download buttons site-wide except homepage) */
+export const DOWNLOAD_APK_URL =
+  "https://dl.masterroyaleapk.com/file/master-royale/master-royale.apk";
+export const DOWNLOAD_VANILLA_URL = DOWNLOAD_APK_URL;
+export const DOWNLOAD_INFINITY_URL =
+  "https://dl.masterroyaleapk.com/file/master-royale/mr-infinity.apk";
+
+/** Download guide page (homepage CTAs link here) */
+export const DOWNLOAD_PAGE_URL = "/download-master-royale";
 
 /** Update when Discord invite is ready */
 export const DISCORD_URL = "https://discord.com/invite/masterroyale";

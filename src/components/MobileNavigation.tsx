@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useTransition, useMemo } from 'react';
+import { createPortal } from 'react-dom';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
@@ -148,11 +149,17 @@ export default function MobileNavigation() {
 
   useEffect(() => {
     if (!isOpen) return;
+    const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
-    return () => {
-      document.body.style.overflow = '';
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsOpen(false);
     };
-  }, [isOpen]);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [isOpen, setIsOpen]);
 
   const toggleMenu = () => {
     startTransition(() => setIsOpen(!isOpen));
@@ -170,106 +177,105 @@ export default function MobileNavigation() {
     );
   }
 
+  const menu = isOpen ? (
+    <div className="fixed inset-0 z-[100] flex flex-col bg-white md:hidden">
+      <div className="flex justify-between items-center px-5 py-4 border-b border-slate-200">
+        <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
+          <Image
+            src="/master-royale-apk-logo.webp"
+            alt={`${SITE_NAME} Logo`}
+            width={36}
+            height={36}
+            className="object-contain w-9 h-9 flex-shrink-0 rounded-lg"
+            priority
+          />
+          <span className="font-display text-ink text-lg font-bold tracking-tight">
+            <span className="text-accent">Master</span> Royale
+          </span>
+        </Link>
+        <button
+          onClick={closeMenu}
+          className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-ink hover:bg-slate-200 transition-colors"
+          aria-label="Close menu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            className="w-5 h-5"
+            aria-hidden="true"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div className="relative flex-1 overflow-y-auto">
+        <div className="absolute right-0 top-0 bottom-0 w-1 bg-sky" aria-hidden="true" />
+
+        <nav className="px-5 py-2 pb-6">
+          {navSections.map((section) => (
+            <div key={section.title} className="mb-2">
+              <p className="text-[11px] font-semibold tracking-widest text-slate-500 uppercase px-1 pt-5 pb-2">
+                {section.title}
+              </p>
+              <ul className="space-y-0.5">
+                {section.items.map((item) => {
+                  const active = isActive(item.href);
+                  return (
+                    <li key={item.href + item.label}>
+                      <Link
+                        href={item.href}
+                        onClick={closeMenu}
+                        className={`flex items-center gap-4 px-1 py-3.5 transition-colors group ${
+                          active ? 'text-accent' : 'text-ink hover:text-accent'
+                        }`}
+                      >
+                        <span
+                          className={`transition-colors flex-shrink-0 ${
+                            active ? 'text-accent' : 'text-slate-500 group-hover:text-accent'
+                          }`}
+                        >
+                          {item.icon}
+                        </span>
+                        <span className="flex-1 text-[15px] font-medium">{item.label}</span>
+                        <ChevronRight />
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </nav>
+      </div>
+
+      <div className="px-5 pt-4 pb-8 border-t border-slate-200 flex flex-col items-center">
+        <a
+          href={DOWNLOAD_APK_URL}
+          onClick={closeMenu}
+          aria-label={t('downloadNow')}
+          className="download-btn inline-flex items-center px-8 py-4 text-ink font-semibold text-lg rounded-full border-2 border-sky bg-white hover:bg-sky/10 shadow-sm transition-all group"
+        >
+          <span>{t('downloadNow')}</span>
+          <div className="download-icon ml-3 bg-[#f97316] text-white rounded-full p-2 group-hover:scale-110 transition-transform">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+          </div>
+        </a>
+        <p className="text-center text-slate-500 text-xs mt-3">
+          {APP.fileSizeShort} · {APP.os} · {APP.version}
+        </p>
+      </div>
+    </div>
+  ) : null;
+
   return (
     <div className="md:hidden">
       <MenuButton onClick={toggleMenu} isOpen={isOpen} />
-
-      {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-white">
-          <div className="flex justify-between items-center px-5 py-4 border-b border-slate-200">
-            <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
-              <div className="relative w-9 h-9 flex-shrink-0 rounded-lg overflow-hidden">
-                <Image
-                  src="/master-royale-apk-logo.webp"
-                  alt={`${SITE_NAME} Logo`}
-                  fill
-                  sizes="36px"
-                  className="object-contain"
-                  priority
-                />
-              </div>
-              <span className="font-display text-ink text-lg font-bold tracking-tight">
-                <span className="text-accent">Master</span> Royale
-              </span>
-            </Link>
-            <button
-              onClick={closeMenu}
-              className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-ink hover:bg-slate-200 transition-colors"
-              aria-label="Close menu"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                className="w-5 h-5"
-                aria-hidden="true"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-
-          <div className="relative flex-1 overflow-y-auto">
-            <div className="absolute right-0 top-0 bottom-0 w-1 bg-sky" aria-hidden="true" />
-
-            <nav className="px-5 py-2 pb-6">
-              {navSections.map((section) => (
-                <div key={section.title} className="mb-2">
-                  <p className="text-[11px] font-semibold tracking-widest text-slate-500 uppercase px-1 pt-5 pb-2">
-                    {section.title}
-                  </p>
-                  <ul className="space-y-0.5">
-                    {section.items.map((item) => {
-                      const active = isActive(item.href);
-                      return (
-                        <li key={item.href + item.label}>
-                          <Link
-                            href={item.href}
-                            onClick={closeMenu}
-                            className={`flex items-center gap-4 px-1 py-3.5 transition-colors group ${
-                              active ? 'text-accent' : 'text-ink hover:text-accent'
-                            }`}
-                          >
-                            <span
-                              className={`transition-colors flex-shrink-0 ${
-                                active ? 'text-accent' : 'text-slate-500 group-hover:text-accent'
-                              }`}
-                            >
-                              {item.icon}
-                            </span>
-                            <span className="flex-1 text-[15px] font-medium">{item.label}</span>
-                            <ChevronRight />
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              ))}
-            </nav>
-          </div>
-
-          <div className="px-5 pt-4 pb-8 border-t border-slate-200 flex flex-col items-center">
-            <a
-              href={DOWNLOAD_APK_URL}
-              onClick={closeMenu}
-              aria-label={t('downloadNow')}
-              className="download-btn inline-flex items-center px-8 py-4 text-ink font-semibold text-lg rounded-full border-2 border-sky bg-white hover:bg-sky/10 shadow-sm transition-all group"
-            >
-              <span>{t('downloadNow')}</span>
-              <div className="download-icon ml-3 bg-[#f97316] text-white rounded-full p-2 group-hover:scale-110 transition-transform">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                </svg>
-              </div>
-            </a>
-            <p className="text-center text-slate-500 text-xs mt-3">
-              {APP.fileSizeShort} · {APP.os} · {APP.version}
-            </p>
-          </div>
-        </div>
-      )}
+      {menu ? createPortal(menu, document.body) : null}
     </div>
   );
 }
