@@ -51,12 +51,18 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+/** Unknown first segments (wp-admin.php, etc.) must 404, not run as a locale. */
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   const t = await getTranslations({ locale, namespace: "Meta" });
 
   const languages: Record<string, string> = {};

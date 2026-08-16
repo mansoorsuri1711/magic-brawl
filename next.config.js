@@ -59,15 +59,6 @@ const nextConfig = {
     ];
   },
 
-  async rewrites() {
-    return [
-      {
-        source: '/.well-known/:path*',
-        destination: '/public/.well-known/:path*',
-      },
-    ];
-  },
-
   // Optimize headers
   async headers() {
     return [
