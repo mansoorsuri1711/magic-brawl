@@ -6,6 +6,7 @@ import DownloadButton from "@/components/DownloadButton";
 import ModeIcon from "@/components/ModeIcon";
 import { Link } from "@/i18n/navigation";
 import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
+import { requireLocale } from "@/i18n/locale";
 import { fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import {
   APP,
@@ -22,7 +23,7 @@ import { ASSETS, HIGHLIGHT_ICONS } from "@/lib/assets";
 type PageProps = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale } = await params;
+  const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
   const url = localeUrl(locale, "/");
 
@@ -55,7 +56,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function Home({ params }: PageProps) {
-  const { locale } = await params;
+  const locale = requireLocale((await params).locale);
   setRequestLocale(locale);
 
   const t = await getTranslations("Home");

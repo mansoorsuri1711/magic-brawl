@@ -4,12 +4,12 @@ import { routing } from "./i18n/routing";
 
 const intlMiddleware = createMiddleware(routing);
 
-/** Probe paths used by scanners; never run the app for these. */
+/** Probe files used by scanners; never run the app for these. */
 const SCANNER_FILE =
-  /\.(?:php\d*|phtml|phar|asp|aspx|jsp|cgi|cfm|env|bak|sql|git|svn|htaccess|htpasswd|ini|cfg|dist|old|orig|save|swp|inc)$/i;
+  /\.(?:php\d*|phtml|phar|aspx?|jspx?|cgi|cfm|env|bak|sql|git|svn|htaccess|htpasswd|ini|cfg|conf|dist|old|orig|save|swp|inc|yml|yaml|toml|log|sh|bash|exe|dll)$/i;
 
 const SCANNER_PATH =
-  /(?:^|\/)(?:wp-admin|wp-login\.php|wp-content|wp-includes|xmlrpc\.php|phpmyadmin|phpinfo|adminer|cgi-bin|\.git|\.svn|\.env|vendor\/phpunit|manager\/html)(?:\/|$)/i;
+  /(?:^|\/)(?:wp-admin|wp-login|wp-content|wp-includes|wp-config|xmlrpc\.php|phpmyadmin|phpinfo|adminer|administrator|cgi-bin|\.git|\.svn|\.env|vendor\/phpunit|manager\/html|actuator|server-status|telescope|horizon|debug\/default)(?:\/|$|\.)/i;
 
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
@@ -18,14 +18,18 @@ export default function middleware(request: NextRequest) {
     return new NextResponse(null, { status: 404 });
   }
 
+  const firstSegment = pathname.split("/").filter(Boolean)[0] ?? "";
+  // Locales never contain a dot; dotted first segments are file/config probes.
+  if (firstSegment.includes(".")) {
+    return new NextResponse(null, { status: 404 });
+  }
+
   return intlMiddleware(request);
 }
 
 export const config = {
   matcher: [
-    // App routes (skip static files with extensions)
-    "/((?!api|trpc|_next|_vercel|.*\\..*).*)",
-    // File probes that would otherwise skip i18n and hit [locale] as a 500
-    "/((?!_next).*)\\.(php|phtml|phar|asp|aspx|jsp|cgi|cfm|env|bak|sql|git)",
+    // App routes (skip real static assets and sitemap/robots files)
+    "/((?!_next|_vercel|favicon.ico|manifest.json|.*\\.(?:ico|png|jpe?g|gif|webp|avif|svg|woff2?|ttf|eot|css|js|map|txt|xml)$).*)",
   ],
 };

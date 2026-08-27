@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import DownloadButton from "@/components/DownloadButton";
 import { Link } from "@/i18n/navigation";
+import { requireLocale } from "@/i18n/locale";
 import { fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
 import { HERO_IMAGE, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
@@ -12,7 +13,7 @@ import { HERO_IMAGE, SITE_NAME, SITE_ORIGIN } from "@/lib/site";
 type PageProps = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale } = await params;
+  const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
   const url = localeUrl(locale, "/master-royale-for-pc");
 

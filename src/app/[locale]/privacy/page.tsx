@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { Link } from "@/i18n/navigation";
+import { requireLocale } from "@/i18n/locale";
 import { hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import { SITE_NAME, SUPPORT_EMAIL } from "@/lib/site";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { locale } = await params;
+  const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
   const url = localeUrl(locale, "/privacy");
 

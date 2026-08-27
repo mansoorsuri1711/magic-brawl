@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Outfit, Syne } from "next/font/google";
-import { notFound } from "next/navigation";
-import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import Script from "next/script";
 import Header from "@/components/Header";
@@ -10,8 +9,8 @@ import DeferredStyles from "@/components/DeferredStyles";
 import ScrollToTopWrapper from "@/components/ScrollToTopWrapper";
 import WebVitalsTracker from "@/components/WebVitalsTracker";
 import { MobileMenuProvider } from "@/components/MobileMenuProvider";
-import { routing } from "@/i18n/routing";
 import { locales } from "@/i18n/config";
+import { requireLocale } from "@/i18n/locale";
 import {
   APP,
   HERO_IMAGE,
@@ -51,7 +50,7 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-/** Unknown first segments (wp-admin.php, etc.) must 404, not run as a locale. */
+/** Unknown `[locale]` values 404 at the router instead of executing the page. */
 export const dynamicParams = false;
 
 export async function generateMetadata({
@@ -59,10 +58,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
+  const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
 
   const languages: Record<string, string> = {};
@@ -145,10 +141,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  if (!hasLocale(routing.locales, locale)) {
-    notFound();
-  }
+  const locale = requireLocale((await params).locale);
 
   setRequestLocale(locale);
   const messages = await getMessages();
