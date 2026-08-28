@@ -10,6 +10,7 @@ import { appVars, fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-f
 import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
 import {
   APP,
+  DOWNLOAD_APK_URL,
   HERO_IMAGE,
   LOGO_IMAGE,
   SITE_NAME,
@@ -32,6 +33,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     alternates: {
       canonical: url,
       languages: hreflangLanguages("/download-master-royale"),
+    },
+    robots: {
+      index: false,
+      follow: true,
+      googleBot: {
+        index: false,
+        follow: true,
+      },
     },
     openGraph: {
       title: t("downloadTitle"),
@@ -95,7 +104,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
         logo: LOGO_IMAGE,
         softwareVersion: APP.version,
         fileSize: APP.fileSize,
-        downloadUrl: `${SITE_ORIGIN}/download-master-royale#apk-download`,
+        downloadUrl: DOWNLOAD_APK_URL,
         aggregateRating: {
           "@type": "AggregateRating",
           ratingValue: APP.ratingValue,
@@ -184,7 +193,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
           >
             <h2 className="text-2xl md:text-3xl font-bold text-accent mb-4">{t("ctaTitle")}</h2>
             <p className="text-muted mb-6 max-w-xl mx-auto">{t("ctaText")}</p>
-            <DownloadButton />
+            <DownloadButton href="/" />
             <p className="text-slate-500 text-sm mt-4">
               {APP.packageId} · {APP.os} · {APP.price}
             </p>
@@ -256,7 +265,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
 
           <section className="bg-white rounded-2xl p-8 mb-4 text-center border border-slate-200 shadow-sm">
             <h2 className="text-2xl font-bold text-accent mb-4">{t("againTitle")}</h2>
-            <DownloadButton />
+            <DownloadButton href="/" />
           </section>
         </div>
       </article>

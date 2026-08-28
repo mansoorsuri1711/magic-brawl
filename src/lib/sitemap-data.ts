@@ -43,19 +43,6 @@ const BASE_PAGES: BasePage[] = [
     ],
   },
   {
-    path: "/download-master-royale",
-    lastMod: today(),
-    changeFreq: "weekly",
-    priority: 0.95,
-    images: [
-      {
-        loc: `${SITE_ORIGIN}/master-royale-apk.webp`,
-        title: "Download Master Royale APK",
-        caption: "Download Master Royale APK for Android with install steps",
-      },
-    ],
-  },
-  {
     path: "/vanilla-vs-infinity",
     lastMod: today(),
     changeFreq: "weekly",

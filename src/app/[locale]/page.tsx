@@ -10,7 +10,7 @@ import { requireLocale } from "@/i18n/locale";
 import { fillAppVars, hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import {
   APP,
-  DOWNLOAD_PAGE_URL,
+  DOWNLOAD_APK_URL,
   HERO_IMAGE,
   LOGO_IMAGE,
   OG_IMAGE,
@@ -164,7 +164,7 @@ export default async function Home({ params }: PageProps) {
           price: "0",
           priceCurrency: "USD",
         },
-        downloadUrl: `${SITE_ORIGIN}/download-master-royale#apk-download`,
+        downloadUrl: DOWNLOAD_APK_URL,
         softwareVersion: APP.version,
         fileSize: APP.fileSize,
         description: t("whatP1"),
@@ -240,8 +240,8 @@ export default async function Home({ params }: PageProps) {
               </div>
             </div>
 
-            <div className="flex justify-center my-8">
-              <DownloadButton href={DOWNLOAD_PAGE_URL} />
+            <div className="flex justify-center my-8" id="apk-download">
+              <DownloadButton />
             </div>
 
             <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: "120px" }}>
@@ -473,7 +473,7 @@ export default async function Home({ params }: PageProps) {
             </div>
           </div>
           <div className="mt-4 flex justify-center">
-            <DownloadButton href={DOWNLOAD_PAGE_URL} />
+            <DownloadButton />
           </div>
         </div>
       </section>
@@ -609,7 +609,6 @@ export default async function Home({ params }: PageProps) {
           <p className="text-muted max-w-2xl mx-auto mb-8 leading-relaxed">{t("ctaText")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <DownloadButton
-              href={DOWNLOAD_PAGE_URL}
               className="min-h-[3.75rem] min-w-[17rem] justify-center"
             />
             <Link
