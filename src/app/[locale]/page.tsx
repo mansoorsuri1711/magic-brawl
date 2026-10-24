@@ -306,6 +306,7 @@ export default async function Home({ params }: PageProps) {
                     t("table.rating"),
                     `${APP.ratingValue} / 5 (${APP.ratingCountDisplay} ${tc("ratings")}) · ${tc("freeAndroidGame")}`,
                   ],
+                  [t("table.update"), APP.updated],
                 ].map(([label, value], i) => (
                   <tr key={label} className={i % 2 === 0 ? "bg-secondary/50" : "bg-white"}>
                     <td className="py-4 px-6 font-medium text-ink">{label}</td>

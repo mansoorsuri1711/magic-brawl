@@ -73,7 +73,8 @@
       "size": "Dosya Boyutu",
       "os": "Gerekli OS",
       "price": "Fiyat",
-      "rating": "Puan"
+      "rating": "Puan",
+      "update": "Güncelleme"
     },
     "whatTitle": "Master Royale Nedir?",
     "whatP1": "Master Royale, değiştirilmiş bir Android istemcisi olarak paketlenmiş Clash Royale tarzı bir özel sunucudur. Supercell'in resmi sunucularıyla konuşmak yerine uygulama, kendi eşleştirme, ekonomi ve ilerleme kurallarını yöneten özel bir topluluk sunucusuna yönlenir. Bu ayrım — sizin istemciniz ile perakende sunucu — özel sunucunun temel fikridir.",

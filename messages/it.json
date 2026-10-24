@@ -73,7 +73,8 @@
       "size": "Dimensione file",
       "os": "Sistema richiesto",
       "price": "Prezzo",
-      "rating": "Valutazione"
+      "rating": "Valutazione",
+      "update": "Aggiornamento"
     },
     "whatTitle": "Cos'è Master Royale?",
     "whatP1": "Master Royale è un private server in stile Clash Royale confezionato come client Android modificato. Invece di parlare con gli host ufficiali di Supercell, l'app punta a un server community custom che gestisce matchmaking, economia e regole di progressione. Quella separazione — il tuo client rispetto all'host retail — è l'idea centrale del private server.",

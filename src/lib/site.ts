@@ -22,8 +22,8 @@ export const APP = {
   shortName: "Master Royale",
   version: "v17 (3.2730.0)",
   versionAlt: "3.2729.1",
-  fileSize: "299.2 MB – 313.7 MB",
-  fileSizeShort: "299 MB",
+  fileSize: "145 MB",
+  fileSizeShort: "145 MB",
   os: "Android 4.4+",
   osNote: "Best on Android 5.0+ / recommended Android 8+",
   category: "Arcade / Strategy / Action",
@@ -33,6 +33,7 @@ export const APP = {
   ratingCountDisplay: "120,000",
   downloadsDisplay: "500K+",
   price: "100% Free",
+  updated: "October 24, 2026",
 } as const;
 
 export const NAV_LINKS = [
