@@ -222,8 +222,20 @@ export default async function Home({ params }: PageProps) {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 <span className="text-ink">{t("h1")}</span>
               </h1>
-              <p className="text-2xl md:text-3xl font-bold text-accent">
-                {fillAppVars(t("subtitle"))}
+              <p className="text-base sm:text-xl md:text-2xl lg:text-3xl font-bold text-accent leading-snug tracking-tight">
+                <span className="inline-block whitespace-nowrap">{APP.version}</span>
+                <span className="mx-1.5 text-accent/70" aria-hidden="true">
+                  ·
+                </span>
+                <span className="inline-block whitespace-nowrap">{APP.fileSize}</span>
+                <span className="mx-1.5 text-accent/70" aria-hidden="true">
+                  ·
+                </span>
+                <span className="inline-block whitespace-nowrap">{APP.os}</span>
+                <span className="mx-1.5 text-accent/70" aria-hidden="true">
+                  ·
+                </span>
+                <span className="inline-block whitespace-nowrap">{APP.price}</span>
               </p>
             </div>
 

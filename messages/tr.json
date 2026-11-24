@@ -57,7 +57,7 @@
   },
   "Home": {
     "h1": "Magic Brawl İndir – Sınırsız Brawl Stars Özel Sunucusu",
-    "subtitle": "v{version} · {fileSize} · {os} · {price}",
+    "subtitle": "{version} · {fileSize} · {os} · {price}",
     "intro": "Magic Brawl (sıkça Magic Brawl Stars diye aranır), Brawl Stars özel sunucu deneyimini özgürleştiren bağımsız bir private server istemcisidir. Sınırsız elmas ve coin, tüm açık brawler'lar, özel pinler ve çevrimiçi çok oyunculu modlarla rekabeti magicbrawl.tr'de yaşa.",
     "androidOnlyNote": "Magic Brawl öncelikle Android için optimize edilmiştir. iOS IPA kurulumu için iOS sayfamızı ziyaret edin.",
     "tableTitle": "Magic Brawl Uygulama Bilgileri",

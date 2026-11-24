@@ -29,7 +29,7 @@ export const APP = {
   ratingCount: "185000",
   ratingCountDisplay: "185.000",
   downloadsDisplay: "20M+",
-  price: "%100 Ücretsiz",
+  price: "Ücretsiz",
   updated: "Kasım 2026",
   season: "Sezon 22–23 · Starr Toon Studios",
 } as const;
