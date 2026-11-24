@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { usePathname } from '@/i18n/navigation';
 import { Link } from '@/i18n/navigation';
 import MobileNavigation from './MobileNavigation';
-import { SITE_NAME } from '@/lib/site';
+import { DOWNLOAD_APK_URL, SITE_NAME } from '@/lib/site';
 
 export default function Header() {
   const t = useTranslations('Nav');
@@ -28,51 +28,61 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur-xl py-3 px-4 md:px-8 border-b border-slate-200/70 shadow-[0_8px_30px_rgba(6,20,40,0.08)] supports-[backdrop-filter]:bg-white/75">
-        <div className="container mx-auto flex justify-between items-center gap-3">
-          <Link href="/" className="flex items-center shrink-0">
-            <div className="relative h-10 w-10 mr-2">
-              <Image
-                src="/magic-brawl.webp"
-                alt={`${SITE_NAME} Logo`}
-                width={40}
-                height={40}
-                className="object-contain w-10 h-10"
-                priority
-                fetchPriority="high"
-              />
-            </div>
-            <span className="font-display text-ink text-xl md:text-2xl font-bold tracking-tight">
-              <span className="text-accent">Magic</span> Brawl
-            </span>
-          </Link>
-
-          <nav className="hidden md:flex items-center space-x-5 lg:space-x-7">
-            {navLinks.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className={`relative font-medium transition-colors pb-1 group uppercase text-sm tracking-wide ${
-                  isActive(href) ? 'text-accent' : 'text-ink hover:text-accent'
-                }`}
-              >
-                {label}
-                <span
-                  className={`absolute bottom-0 left-0 h-0.5 bg-accent rounded-full transition-all duration-300 ${
-                    isActive(href) ? 'w-full' : 'w-0 group-hover:w-full'
-                  }`}
-                />
+      <div className="pointer-events-none fixed top-0 inset-x-0 z-50 px-3 pt-3 sm:px-4 sm:pt-4 md:px-6">
+        <header className="pointer-events-auto mx-auto max-w-7xl rounded-full border border-slate-200/80 bg-white shadow-[0_10px_40px_rgba(6,20,40,0.10)]">
+          <div className="flex items-center justify-between gap-2 px-3 py-2 sm:px-4 sm:py-2.5 md:gap-4 md:px-5">
+            <div className="flex min-w-0 items-center gap-2 md:gap-6 lg:gap-8">
+              <Link href="/" className="flex shrink-0 items-center gap-2.5">
+                <span className="relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-secondary ring-1 ring-slate-200 sm:h-10 sm:w-10">
+                  <Image
+                    src="/magic-brawl.webp"
+                    alt={`${SITE_NAME} Logo`}
+                    width={40}
+                    height={40}
+                    className="object-contain w-8 h-8 sm:w-9 sm:h-9"
+                    priority
+                    fetchPriority="high"
+                  />
+                </span>
+                <span className="font-display text-ink text-lg sm:text-xl font-bold tracking-tight whitespace-nowrap">
+                  <span className="text-accent">Magic</span> Brawl
+                </span>
               </Link>
-            ))}
-          </nav>
 
-          <div className="flex items-center gap-2 md:hidden">
-            <MobileNavigation />
+              <nav className="hidden lg:flex items-center gap-1">
+                {navLinks.map(({ href, label }) => (
+                  <Link
+                    key={href}
+                    href={href}
+                    className={`rounded-full px-3 py-1.5 text-sm font-medium transition-colors whitespace-nowrap ${
+                      isActive(href)
+                        ? 'bg-slate-100 text-ink font-semibold'
+                        : 'text-slate-500 hover:bg-slate-50 hover:text-ink'
+                    }`}
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+
+            <div className="flex shrink-0 items-center gap-2">
+              <a
+                href={DOWNLOAD_APK_URL}
+                aria-label={t('downloadNow')}
+                className="hidden sm:inline-flex items-center justify-center rounded-full bg-accent px-4 py-2 md:px-5 md:py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:brightness-95 hover:shadow-md whitespace-nowrap"
+              >
+                {t('downloadNow')}
+              </a>
+              <div className="lg:hidden">
+                <MobileNavigation />
+              </div>
+            </div>
           </div>
-        </div>
-      </header>
-      {/* Spacer so page content is not hidden under the fixed header */}
-      <div className="h-[4.25rem]" aria-hidden="true" />
+        </header>
+      </div>
+      {/* Spacer for floating pill header (top inset + bar height) */}
+      <div className="h-[5.25rem] sm:h-[5.5rem]" aria-hidden="true" />
     </>
   );
 }
