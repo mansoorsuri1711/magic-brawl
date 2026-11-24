@@ -21,14 +21,14 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-  const url = localeUrl(locale, "/magic-brawl-ios");
+  const url = localeUrl(locale, "/magic-brawl-ios-indir");
 
   return {
     title: t("iosTitle"),
     description: t("iosDescription"),
     alternates: {
       canonical: url,
-      languages: hreflangLanguages("/magic-brawl-ios"),
+      languages: hreflangLanguages("/magic-brawl-ios-indir"),
     },
     openGraph: {
       title: t("iosTitle"),
@@ -53,7 +53,7 @@ export default async function MagicBrawlIosPage({ params }: PageProps) {
 
   const t = await getTranslations("Ios");
   const tn = await getTranslations("Nav");
-  const pageUrl = localeUrl(locale, "/magic-brawl-ios");
+  const pageUrl = localeUrl(locale, "/magic-brawl-ios-indir");
 
   const steps = (t.raw("steps") as string[]).map(fillAppVars);
   const tips = (t.raw("tips") as string[]).map(fillAppVars);
@@ -122,7 +122,7 @@ export default async function MagicBrawlIosPage({ params }: PageProps) {
         <Breadcrumbs
           items={[
             { label: tn("home"), href: "/" },
-            { label: tn("ios"), href: "/magic-brawl-ios" },
+            { label: tn("ios"), href: "/magic-brawl-ios-indir" },
           ]}
         />
 
@@ -203,14 +203,14 @@ export default async function MagicBrawlIosPage({ params }: PageProps) {
               IPA {tn("downloadNow")}
             </a>
             <Link
-              href="/download-magic-brawl"
+              href="/magic-brawl-apk-indir"
               className="inline-flex items-center justify-center min-h-[3.5rem] px-8 py-3 rounded-full border-2 border-accent text-ink font-semibold hover:bg-accent/10"
             >
               Android APK
             </Link>
           </div>
           <p className="text-sm text-slate-500 mt-6">
-            <Link href="/magic-brawl-for-pc" className="text-accent hover:underline">
+            <Link href="/magic-brawl-pc" className="text-accent hover:underline">
               {tn("pc")}
             </Link>
             {" · "}

@@ -11,7 +11,7 @@ export const IMAGE_CREATOR = {
 export const imageObjectLicensing = {
   license: SITE_ORIGIN,
   creator: IMAGE_CREATOR,
-  acquireLicensePage: `${SITE_ORIGIN}/contact-us`,
+  acquireLicensePage: `${SITE_ORIGIN}/iletisim`,
   copyrightNotice: `© ${SITE_NAME}. All rights reserved.`,
   creditText: SITE_NAME,
 } as const;

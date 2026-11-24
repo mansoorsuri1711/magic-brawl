@@ -13,12 +13,12 @@ export default function Header() {
 
   const navLinks = [
     { href: '/' as const, label: t('home') },
-    { href: '/download-magic-brawl' as const, label: t('download') },
-    { href: '/magic-brawl-ios' as const, label: t('ios') },
-    { href: '/magic-brawl-for-pc' as const, label: t('pc') },
+    { href: '/magic-brawl-apk-indir' as const, label: t('download') },
+    { href: '/magic-brawl-ios-indir' as const, label: t('ios') },
+    { href: '/magic-brawl-pc' as const, label: t('pc') },
     { href: '/blog' as const, label: t('blog') },
-    { href: '/about-us' as const, label: t('about') },
-    { href: '/contact-us' as const, label: t('contact') },
+    { href: '/hakkimizda' as const, label: t('about') },
+    { href: '/iletisim' as const, label: t('contact') },
   ];
 
   const isActive = (href: string) => {

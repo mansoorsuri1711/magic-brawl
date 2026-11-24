@@ -24,7 +24,7 @@ export default function RootNotFound() {
           Ana Sayfa
         </Link>
         <Link
-          href="/download-magic-brawl"
+          href="/magic-brawl-apk-indir"
           className="px-6 py-3 rounded-full border-2 border-sky text-ink font-semibold hover:bg-sky/10"
         >
           APK İndir

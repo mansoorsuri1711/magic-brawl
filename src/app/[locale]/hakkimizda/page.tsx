@@ -12,14 +12,14 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-  const url = localeUrl(locale, "/about-us");
+  const url = localeUrl(locale, "/hakkimizda");
 
   return {
     title: t("aboutTitle"),
     description: t("aboutDescription"),
     alternates: {
       canonical: url,
-      languages: hreflangLanguages("/about-us"),
+      languages: hreflangLanguages("/hakkimizda"),
     },
     openGraph: {
       title: t("aboutTitle"),
@@ -94,7 +94,7 @@ export default async function AboutPage({ params }: PageProps) {
               {SUPPORT_EMAIL}
             </a>{" "}
             ·{" "}
-            <Link href="/contact-us" className="text-accent hover:underline">
+            <Link href="/iletisim" className="text-accent hover:underline">
               {tn("contact")}
             </Link>
           </p>

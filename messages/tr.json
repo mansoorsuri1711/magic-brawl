@@ -345,7 +345,7 @@
     "iosTitle": "iOS Kurulumu",
     "iosIntro": "iPhone veya iPad kullanıyorsan AltStore aracılığıyla Magic Brawl IPA'yı yükleyebilirsin.",
     "iosSteps": [
-      "iOS sayfamıza git: magicbrawl.tr/magic-brawl-ios",
+      "iOS sayfamıza git: magicbrawl.tr/magic-brawl-ios-indir",
       "AltStore'u bilgisayarına veya doğrudan cihazına kur.",
       "Magic Brawl IPA'yı AltStore üzerinden aç.",
       "Apple kimliğinle imzala ve yüklemeyi başlat.",
@@ -413,7 +413,7 @@
       "AltStore'u altstore.io adresinden bilgisayarına indir ve kur.",
       "iPhone veya iPad'ini bilgisayara USB ile bağla.",
       "AltStore'u cihazına yüklemek için iTunes veya Finder ile kurulumu tamamla.",
-      "magicbrawl.tr/magic-brawl-ios adresinden IPA dosyasını indir.",
+      "magicbrawl.tr/magic-brawl-ios-indir adresinden IPA dosyasını indir.",
       "AltStore uygulamasını aç, '+' butonuna dokun ve IPA dosyasını seç.",
       "Apple kimliğinle imzala; yükleme otomatik başlar.",
       "Ayarlar > Genel > VPN ve Cihaz Yönetimi bölümünden uygulamaya güven ver."

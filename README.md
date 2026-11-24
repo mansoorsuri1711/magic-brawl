@@ -17,10 +17,11 @@ npm run build
 npm start
 ```
 
-## Key routes
+## Key routes (Turkish slugs)
 
 - `/` — Ana sayfa (APK detayları, pinler, SSS)
-- `/download-magic-brawl` — Android kurulum
-- `/magic-brawl-ios` — iOS IPA
-- `/magic-brawl-for-pc` — PC emülatör
+- `/magic-brawl-apk-indir` — Android kurulum
+- `/magic-brawl-ios-indir` — iOS IPA
+- `/magic-brawl-pc` — PC emülatör
 - `/blog` — SERP odaklı yazılar
+- `/hakkimizda` · `/iletisim` · `/gizlilik-politikasi` · `/sorumluluk-reddi`

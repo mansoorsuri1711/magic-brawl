@@ -22,7 +22,7 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-  const url = localeUrl(locale, "/download-magic-brawl");
+  const url = localeUrl(locale, "/magic-brawl-apk-indir");
 
   return {
     title: t("downloadTitle"),
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }),
     alternates: {
       canonical: url,
-      languages: hreflangLanguages("/download-magic-brawl"),
+      languages: hreflangLanguages("/magic-brawl-apk-indir"),
     },
     robots: {
       index: false,
@@ -73,7 +73,7 @@ export default async function DownloadMagicBrawlPage({ params }: PageProps) {
   const tn = await getTranslations("Nav");
   const tc = await getTranslations("Common");
   const th = await getTranslations("Home");
-  const pageUrl = localeUrl(locale, "/download-magic-brawl");
+  const pageUrl = localeUrl(locale, "/magic-brawl-apk-indir");
 
   const installSteps = (t.raw("installSteps") as string[]).map(fillAppVars);
   const iosSteps = t.raw("iosSteps") as string[];
@@ -235,7 +235,7 @@ export default async function DownloadMagicBrawlPage({ params }: PageProps) {
               ))}
             </ol>
             <p className="text-slate-500 text-sm mt-6">
-              <Link href="/magic-brawl-for-pc" className="text-accent hover:underline">
+              <Link href="/magic-brawl-pc" className="text-accent hover:underline">
                 {tn("pc")}
               </Link>
             </p>
@@ -251,7 +251,7 @@ export default async function DownloadMagicBrawlPage({ params }: PageProps) {
                 ))}
               </ul>
               <p>
-                <Link href="/magic-brawl-for-pc" className="text-accent hover:underline">
+                <Link href="/magic-brawl-pc" className="text-accent hover:underline">
                   {tn("pc")}
                 </Link>
               </p>

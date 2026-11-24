@@ -378,7 +378,7 @@ export default async function Home({ params }: PageProps) {
               <h3 className="text-xl font-semibold text-ink mb-3">{t("vanillaTitle")}</h3>
               <p className="text-muted leading-relaxed text-left">{t("vanillaP")}</p>
               <Link
-                href="/download-magic-brawl"
+                href="/magic-brawl-apk-indir"
                 className="inline-flex mt-5 px-5 py-2.5 rounded-full border-2 border-accent text-ink font-semibold hover:bg-accent/10 transition-all"
               >
                 {tn("download")} →
@@ -397,7 +397,7 @@ export default async function Home({ params }: PageProps) {
               <h3 className="text-xl font-semibold text-ink mb-3">{t("infinityTitle")}</h3>
               <p className="text-muted leading-relaxed text-left">{t("infinityP")}</p>
               <Link
-                href="/magic-brawl-ios"
+                href="/magic-brawl-ios-indir"
                 className="inline-flex mt-5 px-5 py-2.5 rounded-full border-2 border-sky text-ink font-semibold hover:bg-sky/10 transition-all"
               >
                 {tn("ios")} →
@@ -427,7 +427,7 @@ export default async function Home({ params }: PageProps) {
           </div>
           <div className="text-center mt-8">
             <Link
-              href="/download-magic-brawl"
+              href="/magic-brawl-apk-indir"
               className="inline-flex items-center px-6 py-3 rounded-full border-2 border-accent text-ink font-semibold hover:bg-accent/10 transition-all"
             >
               {t("pinsCta")} →
@@ -604,11 +604,11 @@ export default async function Home({ params }: PageProps) {
           </div>
           <p className="text-muted leading-relaxed">{t("safetyP")}</p>
           <p className="text-muted mt-4">
-            <Link href="/disclaimer" className="text-accent hover:underline">
+            <Link href="/sorumluluk-reddi" className="text-accent hover:underline">
               Sorumluluk Reddi
             </Link>
             {" · "}
-            <Link href="/privacy" className="text-accent hover:underline">
+            <Link href="/gizlilik-politikasi" className="text-accent hover:underline">
               Gizlilik
             </Link>
             {" · "}
@@ -669,7 +669,7 @@ export default async function Home({ params }: PageProps) {
               {SUPPORT_EMAIL}
             </a>
             {" · "}
-            <Link href="/contact-us" className="text-accent hover:underline">
+            <Link href="/iletisim" className="text-accent hover:underline">
               İletişim
             </Link>
           </p>
@@ -717,7 +717,7 @@ export default async function Home({ params }: PageProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <DownloadButton className="min-h-[3.75rem] min-w-[17rem] justify-center" />
             <Link
-              href="/magic-brawl-for-pc"
+              href="/magic-brawl-pc"
               className="inline-flex items-center justify-center min-h-[3.75rem] min-w-[17rem] px-8 py-4 text-lg rounded-full border-2 border-sky bg-white text-ink font-semibold hover:bg-sky/10 shadow-sm transition-all"
             >
               {tn("pc")}

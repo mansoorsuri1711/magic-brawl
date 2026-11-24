@@ -11,36 +11,33 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-  const url = localeUrl(locale, "/disclaimer");
+  const url = localeUrl(locale, "/gizlilik-politikasi");
 
   return {
-    title: t("disclaimerTitle"),
-    description: t("disclaimerDescription"),
+    title: t("privacyTitle"),
+    description: t("privacyDescription"),
     alternates: {
       canonical: url,
-      languages: hreflangLanguages("/disclaimer"),
+      languages: hreflangLanguages("/gizlilik-politikasi"),
     },
     openGraph: {
-      title: t("disclaimerTitle"),
-      description: t("disclaimerDescription"),
+      title: t("privacyTitle"),
+      description: t("privacyDescription"),
       url,
       siteName: SITE_NAME,
       type: "website",
     },
-    robots: { index: true, follow: true },
   };
 }
 
-export default async function Disclaimer({ params }: PageProps) {
+export default async function PrivacyPolicyPage({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const t = await getTranslations("Disclaimer");
+  const t = await getTranslations("Privacy");
   const tc = await getTranslations("Common");
   const tf = await getTranslations("Footer");
   const sections = t.raw("sections") as Array<{ title: string; body: string }>;
-
-  const [notice, ...rest] = sections;
 
   return (
     <div className="min-h-screen bg-primary py-12 px-4">
@@ -48,43 +45,49 @@ export default async function Disclaimer({ params }: PageProps) {
         <Breadcrumbs
           items={[
             { label: tc("breadcrumbsHome"), href: "/" },
-            { label: tf("disclaimer") },
+            { label: tf("privacy") },
           ]}
         />
 
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-ink">{t("h1")}</h1>
-          <p className="text-lg text-slate-500">{t("subtitle")}</p>
+          <p className="text-lg text-slate-500">{t("updated")}</p>
         </div>
 
-        <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
-          {notice && (
-            <div className="bg-secondary border-l-4 border-accent p-6 mb-8 rounded-r-lg">
-              <h2 className="text-xl font-bold text-accent mb-2">{notice.title}</h2>
-              <p className="text-accent mb-0">{notice.body}</p>
-            </div>
-          )}
+        <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 space-y-10">
+          {sections.map((section, index) => (
+            <section
+              key={section.title}
+              className={
+                index === 0
+                  ? "bg-secondary border-l-4 border-accent rounded-r-lg p-6"
+                  : undefined
+              }
+            >
+              <h2
+                className={
+                  index === 0
+                    ? "text-2xl font-bold mb-4 text-ink"
+                    : "text-3xl font-bold mb-6 text-ink"
+                }
+              >
+                {section.title}
+              </h2>
+              <p className="text-muted leading-relaxed whitespace-pre-line">{section.body}</p>
+            </section>
+          ))}
 
-          <div className="space-y-8 text-muted leading-relaxed">
-            {rest.map((section) => (
-              <section key={section.title}>
-                <h2 className="text-2xl font-bold text-ink mb-3">{section.title}</h2>
-                <p>{section.body}</p>
-              </section>
-            ))}
-          </div>
-
-          <p className="text-slate-500 text-sm mt-8">
+          <p className="text-slate-500 text-sm">
             <a href={`mailto:${SUPPORT_EMAIL}`} className="text-accent hover:underline">
               {SUPPORT_EMAIL}
             </a>
             {" · "}
-            <Link href="/contact-us" className="text-accent hover:underline">
+            <Link href="/iletisim" className="text-accent hover:underline">
               Contact
             </Link>
             {" · "}
-            <Link href="/privacy" className="text-accent hover:underline">
-              {tf("privacy")}
+            <Link href="/sorumluluk-reddi" className="text-accent hover:underline">
+              {tf("disclaimer")}
             </Link>
           </p>
         </div>

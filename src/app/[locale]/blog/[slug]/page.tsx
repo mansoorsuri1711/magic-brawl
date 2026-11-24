@@ -221,11 +221,11 @@ export default async function BlogPostPage({ params }: PageProps) {
         )}
 
         <p className="mt-10 text-muted">
-          <Link href="/download-magic-brawl" className="text-accent hover:underline font-semibold">
+          <Link href="/magic-brawl-apk-indir" className="text-accent hover:underline font-semibold">
             {tn("download")}
           </Link>
           {" · "}
-          <Link href="/magic-brawl-ios" className="text-accent hover:underline font-semibold">
+          <Link href="/magic-brawl-ios-indir" className="text-accent hover:underline font-semibold">
             {tn("ios")}
           </Link>
           {" · "}

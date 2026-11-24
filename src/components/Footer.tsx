@@ -26,17 +26,17 @@ export default async function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download-magic-brawl" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-apk-indir" className="text-muted hover:text-accent transition-colors">
                   {tn('download')}
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-ios" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-ios-indir" className="text-muted hover:text-accent transition-colors">
                   {tn('ios')}
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-for-pc" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-pc" className="text-muted hover:text-accent transition-colors">
                   {tn('pc')}
                 </Link>
               </li>
@@ -46,12 +46,12 @@ export default async function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about-us" className="text-muted hover:text-accent transition-colors">
+                <Link href="/hakkimizda" className="text-muted hover:text-accent transition-colors">
                   {tn('about')}
                 </Link>
               </li>
               <li>
-                <Link href="/contact-us" className="text-muted hover:text-accent transition-colors">
+                <Link href="/iletisim" className="text-muted hover:text-accent transition-colors">
                   {tn('contact')}
                 </Link>
               </li>
@@ -62,17 +62,17 @@ export default async function Footer() {
             <h2 className="text-lg font-semibold mb-4 text-accent">{t('resources')}</h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/download-magic-brawl" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-apk-indir" className="text-muted hover:text-accent transition-colors">
                   {tn('installGuide')}
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-ios" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-ios-indir" className="text-muted hover:text-accent transition-colors">
                   {tn('ios')}
                 </Link>
               </li>
               <li>
-                <Link href="/magic-brawl-for-pc" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-pc" className="text-muted hover:text-accent transition-colors">
                   {tn('pc')}
                 </Link>
               </li>
@@ -82,12 +82,12 @@ export default async function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-muted hover:text-accent transition-colors">
+                <Link href="/gizlilik-politikasi" className="text-muted hover:text-accent transition-colors">
                   {t('privacy')}
                 </Link>
               </li>
               <li>
-                <Link href="/disclaimer" className="text-muted hover:text-accent transition-colors">
+                <Link href="/sorumluluk-reddi" className="text-muted hover:text-accent transition-colors">
                   {t('disclaimer')}
                 </Link>
               </li>

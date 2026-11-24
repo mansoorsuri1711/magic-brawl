@@ -131,7 +131,7 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
-    slug: "magic-brawl-vs-nulls-brawl",
+    slug: "magic-brawl-nulls-brawl-farki",
     title: {
       tr: "Magic Brawl vs Null’s Brawl: Hangisi Daha İyi? Karşılaştırma",
       en: "Magic Brawl vs Null’s Brawl: Which Private Server Fits You?",

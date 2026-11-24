@@ -43,7 +43,7 @@ const BASE_PAGES: BasePage[] = [
     ],
   },
   {
-    path: "/download-magic-brawl",
+    path: "/magic-brawl-apk-indir",
     lastMod: today(),
     changeFreq: "weekly",
     priority: 0.95,
@@ -56,7 +56,7 @@ const BASE_PAGES: BasePage[] = [
     ],
   },
   {
-    path: "/magic-brawl-ios",
+    path: "/magic-brawl-ios-indir",
     lastMod: today(),
     changeFreq: "weekly",
     priority: 0.92,
@@ -69,7 +69,7 @@ const BASE_PAGES: BasePage[] = [
     ],
   },
   {
-    path: "/magic-brawl-for-pc",
+    path: "/magic-brawl-pc",
     lastMod: today(),
     changeFreq: "weekly",
     priority: 0.9,
@@ -101,25 +101,25 @@ const BASE_PAGES: BasePage[] = [
     ],
   })),
   {
-    path: "/about-us",
+    path: "/hakkimizda",
     lastMod: today(),
     changeFreq: "monthly",
     priority: 0.7,
   },
   {
-    path: "/contact-us",
+    path: "/iletisim",
     lastMod: today(),
     changeFreq: "monthly",
     priority: 0.6,
   },
   {
-    path: "/privacy",
+    path: "/gizlilik-politikasi",
     lastMod: today(),
     changeFreq: "yearly",
     priority: 0.4,
   },
   {
-    path: "/disclaimer",
+    path: "/sorumluluk-reddi",
     lastMod: today(),
     changeFreq: "yearly",
     priority: 0.4,

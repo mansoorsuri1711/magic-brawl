@@ -15,14 +15,14 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-  const url = localeUrl(locale, "/magic-brawl-for-pc");
+  const url = localeUrl(locale, "/magic-brawl-pc");
 
   return {
     title: t("pcTitle"),
     description: t("pcDescription"),
     alternates: {
       canonical: url,
-      languages: hreflangLanguages("/magic-brawl-for-pc"),
+      languages: hreflangLanguages("/magic-brawl-pc"),
     },
     openGraph: {
       title: t("pcTitle"),
@@ -48,7 +48,7 @@ export default async function MagicBrawlForPcPage({ params }: PageProps) {
   const t = await getTranslations("PC");
   const tn = await getTranslations("Nav");
   const tc = await getTranslations("Common");
-  const pageUrl = localeUrl(locale, "/magic-brawl-for-pc");
+  const pageUrl = localeUrl(locale, "/magic-brawl-pc");
 
   const req = (t.raw("req") as string[]).map(fillAppVars);
   const steps = (t.raw("steps") as string[]).map(fillAppVars);
@@ -130,7 +130,7 @@ export default async function MagicBrawlForPcPage({ params }: PageProps) {
             <h2 className="text-2xl md:text-3xl font-bold text-accent mb-6">{t("whyTitle")}</h2>
             <p className="text-muted leading-relaxed mb-4">{t("whyP")}</p>
             <p>
-              <Link href="/download-magic-brawl" className="text-accent hover:underline">
+              <Link href="/magic-brawl-apk-indir" className="text-accent hover:underline">
                 {tn("download")}
               </Link>
             </p>

@@ -10,12 +10,12 @@ import { APP, DOWNLOAD_APK_URL, SITE_NAME } from '@/lib/site';
 
 type NavHref =
   | '/'
-  | '/download-magic-brawl'
-  | '/magic-brawl-ios'
-  | '/magic-brawl-for-pc'
+  | '/magic-brawl-apk-indir'
+  | '/magic-brawl-ios-indir'
+  | '/magic-brawl-pc'
   | '/blog'
-  | '/about-us'
-  | '/contact-us';
+  | '/hakkimizda'
+  | '/iletisim';
 
 type NavItem = {
   href: NavHref;
@@ -78,7 +78,7 @@ export default function MobileNavigation() {
             ),
           },
           {
-            href: '/download-magic-brawl',
+            href: '/magic-brawl-apk-indir',
             label: t('download'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -101,7 +101,7 @@ export default function MobileNavigation() {
         title: t('guides'),
         items: [
           {
-            href: '/magic-brawl-ios',
+            href: '/magic-brawl-ios-indir',
             label: t('ios'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -110,7 +110,7 @@ export default function MobileNavigation() {
             ),
           },
           {
-            href: '/magic-brawl-for-pc',
+            href: '/magic-brawl-pc',
             label: t('pc'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -119,7 +119,7 @@ export default function MobileNavigation() {
             ),
           },
           {
-            href: '/download-magic-brawl',
+            href: '/magic-brawl-apk-indir',
             label: t('installGuide'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -133,7 +133,7 @@ export default function MobileNavigation() {
         title: t('info'),
         items: [
           {
-            href: '/about-us',
+            href: '/hakkimizda',
             label: t('about'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -142,7 +142,7 @@ export default function MobileNavigation() {
             ),
           },
           {
-            href: '/contact-us',
+            href: '/iletisim',
             label: t('contact'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">

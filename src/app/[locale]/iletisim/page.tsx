@@ -11,14 +11,14 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-  const url = localeUrl(locale, "/contact-us");
+  const url = localeUrl(locale, "/iletisim");
 
   return {
     title: t("contactTitle"),
     description: t("contactDescription"),
     alternates: {
       canonical: url,
-      languages: hreflangLanguages("/contact-us"),
+      languages: hreflangLanguages("/iletisim"),
     },
     openGraph: {
       title: t("contactTitle"),
@@ -99,19 +99,19 @@ export default async function Contact({ params }: PageProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
             <h3 className="text-xl font-bold mb-2 text-ink">{tn("download")}</h3>
-            <Link href="/download-magic-brawl" className="text-accent hover:underline font-semibold">
+            <Link href="/magic-brawl-apk-indir" className="text-accent hover:underline font-semibold">
               {tn("installGuide")}
             </Link>
           </div>
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
             <h3 className="text-xl font-bold mb-2 text-ink">{tn("pc")}</h3>
-            <Link href="/magic-brawl-for-pc" className="text-accent hover:underline font-semibold">
+            <Link href="/magic-brawl-pc" className="text-accent hover:underline font-semibold">
               {tn("pc")}
             </Link>
           </div>
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
             <h3 className="text-xl font-bold mb-2 text-ink">{tf("disclaimer")}</h3>
-            <Link href="/disclaimer" className="text-accent hover:underline font-semibold">
+            <Link href="/sorumluluk-reddi" className="text-accent hover:underline font-semibold">
               {tf("disclaimer")}
             </Link>
           </div>

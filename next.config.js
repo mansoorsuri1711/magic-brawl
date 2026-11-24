@@ -21,6 +21,52 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // English / old Magic Brawl paths → Turkish slugs
+      {
+        source: '/download-magic-brawl',
+        destination: '/magic-brawl-apk-indir',
+        permanent: true,
+      },
+      {
+        source: '/magic-brawl-for-pc',
+        destination: '/magic-brawl-pc',
+        permanent: true,
+      },
+      {
+        source: '/magic-brawl-ios',
+        destination: '/magic-brawl-ios-indir',
+        permanent: true,
+      },
+      {
+        source: '/about-us',
+        destination: '/hakkimizda',
+        permanent: true,
+      },
+      {
+        source: '/about',
+        destination: '/hakkimizda',
+        permanent: true,
+      },
+      {
+        source: '/contact-us',
+        destination: '/iletisim',
+        permanent: true,
+      },
+      {
+        source: '/privacy',
+        destination: '/gizlilik-politikasi',
+        permanent: true,
+      },
+      {
+        source: '/disclaimer',
+        destination: '/sorumluluk-reddi',
+        permanent: true,
+      },
+      {
+        source: '/blog/magic-brawl-vs-nulls-brawl',
+        destination: '/blog/magic-brawl-nulls-brawl-farki',
+        permanent: true,
+      },
       {
         source: '/blog/magic-brawl-pin-voucher-rehberi',
         destination: '/blog/hileli-brawl-stars-2026',
@@ -31,24 +77,20 @@ const nextConfig = {
         destination: '/blog/eski-brawl-stars-apk',
         permanent: true,
       },
-      {
-        source: '/about',
-        destination: '/about-us',
-        permanent: true,
-      },
+      // Legacy Master Royale paths
       {
         source: '/download-master-royale',
-        destination: '/download-magic-brawl',
+        destination: '/magic-brawl-apk-indir',
         permanent: true,
       },
       {
         source: '/master-royale-for-pc',
-        destination: '/magic-brawl-for-pc',
+        destination: '/magic-brawl-pc',
         permanent: true,
       },
       {
         source: '/vanilla-vs-infinity',
-        destination: '/magic-brawl-ios',
+        destination: '/magic-brawl-ios-indir',
         permanent: true,
       },
       // Former multi-language prefixes → Turkish-only URLs

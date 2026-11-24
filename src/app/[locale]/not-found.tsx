@@ -37,7 +37,7 @@ export default async function NotFound() {
           >
             {t("home")}
           </Link>
-          <Link href="/download-magic-brawl" className="text-accent hover:underline font-semibold">
+          <Link href="/magic-brawl-apk-indir" className="text-accent hover:underline font-semibold">
             {tn("download")}
           </Link>
         </div>

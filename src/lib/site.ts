@@ -8,7 +8,7 @@ export const DOWNLOAD_APK_URL = "https://magicbrawl.gg/latest_mb";
 export const DOWNLOAD_IPA_URL = "https://magicbrawl.gg/latest_mb_ipa";
 
 /** Download guide page. CTAs send users to the homepage download / official APK. */
-export const DOWNLOAD_PAGE_URL = "/download-magic-brawl";
+export const DOWNLOAD_PAGE_URL = "/magic-brawl-apk-indir";
 
 export const TELEGRAM_URL = "https://t.me/magics_en";
 export const DISCORD_URL = "https://discord.com/invite/magicbrawl";
@@ -36,12 +36,12 @@ export const APP = {
 
 export const NAV_LINKS = [
   { href: "/", label: "Ana Sayfa" },
-  { href: "/download-magic-brawl", label: "İndir" },
-  { href: "/magic-brawl-ios", label: "iOS" },
-  { href: "/magic-brawl-for-pc", label: "PC" },
+  { href: "/magic-brawl-apk-indir", label: "İndir" },
+  { href: "/magic-brawl-ios-indir", label: "iOS" },
+  { href: "/magic-brawl-pc", label: "PC" },
   { href: "/blog", label: "Blog" },
-  { href: "/about-us", label: "Hakkımızda" },
-  { href: "/contact-us", label: "İletişim" },
+  { href: "/hakkimizda", label: "Hakkımızda" },
+  { href: "/iletisim", label: "İletişim" },
 ] as const;
 
 export const OG_IMAGE = `${SITE_ORIGIN}/feature/og-image.webp`;
