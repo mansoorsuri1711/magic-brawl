@@ -16,8 +16,20 @@ module.exports = {
         sky: '#00C8E0',
       },
       fontFamily: {
-        sans: ['var(--font-outfit)', 'system-ui', 'sans-serif'],
-        display: ['var(--font-syne)', 'system-ui', 'sans-serif'],
+        sans: [
+          'var(--font-outfit)',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'sans-serif',
+        ],
+        display: [
+          'var(--font-syne)',
+          'var(--font-outfit)',
+          'system-ui',
+          'sans-serif',
+        ],
       },
     },
   },

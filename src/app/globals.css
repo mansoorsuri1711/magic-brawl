@@ -6,8 +6,7 @@
   --foreground-rgb: 11, 18, 32;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 244, 246, 251;
-  --font-outfit: 'Outfit', system-ui, sans-serif;
-  --font-syne: 'Syne', system-ui, sans-serif;
+  /* Do NOT redefine --font-outfit / --font-syne here — next/font sets them. */
 }
 
 body {
@@ -21,7 +20,10 @@ body {
       rgb(var(--background-start-rgb)),
       rgb(var(--background-end-rgb))
     );
-  font-family: var(--font-outfit), system-ui, sans-serif;
+  font-family: var(--font-outfit), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  /* Keep fallback metrics close so swap is less jarring */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -31,7 +33,7 @@ h4,
 h5,
 h6,
 .font-display {
-  font-family: var(--font-syne), system-ui, sans-serif;
+  font-family: var(--font-syne), var(--font-outfit), system-ui, sans-serif;
 }
 
 /* Equal Vanilla / Infinity badge boxes */

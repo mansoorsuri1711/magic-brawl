@@ -27,14 +27,18 @@ const outfit = Outfit({
   display: "swap",
   variable: "--font-outfit",
   preload: true,
+  adjustFontFallback: true,
+  fallback: ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
 });
 
 const syne = Syne({
   subsets: ["latin", "latin-ext"],
-  weight: ["500", "600", "700", "800"],
+  weight: ["600", "700", "800"],
   display: "swap",
   variable: "--font-syne",
   preload: true,
+  adjustFontFallback: true,
+  fallback: ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
 });
 
 export const viewport: Viewport = {
@@ -143,7 +147,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${outfit.variable} ${syne.variable}`}
+      className={`${outfit.variable} ${syne.variable} ${outfit.className}`}
       suppressHydrationWarning
     >
       <head>
@@ -157,7 +161,7 @@ export default async function LocaleLayout({
         </Script>
       </head>
       <body
-        className={`${outfit.className} antialiased bg-primary text-ink min-h-screen flex flex-col`}
+        className="antialiased bg-primary text-ink min-h-screen flex flex-col"
         style={{ minHeight: "100vh" }}
         suppressHydrationWarning
       >
