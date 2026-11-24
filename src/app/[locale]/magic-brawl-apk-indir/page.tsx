@@ -35,10 +35,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       languages: hreflangLanguages("/magic-brawl-apk-indir"),
     },
     robots: {
-      index: false,
+      index: true,
       follow: true,
       googleBot: {
-        index: false,
+        index: true,
         follow: true,
       },
     },
