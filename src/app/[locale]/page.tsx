@@ -109,7 +109,7 @@ export default async function Home({ params }: PageProps) {
         "@id": `${pageUrl}/#webpage`,
         url: pageUrl,
         name: t("h1"),
-        description: t("subtitle"),
+        description: fillAppVars(t("subtitle")),
         isPartOf: { "@id": `${SITE_ORIGIN}/#website` },
         about: { "@id": `${SITE_ORIGIN}/#software` },
         speakable: {
@@ -222,7 +222,9 @@ export default async function Home({ params }: PageProps) {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 <span className="text-ink">{t("h1")}</span>
               </h1>
-              <p className="text-2xl md:text-3xl font-bold text-accent">{t("subtitle")}</p>
+              <p className="text-2xl md:text-3xl font-bold text-accent">
+                {fillAppVars(t("subtitle"))}
+              </p>
             </div>
 
             <p className="text-lg text-muted leading-relaxed">{t("intro")}</p>
