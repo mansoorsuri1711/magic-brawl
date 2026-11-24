@@ -1,9 +1,9 @@
 {
   "Meta": {
-    "homeTitle": "Magic Brawl APK İndir 2026 – Ücretsiz Özel Sunucu",
-    "homeDescription": "Magic Brawl özel sunucusunu Android, PC ve iOS için ücretsiz indir. Sınırsız elmas, tüm brawler'lar açık, Sezon 23. magicbrawl.tr'den hemen başla!",
-    "downloadTitle": "Magic Brawl İndir – Android APK v54.243",
-    "downloadDescription": "Magic Brawl APK'yı resmi siteden güvenle indir. v54.243, 471 MB. Adım adım kurulum rehberiyle dakikalar içinde oyna.",
+    "homeTitle": "Magic Brawl APK İndir 2026 | Özel Sunucu",
+    "homeDescription": "Magic Brawl APK indir: Brawl Stars özel sunucu, sınırsız elmas, tüm brawler'lar. Android kurulum, iOS IPA ve PC rehberi magicbrawl.tr'de.",
+    "downloadTitle": "Magic Brawl APK İndir – Ücretsiz Android Kurulum",
+    "downloadDescription": "Magic Brawl APK indir (v54.243, 471 MB). Android sideload adımları, güvenlik notları ve resmi Magic Team indirme bağlantısı.",
     "pcTitle": "Magic Brawl PC'de Oyna – Emülatör Kurulum Rehberi",
     "pcDescription": "Magic Brawl'ı bilgisayarda oyna. BlueStacks veya LDPlayer emülatörü ile PC kurulum adımları, sistem gereksinimleri ve ipuçları.",
     "iosTitle": "Magic Brawl iOS İndir – iPhone ve iPad IPA Kurulumu",
@@ -18,7 +18,7 @@
     "disclaimerDescription": "Magic Brawl, Supercell'in resmi bir ürünü değildir. Tüm haklar ilgili sahiplerine aittir. Yasal bildirim ve sorumluluk reddi.",
     "notFoundTitle": "Sayfa Bulunamadı – Magic Brawl",
     "blogTitle": "Magic Brawl Blog – Güncellemeler ve Rehberler",
-    "blogDescription": "Magic Brawl blog: yeni brawler'lar, sezon güncellemeleri, ipuçları ve özel sunucu haberleri. Türkçe rehberler magicbrawl.tr'de."
+    "blogDescription": "Magic Brawl blog: APK indir, hileli Brawl Stars alternatifleri, eski sürüm farkları, güvenlik ve sezon rehberleri."
   },
   "Nav": {
     "home": "Ana Sayfa",
@@ -58,7 +58,7 @@
   "Home": {
     "h1": "Magic Brawl İndir – Sınırsız Brawl Stars Özel Sunucusu",
     "subtitle": "v{version} · {fileSize} · {os} · {price}",
-    "intro": "Magic Brawl, Brawl Stars deneyimini özgürleştiren bağımsız bir özel sunucudur. Sınırsız elmas ve coin, tüm açık brawler'lar, özel pinler ve çevrimiçi çok oyunculu modlarla gerçek rekabeti magicbrawl.tr'de yaşa.",
+    "intro": "Magic Brawl (sıkça Magic Brawl Stars diye aranır), Brawl Stars özel sunucu deneyimini özgürleştiren bağımsız bir private server istemcisidir. Sınırsız elmas ve coin, tüm açık brawler'lar, özel pinler ve çevrimiçi çok oyunculu modlarla rekabeti magicbrawl.tr'de yaşa.",
     "androidOnlyNote": "Magic Brawl öncelikle Android için optimize edilmiştir. iOS IPA kurulumu için iOS sayfamızı ziyaret edin.",
     "tableTitle": "Magic Brawl Uygulama Bilgileri",
     "table": {
@@ -74,7 +74,7 @@
       "season": "Sezon / Tema"
     },
     "whatTitle": "Magic Brawl Nedir?",
-    "whatP1": "Magic Brawl, Magic Team tarafından geliştirilen bağımsız bir Brawl Stars özel sunucusudur. Supercell ile hiçbir bağlantısı olmayan bu sunucu, oyunculara resmi oyunda ücret ödeyerek veya uzun süre oynayarak elde edebilecekleri tüm içerikleri ücretsiz sunar.",
+    "whatP1": "Magic Brawl, Magic Team tarafından geliştirilen bağımsız bir Brawl Stars özel sunucusudur (private server). Supercell ile bağlantısı yoktur; oyunculara resmi oyunda uzun süre veya ücretle açılan içerikleri sandbox ortamında ücretsiz sunar.",
     "whatP2": "v54.243 sürümüyle birlikte Sezon 22-23 Starr Toon Studios içerikleri, Kit (erken erişim), Mico, Larry & Lawrie ve Win Streak gibi yenilikler oyuna eklendi. Tüm bu içeriklere tek bir APK ile anında ulaşabilirsin.",
     "whatP3": "Önemli Uyarı: Magic Brawl, Supercell'in resmi Brawl Stars oyunundan bağımsızdır ve Supercell tarafından onaylanmamıştır. Resmi hesabınla hiçbir şekilde ilişkili değildir.",
     "privateServerTitle": "Neden Özel Sunucu?",
@@ -238,16 +238,24 @@
     "faqTitle": "Sık Sorulan Sorular",
     "faqs": [
       {
-        "q": "Magic Brawl nasıl indirilir?",
-        "a": "magicbrawl.tr adresini ziyaret et, İndir sayfasına git ve Android için APK dosyasını indir. Bilinmeyen kaynaklara izin verdikten sonra dosyayı aç ve yükle."
+        "q": "Eski Brawl Stars APK veya eski sürüm mü Magic Brawl mu?",
+        "a": "Eski Brawl Stars APK / eski sürüm arayanlar nostaljik 2018 hissi (Retro tarzı) ister. Magic Brawl ise güncel sezon içerikli modern özel sunucudur. Nostalji için Retro Brawl konuşulur; Sezon 23 ve sınırsız kaynak için Magic Brawl'ı seç."
+      },
+      {
+        "q": "Hileli Brawl Stars 2026 arıyorum — Magic Brawl uygun mu?",
+        "a": "Türkiye'de 'hileli Brawl Stars' arayanlar genelde sınırsız kaynaklı özel sunucu ister. Magic Brawl bu ihtiyacı resmi oyuna cheat yüklemeden, ayrı bir private server istemcisiyle karşılar. Resmi hesabına dokunma; ayrı giriş oluştur."
+      },
+      {
+        "q": "Magic Brawl APK nasıl indirilir?",
+        "a": "magicbrawl.tr üzerinden İndir sayfasına git veya ana sayfadaki Hemen İndir butonunu kullan. APK, resmi Magic Team kaynağı (magicbrawl.gg) üzerinden gelir; Android'de bilinmeyen kaynaklara izin verip kur."
       },
       {
         "q": "Magic Brawl güvenli mi?",
         "a": "Magic Brawl, Magic Team tarafından aktif olarak geliştirilen bağımsız bir özel sunucudur. Resmi Brawl Stars hesabın etkilenmez. Bununla birlikte, her üçüncü taraf uygulamasında olduğu gibi bilinçli bir şekilde kurmanı tavsiye ederiz."
       },
       {
-        "q": "Magic Brawl Play Store'da var mı?",
-        "a": "Hayır. Magic Brawl, Google Play Store veya App Store'da bulunmaz. APK'yı yalnızca resmi sitesi magicbrawl.tr üzerinden indirebilirsin."
+        "q": "Magic Brawl Play Store'da veya magic brawl gg'de mi?",
+        "a": "Google Play'de yoktur. Bilgilendirme ve Türkçe rehberler magicbrawl.tr'dedir; APK/IPA indirme dosyası Magic Team'in resmi magicbrawl.gg bağlantısından alınır."
       },
       {
         "q": "Arkadaşlarımla birlikte oynayabilir miyim?",
@@ -290,7 +298,7 @@
     "ctaText": "Magic Brawl'u Android, iOS veya PC'de oyna. Sınırsız kaynaklarla Brawl Stars deneyimini özgürce yaşa – tamamen ücretsiz.",
     "pinsTitle": "Ücretsiz Pinler ve Voucherlar",
     "pinsIntro": "Magic Brawl kuruluysa Six Seven, MBS Fumey, Fumey Frog, Goblin Clock, Goblin ve Cool Glass gibi ücretsiz rozetleri claim edebilirsiniz. Sahte elmas generator sitelerinden uzak durun; yalnızca doğrulanmış kampanyaları kullanın.",
-    "pinsCta": "Pin ve voucher rehberini oku",
+    "pinsCta": "Magic Brawl APK indir ve pinleri aç",
     "blogPreviewTitle": "Magic Brawl Blog Yazıları",
     "gameModesTitle": "Magic Brawl Oyun Modları",
     "gameModes": [
@@ -321,8 +329,8 @@
     ]
   },
   "Download": {
-    "h1": "Magic Brawl APK İndir – v{version}",
-    "intro": "Magic Brawl Android APK'sını magicbrawl.tr rehberleriyle güvenle kur. İndirme bağlantısı resmi Magic Team kaynağına gider; aşağıdaki adımları takip ederek dakikalar içinde kurulumu tamamla.",
+    "h1": "Magic Brawl APK İndir",
+    "intro": "Magic Brawl APK indir: Android için v{version} ({fileSize}). magicbrawl.tr rehberleriyle kur; indirme Magic Team resmi kaynağına gider.",
     "ctaTitle": "APK'yı İndir",
     "ctaText": "v{version} · {fileSize} · Ücretsiz",
     "infoTitle": "Uygulama Bilgileri",

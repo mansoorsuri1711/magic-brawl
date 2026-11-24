@@ -22,6 +22,16 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/blog/magic-brawl-pin-voucher-rehberi',
+        destination: '/blog/hileli-brawl-stars-2026',
+        permanent: true,
+      },
+      {
+        source: '/blog/magic-brawl-season-23-starr-toon',
+        destination: '/blog/eski-brawl-stars-apk',
+        permanent: true,
+      },
+      {
         source: '/about',
         destination: '/about-us',
         permanent: true,

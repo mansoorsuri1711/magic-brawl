@@ -427,7 +427,7 @@ export default async function Home({ params }: PageProps) {
           </div>
           <div className="text-center mt-8">
             <Link
-              href="/blog/magic-brawl-pin-voucher-rehberi"
+              href="/download-magic-brawl"
               className="inline-flex items-center px-6 py-3 rounded-full border-2 border-accent text-ink font-semibold hover:bg-accent/10 transition-all"
             >
               {t("pinsCta")} →

@@ -227,66 +227,75 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
   {
-    slug: "magic-brawl-pin-voucher-rehberi",
+    slug: "hileli-brawl-stars-2026",
     title: {
-      tr: "Magic Brawl Ücretsiz Pin ve Voucher Nasıl Alınır?",
-      en: "How to Claim Free Magic Brawl Pins and Vouchers",
+      tr: "Hileli Brawl Stars 2026: Magic Brawl Özel Sunucu Alternatifi",
+      en: "Hileli Brawl Stars 2026: Magic Brawl Private Server Alternative",
     },
     excerpt: {
-      tr: "Six Seven, Fumey Frog, Goblin Clock ve diğer ücretsiz Magic Brawl pinlerini almak için kurulum şartı ve adım adım claim rehberi.",
-      en: "Step-by-step guide to claiming Six Seven, Fumey Frog, Goblin Clock, and other free Magic Brawl pins.",
+      tr: "Türkiye’de hileli Brawl Stars 2026 arayanlar için: resmi oyuna cheat yüklemek yerine Magic Brawl private server ile sınırsız kaynak nasıl çalışır?",
+      en: "For Turkish searches of hileli Brawl Stars 2026: how Magic Brawl private server unlocks resources without cheating the official client.",
     },
     description: {
-      tr: "Magic Brawl ücretsiz pin / voucher claim: oyunu yükleyin, resmi kupon sayfalarını kullanın, Six Seven Pin, MBS Fumey, Goblin ve Cool Glass rozetlerini kaçırmayın.",
-      en: "Claim free Magic Brawl pins and vouchers after installing the game—Six Seven, MBS Fumey, Goblin, Cool Glass, and more.",
+      tr: "Hileli Brawl Stars 2026 araması genelde sınırsız elmas/brawler ister. Magic Brawl APK indirerek ayrı özel sunucuda oyna; resmi hesabını karıştırma, güvenlik adımlarını uygula.",
+      en: "Hileli Brawl Stars 2026 intent usually means unlimited resources. Use Magic Brawl as a separate private server—don’t mix official credentials.",
     },
-    image: "/pin-wizard-67.webp",
+    image: "/magic-brawl.webp",
     imageAlt: {
-      tr: "Magic Brawl Six Seven ücretsiz pin",
-      en: "Magic Brawl Six Seven free pin",
+      tr: "Hileli Brawl Stars 2026 için Magic Brawl özel sunucu",
+      en: "Magic Brawl private server for hileli Brawl Stars 2026 searches",
     },
-    published: "2026-11-15",
+    published: "2026-11-24",
     updated: "2026-11-24",
-    readMinutes: 6,
-    keywords: ["magic brawl pin", "magic brawl voucher", "magic brawl ücretsiz rozet"],
+    readMinutes: 8,
+    keywords: [
+      "hileli brawl stars 2026",
+      "hileli brawl stars",
+      "magic brawl apk",
+      "brawl stars private server",
+    ],
     sections: [
       {
         heading: {
-          tr: "Önce Magic Brawl kurulu olmalı",
-          en: "Install Magic Brawl first",
+          tr: "“Hileli Brawl Stars” araması ne anlama geliyor?",
+          en: "What hileli Brawl Stars searches usually mean",
         },
         paragraphs: [
           {
-            tr: "Ücretsiz pin ve voucher kampanyaları genellikle oyunun cihazınızda kurulu olmasını ister. Android APK’yı indirip kurun, hesabınızı oluşturun, sonra claim bağlantılarına geçin. Kurulum yoksa kuponlar boşa gidebilir.",
-            en: "Most free pin campaigns require Magic Brawl installed and an account created before claim links work.",
+            tr: "Türkiye’de hileli Brawl Stars 2026 sorgusu çoğu zaman resmi istemciye cheat menüsü aramak değil; sınırsız elmas, açık brawler ve paywall’sız oynanış istemektir. Magic Brawl bu talebi Brawl Stars tarzı bir özel sunucu (private server) olarak karşılar.",
+            en: "In Turkey, hileli Brawl Stars 2026 often means unlimited gems and unlocked brawlers—not injecting cheats into the retail client. Magic Brawl answers that as a private server.",
+          },
+          {
+            tr: "Resmi Brawl Stars’a hile yüklemek hesap banı ve güvenlik riski taşır. Magic Brawl ise kendi sunucusuna bağlanan ayrı bir APK’dır; ladder ilerlemeniz resmi Supercell profilinizden ayrı tutulur.",
+            en: "Cheating on official Brawl Stars risks bans. Magic Brawl is a separate APK talking to its own hosts, so retail progress stays isolated when logins stay separate.",
           },
         ],
       },
       {
         heading: {
-          tr: "Hangi pinler öne çıkıyor?",
-          en: "Which pins are featured?",
+          tr: "Magic Brawl neden bu aramaya uyuyor?",
+          en: "Why Magic Brawl fits this intent",
         },
         paragraphs: [
           {
-            tr: "Toplulukta sık görülen ücretsiz rozetler: Six Seven Pin (sihirbaz), MBS Fumey takım pin’i, Fumey Frog, Goblin Clock, Goblin Pin ve Cool Glass Pin. Görseller magicbrawl.tr ana sayfasında da yer alır.",
-            en: "Popular free pins include Six Seven, MBS Fumey, Fumey Frog, Goblin Clock, Goblin, and Cool Glass—also shown on the magicbrawl.tr homepage.",
+            tr: "Magic Brawl APK ile sınırsız kaynak, Sezon 22–23 içerikleri, çevrimiçi maçlar ve ücretsiz pin kampanyaları gelir. Bu, “hile menüsü” vaat eden şüpheli tool’lardan daha net bir ürün konumudur: indir, kur, özel sunucu hesabı aç, oyna.",
+            en: "Magic Brawl APK brings unlimited resources, current seasons, online battles, and free pins—clearer than shady injectors: download, install, create a private-server account, play.",
           },
           {
-            tr: "Claim işlemi resmi Magic Team voucher sayfalarından veya doğrulanmış kampanya linklerinden yapılır. Üçüncü taraf “bedava elmas generator” sitelerine itibar etmeyin; bunlar genelde dolandırıcılıktır.",
-            en: "Use official Magic Team voucher pages. Ignore third-party “gem generator” sites—they are usually scams.",
+            tr: "Türkçe kurulum için magicbrawl.tr ana sayfası ve Magic Brawl APK İndir rehberi adım adım sideload’u anlatır. Dosya Magic Team kaynağından (magicbrawl.gg) gelir.",
+            en: "Turkish install steps live on magicbrawl.tr; the APK comes from Magic Team’s magicbrawl.gg link.",
           },
         ],
       },
       {
         heading: {
-          tr: "Claim sonrası görünmüyorsa",
-          en: "If the pin does not appear",
+          tr: "Güvenli kullanım kontrol listesi",
+          en: "Safe-use checklist",
         },
         paragraphs: [
           {
-            tr: "Oyunu tamamen kapatıp yeniden açın, internet bağlantısını kontrol edin ve doğru Magic Brawl hesabıyla giriş yaptığınızı doğrulayın. Hâlâ yoksa destek kanalına (Telegram / sitemizdeki iletişim) sürüm numaranızla yazın.",
-            en: "Force-close the app, check connectivity, confirm the correct account, then contact support with your version number if needed.",
+            tr: "1) Yalnızca güvendiğiniz indirme yolunu kullanın. 2) Resmi Supercell e-posta/şifresini Magic Brawl’a yazmayın. 3) Bilinmeyen kaynak iznini kurulumdan sonra kapatın. 4) “Elmas generator” sitelerinden uzak durun. Detay için Magic Brawl güvenli mi yazımıza bakın.",
+            en: "Use trusted downloads, never reuse Supercell passwords, revoke unknown sources after install, skip gem-generator scams—see our safety article.",
           },
         ],
       },
@@ -294,81 +303,96 @@ export const BLOG_POSTS: BlogPost[] = [
     faqs: [
       {
         q: {
-          tr: "Pinler gerçek para ister mi?",
-          en: "Do pins cost real money?",
+          tr: "Hileli Brawl Stars APK ile Magic Brawl aynı şey mi?",
+          en: "Is hileli Brawl Stars APK the same as Magic Brawl?",
         },
         a: {
-          tr: "Listelenen ücretsiz pin kampanyaları bağış mağazasından bağımsızdır. Bağış (donation) tamamen isteğe bağlıdır; pin claim için zorunlu ödeme yoktur.",
-          en: "Featured free pin campaigns do not require payment. Donations are optional and separate.",
+          tr: "Piyasada birçok “hileli” APK ismi dolaşır. Magic Brawl, Magic Team’in bilinen özel sunucu markasıdır; rastgele Telegram dosyalarından ayırın.",
+          en: "Many random “hileli” APKs circulate. Magic Brawl is Magic Team’s known private-server brand—don’t confuse it with random Telegram files.",
+        },
+      },
+      {
+        q: {
+          tr: "2026’da hâlâ güncelleniyor mu?",
+          en: "Is it still updated in 2026?",
+        },
+        a: {
+          tr: "Evet. magicbrawl.tr’de listelenen sürüm (ör. v54.243) ve sezon notları güncel istemciyi takip eder.",
+          en: "Yes—version and season notes on magicbrawl.tr track the current client.",
         },
       },
     ],
   },
   {
-    slug: "magic-brawl-season-23-starr-toon",
+    slug: "eski-brawl-stars-apk",
     title: {
-      tr: "Magic Brawl Sezon 23 Starr Toon Studios: Kit, Mico, Larry Rehberi",
-      en: "Magic Brawl Season 23 Starr Toon Studios: Kit, Mico, Larry Guide",
+      tr: "Eski Brawl Stars APK vs Magic Brawl: Eski Sürüm mü, Güncel Özel Sunucu mu?",
+      en: "Old Brawl Stars APK vs Magic Brawl: Nostalgia or Modern Private Server?",
     },
     excerpt: {
-      tr: "v54.243 ile gelen Starr Toon Studios, Kit erken erişim, ücretsiz Mico, Larry & Lawrie ve Win Streak sistemi hakkında Türkçe güncelleme özeti.",
-      en: "Turkish-friendly update notes for Starr Toon Studios, Kit early access, free Mico, Larry & Lawrie, and Win Streak on v54.243.",
+      tr: "Eski Brawl Stars APK ve Brawl Stars eski sürüm arayanlar için net ayrım: nostalji (Retro) ile Magic Brawl’ın güncel private server deneyimi.",
+      en: "Clear split for old Brawl Stars APK seekers: Retro nostalgia vs Magic Brawl’s modern private server.",
     },
     description: {
-      tr: "Magic Brawl Sezon 22–23 Starr Toon Studios içeriği: yeni karakterler, hediye haftaları, dişliler ve v54.243’te neler değişti.",
-      en: "Magic Brawl Seasons 22–23 Starr Toon Studios: new characters, gift weeks, gears, and what changed in v54.243.",
+      tr: "Eski Brawl Stars APK / eski sürüm mü istiyorsunuz, yoksa sınırsız kaynaklı güncel Magic Brawl mu? Türkiye arama niyetine göre doğru seçimi ve indirme yolunu anlatıyoruz.",
+      en: "Want eski Brawl Stars APK nostalgia or modern unlimited Magic Brawl? Match the Turkish search intent to the right download path.",
     },
-    image: "/fumey-frog-pin.webp",
+    image: "/goblin-clock-pin.webp",
     imageAlt: {
-      tr: "Magic Brawl Sezon 23 Starr Toon içeriği",
-      en: "Magic Brawl Season 23 Starr Toon content",
+      tr: "Eski Brawl Stars APK ve Magic Brawl karşılaştırması",
+      en: "Old Brawl Stars APK versus Magic Brawl",
     },
-    published: "2026-11-10",
+    published: "2026-11-24",
     updated: "2026-11-24",
     readMinutes: 7,
     keywords: [
-      "magic brawl sezon 23",
-      "magic brawl starr toon",
-      "magic brawl kit mico larry",
+      "eski brawl stars apk",
+      "brawl stars eski sürüm",
+      "magic brawl",
+      "retro brawl",
     ],
     sections: [
       {
         heading: {
-          tr: "Starr Toon Studios ne getiriyor?",
-          en: "What Starr Toon Studios adds",
+          tr: "Eski sürüm arayanlar ne istiyor?",
+          en: "What old-version searchers want",
         },
         paragraphs: [
           {
-            tr: "Magic Brawl v54.243, Sezon 22 ve 23 Starr Toon Studios temasını özel sunucuya taşıyor. Oyuncular çevrimiçi savaşlarda güncel harita ve etkinlik ritmine yakın bir deneyim ararken sınırsız kaynak avantajını koruyor.",
-            en: "v54.243 brings Seasons 22–23 Starr Toon Studios themes to the private server while keeping unlimited resources.",
+            tr: "Eski Brawl Stars APK ve Brawl Stars eski sürüm sorguları genelde 2018 dönemini, klasik brawler setini ve nostaljik haritaları arar. Bu niyet dünyada “old brawl stars” / “retro brawl” ile örtüşür.",
+            en: "Eski Brawl Stars APK searches usually want 2018-era nostalgia—same intent as old/retro Brawl Stars abroad.",
           },
           {
-            tr: "Öne çıkan karakterler: Kit (erken erişim), Mico (ücretsiz), Larry & Lawrie (sezon 23’te). Ayrıca yeni dişliler, karakter dişlileri ve genişletilmiş yıldız gücü / alet havuzu duyuruluyor.",
-            en: "Highlights include Kit early access, free Mico, Larry & Lawrie in season 23, plus new gears and expanded star powers/gadgets.",
-          },
-        ],
-      },
-      {
-        heading: {
-          tr: "Win Streak ve Üç Hediye Haftası",
-          en: "Win Streak and Three Gift Weeks",
-        },
-        paragraphs: [
-          {
-            tr: "Win Streak sistemi art arda galibiyetlerde ekstra kupa kazandırır; ladder tırmanışı daha ödüllendirici hissedilir. Üç Hediye Haftası’nda her gün giriş yaparak ödül toplayabilirsiniz—aktif sezonlarda kaçırmayın.",
-            en: "Win Streak adds trophy bonuses for consecutive wins. Three Gift Weeks reward daily logins during active events.",
+            tr: "Magic Brawl’ın ana vaadi nostalji değil: güncel sezona yakın içerik + sınırsız kaynaklı özel sunucu. Yanlış sayfada eski sürüm vaat etmek hem kullanıcıyı hem SEO’yu bozar.",
+            en: "Magic Brawl’s promise is modern seasons plus unlimited resources—not classic 2018. Don’t fake an old-version download page.",
           },
         ],
       },
       {
         heading: {
-          tr: "Nasıl güncellenir?",
-          en: "How to update",
+          tr: "Ne zaman Magic Brawl, ne zaman eski/Retro?",
+          en: "When to pick Magic Brawl vs old/Retro",
         },
         paragraphs: [
           {
-            tr: "İlerlemeyi korumak için eski sürümü silmeden yeni APK’yı üzerine kurun. Detaylı Android adımları için Magic Brawl İndir sayfamıza, iPhone için iOS rehberine bakın.",
-            en: "Install the new APK over the existing build to keep progress. See our Download and iOS guides for full steps.",
+            tr: "Magic Brawl’ı seçin: Sezon 23, Kit/Mico/Larry, Win Streak, çevrimiçi ladder, ücretsiz pinler ve “hileli / sınırsız” hissi istiyorsanız. APK indir rehberi magicbrawl.tr’de.",
+            en: "Choose Magic Brawl for Season 23 content, unlimited resources, online ladder, and free pins.",
+          },
+          {
+            tr: "Eski Brawl Stars APK / Retro hissi istiyorsanız: klasik UI ve erken brawler listesi ayrı bir üründür (Retro Brawl ekosisteminde konuşulur). magicbrawl.tr Magic Brawl’a odaklanır; sizi yanlışlıkla “eski sürüm” diye yanıltmayız.",
+            en: "Want classic UI? That’s a Retro-style product—magicbrawl.tr stays honest and focuses on Magic Brawl.",
+          },
+        ],
+      },
+      {
+        heading: {
+          tr: "Güvenlik: rastgele eski APK tuzakları",
+          en: "Safety: random old-APK traps",
+        },
+        paragraphs: [
+          {
+            tr: "“Eski sürüm” diye paylaşılan bilinmeyen APK’lar sıkça zararlı yazılım veya kimlik avı barındırır. Magic Brawl için bile yalnızca doğrulanmış indirme yolunu kullanın; resmi hesap şifrenizi üçüncü taraf istemcilere yazmayın.",
+            en: "Random “old version” APKs are often malware. Even for Magic Brawl, use trusted links and never enter retail passwords.",
           },
         ],
       },
@@ -376,12 +400,22 @@ export const BLOG_POSTS: BlogPost[] = [
     faqs: [
       {
         q: {
-          tr: "Sezon 23 için sıfırdan hesap mı açmalıyım?",
-          en: "Do I need a new account for Season 23?",
+          tr: "Magic Brawl eski Brawl Stars APK mı?",
+          en: "Is Magic Brawl an old Brawl Stars APK?",
         },
         a: {
-          tr: "Hayır. Mevcut Magic Brawl hesabınızla güncelleyebilirsiniz. Sorun olursa önbelleği temizleyip yeniden giriş deneyin.",
-          en: "No—update on your existing Magic Brawl account. Clear cache and re-login if something sticks.",
+          tr: "Hayır. Magic Brawl güncel özel sunucu istemcisidir; eski sürüm / Retro deneyiminden farklıdır.",
+          en: "No—Magic Brawl is a modern private-server client, not an old-version rebuild.",
+        },
+      },
+      {
+        q: {
+          tr: "Eski sürüm ararken Magic Brawl indirmeli miyim?",
+          en: "Should I download Magic Brawl if I want the old version?",
+        },
+        a: {
+          tr: "Yalnızca modern sınırsız özel sunucu istiyorsanız evet. Saf nostalji arıyorsanız Retro tarzı eski istemciye bakın; niyeti karıştırmayın.",
+          en: "Only if you want a modern unlimited private server. Pure nostalgia needs a Retro-style client instead.",
         },
       },
     ],
