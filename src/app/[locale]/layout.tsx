@@ -24,7 +24,8 @@ import {
 const outfit = Outfit({
   subsets: ["latin", "latin-ext"],
   weight: ["400", "500", "600", "700"],
-  display: "swap",
+  // block = hold text invisible until the real font is ready (no system-font flash)
+  display: "block",
   variable: "--font-outfit",
   preload: true,
   adjustFontFallback: true,
@@ -34,13 +35,12 @@ const outfit = Outfit({
 const syne = Syne({
   subsets: ["latin", "latin-ext"],
   weight: ["600", "700", "800"],
-  display: "swap",
+  display: "block",
   variable: "--font-syne",
   preload: true,
   adjustFontFallback: true,
   fallback: ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
 });
-
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
