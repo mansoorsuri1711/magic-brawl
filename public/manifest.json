@@ -1,11 +1,11 @@
 {
-  "name": "Master Royale",
-  "short_name": "Master Royale",
-  "description": "Download Master Royale APK – Clash Royale private server with unlimited gems, gold, and unlocked cards for Android.",
+  "name": "Magic Brawl",
+  "short_name": "Magic Brawl",
+  "description": "Magic Brawl APK indir – Brawl Stars özel sunucu, sınırsız elmas, Sezon 23 Starr Toon Studios. Android, iOS ve PC rehberleri.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
+  "theme_color": "#0088E8",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -13,21 +13,15 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/master-royale-apk-logo.ico",
+      "src": "/magic-brawl.ico",
       "sizes": "256x256",
       "type": "image/x-icon"
     },
     {
-      "src": "/master-royale-apk-logo.webp",
+      "src": "/magic-brawl.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"
-    },
-    {
-      "src": "/master-royale-apk.webp",
-      "sizes": "512x512",
-      "type": "image/webp",
-      "purpose": "any"
     }
   ]
 }

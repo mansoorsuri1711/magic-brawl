@@ -1,5 +1,5 @@
-import { defaultLocale, locales } from "@/i18n/config";
 import { SITE_ORIGIN } from "./site";
+import { BLOG_POSTS } from "./blog-posts";
 
 export type SitemapPage = {
   path: string;
@@ -21,58 +21,85 @@ const BASE_PAGES: BasePage[] = [
     priority: 1.0,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale-king.webp`,
-        title: "Master Royale King – Hero Artwork",
-        caption: "Master Royale king character used on the homepage hero",
+        loc: `${SITE_ORIGIN}/magic-brawl.webp`,
+        title: "Magic Brawl Logo",
+        caption: "Magic Brawl özel sunucu uygulaması logosu",
       },
       {
-        loc: `${SITE_ORIGIN}/master-royale-apk-logo.webp`,
-        title: "Master Royale Logo",
-        caption: "Master Royale logo used across masterroyaleapk.com",
+        loc: `${SITE_ORIGIN}/pin-wizard-67.webp`,
+        title: "Magic Brawl Six Seven Pin",
+        caption: "Magic Brawl ücretsiz Six Seven sihirbaz rozeti",
       },
       {
-        loc: `${SITE_ORIGIN}/master-royale-gems.webp`,
-        title: "Master Royale Unlimited Gems",
-        caption: "Gems artwork representing unlimited resources on Master Royale",
+        loc: `${SITE_ORIGIN}/fumey-team-pin.webp`,
+        title: "Magic Brawl Fumey Takım Rozeti",
+        caption: "MBS Fumey ücretsiz pin — Magic Brawl",
       },
       {
-        loc: `${SITE_ORIGIN}/master-royale-infinity-server.webp`,
-        title: "Master Royale Infinity",
-        caption: "Infinity server action artwork for Master Royale",
+        loc: `${SITE_ORIGIN}/feature/og-image.webp`,
+        title: "Magic Brawl OG Görseli",
+        caption: "magicbrawl.tr paylaşım görseli",
       },
     ],
   },
   {
-    path: "/vanilla-vs-infinity",
+    path: "/download-magic-brawl",
+    lastMod: today(),
+    changeFreq: "weekly",
+    priority: 0.95,
+    images: [
+      {
+        loc: `${SITE_ORIGIN}/magic-brawl.webp`,
+        title: "Magic Brawl APK İndir",
+        caption: "Magic Brawl Android APK indirme rehberi",
+      },
+    ],
+  },
+  {
+    path: "/magic-brawl-ios",
     lastMod: today(),
     changeFreq: "weekly",
     priority: 0.92,
     images: [
       {
-        loc: `${SITE_ORIGIN}/mr-vanilla-master-royale.webp`,
-        title: "MR Vanilla",
-        caption: "Master Royale Vanilla experience badge",
-      },
-      {
-        loc: `${SITE_ORIGIN}/mr-infinity-master-royale.webp`,
-        title: "MR Infinity",
-        caption: "Master Royale Infinity experience badge",
+        loc: `${SITE_ORIGIN}/magic-brawl.webp`,
+        title: "Magic Brawl iOS IPA",
+        caption: "Magic Brawl iPhone IPA yükleme rehberi",
       },
     ],
   },
   {
-    path: "/master-royale-for-pc",
+    path: "/magic-brawl-for-pc",
     lastMod: today(),
     changeFreq: "weekly",
     priority: 0.9,
     images: [
       {
-        loc: `${SITE_ORIGIN}/master-royale-tournaments.webp`,
-        title: "Master Royale for PC",
-        caption: "Play Master Royale on PC with an Android emulator",
+        loc: `${SITE_ORIGIN}/coolglass_pin.webp`,
+        title: "Magic Brawl PC",
+        caption: "Magic Brawl PC emülatör rehberi",
       },
     ],
   },
+  {
+    path: "/blog",
+    lastMod: today(),
+    changeFreq: "weekly",
+    priority: 0.85,
+  },
+  ...BLOG_POSTS.map((post) => ({
+    path: `/blog/${post.slug}`,
+    lastMod: post.updated,
+    changeFreq: "monthly" as const,
+    priority: 0.8,
+    images: [
+      {
+        loc: `${SITE_ORIGIN}${post.image}`,
+        title: post.title.tr,
+        caption: post.excerpt.tr,
+      },
+    ],
+  })),
   {
     path: "/about-us",
     lastMod: today(),
@@ -99,17 +126,10 @@ const BASE_PAGES: BasePage[] = [
   },
 ];
 
-function localizedPath(locale: string, path: string): string {
-  if (locale === defaultLocale) return path;
-  return path === "/" ? `/${locale}` : `/${locale}${path}`;
-}
-
-export const SITEMAP_PAGES: SitemapPage[] = locales.flatMap((locale) =>
-  BASE_PAGES.map((page) => ({
-    ...page,
-    path: localizedPath(locale, page.path),
-  }))
-);
+/** Turkish-only: one URL set, no locale prefixes. */
+export const SITEMAP_PAGES: SitemapPage[] = BASE_PAGES.map((page) => ({
+  ...page,
+}));
 
 export function escapeXml(value: string): string {
   return value

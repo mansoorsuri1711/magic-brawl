@@ -11,6 +11,7 @@ import WebVitalsTracker from "@/components/WebVitalsTracker";
 import { MobileMenuProvider } from "@/components/MobileMenuProvider";
 import { locales } from "@/i18n/config";
 import { requireLocale } from "@/i18n/locale";
+import { hreflangLanguages, localeUrl } from "@/lib/i18n-format";
 import {
   APP,
   HERO_IMAGE,
@@ -41,7 +42,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#FFFFFF",
+  themeColor: "#0088E8",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
@@ -60,12 +61,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-
-  const languages: Record<string, string> = {};
-  for (const l of locales) {
-    languages[l] = l === "en" ? SITE_ORIGIN : `${SITE_ORIGIN}/${l}`;
-  }
-  languages["x-default"] = SITE_ORIGIN;
 
   return {
     metadataBase: new URL(SITE_ORIGIN),
@@ -88,26 +83,25 @@ export async function generateMetadata({
     icons: {
       icon: [
         { url: "/favicon.ico", type: "image/x-icon", sizes: "any" },
-        { url: "/master-royale-apk-logo.ico", type: "image/x-icon", sizes: "256x256" },
-        { url: "/master-royale-apk-logo.webp", type: "image/webp", sizes: "512x512" },
-        { url: "/master-royale-apk.webp", type: "image/webp", sizes: "512x512" },
+        { url: "/magic-brawl.ico", type: "image/x-icon", sizes: "256x256" },
+        { url: "/magic-brawl.webp", type: "image/webp", sizes: "512x512" },
       ],
-      apple: [{ url: "/master-royale-apk-logo.webp", sizes: "180x180" }],
+      apple: [{ url: "/magic-brawl.webp", sizes: "180x180" }],
       shortcut: [{ url: "/favicon.ico", type: "image/x-icon" }],
     },
     alternates: {
-      canonical: locale === "en" ? SITE_ORIGIN : `${SITE_ORIGIN}/${locale}`,
-      languages,
+      canonical: localeUrl(locale, "/"),
+      languages: hreflangLanguages("/"),
     },
     openGraph: {
       title: t("homeTitle"),
       description: t("homeDescription"),
-      url: locale === "en" ? SITE_ORIGIN : `${SITE_ORIGIN}/${locale}`,
+      url: localeUrl(locale, "/"),
       siteName: SITE_NAME,
-      locale,
+      locale: "tr_TR",
       type: "website",
       images: [
-        { url: OG_IMAGE, width: 512, height: 512, alt: SITE_NAME },
+        { url: OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME },
         {
           url: `${SITE_ORIGIN}/feature/og-image-square.webp`,
           width: 512,
@@ -123,8 +117,8 @@ export async function generateMetadata({
       images: [
         {
           url: `${SITE_ORIGIN}/feature/twitter-card.webp`,
-          width: 512,
-          height: 512,
+          width: 1200,
+          height: 600,
           alt: SITE_NAME,
         },
       ],
@@ -156,8 +150,8 @@ export default async function LocaleLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
-        <link rel="icon" href="/master-royale-apk-logo.ico" type="image/x-icon" sizes="256x256" />
-        <link rel="apple-touch-icon" href="/master-royale-apk-logo.webp" sizes="180x180" />
+        <link rel="icon" href="/magic-brawl.ico" type="image/x-icon" sizes="256x256" />
+        <link rel="apple-touch-icon" href="/magic-brawl.webp" sizes="180x180" />
         <Script id="deferred-manifest" strategy="lazyOnload">
           {`(function(){var l=document.createElement('link');l.rel='manifest';l.href='/manifest.json';document.head.appendChild(l);})();`}
         </Script>
@@ -189,7 +183,7 @@ export default async function LocaleLayout({
               url: SITE_ORIGIN,
               logo: LOGO_IMAGE,
               description:
-                "Master Royale APK download hub for the Clash Royale private server on Android.",
+                "Magic Brawl APK bilgilendirme sitesi — Brawl Stars özel sunucu indirme, iOS, PC ve güvenlik rehberleri (magicbrawl.tr).",
             }),
           }}
         />

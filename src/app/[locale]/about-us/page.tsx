@@ -60,7 +60,7 @@ export default async function AboutPage({ params }: PageProps) {
               <Link href="/" className="block">
                 <div className="relative w-[240px] h-[240px] rounded-lg overflow-hidden bg-secondary">
                   <Image
-                    src="/master-royale-king.webp"
+                    src="/magic-brawl.webp"
                     alt={SITE_NAME}
                     title={t("h1")}
                     width={240}

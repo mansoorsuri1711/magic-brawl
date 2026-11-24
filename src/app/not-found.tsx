@@ -1,39 +1,35 @@
 import Link from "next/link";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `Page Not Found – ${SITE_NAME}`,
-  description: "The page you are looking for does not exist. Return to the Master Royale homepage.",
-  robots: {
-    index: false,
-    follow: true,
-  },
+  title: `Sayfa Bulunamadı – ${SITE_NAME}`,
+  description: "Aradığınız sayfa bulunamadı. Magic Brawl ana sayfasına dönün.",
+  robots: { index: false, follow: true },
 };
 
-export default function NotFound() {
+export default function RootNotFound() {
   return (
-    <div className="container mx-auto px-4 py-16 text-center">
-      <h1 className="text-4xl md:text-6xl font-bold mb-6 text-accent">404</h1>
-      <h2 className="text-2xl md:text-3xl font-bold mb-4 text-ink">Page Not Found</h2>
-      <p className="text-lg mb-8 text-muted max-w-lg mx-auto">
-        This URL is missing or moved. Head back to Master Royale for the free APK download guide,
-        Vanilla vs Infinity notes, and PC emulator tips.
+    <main className="min-h-[70vh] flex flex-col items-center justify-center px-4 text-center">
+      <h1 className="text-4xl font-bold text-ink mb-4">404</h1>
+      <p className="text-muted max-w-md mb-8">
+        Aradığınız sayfa taşınmış veya silinmiş olabilir. Magic Brawl ücretsiz APK,
+        iOS IPA ve PC emülatör rehberleri için ana sayfaya dönün.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <div className="flex flex-col sm:flex-row gap-4">
         <Link
           href="/"
-          className="bg-accent hover:brightness-95 text-ink font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
+          className="px-6 py-3 rounded-full border-2 border-accent text-ink font-semibold hover:bg-accent/10"
         >
-          Master Royale Home
+          Ana Sayfa
         </Link>
         <Link
-          href="/download-master-royale"
-          className="text-accent hover:underline font-semibold"
+          href="/download-magic-brawl"
+          className="px-6 py-3 rounded-full border-2 border-sky text-ink font-semibold hover:bg-sky/10"
         >
-          Download APK
+          APK İndir
         </Link>
       </div>
-    </div>
+    </main>
   );
 }

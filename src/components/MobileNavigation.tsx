@@ -8,8 +8,17 @@ import { Link, usePathname } from '@/i18n/navigation';
 import { useMobileMenu } from './MobileMenuProvider';
 import { APP, DOWNLOAD_APK_URL, SITE_NAME } from '@/lib/site';
 
+type NavHref =
+  | '/'
+  | '/download-magic-brawl'
+  | '/magic-brawl-ios'
+  | '/magic-brawl-for-pc'
+  | '/blog'
+  | '/about-us'
+  | '/contact-us';
+
 type NavItem = {
-  href: '/' | '/download-master-royale' | '/vanilla-vs-infinity' | '/master-royale-for-pc' | '/about-us' | '/contact-us';
+  href: NavHref;
   label: string;
   icon: React.ReactNode;
 };
@@ -69,11 +78,20 @@ export default function MobileNavigation() {
             ),
           },
           {
-            href: '/download-master-royale',
+            href: '/download-magic-brawl',
             label: t('download'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+            ),
+          },
+          {
+            href: '/blog',
+            label: t('blog'),
+            icon: (
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 18V7.875c0-.621.504-1.125 1.125-1.125H9" />
               </svg>
             ),
           },
@@ -83,16 +101,16 @@ export default function MobileNavigation() {
         title: t('guides'),
         items: [
           {
-            href: '/vanilla-vs-infinity',
-            label: t('compare'),
+            href: '/magic-brawl-ios',
+            label: t('ios'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
               </svg>
             ),
           },
           {
-            href: '/master-royale-for-pc',
+            href: '/magic-brawl-for-pc',
             label: t('pc'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -101,7 +119,7 @@ export default function MobileNavigation() {
             ),
           },
           {
-            href: '/download-master-royale',
+            href: '/download-magic-brawl',
             label: t('installGuide'),
             icon: (
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -182,7 +200,7 @@ export default function MobileNavigation() {
       <div className="flex justify-between items-center px-5 py-4 border-b border-slate-200">
         <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
           <Image
-            src="/master-royale-apk-logo.webp"
+            src="/magic-brawl.webp"
             alt={`${SITE_NAME} Logo`}
             width={36}
             height={36}
@@ -190,7 +208,7 @@ export default function MobileNavigation() {
             priority
           />
           <span className="font-display text-ink text-lg font-bold tracking-tight">
-            <span className="text-accent">Master</span> Royale
+            <span className="text-accent">Magic</span> Brawl
           </span>
         </Link>
         <button

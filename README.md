@@ -1,37 +1,26 @@
-# Master Royale APK
+# Magic Brawl (magicbrawl.tr)
 
-Next.js site for **Master Royale APK** download guides at [masterroyaleapk.com](https://masterroyaleapk.com).
+Turkish-first Next.js site for **Magic Brawl** — a Brawl Stars-style private server by Magic Team.
 
 ## Stack
 
-- Next.js App Router + TypeScript
-- Tailwind CSS · Syne (headings) · Outfit (body)
-- i18n: English, French, Turkish, Spanish, Portuguese, German, Italian
-- SEO: FAQ / HowTo / SoftwareApplication schema, sitemap index, breadcrumbs
+- Next.js App Router + TypeScript + next-intl
+- **Turkish only** (`tr`) — no language switcher / no other locales
+- Domain: `https://magicbrawl.tr`
 
-## Setup
+## Scripts
 
 ```bash
 npm install
 npm run dev
+npm run build
+npm start
 ```
 
-## Images
+## Key routes
 
-Drop final assets into `public/` (replace as needed):
-
-- `master-royale-apk.webp`
-- `master-royale-apk-logo.webp`
-- `master-royale-apk-logo.ico`
-- `favicon.ico`
-- `mr-vanilla-master-royale.webp`
-- `mr-infinity-master-royale.webp`
-- `feature/og-image.webp`
-- `feature/og-image-square.webp`
-- `feature/twitter-card.webp`
-
-## Scripts
-
-- `npm run dev` — local development
-- `npm run build` — production build
-- `npm start` — serve production build
+- `/` — Ana sayfa (APK detayları, pinler, SSS)
+- `/download-magic-brawl` — Android kurulum
+- `/magic-brawl-ios` — iOS IPA
+- `/magic-brawl-for-pc` — PC emülatör
+- `/blog` — SERP odaklı yazılar

@@ -22,7 +22,7 @@ type PageProps = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const locale = requireLocale((await params).locale);
   const t = await getTranslations({ locale, namespace: "Meta" });
-  const url = localeUrl(locale, "/download-master-royale");
+  const url = localeUrl(locale, "/download-magic-brawl");
 
   return {
     title: t("downloadTitle"),
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }),
     alternates: {
       canonical: url,
-      languages: hreflangLanguages("/download-master-royale"),
+      languages: hreflangLanguages("/download-magic-brawl"),
     },
     robots: {
       index: false,
@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function DownloadMasterRoyalePage({ params }: PageProps) {
+export default async function DownloadMagicBrawlPage({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
 
@@ -73,7 +73,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
   const tn = await getTranslations("Nav");
   const tc = await getTranslations("Common");
   const th = await getTranslations("Home");
-  const pageUrl = localeUrl(locale, "/download-master-royale");
+  const pageUrl = localeUrl(locale, "/download-magic-brawl");
 
   const installSteps = (t.raw("installSteps") as string[]).map(fillAppVars);
   const iosSteps = t.raw("iosSteps") as string[];
@@ -177,7 +177,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
 
           <div className="flex justify-center mb-10">
             <Image
-              src="/master-royale-king.webp"
+              src="/magic-brawl.webp"
               alt={t("h1")}
               title={t("h1")}
               width={240}
@@ -235,7 +235,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
               ))}
             </ol>
             <p className="text-slate-500 text-sm mt-6">
-              <Link href="/master-royale-for-pc" className="text-accent hover:underline">
+              <Link href="/magic-brawl-for-pc" className="text-accent hover:underline">
                 {tn("pc")}
               </Link>
             </p>
@@ -251,7 +251,7 @@ export default async function DownloadMasterRoyalePage({ params }: PageProps) {
                 ))}
               </ul>
               <p>
-                <Link href="/master-royale-for-pc" className="text-accent hover:underline">
+                <Link href="/magic-brawl-for-pc" className="text-accent hover:underline">
                   {tn("pc")}
                 </Link>
               </p>

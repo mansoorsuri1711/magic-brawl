@@ -12,7 +12,7 @@ export default async function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h2 className="font-display text-xl font-bold text-ink mb-4">
-              <span className="text-accent">Master</span> Royale
+              <span className="text-accent">Magic</span> Brawl
             </h2>
             <p className="text-sm text-muted mb-4">{t('aboutText')}</p>
           </div>
@@ -26,18 +26,23 @@ export default async function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download-master-royale" className="text-muted hover:text-accent transition-colors">
+                <Link href="/download-magic-brawl" className="text-muted hover:text-accent transition-colors">
                   {tn('download')}
                 </Link>
               </li>
               <li>
-                <Link href="/vanilla-vs-infinity" className="text-muted hover:text-accent transition-colors">
-                  {tn('compare')}
+                <Link href="/magic-brawl-ios" className="text-muted hover:text-accent transition-colors">
+                  {tn('ios')}
                 </Link>
               </li>
               <li>
-                <Link href="/master-royale-for-pc" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-for-pc" className="text-muted hover:text-accent transition-colors">
                   {tn('pc')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-muted hover:text-accent transition-colors">
+                  {tn('blog')}
                 </Link>
               </li>
               <li>
@@ -57,18 +62,23 @@ export default async function Footer() {
             <h2 className="text-lg font-semibold mb-4 text-accent">{t('resources')}</h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/download-master-royale" className="text-muted hover:text-accent transition-colors">
+                <Link href="/download-magic-brawl" className="text-muted hover:text-accent transition-colors">
                   {tn('installGuide')}
                 </Link>
               </li>
               <li>
-                <Link href="/vanilla-vs-infinity" className="text-muted hover:text-accent transition-colors">
-                  {tn('compare')}
+                <Link href="/magic-brawl-ios" className="text-muted hover:text-accent transition-colors">
+                  {tn('ios')}
                 </Link>
               </li>
               <li>
-                <Link href="/master-royale-for-pc" className="text-muted hover:text-accent transition-colors">
+                <Link href="/magic-brawl-for-pc" className="text-muted hover:text-accent transition-colors">
                   {tn('pc')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-muted hover:text-accent transition-colors">
+                  {tn('blog')}
                 </Link>
               </li>
               <li>

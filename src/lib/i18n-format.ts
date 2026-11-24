@@ -1,4 +1,4 @@
-import { locales, defaultLocale } from "@/i18n/config";
+import { defaultLocale } from "@/i18n/config";
 import { APP, SITE_ORIGIN } from "./site";
 
 export const appVars = {
@@ -19,21 +19,17 @@ export function fillAppVars(text: string): string {
     .replaceAll("{price}", APP.price);
 }
 
-/** Absolute URL for a path in a given locale (en has no prefix). */
-export function localeUrl(locale: string, path: string = "/"): string {
+/** Absolute URL for a path (Turkish-only site — no locale prefix). */
+export function localeUrl(_locale: string, path: string = "/"): string {
   const p = path.startsWith("/") ? path : `/${path}`;
-  if (locale === defaultLocale) {
-    return p === "/" ? SITE_ORIGIN : `${SITE_ORIGIN}${p}`;
-  }
-  return p === "/" ? `${SITE_ORIGIN}/${locale}` : `${SITE_ORIGIN}/${locale}${p}`;
+  return p === "/" ? SITE_ORIGIN : `${SITE_ORIGIN}${p}`;
 }
 
-/** hreflang map for a path across all locales. */
+/** hreflang map — Turkish only. */
 export function hreflangLanguages(path: string = "/"): Record<string, string> {
-  const languages: Record<string, string> = {};
-  for (const l of locales) {
-    languages[l] = localeUrl(l, path);
-  }
-  languages["x-default"] = localeUrl(defaultLocale, path);
-  return languages;
+  const url = localeUrl(defaultLocale, path);
+  return {
+    tr: url,
+    "x-default": url,
+  };
 }

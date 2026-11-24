@@ -3,7 +3,6 @@ import Script from "next/script";
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import DownloadButton from "@/components/DownloadButton";
-import ModeIcon from "@/components/ModeIcon";
 import { Link } from "@/i18n/navigation";
 import { imageObjectLicensing } from "@/lib/schemaImageLicensing";
 import { requireLocale } from "@/i18n/locale";
@@ -14,11 +13,13 @@ import {
   HERO_IMAGE,
   LOGO_IMAGE,
   OG_IMAGE,
+  PINS,
   SITE_NAME,
   SITE_ORIGIN,
   SUPPORT_EMAIL,
 } from "@/lib/site";
 import { ASSETS, HIGHLIGHT_ICONS } from "@/lib/assets";
+import { BLOG_POSTS, blogCopy } from "@/lib/blog-posts";
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: "website",
       images: [
         { url: HERO_IMAGE, width: 512, height: 512, alt: SITE_NAME },
-        { url: OG_IMAGE, width: 512, height: 512, alt: SITE_NAME },
+        { url: OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME },
       ],
     },
     twitter: {
@@ -61,6 +62,8 @@ export default async function Home({ params }: PageProps) {
 
   const t = await getTranslations("Home");
   const tc = await getTranslations("Common");
+  const tn = await getTranslations("Nav");
+  const tb = await getTranslations("Blog");
   const pageUrl = localeUrl(locale, "/");
 
   type Faq = { q: string; a: string };
@@ -86,6 +89,8 @@ export default async function Home({ params }: PageProps) {
     title: fillAppVars(item.title),
     text: fillAppVars(item.text),
   }));
+  const gameModes = (t.raw("gameModes") as { title: string; text: string }[] | undefined) ?? [];
+  const latestPosts = BLOG_POSTS.slice(0, 4);
 
   const schemaData = {
     "@context": "https://schema.org",
@@ -110,8 +115,8 @@ export default async function Home({ params }: PageProps) {
         speakable: {
           "@type": "SpeakableSpecification",
           cssSelector: [
-            "#what-is-master-royale",
-            "#vanilla-vs-infinity",
+            "#what-is-magic-brawl",
+            "#free-pins",
             "#features",
             "#how-to-download-install",
             "#faq",
@@ -162,7 +167,7 @@ export default async function Home({ params }: PageProps) {
         offers: {
           "@type": "Offer",
           price: "0",
-          priceCurrency: "USD",
+          priceCurrency: "TRY",
         },
         downloadUrl: DOWNLOAD_APK_URL,
         softwareVersion: APP.version,
@@ -177,7 +182,7 @@ export default async function Home({ params }: PageProps) {
         totalTime: "PT10M",
         estimatedCost: {
           "@type": "MonetaryAmount",
-          currency: "USD",
+          currency: "TRY",
           value: "0",
         },
         step: installSteps.map((text, i) => ({
@@ -256,7 +261,7 @@ export default async function Home({ params }: PageProps) {
                 <svg className="w-6 h-6 mb-3 text-accent mx-auto" fill="currentColor" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
                   <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                 </svg>
-                <div className="text-ink text-2xl font-bold mb-1">120K</div>
+                <div className="text-ink text-2xl font-bold mb-1">185K</div>
                 <div className="text-slate-500 text-sm">{tc("ratings")}</div>
               </div>
               <div className="bg-secondary p-6 rounded-2xl text-center flex-1 max-w-[180px] border border-slate-200 shadow-sm" style={{ minHeight: "120px" }}>
@@ -273,7 +278,7 @@ export default async function Home({ params }: PageProps) {
 
           <figure className="mt-8 md:mt-0 md:w-1/2 flex justify-center md:justify-end">
             <Image
-              src={ASSETS.king}
+              src={ASSETS.hero}
               alt={t("h1")}
               title={t("h1")}
               width={400}
@@ -307,6 +312,7 @@ export default async function Home({ params }: PageProps) {
                     `${APP.ratingValue} / 5 (${APP.ratingCountDisplay} ${tc("ratings")}) · ${tc("freeAndroidGame")}`,
                   ],
                   [t("table.update"), APP.updated],
+                  [t("table.season"), APP.season],
                 ].map(([label, value], i) => (
                   <tr key={label} className={i % 2 === 0 ? "bg-secondary/50" : "bg-white"}>
                     <td className="py-4 px-6 font-medium text-ink">{label}</td>
@@ -319,7 +325,7 @@ export default async function Home({ params }: PageProps) {
         </div>
       </section>
 
-      <section id="what-is-master-royale" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="what-is-magic-brawl" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm">
           <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
             <Image
@@ -355,31 +361,76 @@ export default async function Home({ params }: PageProps) {
         </div>
       </section>
 
-      <section id="vanilla-vs-infinity" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+      <section id="platforms" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm">
           <h2 className="text-3xl font-bold mb-8 text-accent text-center">{t("modesTitle")}</h2>
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-secondary rounded-2xl p-6 border border-accent/40 text-center">
               <div className="mb-4 flex justify-center">
-                <ModeIcon src={ASSETS.vanilla} alt={t("vanillaTitle")} size="lg" />
+                <Image
+                  src={ASSETS.hero}
+                  alt={t("vanillaTitle")}
+                  width={96}
+                  height={96}
+                  className="object-contain w-24 h-24"
+                />
               </div>
               <h3 className="text-xl font-semibold text-ink mb-3">{t("vanillaTitle")}</h3>
               <p className="text-muted leading-relaxed text-left">{t("vanillaP")}</p>
+              <Link
+                href="/download-magic-brawl"
+                className="inline-flex mt-5 px-5 py-2.5 rounded-full border-2 border-accent text-ink font-semibold hover:bg-accent/10 transition-all"
+              >
+                {tn("download")} →
+              </Link>
             </div>
             <div className="bg-secondary rounded-2xl p-6 border border-sky/40 text-center">
               <div className="mb-4 flex justify-center">
-                <ModeIcon src={ASSETS.infinity} alt={t("infinityTitle")} size="lg" />
+                <Image
+                  src={ASSETS.emote}
+                  alt={t("infinityTitle")}
+                  width={96}
+                  height={96}
+                  className="object-contain w-24 h-24"
+                />
               </div>
               <h3 className="text-xl font-semibold text-ink mb-3">{t("infinityTitle")}</h3>
               <p className="text-muted leading-relaxed text-left">{t("infinityP")}</p>
+              <Link
+                href="/magic-brawl-ios"
+                className="inline-flex mt-5 px-5 py-2.5 rounded-full border-2 border-sky text-ink font-semibold hover:bg-sky/10 transition-all"
+              >
+                {tn("ios")} →
+              </Link>
             </div>
           </div>
-          <div className="text-center">
+        </div>
+      </section>
+
+      <section id="free-pins" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="rounded-xl p-6 md:p-10 bg-white border border-slate-200 shadow-sm">
+          <h2 className="text-3xl font-bold mb-4 text-accent text-center">{t("pinsTitle")}</h2>
+          <p className="text-muted text-center max-w-3xl mx-auto mb-10 leading-relaxed">{t("pinsIntro")}</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
+            {PINS.map((pin) => (
+              <div key={pin.id} className="text-center">
+                <Image
+                  src={pin.image}
+                  alt={pin.alt}
+                  width={120}
+                  height={120}
+                  className="object-contain mx-auto mb-3 w-[88px] h-[88px] md:w-[110px] md:h-[110px]"
+                />
+                <h3 className="text-ink font-semibold text-sm">{pin.name}</h3>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-8">
             <Link
-              href="/vanilla-vs-infinity"
+              href="/blog/magic-brawl-pin-voucher-rehberi"
               className="inline-flex items-center px-6 py-3 rounded-full border-2 border-accent text-ink font-semibold hover:bg-accent/10 transition-all"
             >
-              {t("modesTitle")} →
+              {t("pinsCta")} →
             </Link>
           </div>
         </div>
@@ -421,6 +472,22 @@ export default async function Home({ params }: PageProps) {
           )}
         </div>
       </section>
+
+      {gameModes.length > 0 && (
+        <section id="game-modes" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+          <div className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm">
+            <h2 className="text-3xl font-bold mb-8 text-accent">{t("gameModesTitle")}</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {gameModes.map((mode) => (
+                <div key={mode.title} className="bg-secondary rounded-xl p-5 border border-slate-200">
+                  <h3 className="text-lg font-semibold text-ink mb-2">{mode.title}</h3>
+                  <p className="text-muted text-sm leading-relaxed">{mode.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section id="system-requirements" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm">
@@ -528,7 +595,7 @@ export default async function Home({ params }: PageProps) {
           <div className="flex flex-col sm:flex-row gap-6 items-center mb-6">
             <Image
               src={ASSETS.emote}
-              alt=""
+              alt={t("safetyTitle")}
               width={96}
               height={96}
               className="object-contain w-20 h-20"
@@ -538,11 +605,15 @@ export default async function Home({ params }: PageProps) {
           <p className="text-muted leading-relaxed">{t("safetyP")}</p>
           <p className="text-muted mt-4">
             <Link href="/disclaimer" className="text-accent hover:underline">
-              Disclaimer
+              Sorumluluk Reddi
             </Link>
             {" · "}
             <Link href="/privacy" className="text-accent hover:underline">
-              Privacy
+              Gizlilik
+            </Link>
+            {" · "}
+            <Link href="/blog/magic-brawl-guvenli-mi" className="text-accent hover:underline">
+              {tb("readMore")}
             </Link>
           </p>
         </div>
@@ -562,6 +633,33 @@ export default async function Home({ params }: PageProps) {
         </div>
       </section>
 
+      <section id="blog-preview" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8 border border-slate-200">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+            <h2 className="text-3xl font-bold text-accent">{t("blogPreviewTitle")}</h2>
+            <Link href="/blog" className="text-accent font-semibold hover:underline">
+              {tb("readMore")} →
+            </Link>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            {latestPosts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}` as "/blog/magic-brawl-guvenli-mi"}
+                className="bg-white rounded-xl p-5 border border-slate-200 hover:border-accent/40 transition-colors"
+              >
+                <h3 className="text-lg font-semibold text-ink mb-2">
+                  {blogCopy(post.title, locale)}
+                </h3>
+                <p className="text-muted text-sm leading-relaxed">
+                  {blogCopy(post.excerpt, locale)}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section id="support" className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-white rounded-xl p-8 border border-slate-200 shadow-sm">
           <h2 className="text-3xl font-bold mb-8 text-accent">{t("supportTitle")}</h2>
@@ -572,7 +670,7 @@ export default async function Home({ params }: PageProps) {
             </a>
             {" · "}
             <Link href="/contact-us" className="text-accent hover:underline">
-              Contact
+              İletişim
             </Link>
           </p>
         </div>
@@ -602,21 +700,27 @@ export default async function Home({ params }: PageProps) {
 
       <section id="closing-cta" className="py-12 px-4 md:px-8 max-w-7xl mx-auto mb-8">
         <div className="bg-secondary rounded-xl p-8 text-center border border-accent/30">
-          <div className="flex justify-center gap-4 mb-6">
-            <ModeIcon src={ASSETS.vanilla} alt="MR Vanilla" size="md" />
-            <ModeIcon src={ASSETS.infinity} alt="MR Infinity" size="md" />
+          <div className="flex justify-center gap-3 mb-6 flex-wrap">
+            {PINS.slice(0, 4).map((pin) => (
+              <Image
+                key={pin.id}
+                src={pin.image}
+                alt={pin.alt}
+                width={64}
+                height={64}
+                className="object-contain w-14 h-14"
+              />
+            ))}
           </div>
           <h2 className="text-3xl font-bold mb-4 text-accent">{t("ctaTitle")}</h2>
           <p className="text-muted max-w-2xl mx-auto mb-8 leading-relaxed">{t("ctaText")}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <DownloadButton
-              className="min-h-[3.75rem] min-w-[17rem] justify-center"
-            />
+            <DownloadButton className="min-h-[3.75rem] min-w-[17rem] justify-center" />
             <Link
-              href="/vanilla-vs-infinity"
+              href="/magic-brawl-for-pc"
               className="inline-flex items-center justify-center min-h-[3.75rem] min-w-[17rem] px-8 py-4 text-lg rounded-full border-2 border-sky bg-white text-ink font-semibold hover:bg-sky/10 shadow-sm transition-all"
             >
-              {t("modesTitle")}
+              {tn("pc")}
             </Link>
           </div>
         </div>

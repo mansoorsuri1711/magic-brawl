@@ -99,13 +99,13 @@ export default async function Contact({ params }: PageProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
             <h3 className="text-xl font-bold mb-2 text-ink">{tn("download")}</h3>
-            <Link href="/download-master-royale" className="text-accent hover:underline font-semibold">
+            <Link href="/download-magic-brawl" className="text-accent hover:underline font-semibold">
               {tn("installGuide")}
             </Link>
           </div>
           <div className="bg-secondary rounded-xl shadow-lg p-6 text-center">
             <h3 className="text-xl font-bold mb-2 text-ink">{tn("pc")}</h3>
-            <Link href="/master-royale-for-pc" className="text-accent hover:underline font-semibold">
+            <Link href="/magic-brawl-for-pc" className="text-accent hover:underline font-semibold">
               {tn("pc")}
             </Link>
           </div>

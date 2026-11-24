@@ -1,667 +1,537 @@
 {
   "Meta": {
-    "homeTitle": "Master Royale APK 2026 – Ücretsiz İndirme Özel Sunucu",
-    "homeDescription": "Master Royale APK'yi Android, PC ve iOS sideload için ücretsiz indirin. Sınırsız elmas, altın, açık kartlar, Vanilla ve Infinity modlarıyla Clash Royale tarzı özel sunucu. Kurulum rehberi ve SSS.",
-    "downloadTitle": "Master Royale APK İndir – Ücretsiz Android ve iOS Kurulum Rehberi",
-    "downloadDescription": "Master Royale APK {version} ({fileSize}) dosyasını Android için ücretsiz indirin. Adım adım özel sunucu kurulumu, iOS sideload notları, APK ayrıntıları ve güvenlik ipuçları masterroyaleapk.com'da.",
-    "pcTitle": "PC için Master Royale – BlueStacks Emülatör Rehberi",
-    "pcDescription": "BlueStacks gibi Android emülatörleriyle Master Royale'i PC'de oynayın. Windows gereksinimleri, VT-x ayarı, APK sürükle-bırak kurulumu, klavye eşleme ipuçları ve sorun giderme.",
-    "aboutTitle": "Hakkımızda – Master Royale APK Rehberleri",
-    "aboutDescription": "masterroyaleapk.com'da Master Royale hakkında bilgi edinin — Master Royale özel sunucu APK indirmeleri, Vanilla ve Infinity rehberleri ile PC emülatör ipuçları için bilgilendirici bir merkez.",
-    "contactTitle": "Bize Ulaşın – Master Royale Destek",
-    "contactDescription": "masterroyaleapk.com üzerinden Master Royale ile iletişime geçin. Rehberler, gizlilik talepleri veya site sorunları için support@masterroyaleapk.com adresine yazın.",
-    "privacyTitle": "Gizlilik Politikası – Master Royale",
-    "privacyDescription": "masterroyaleapk.com gizlilik politikası. Bu bilgilendirici Master Royale APK sitesinin verileri, çerezleri ve iletişim e-postalarını nasıl işlediği.",
-    "disclaimerTitle": "Sorumluluk Reddi – Master Royale Özel Sunucu",
-    "disclaimerDescription": "masterroyaleapk.com sorumluluk reddi: Master Royale, Supercell ile bağlı olmayan üçüncü taraf Clash Royale tarzı özel sunucu / mod APK'dir. Yalnızca bilgilendirici site.",
-    "notFoundTitle": "Sayfa Bulunamadı – Master Royale",
-    "compareTitle": "Vanilla vs Infinity – Master Royale Deneyimini Seçin",
-    "compareDescription": "Master Royale Vanilla ile Infinity'yi karşılaştırın. Özellik tablosu, oyun rehberi, kurulum adımları, sorun giderme ve her iki efsanevi yol için indirme CTA'ları."
+    "homeTitle": "Magic Brawl APK İndir 2026 – Ücretsiz Özel Sunucu",
+    "homeDescription": "Magic Brawl özel sunucusunu Android, PC ve iOS için ücretsiz indir. Sınırsız elmas, tüm brawler'lar açık, Sezon 23. magicbrawl.tr'den hemen başla!",
+    "downloadTitle": "Magic Brawl İndir – Android APK v54.243",
+    "downloadDescription": "Magic Brawl APK'yı resmi siteden güvenle indir. v54.243, 471 MB. Adım adım kurulum rehberiyle dakikalar içinde oyna.",
+    "pcTitle": "Magic Brawl PC'de Oyna – Emülatör Kurulum Rehberi",
+    "pcDescription": "Magic Brawl'ı bilgisayarda oyna. BlueStacks veya LDPlayer emülatörü ile PC kurulum adımları, sistem gereksinimleri ve ipuçları.",
+    "iosTitle": "Magic Brawl iOS İndir – iPhone ve iPad IPA Kurulumu",
+    "iosDescription": "Magic Brawl'ı iPhone veya iPad'e kur. AltStore ile imzasız IPA yükleme adımları, iOS gereksinimleri ve sık sorulan sorular.",
+    "aboutTitle": "Magic Brawl Hakkında – Magic Team Özel Sunucu",
+    "aboutDescription": "Magic Brawl, bağımsız Magic Team tarafından geliştirilen bir Brawl Stars özel sunucusudur. Supercell ile ilgisi yoktur.",
+    "contactTitle": "İletişim – Magic Brawl Destek",
+    "contactDescription": "Magic Brawl destek ekibiyle iletişime geç. Teknik sorunlar, öneriler ve genel sorular için support@magicbrawl.tr adresine yaz.",
+    "privacyTitle": "Gizlilik Politikası – Magic Brawl",
+    "privacyDescription": "Magic Brawl gizlilik politikası: kişisel verilerin nasıl toplandığı, kullanıldığı ve korunduğunu öğren.",
+    "disclaimerTitle": "Sorumluluk Reddi – Magic Brawl",
+    "disclaimerDescription": "Magic Brawl, Supercell'in resmi bir ürünü değildir. Tüm haklar ilgili sahiplerine aittir. Yasal bildirim ve sorumluluk reddi.",
+    "notFoundTitle": "Sayfa Bulunamadı – Magic Brawl",
+    "blogTitle": "Magic Brawl Blog – Güncellemeler ve Rehberler",
+    "blogDescription": "Magic Brawl blog: yeni brawler'lar, sezon güncellemeleri, ipuçları ve özel sunucu haberleri. Türkçe rehberler magicbrawl.tr'de."
   },
   "Nav": {
     "home": "Ana Sayfa",
     "download": "İndir",
-    "pc": "PC Sürümü",
-    "about": "Hakkımızda",
-    "contact": "Bize Ulaşın",
-    "downloadNow": "İNDİR",
+    "pc": "PC",
+    "ios": "iOS",
+    "blog": "Blog",
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "installGuide": "Kurulum Rehberi",
+    "downloadNow": "Hemen İndir",
+    "compare": "iOS",
     "main": "ANA",
     "guides": "REHBERLER",
-    "info": "BİLGİ",
-    "installGuide": "Kurulum Rehberi",
-    "compare": "Vanilla vs Infinity"
+    "info": "BİLGİ"
   },
   "Footer": {
-    "aboutText": "Master Royale, açık kaynaklar, özel savaşlar ve ücretsiz Android APK erişimi sunan bir Clash Royale özel sunucu deneyimidir. Kurulum adımlarını, PC kurulumunu ve güvenlik ipuçlarını masterroyaleapk.com'da öğrenin.",
+    "aboutText": "Magic Brawl, Brawl Stars hayranları için tasarlanmış bağımsız bir özel sunucudur. Supercell ile herhangi bir ortaklık veya ilişki bulunmamaktadır.",
     "quickLinks": "Hızlı Bağlantılar",
     "resources": "Kaynaklar",
     "downloadApp": "Uygulamayı İndir",
-    "downloadAppText": "Android için en güncel Master Royale APK'yi alın ve sınırsız elmas, altın ve açık kartlarla savaşmaya başlayın.",
+    "downloadAppText": "Magic Brawl APK'yı ücretsiz indir ve sınırsız kaynakların keyfini çıkar.",
     "privacy": "Gizlilik Politikası",
     "disclaimer": "Sorumluluk Reddi",
-    "copyright": "© 2026 Master Royale. Tüm hakları saklıdır."
+    "copyright": "© 2026 Magic Brawl. Magic Team tarafından geliştirilmiştir. Supercell ile ilgisi yoktur."
   },
   "Common": {
-    "freeAndroidGame": "Ücretsiz · Android · Oyun",
     "ratings": "değerlendirme",
-    "downloads": "İndirmeler",
-    "appSize": "Uygulama Boyutu",
-    "breadcrumbsHome": "Ana Sayfa",
-    "readMore": "Devamını oku"
-  },
-  "Languages": {
-    "label": "Dil",
-    "en": "ENGLISH",
-    "fr": "FRANÇAIS",
-    "tr": "TÜRK",
-    "es": "ESPAÑOL",
-    "pt": "PORTUGUESE",
-    "de": "DEUTSCH",
-    "it": "ITALIANO"
+    "freeAndroidGame": "Ücretsiz · Android · Oyun",
+    "downloads": "İndirme",
+    "appSize": "Boyut",
+    "loading": "Yükleniyor…",
+    "errorTitle": "Bir şeyler ters gitti",
+    "errorRetry": "Tekrar dene",
+    "breadcrumbsHome": "Ana Sayfa"
   },
   "Home": {
-    "h1": "Master Royale",
-    "subtitle": "Android, PC ve iOS için APK İndirme (En Son Sürüm)",
-    "intro": "Master Royale, Clash Royale tarzı bir istemciyi topluluk özel sunucusuna bağlayarak sandık zamanlayıcılarını ve perakende ödeme duvarlarını atlamanızı sağlar. Sınırsız elmas ve altın alın, kart havuzunu açın ve gerçek para yatırmadan Vanilla veya Infinity'ye atlayın. Android (ve iOS sideload notları) için Master Royale indirme rehberini izleyin veya PC sürümü sayfamız üzerinden masaüstü emülatöründe oynayın.",
-    "androidOnlyNote": "*Resmi olmayan özel sunucu / üçüncü taraf mod · Supercell ile bağlı değil · PC emülatör ve iOS sideload yollarıyla Android APK",
-    "tableTitle": "Master Royale APK Ayrıntıları",
+    "h1": "Magic Brawl İndir – Sınırsız Brawl Stars Özel Sunucusu",
+    "subtitle": "v{version} · {fileSize} · {os} · {price}",
+    "intro": "Magic Brawl, Brawl Stars deneyimini özgürleştiren bağımsız bir özel sunucudur. Sınırsız elmas ve coin, tüm açık brawler'lar, özel pinler ve çevrimiçi çok oyunculu modlarla gerçek rekabeti magicbrawl.tr'de yaşa.",
+    "androidOnlyNote": "Magic Brawl öncelikle Android için optimize edilmiştir. iOS IPA kurulumu için iOS sayfamızı ziyaret edin.",
+    "tableTitle": "Magic Brawl Uygulama Bilgileri",
     "table": {
       "appName": "Uygulama Adı",
       "package": "Paket Adı",
       "category": "Kategori",
-      "version": "En Son Sürüm",
-      "size": "Dosya Boyutu",
-      "os": "Gerekli OS",
+      "version": "Sürüm",
+      "size": "Boyut",
+      "os": "İşletim Sistemi",
       "price": "Fiyat",
       "rating": "Puan",
-      "update": "Güncelleme"
+      "update": "Son Güncelleme",
+      "season": "Sezon / Tema"
     },
-    "whatTitle": "Master Royale Nedir?",
-    "whatP1": "Master Royale, değiştirilmiş bir Android istemcisi olarak paketlenmiş Clash Royale tarzı bir özel sunucudur. Supercell'in resmi sunucularıyla konuşmak yerine uygulama, kendi eşleştirme, ekonomi ve ilerleme kurallarını yöneten özel bir topluluk sunucusuna yönlenir. Bu ayrım — sizin istemciniz ile perakende sunucu — özel sunucunun temel fikridir.",
-    "whatP2": "Özel sunucular veritabanı ayrıştırmasına dayanır: oyuncu envanterleri, elmas bakiyeleri ve kart seviyeleri perakende Clash Royale profilinizde değil, özel ortamın veri deposunda yaşar. Kaynak özgürlüğü bu tasarımdan gelir — operatörler cömert elmas, altın ve açılımlar verebilir, böylece sandık döngülerini bekleyerek daha az zaman harcarsınız. Sandbox mekanikleri (özellikle Infinity'de) ardından resmi ilerleme duvarı olmadan desteler, seviyeler ve hatta özel kartlarla deneme yapmanızı sağlar.",
-    "whatP3": "Hesap güvenliği önemlidir. Master Royale girişi, perakende Supercell hesabınızdan izole edilir. Yalnızca özel sunucu için tek kullanımlık bir takma ad ve şifre oluşturun. Banka kimlik bilgilerinizi veya resmi Clash Royale kimliğinizi yeniden kullanmayın. masterroyaleapk.com'da kurulum adımları, Vanilla vs Infinity notları, PC ve iOS sideload yolları ile dürüst güvenlik uyarıları yayınlarız; böylece herhangi bir şeyi sideload etmeden önce karar verebilirsiniz.",
-    "privateServerTitle": "Özel Sunucuları Anlamak",
-    "privateServerP1": "Özel sunucu, resmi Clash Royale arka ucunun içinde değil — yanında çalışan, topluluk tarafından barındırılan bir oyun ortamıdır. Cihazınız özel eşleştirme ve ekonomi kurallarına bağlanan değiştirilmiş bir istemci kurar. İlerleme, elmaslar ve kart seviyeleri bu üçüncü taraf veritabanında yaşar; bu yüzden IAP'ye gerçek para harcamadan perakende sandık zamanlayıcılarını atlayabilirsiniz.",
-    "privateServerAdv1Title": "Veritabanı Ayrıştırması",
-    "privateServerAdv1": "Oyuncu envanterleri, elmas bakiyeleri ve merdiven sıralamaları özel sunucunun kendi veri deposunda saklanır. Bu izolasyon, Master Royale profillerinin resmi Clash Royale hesabınıza senkronize olmadığı anlamına gelir — ve Supercell kimlik bilgilerini asla mod istemcisine yapıştırmadığınız sürece perakende ilerleme ayrı kalır.",
-    "privateServerAdv2Title": "Tam Kaynak Özgürlüğü",
-    "privateServerAdv2": "Ekonomi operatör kontrolünde olduğu için derlemeler genellikle sınırsız elmas ve altın, erken kart açılımları ve hızlı yükseltme yolları sunar. Bu kaynaklar yalnızca özel sunucu sandbox'ında vardır — bankaya yatırılabilir nakit değildir ve JazzCash, EasyPaisa veya benzeri cüzdanlar üzerinden çekilemez.",
-    "privateServerAdv3Title": "Sandbox Mekanikleri",
-    "privateServerAdv3": "Sandbox modları (özellikle Infinity) desteleri teorize etmenizi, anında maksimum seviyelere çıkmanızı ve aylarca sandık grind'i olmadan topluluk özel kartlarını denemenizi sağlar. Deneysel birimleri güncellemeler arasında değişebilen topluluk yaratımları olarak görün; resmi Supercell içeriği olarak değil.",
-    "accountSafetyNote": "Her zaman taze bir özel sunucu takma adı ve şifresi oluşturun. Resmi Supercell kimliğinizi, banka bilgilerinizi veya SMS OTP'lerini asla Master Royale veya herhangi bir üçüncü taraf istemciye girmeyin.",
-    "modesTitle": "Vanilla vs Infinity Modları",
-    "vanillaTitle": "Vanilla",
-    "vanillaP": "Vanilla, maç akışını klasik Clash Royale alışkanlıklarına daha yakın tutar. Hâlâ cömert özel sunucu kaynakları alırsınız, ancak kart kullanılabilirliği ve merdiven yapısı daha temellidir. Daha az bekleyerek iksir zamanlaması ve kule ticareti pratik yapmak istiyorsanız idealdir.",
-    "infinityTitle": "Infinity",
-    "infinityP": "Infinity sandbox yoludur. Derlemeler genellikle büyük bir kaynak havuzuyla (sıkça 1M+ para ve elmas tarzı ekonomi çerçevesinde), maksimum seviyelere anında erişimle ve deneysel özel kartlarla açılır. Bazı istemci derlemeleri Infinite Sparky gibi öne çıkan özel birimler içerir — bunları güncellemeler arasında değişebilen topluluk yaratımları olarak görün. Infinity'yi sandık döngüleri olmadan sinerjileri, meme kompozisyonlarını ve maksimum seviye etkileşimlerini stres test etmek için kullanın.",
-    "featuresTitle": "Master Royale'in Temel Özellikleri",
+    "whatTitle": "Magic Brawl Nedir?",
+    "whatP1": "Magic Brawl, Magic Team tarafından geliştirilen bağımsız bir Brawl Stars özel sunucusudur. Supercell ile hiçbir bağlantısı olmayan bu sunucu, oyunculara resmi oyunda ücret ödeyerek veya uzun süre oynayarak elde edebilecekleri tüm içerikleri ücretsiz sunar.",
+    "whatP2": "v54.243 sürümüyle birlikte Sezon 22-23 Starr Toon Studios içerikleri, Kit (erken erişim), Mico, Larry & Lawrie ve Win Streak gibi yenilikler oyuna eklendi. Tüm bu içeriklere tek bir APK ile anında ulaşabilirsin.",
+    "whatP3": "Önemli Uyarı: Magic Brawl, Supercell'in resmi Brawl Stars oyunundan bağımsızdır ve Supercell tarafından onaylanmamıştır. Resmi hesabınla hiçbir şekilde ilişkili değildir.",
+    "privateServerTitle": "Neden Özel Sunucu?",
+    "privateServerP1": "Özel sunucular, resmi oyunun sınırlamalarından bağımsız biçimde oynamanı sağlayan alternatif platformlardır. Magic Brawl'da elmas veya coin beklemeden her brawler'ı ve skini anında açabilir, farklı stratejileri özgürce deneyebilirsin.",
+    "privateServerAdv1Title": "Sınırsız Kaynaklar",
+    "privateServerAdv1": "Elmas, coin ve ticket bekleme yok. Tüm kaynaklar baştan açık gelir; sen sadece oynamaya odaklan.",
+    "privateServerAdv2Title": "Tüm Brawler ve Skinler",
+    "privateServerAdv2": "Sezon 22-23 dahil tüm brawler'lar ve özel skinler kilitsizdir. Yeni gelen Kit ile Mico'yu hemen dene.",
+    "privateServerAdv3Title": "Ücretsiz Pinler ve Voucherlar",
+    "privateServerAdv3": "Her hafta Three Gift Weeks etkinliğiyle ücretsiz pinler ve voucherlar kazan. Koleksiyonunu sıfır maliyetle büyüt.",
+    "accountSafetyNote": "Magic Brawl ayrı bir hesap sistemi kullanır. Resmi Brawl Stars hesabın bu sunucudan etkilenmez.",
+    "modesTitle": "Ücretsiz Pinler ve Voucherlar",
+    "vanillaTitle": "Android APK",
+    "vanillaP": "Magic Brawl Android APK'sını doğrudan magicbrawl.tr'den indir. Play Store'a gerek yok, bilinmeyen kaynaklara izin ver ve yükle – dakikalar içinde oynamaya başlarsın.",
+    "infinityTitle": "iOS IPA",
+    "infinityP": "iPhone veya iPad'in mi var? AltStore kullanarak imzasız IPA'yı yükle. iOS sayfamızda adım adım rehber mevcut; jailbreak gerektirmez.",
+    "featuresTitle": "Magic Brawl Özellikleri",
     "features": [
       {
-        "title": "Sınırsız elmas ve altın",
-        "text": "Perakende IAP kapıları olmadan, özel sunucu ekonomisiyle çalışan mağaza ve yükseltme döngüleri."
+        "title": "Sınırsız Elmas ve Coin",
+        "text": "Hiçbir satın alma yapmadan sınırsız elmas ve coin ile tüm mağaza içeriklerine anında eriş."
       },
       {
-        "title": "Tüm kartlar açık",
-        "text": "Aylarca sandık grind'i yapmak yerine teorize edebilmek için koleksiyonu erken açın."
+        "title": "Tüm Brawler'lar Açık",
+        "text": "Sezon 22-23 dahil tüm brawler'lar kilitsiz gelir. Kit (erken erişim), Mico, Larry & Lawrie anında oynanabilir."
       },
       {
-        "title": "Anında maksimum seviyeler",
-        "text": "Gerçek son oyun etkileşimlerini test etmek için kartları hızla üst kademelere itin (özellikle Infinity'de)."
+        "title": "Özel Skinler",
+        "text": "Resmi oyundaki premium skinlerin tamamı baştan açık. Koleksiyonunu istediğin gibi özelleştir."
       },
       {
-        "title": "1v1 ve 2v2 savaşları",
-        "text": "Canlı shard desteklediğinde klasik arena baskısı artı ikili modlar."
+        "title": "Çevrimiçi Çok Oyunculu",
+        "text": "Gerçek oyunculara karşı çevrimiçi maçlara katıl. Arkadaşlarınla takım kur ve lig modlarını dene."
       },
       {
-        "title": "Özel OP kartlar",
-        "text": "Sandbox denemeleri için topluluk yaratımları (örneğin bazı derlemelerde Infinite Sparky tarzı birimler)."
+        "title": "Ücretsiz Pinler ve Voucherlar",
+        "text": "Three Gift Weeks etkinliği sayesinde her hafta ücretsiz pinler ve voucherlar kazan. Koleksiyonunu büyüt."
       },
       {
-        "title": "Stabil topluluk sunucuları",
-        "text": "Operatörler, tek gecelik LAN hissinin ötesinde kuyruğa girebilmeniz için düzenli uptime hedefler."
+        "title": "Win Streak Sistemi",
+        "text": "Yeni Win Streak mekaniğiyle arka arkaya galibiyetler ekstra ödüller kazandırır. Zinciri kırmamak için stratejini belirle."
       },
       {
-        "title": "Klanlar ve sosyal oyun",
-        "text": "Aktif derleme bu özellikleri açtığında klanlara katılın, sohbet edin ve deste paylaşın."
+        "title": "Hızlı Güncellemeler",
+        "text": "Magic Team, resmi Brawl Stars güncellemelerini takip ederek Magic Brawl'u sık sık günceller. Her zaman güncel kal."
       },
       {
-        "title": "Düzenli güncellemeler",
-        "text": "İstemciler {version} / {versionAlt} gibi güncel paket sürümlerine doğru takip eder."
+        "title": "Android ve iOS Desteği",
+        "text": "Android için APK, iOS için IPA mevcut. Hangi cihazı kullanırsan kullan, Magic Brawl her iki platformda da çalışır."
       },
       {
-        "title": "Güvenli izole ortam",
-        "text": "İlerleme özel veritabanında kalır — perakende Supercell girişinizden ayrı tutun."
+        "title": "PC Desteği",
+        "text": "BlueStacks veya LDPlayer gibi emülatörler aracılığıyla Magic Brawl'u bilgisayarında da rahatça oynayabilirsin."
+      }
+    ],
+    "highlightsTitle": "Öne Çıkan Özellikler",
+    "highlights": [
+      {
+        "title": "Sınırsız Kaynaklar",
+        "text": "Elmas, coin ve ticket – hepsi baştan açık. Sadece oyna, harcama yapmak zorunda değilsin."
+      },
+      {
+        "title": "Çevrimiçi Savaşlar",
+        "text": "Gerçek oyunculara karşı canlı maçlar. Arkadaşlarınla oyna, liderlik tablolarında yüksel."
+      },
+      {
+        "title": "Ücretsiz Pinler",
+        "text": "Three Gift Weeks etkinliğiyle düzenli ücretsiz pinler ve voucherlar. Koleksiyonun sıfır maliyetle büyür."
+      },
+      {
+        "title": "Hızlı Güncellemeler",
+        "text": "Magic Team, her yeni sezon içeriğini hızla Magic Brawl'a taşır. Daima güncel bir deneyim yaşarsın."
       }
     ],
     "reqTitle": "Sistem Gereksinimleri",
-    "reqAndroidTitle": "Android",
+    "reqAndroidTitle": "Android Gereksinimleri",
     "reqAndroid": [
-      "OS: {os} (en iyisi Android 5.0+ / akıcı maçlar için Android 8+ önerilir)",
-      "CPU: dört çekirdekli ~2 GHz veya daha iyi",
-      "RAM: 4 GB önerilir",
-      "Depolama: kurulumdan sonra yaklaşık 1 GB+ boş alan (APK {fileSize} artı önbellek)"
+      "Android 5.0 (Lollipop) veya üzeri",
+      "En az 2 GB RAM",
+      "471 MB boş depolama alanı",
+      "İstikrarlı internet bağlantısı",
+      "Bilinmeyen kaynaklardan yükleme izni"
     ],
-    "reqIosTitle": "iPhone",
+    "reqIosTitle": "iOS Gereksinimleri",
     "reqIos": [
-      "iOS 10 veya daha yeni",
-      "iPhone 6 veya daha yeni (veya eşdeğer iPad)",
-      "Yalnızca IPA sideload — Apple Android APK kurmaz",
-      "AltStore tarzı yenileme veya güvenilen sertifika gerekir"
+      "iOS 14.0 veya üzeri",
+      "iPhone 7 / iPad (6. nesil) veya daha yeni",
+      "500 MB boş depolama alanı",
+      "AltStore veya benzer IPA yükleyici",
+      "Aktif internet bağlantısı"
     ],
-    "reqWinTitle": "Windows",
+    "reqWinTitle": "PC (Windows) Gereksinimleri",
     "reqWin": [
-      "Windows 11 tercih edilir (Windows 10 hâlâ yaygındır)",
-      "RAM: 8–16 GB",
-      "CPU: Intel i3 8. nesil / AMD Ryzen 3000 serisi veya daha iyi",
-      "SSD güçlü şekilde önerilir; BIOS'ta VT-x / AMD-V'yi etkinleştirin"
+      "Windows 10 64-bit veya üzeri",
+      "En az 4 GB RAM (8 GB önerilir)",
+      "2 GB boş disk alanı",
+      "BlueStacks 5 veya LDPlayer 9",
+      "Güncel ekran kartı sürücüleri"
     ],
-    "installTitle": "Android'de Nasıl İndirilir ve Kurulur",
+    "installTitle": "Kurulum Adımları",
     "installSteps": [
-      "Bilinmeyen kaynakları etkinleştirin. Android Ayarlar → Uygulamalar → Özel erişim → Bilinmeyen uygulamaları yükle içinde tarayıcınızın veya Dosyalar uygulamasının paket kurmasına izin verin.",
-      "Bu siteden indirin. masterroyaleapk.com'da /download-master-royale sayfasını açın, İNDİR'e dokunun ve tam {fileSize} dosyasının ({version}) bitmesini bekleyin.",
-      "APK'yi kurun. İndirilen paketi açın, Yükle'ye dokunun ve yalnızca bu dosyayı bilerek masterroyaleapk.com'dan seçtiyseniz Play Protect incelemesini onaylayın.",
-      "Başlatın ve oynayın. Aç'a dokunun, yeni bir özel sunucu hesabı oluşturun ve Vanilla veya Infinity seçin. Asla resmi Supercell kimlik bilgilerini girmeyin."
+      "magicbrawl.tr adresini Android cihazında aç.",
+      "İndir butonuna tıkla; APK dosyası otomatik olarak indirilir.",
+      "Cihaz ayarlarında Bilinmeyen Kaynaklara izin ver.",
+      "İndirilen APK dosyasını aç ve Yükle'ye dokunun.",
+      "Yükleme tamamlandıktan sonra Magic Brawl'u başlat ve oyna."
     ],
-    "accountTitle": "Hesap Oluşturun ve Giriş Yapın",
-    "accountP": "İlk başlatmadan sonra Master Royale genellikle bir takma ad, e-posta veya misafir kimliği ve o özel sunucu derlemesinin tanımladığı bir şifreyle kayıt olmanızı ister. Bunu tek kullanımlık bir oyun girişi olarak görün. Ortam perakende Supercell sunucularından veritabanı olarak ayrıştırıldığı için Master Royale profiliniz resmi Clash Royale'e taşınmaz — ve bu kimlik bilgilerini buraya asla yapıştırmadığınız sürece resmi hesabınız ayrı kalır.",
-    "tipsTitle": "Pratik İpuçları",
+    "accountTitle": "Hesap Güvenliği",
+    "accountP": "Magic Brawl, resmi Brawl Stars sunucularından tamamen bağımsız çalışır. Bu nedenle resmi hesabın, ilerlemenin veya satın almalarının hiçbir şekilde etkilenmesi söz konusu değildir. Magic Brawl için ayrı bir profil oluşturulur.",
+    "tipsTitle": "Oyun İçi İpuçları",
     "tips": [
-      "Her savaşta deste değiştirmek yerine bir oturum boyunca tek bir kazanma koşulu pratik edin.",
-      "Infinity'de kas belleğinin resmi oyuna aktarılması için kendinizi orta merdiven kompozisyonları oynamaya zorlayın.",
-      "Mümkün olduğunda tekrarları izleyin; özel sunucular en iyi eğitim salonu olarak kullanılır.",
-      "Depolamayı boş tutun — {fileSize} artı önbellek bütçe Android telefonlarda hızla birikir.",
-      "Uyumsuz APK çatallarını karıştırmamak için yalnızca bu sitenin indirme sayfasından güncelleyin.",
-      "2v2 ve yoğun saat kuyrukları için stabil Wi-Fi tercih edin; paket kaybı kule yarışlarına zarar verir."
+      "Yeni brawler'ları Kit, Mico veya Larry & Lawrie'den başla; kit bilgileri için blog sayfamıza göz at.",
+      "Win Streak modunda aynı lig arkadaşlarınla oynamak zinciri korumayı kolaylaştırır.",
+      "Three Gift Weeks etkinliğini kaçırmamak için bildirim ayarlarını aç.",
+      "PC'de oynuyorsan BlueStacks'in Yüksek FPS modunu etkinleştir.",
+      "Pinleri sezon geçişlerinde kullanmak sürpriz içerik şansını artırır."
     ],
-    "prosTitle": "Artılar",
+    "prosTitle": "Avantajlar",
     "pros": [
-      "Arena savaşlarını zaten biliyorsanız kolayca alışılır",
-      "Çok dilli topluluk derlemeleri yaygındır",
-      "Shard canlıyken klanlar ve sosyal özellikler",
-      "İstatistik pratiği ve strateji teorize etme için faydalı",
-      "Farklı ruh halleri için Vanilla / Infinity seçimi",
-      "Ücretli mağaza kapısı olmadan {price} APK"
+      "Tamamen ücretsiz – hiçbir ödeme gerektirmez",
+      "Tüm brawler ve skinler anında açık",
+      "Resmi Brawl Stars hesabını etkilemez",
+      "Çevrimiçi çok oyunculu destek mevcut",
+      "Hızlı güncelleme döngüsü",
+      "iOS ve Android'de çalışır"
     ],
-    "consTitle": "Eksiler",
+    "consTitle": "Dezavantajlar",
     "cons": [
-      "Resmi değil — operatörler veritabanlarını siler veya taşırsa ilerleme sıfırlanabilir",
-      "Yoğun shard'larda olası gecikme, kuyruk beklemeleri veya bakım pencereleri",
-      "Rastgele aynalardan APK alırsanız sideloading her zaman zararlı yazılım riski taşır",
-      "Çevrimiçi nüfus saat dilimine ve sunucu shard'ına göre değişir",
-      "Supercell ile bağlı değil; özellikler istemci güncellemeleri arasında bozulabilir"
+      "Resmi Brawl Stars ilerlemesiyle senkronizasyon yok",
+      "Supercell tarafından desteklenmez",
+      "iOS kurulumu AltStore gibi ek araç gerektirir",
+      "Play Store veya App Store'da bulunmaz"
     ],
-    "safetyTitle": "Güvenlik Notları",
-    "safetyP": "Master Royale üçüncü taraf yazılımdır. Yalnızca indirme sayfamızdaki CTA üzerinden indirin, « Bilinmeyen uygulamaları yükle »yi yalnızca güvendiğiniz yükleyici için açık tutun ve ardından iptal edin. Özel sunucu istemcisinde SMS OTP, banka bilgileri veya resmi Clash Royale kimlik bilgilerini asla paylaşmayın. Hesaplar perakende Supercell sunucularından izole olduğu için, bu kimlik bilgilerini hiç bağlamadığınız sürece özel sunucu yasağı veya silmesi resmi merdiven profilinize dokunmamalıdır. Bu web sitesi bilgilendiricidir. Master Royale'in resmi Clash Royale deneyiminin yerini aldığını iddia etmiyoruz ve gerçek para kazancı vaat etmiyoruz. Kurmadan önce Sorumluluk Reddi ve Gizlilik Politikası'nı okuyun.",
+    "safetyTitle": "Güvenli mi?",
+    "safetyP": "Magic Brawl, bağımsız Magic Team tarafından aktif olarak geliştirilmekte ve bakımı yapılmaktadır. Uygulama kötü amaçlı yazılım içermemektedir; ancak her üçüncü taraf yazılımında olduğu gibi kendi inisiyatifinizle kurmanızı tavsiye ederiz. Resmi Brawl Stars hesabın hiçbir zaman risk altında değildir; Magic Brawl ayrı bir sunucu altyapısı kullanır.",
     "troubleTitle": "Sorun Giderme",
     "trouble": [
       {
-        "title": "Bağlantı hataları / kapasite",
-        "text": "Yoğun saatler özel sunucu kapasitesini doldurabilir. Ağ değiştirin, sonra tekrar deneyin veya çakışan VPN rotalarını kapatın. İstemci sürüm uyumsuzluğu bildirirse bu siteden {version} yeniden kurun."
+        "title": "Uygulama yüklenmiyor",
+        "text": "Cihaz ayarlarından 'Bilinmeyen Kaynaklara İzin Ver' seçeneğini etkinleştirip yeniden yüklemeyi dene. Depolama alanının yeterli olduğundan emin ol."
       },
       {
-        "title": "Kötü güncellemeden sonra önbelleği temizleyin",
-        "text": "Android Ayarlar → Uygulamalar → Master Royale → Depolama → Önbelleği temizle (yerel giriş jetonlarını kaybetmeyi kabul etmiyorsanız Verileri temizle'den kaçının). Ardından yeniden başlatın."
+        "title": "Oyun açılmıyor veya donuyor",
+        "text": "Uygulamayı kapat ve yeniden aç. RAM kullanımı yüksekse diğer uygulamaları kapat. Gerekirse yeniden yükle."
       },
       {
-        "title": "Depolama boşaltın",
-        "text": "Eksik kurulumlar genellikle cihaz {fileSize} paketini artı açma alanını yazmayı bitiremediğinde olur. Mitolojik yüzlerce GB değil, yaklaşık 1 GB+ boş tutun."
+        "title": "Sunucuya bağlanılamıyor",
+        "text": "İnternet bağlantını kontrol et. Wi-Fi yerine mobil veri deneyebilirsin. Sunucu bakımda olabilir; @MagicBrawlTR sosyal medya hesabını kontrol et."
       },
       {
-        "title": "Çakışan birden fazla özel sunucu APK'si",
-        "text": "Birkaç Clash Royale özel sunucu istemcisini üst üste yığmak paylaşılan verileri üzerine yazabilir veya imzaları karıştırabilir. Master Royale kurmadan önce eski çatalları kaldırın, ardından masterroyaleapk.com'dan temiz bir kopya indirin."
+        "title": "iOS'ta IPA yüklenemiyor",
+        "text": "AltStore'un güncel sürümünü kullandığından emin ol. Yükleme başarısız olursa iOS sayfamızdaki adım adım rehberi takip et."
       },
       {
-        "title": "APK ayrıştırma hatası",
-        "text": "Dosyanın tamamını yeniden indirin; kesilmiş aktarımlar paketi sıkça bozar."
-      },
-      {
-        "title": "Uygulama açılışta çöküyor",
-        "text": "RAM boşaltın, varsa WebView/Android Sistem bileşenlerini güncelleyin veya PC'de emülatör deneyin."
+        "title": "PC'de emülatör başlamıyor",
+        "text": "BlueStacks veya LDPlayer'ın güncel sürümünü yükle. Sanallaştırmanın (Virtualization) BIOS ayarlarında etkin olduğunu kontrol et."
       }
     ],
-    "supportTitle": "Web Sitesi Desteği",
-    "supportP": "masterroyaleapk.com rehberleri, bozuk indirme bağlantıları veya gizlilik talepleri için yardım mı lazım? support@masterroyaleapk.com adresine yazın veya Bize Ulaşın'ı açın. Bu bilgilendirici siteyi kapsıyoruz — Supercell müşteri hizmetlerini veya her üçüncü taraf sunucu kesintisini değil.",
-    "faqTitle": "Sıkça Sorulan Sorular",
+    "supportTitle": "Destek",
+    "supportP": "Çözemediğin bir sorunla karşılaştıysan support@magicbrawl.tr adresine e-posta gönder. Ekibimiz genellikle 24-48 saat içinde yanıt verir.",
+    "faqTitle": "Sık Sorulan Sorular",
     "faqs": [
       {
-        "q": "En son Master Royale APK'yi nasıl indiririm?",
-        "a": "masterroyaleapk.com'u açın, Master Royale İndir'e gidin, İNDİR'e dokunun ve {version} paketini ({fileSize}) kaydedin. Tarayıcınız veya Dosyalar uygulaması için Bilinmeyen uygulamaları yükle'yi etkinleştirin, APK'yi açın, kurun, ardından başlatın. Tam adımlar /download-master-royale sayfasındadır."
+        "q": "Magic Brawl nasıl indirilir?",
+        "a": "magicbrawl.tr adresini ziyaret et, İndir sayfasına git ve Android için APK dosyasını indir. Bilinmeyen kaynaklara izin verdikten sonra dosyayı aç ve yükle."
       },
       {
-        "q": "Master Royale Google Play veya App Store'da mı?",
-        "a": "Hayır. Master Royale resmi olmayan bir özel sunucu istemcisidir. Google Play veya Apple App Store'da listelenmez. Android kullanıcıları APK'yi bu siteden sideload eder; iOS oyuncuları AltStore gibi IPA sideload araçlarına ihtiyaç duyar ve PC oyuncuları aynı APK'yi bir Android emülatöründe çalıştırır."
+        "q": "Magic Brawl güvenli mi?",
+        "a": "Magic Brawl, Magic Team tarafından aktif olarak geliştirilen bağımsız bir özel sunucudur. Resmi Brawl Stars hesabın etkilenmez. Bununla birlikte, her üçüncü taraf uygulamasında olduğu gibi bilinçli bir şekilde kurmanı tavsiye ederiz."
       },
       {
-        "q": "Resmi Clash Royale / Supercell hesabım yasaklanır mı?",
-        "a": "Master Royale hesapları perakende Supercell ortamından izole edilir. İlerleme ve girişler resmi Clash Royale profilinizde değil, özel sunucunun kendi veritabanında yaşar. Yine de Supercell kimliğinizi veya şifrenizi asla herhangi bir üçüncü taraf istemciye girmeyin — bunun yerine taze bir özel sunucu girişi oluşturun."
+        "q": "Magic Brawl Play Store'da var mı?",
+        "a": "Hayır. Magic Brawl, Google Play Store veya App Store'da bulunmaz. APK'yı yalnızca resmi sitesi magicbrawl.tr üzerinden indirebilirsin."
       },
       {
-        "q": "En iyi Clash Royale özel sunucusu hangisi?",
-        "a": "« En iyi » uptime'a, topluluk boyutuna ve tanıdık bir merdiven mi yoksa sandbox mu istediğinize bağlıdır. Master Royale, Vanilla ve Infinity modları, düzenli istemci güncellemeleri ve geniş bir kaynak sandbox'ı sayesinde en çok konuşulan seçeneklerden biridir. Farklı kural setleriyle başka özel sunucular da vardır — hedeflerinize uyanı deneyin ve her zaman güvendiğiniz bir kaynaktan indirin."
+        "q": "Arkadaşlarımla birlikte oynayabilir miyim?",
+        "a": "Evet! Magic Brawl çevrimiçi çok oyunculu destekler. Arkadaşlarınla takım kurabilir ve online maçlara birlikte katılabilirsiniz."
       },
       {
-        "q": "Master Royale PC ve iOS'ta çalışır mı?",
-        "a": "Evet, bazı uyarılarla. PC'de bir Android emülatörü (BlueStacks veya benzeri) kurun, ardından bu siteden Master Royale APK'yi sideload edin — PC için Master Royale rehberimize bakın. iOS'ta Apple Android APK çalıştırmaz; AltStore veya dikkatle incelenmiş bir kurumsal profil üzerinden IPA sideload'a, sertifika yenileme ve güven adımlarına ihtiyacınız vardır. Ayrıntılar indirme sayfasındadır."
+        "q": "Resmi Brawl Stars ilerlememi aktarabilir miyim?",
+        "a": "Hayır. Magic Brawl, resmi Brawl Stars sunucularından bağımsız çalışır. Resmi hesabındaki ilerleme, brawler'lar veya skinler bu sunucuya aktarılamaz."
       },
       {
-        "q": "Master Royale ücretsiz mi?",
-        "a": "Evet. Burada listelenen Master Royale APK indirmesi {price}'dır (şema fiyatı 0). Özel sunucudaki elmaslar, altın ve açılımlar modlanmış ortamdan gelir — bu bir nakit çekim veya gerçek para kazanç ürünü değildir."
+        "q": "Magic Brawl oynamak resmi hesabımı banlatır mı?",
+        "a": "Magic Brawl, Supercell sunucularına erişmez. Ayrı bir sunucu altyapısı kullandığından resmi Brawl Stars hesabın ban riski taşımaz."
       },
       {
-        "q": "Vanilla ile Infinity arasındaki fark nedir?",
-        "a": "Vanilla, güçlendirilmiş özel sunucu kaynaklarıyla klasik merdiven alışkanlıklarına daha yakın bir maç akışı tutar. Infinity tam bir sandbox'tır: büyük başlangıç para/elmas havuzları (sıkça 1M+ tarzı ekonomi çerçevesinde), anında maksimum seviye erişimi ve deneysel özel kartlar (derlemeler bazen Infinite Sparky gibi öne çıkanları içerir). Birçok oyuncu pratik için Vanilla, kaotik teorize için Infinity kullanır."
+        "q": "Magic Brawl PC'de nasıl oynanır?",
+        "a": "BlueStacks veya LDPlayer gibi bir Android emülatörü yükle, ardından Magic Brawl APK'sını emülatöre kur. Detaylı rehber için PC sayfamızı ziyaret et."
       },
       {
-        "q": "Master Royale hangi Android sürümünü gerektirir?",
-        "a": "Master Royale {os} listeler. En iyisi Android 5.0+ / Android 8+ önerilir. Daha akıcı savaşlar için dört çekirdekli ~2 GHz CPU, 4 GB RAM ve kurulumdan sonra yaklaşık 1 GB+ için yeterli boş depolama öneririz (APK yaklaşık {fileSize})."
+        "q": "iOS'ta Magic Brawl nasıl kurulur?",
+        "a": "iPhone veya iPad için AltStore kullanarak imzasız IPA'yı yükleyebilirsin. Jailbreak gerekmez. Adım adım talimatlar için iOS sayfamıza bak."
       },
       {
-        "q": "Master Royale nedir?",
-        "a": "Master Royale, ücretsiz Clash Royale tarzı özel sunucu / mod istemcisidir. Cihazınız resmi Supercell sunucuları yerine özel bir host ile konuşan değiştirilmiş bir oyun istemcisi çalıştırır; sınırsız elmas ve altın, açık kartlar ile Vanilla artı Infinity modları gibi sunucu tarafı kaynaklarla. Supercell ile bağlı değildir ve gerçek para kazanç uygulaması değildir."
+        "q": "Magic Brawl gerçekten ücretsiz mi?",
+        "a": "Evet, Magic Brawl tamamen ücretsizdir. İçi satın alma yoktur; elmaslar, coinler ve tüm içerikler baştan açık gelir."
       },
       {
-        "q": "Master Royale kurmak güvenli mi?",
-        "a": "Yalnızca masterroyaleapk.com gibi güvenilir bilgilendirici sayfalardan kurun, Bilinmeyen Kaynaklar'ı kullandığınız yükleyiciyle sınırlayın, ardından bu izni iptal edin ve banka bilgilerinizi veya ana Supercell şifrenizi asla paylaşmayın. Özel sunucular üçüncü taraf yazılımdır — ayrı bir hesap kullanın ve Sorumluluk Reddimizi okuyun."
+        "q": "Magic Brawl ne zaman güncelleniyor?",
+        "a": "Magic Team, resmi Brawl Stars güncellemelerini yakından takip eder. Yeni sezon içerikleri genellikle kısa sürede Magic Brawl'a da eklenir. Duyurular için blogumuzu takip et."
       },
       {
-        "q": "APK neden kurulmuyor veya bağlanmıyor?",
-        "a": "Yaygın çözümler: Bilinmeyen uygulamaları yükle'yi etkinleştirin, {fileSize} paket artı önbellek için depolama boşaltın, dosya kesildiyse yeniden indirin, kötü bir güncellemeden sonra uygulama önbelleğini temizleyin ve çakışan paket verisi paylaşan birden fazla özel sunucu APK'sini üst üste yığmaktan kaçının. Bağlantı hataları genellikle sunucu kapasitesi, bakım veya istemci/sunucu sürüm uyumsuzluğu anlamına gelir — {version} kurduğunuzu doğrulayın."
+        "q": "Magic Brawl ile nulls brawl farkı nedir?",
+        "a": "Magic Brawl ve Nulls Brawl birbirinden bağımsız özel sunuculardır. Magic Brawl'ın öne çıkan özellikleri arasında ücretsiz pinler, Win Streak sistemi, iOS IPA desteği ve Three Gift Weeks etkinliği yer alır."
       },
       {
-        "q": "Bu sitede desteğe nasıl ulaşırım?",
-        "a": "Bu bilgilendirici web sitesi hakkında sorular (rehberler, bozuk bağlantılar, gizlilik) için support@masterroyaleapk.com adresine yazın veya Bize Ulaşın sayfasını ziyaret edin. Oyun içi özel sunucu kesintileri üçüncü taraf operatörler tarafından yönetilir, Supercell tarafından değil."
+        "q": "Minimum sistem gereksinimleri nelerdir?",
+        "a": "Android için Android 5.0 ve 2 GB RAM, iOS için iOS 14 ve iPhone 7 veya üzeri yeterlidir. PC için en az 4 GB RAM ve Windows 10 64-bit gerekir."
       }
     ],
-    "ctaTitle": "Master Royale'i Denemeye Hazır mısınız?",
-    "ctaText": "masterroyaleapk.com'dan ücretsiz APK'yi indirin, bir özel sunucu hesabı oluşturun ve Vanilla veya Infinity'yi kendi temponuzda keşfedin. Daha büyük ekran mı tercih edersiniz? Dosyayı aldıktan sonra PC için Master Royale emülatör rehberini izleyin — veya indirme sayfasındaki iOS sideload notlarına bakın.",
-    "highlightsTitle": "Master Royale Özellikleri",
-    "highlights": [
+    "ctaTitle": "Hemen İndir, Ücretsiz Oyna!",
+    "ctaText": "Magic Brawl'u Android, iOS veya PC'de oyna. Sınırsız kaynaklarla Brawl Stars deneyimini özgürce yaşa – tamamen ücretsiz.",
+    "pinsTitle": "Ücretsiz Pinler ve Voucherlar",
+    "pinsIntro": "Magic Brawl kuruluysa Six Seven, MBS Fumey, Fumey Frog, Goblin Clock, Goblin ve Cool Glass gibi ücretsiz rozetleri claim edebilirsiniz. Sahte elmas generator sitelerinden uzak durun; yalnızca doğrulanmış kampanyaları kullanın.",
+    "pinsCta": "Pin ve voucher rehberini oku",
+    "blogPreviewTitle": "Magic Brawl Blog Yazıları",
+    "gameModesTitle": "Magic Brawl Oyun Modları",
+    "gameModes": [
       {
-        "title": "SINIRSIZ ELMAS",
-        "text": "Oyuna 1 milyon ücretsiz elmasla başlarsınız; tüm kartları açıp sonsuz sandık açabilirsiniz."
+        "title": "Gem Grab",
+        "text": "Klasik elmas toplama 3v3 — harita kontrolü ve destek brawler seçimi kritik."
       },
       {
-        "title": "TURNUVALARI AÇ",
-        "text": "Master Royale özel sunucusunda çeşitli turnuvalara katılıp diğer oyuncularla yarışabilirsiniz."
+        "title": "Brawl Ball",
+        "text": "Gol atarak kazanın; 5v5 varyantında daha geniş alan ve takım rotasyonu."
       },
       {
-        "title": "ÜCRETSİZ EFSANE SANDIK",
-        "text": "Kart yükseltmek için efsane sandık gerekir. Master Royale sınırsız efsane sandık sunar."
+        "title": "Showdown",
+        "text": "Solo veya duo hayatta kalma; geç oyun için çalı ve güç küpü yönetimi."
       },
       {
-        "title": "ARAMALARI ENGELLE",
-        "text": "Heyecanlı savaşlarda aramaları engelleyin. Rahatsız edici çağrılar eğlencenizi bozmasın."
+        "title": "Heist",
+        "text": "Rakip kasayı parçalayın veya savunun; burst hasar kompozisyonları öne çıkar."
+      },
+      {
+        "title": "Hot Zone",
+        "text": "Bölge hakimiyeti — tank ve kontrol brawler’ları güçlüdür."
+      },
+      {
+        "title": "Wipeout & Duels",
+        "text": "Hızlı tempolu eleme ve 1v1 düellolarıyla refleksinizi sınayın."
       }
     ]
   },
   "Download": {
-    "h1": "Master Royale APK İndir",
-    "intro": "Master Royale Clash Royale tarzı özel sunucu için ücretsiz Android kurulum rehberi — sürüm {version}, {fileSize}. iOS oyuncuları yalnızca IPA sideload kullanır (aşağıya bakın); PC oyuncuları aynı APK ile bir emülatör kullanır.",
-    "ctaTitle": "Master Royale APK'yi Alın",
-    "ctaText": "masterroyaleapk.com'dan ücretsiz indirmeyi başlatmak için aşağıya dokunun. Kurulumdan sonra taze bir özel sunucu girişi oluşturun — asla resmi Supercell kimlik bilgilerini girmeyin.",
-    "infoTitle": "APK Bilgileri",
-    "installTitle": "Tam Android Kurulum Adımları",
+    "h1": "Magic Brawl APK İndir – v{version}",
+    "intro": "Magic Brawl Android APK'sını magicbrawl.tr rehberleriyle güvenle kur. İndirme bağlantısı resmi Magic Team kaynağına gider; aşağıdaki adımları takip ederek dakikalar içinde kurulumu tamamla.",
+    "ctaTitle": "APK'yı İndir",
+    "ctaText": "v{version} · {fileSize} · Ücretsiz",
+    "infoTitle": "Uygulama Bilgileri",
+    "installTitle": "Android Kurulum Adımları",
     "installSteps": [
-      "Bilinmeyen kaynakları etkinleştirin. Ayarlar → Uygulamalar → Özel erişim → Bilinmeyen uygulamaları yükle'yi açın ve Chrome, Firefox veya Dosyalar'ın paket kurmasına izin verin.",
-      "Bu siteden indirin. apk-download bölümüne gidin ve İNDİR'e dokunun. Mümkünse Wi-Fi'de kalın — APK yaklaşık {fileSize} ({version}).",
-      "APK'yi kurun. İndirilen paketi açın, Yükle'yi onaylayın ve yalnızca bu dosyayı bilerek masterroyaleapk.com'dan seçtiyseniz Play Protect'i geçin.",
-      "Master Royale'i başlatın. Aç'a dokunun, yeni bir özel sunucu hesabı kaydedin, Vanilla veya Infinity seçin ve bir pratik savaş başlatın."
+      "magicbrawl.tr adresindeki İndir butonuna dokun.",
+      "APK dosyasının indirilmesini bekle.",
+      "Ayarlar > Güvenlik > Bilinmeyen Kaynaklara İzin Ver seçeneğini aç.",
+      "İndirilen APK dosyasına tıkla ve Yükle'yi seç.",
+      "Yükleme tamamlandığında Magic Brawl'u aç ve oynamaya başla."
     ],
-    "iosTitle": "iOS'ta Nasıl Kurulur (iPhone ve iPad)",
-    "iosIntro": "Apple, iPhone ve iPad'de Android APK'lerini engeller. iOS'ta Play Store tarzı bir APK kurulum yolu yoktur. Güvendiğiniz bir kaynaktan Master Royale IPA derlemesi varsa sideload etmelisiniz — tipik olarak AltStore (veya benzeri) ve yaklaşık 7 günlük bir yenileme döngüsü gerektiren ücretsiz bir geliştirici sertifikasıyla.",
+    "iosTitle": "iOS Kurulumu",
+    "iosIntro": "iPhone veya iPad kullanıyorsan AltStore aracılığıyla Magic Brawl IPA'yı yükleyebilirsin.",
     "iosSteps": [
-      "AltStore'u (veya eşdeğer bir sideload aracını) resmi belgelerinden kurun, ardından Ayarlar → Genel → VPN ve Cihaz Yönetimi altında geliştirici sertifikasına güvenin.",
-      "Ücretsiz Apple ID'lerde IPA'yı yaklaşık her 7 günde bir yenilemeyi bekleyin, aksi halde uygulama simgesi açılmayı bırakır.",
-      "Bazı aynalar kurumsal sağlama profilleri iter. Bunlara dikkatli yaklaşın: kurumsal profiller geniş cihaz güveni verebilir. Yalnızca anladığınız profilleri kurun ve bir şey ters gelirse hemen kaldırın.",
-      "Bu istemciler için sıkça anılan minimum cihaz rehberi: iPhone 6 veya daha yenide iOS 10+. Performans değişir — canlı savaşlar için daha yeni donanım daha güvenlidir."
+      "iOS sayfamıza git: magicbrawl.tr/magic-brawl-ios",
+      "AltStore'u bilgisayarına veya doğrudan cihazına kur.",
+      "Magic Brawl IPA'yı AltStore üzerinden aç.",
+      "Apple kimliğinle imzala ve yüklemeyi başlat.",
+      "Güven Ayarları bölümünden uygulamaya güven ver."
     ],
-    "afterTitle": "Kurulumdan Sonra",
-    "afterP": "Oyunun çalışmak için istediği izinleri (depolama/ağ) yalnızca verin. Özel sunucu arena istemcisi için SMS veya kişi erişimine ihtiyacınız yoktur. Bilinmeyen Kaynaklar'ı kullandığınız yükleyiciyle sınırlayın, ardından iptal edin. Genel bakış içeriği için Master Royale ana sayfasına dönün. Yasal bağlam için Sorumluluk Reddimizi okuyun.",
-    "againTitle": "Tekrar indir"
+    "afterTitle": "Yükledikten Sonra",
+    "afterP": "Oyunu başlattığında sınırsız elmas ve coin ile tüm brawler'lar açık olarak gelir. Çevrimiçi maçlara hemen katılabilirsin.",
+    "againTitle": "Sorun mu Yaşıyorsun?"
   },
   "PC": {
-    "h1": "PC için Master Royale",
-    "intro": "Master Royale özel sunucu APK'sini Windows'ta bir Android emülatörü üzerinden çalıştırın — telefondan daha stabil FPS, daha soğuk ısıl değerler ve daha hızlı kart döngüleri için klavye katmanları.",
-    "whyTitle": "Neden Master Royale'i PC'de Oynamalı?",
-    "whyP": "Emülatörler Android'i bilgisayarınızda yansıtır, böylece aynı Master Royale APK telefon olmadan çalışır. Oyuncular kule yarışlarında daha yüksek ve tutarlı FPS, el cihazı bataryasını tüketmeden daha uzun oturumlar ve her kart yuvasını bir tuşa eşleyen klavye katmanları için PC seçer. Bu hâlâ resmi olmayan özel sunucu istemcisidir — yerel bir Steam derlemesi veya resmi Supercell PC sürümü değildir. İlerleme katıldığınız üçüncü taraf sunucuda yaşar.",
-    "reqTitle": "Windows Gereksinimleri",
+    "h1": "Magic Brawl PC'de Nasıl Oynanır?",
+    "intro": "Magic Brawl'u bilgisayarında oynamak için Android emülatörü kullanman gerekir. BlueStacks ve LDPlayer, Windows için en popüler seçeneklerdir.",
+    "whyTitle": "PC'de Oynamanın Avantajları",
+    "whyP": "Daha büyük ekran, klavye-mouse kontrolü ve daha yüksek FPS imkânı PC deneyimini farklı bir seviyeye taşır. Özellikle Win Streak modlarında hassas kontrol avantaj sağlar.",
+    "reqTitle": "Sistem Gereksinimleri",
     "req": [
-      "Windows 11 tercih edilir (Windows 10 büyük emülatörler tarafından hâlâ yaygın desteklenir)",
-      "RAM: 8–16 GB (Chrome ve Discord açık kaldığında 16 GB daha akıcı hissedilir)",
-      "CPU: Intel Core i3 8. nesil / AMD Ryzen 3000 serisi veya daha iyi",
-      "Emülatör açılışı ve APK kurulum hızı için SSD güçlü şekilde önerilir",
-      "Emülatör görüntüsü artı {fileSize} APK ve önbellek için boş disk alanı (toplam birkaç GB planlayın)",
-      "BlueStacks performansı için BIOS'ta donanım sanallaştırma (VT-x / AMD-V) etkin",
-      "Stabil geniş bant — özel sunucular sürekli bağlantı gerektirir"
+      "Windows 10 64-bit veya üzeri",
+      "En az 4 GB RAM (8 GB önerilir)",
+      "2 GB boş disk alanı",
+      "BlueStacks 5 veya LDPlayer 9",
+      "Güncel ekran kartı sürücüleri",
+      "İyi bir internet bağlantısı"
     ],
-    "stepsTitle": "Adım Adım: Dağıt, Kur, Kontrolleri Eşle",
+    "stepsTitle": "Kurulum Adımları",
     "steps": [
-      "Bir emülatör dağıtın. BlueStacks'i (veya karşılaştırılabilir bir Android emülatörünü) resmi sitesinden kurun. Kurulum sihirbazı sanallaştırmadan şikayet ederse BIOS/UEFI'ye yeniden başlayıp Intel VT-x veya AMD-V'yi etkinleştirin, ardından ilk çalıştırmayı bitirin.",
-      "APK'yi bu siteden indirin. Aynı PC'de Master Royale İndir'i açın ve paketi kaydedin ({version}, {fileSize}). Rastgele çatalları karıştırmamak için masterroyaleapk.com'da kalın.",
-      "Sürükle-bırak kurulum. APK'yi emülatör penceresine sürükleyin veya yerleşik « APK Yükle » / « Artı » düğmesini kullanıp dosyaya göz atın. Paket kurulumu bitene kadar bekleyin.",
-      "Kart yuvaları için klavye eşlemesini yapılandırın. Emülatörün kontroller / tuş eşleme düzenleyicisini açın. Dört kart yuvasının her birine tuş atayın (ve kullanıyorsanız isteğe bağlı iksir döngüsü makroları). Profili kaydedin, Master Royale'i başlatın, özel sunucu hesabı oluşturun ve Vanilla veya Infinity seçin."
+      "BlueStacks veya LDPlayer'ın resmi sitesinden son sürümü indir ve kur.",
+      "Emülatörü aç; Android 7 veya üzeri kullandığından emin ol.",
+      "magicbrawl.tr adresini emülatördeki tarayıcıdan aç.",
+      "Magic Brawl APK'yı indir.",
+      "Emülatörde APK dosyasına çift tıkla veya sürükle-bırak ile yükle.",
+      "Magic Brawl açıldığında oynamaya başla."
     ],
-    "tipsTitle": "PC Emülatör İpuçları",
+    "tipsTitle": "PC İpuçları",
     "tips": [
-      "İksir ağır kartları yakındaki tuşlara eşleyin, böylece döngü oyunları kas belleği kadar hızlı kalsın.",
-      "Emülatörün CPU önceliğini koruması için ağır tarayıcı sekmelerini ve arka plan oyunlarını kapatın.",
-      "Mümkün olduğunda kablolu bağlantı kullanın; Wi-Fi paket kaybı kule yarışlarına zarar verir.",
-      "Emülatörün Android görüntüsünü güncel tutun, ardından sunucu istemcisini {version} / {versionAlt}'a yükseltirse Master Royale'i yeniden kurun.",
-      "Ana sayfadaki güvenlik notlarını okuyun — emülatör içinde resmi Clash Royale şifrelerini asla yeniden kullanmayın."
+      "BlueStacks'te Yüksek Performans modunu etkinleştir.",
+      "Klavye haritalamasını kendi oyun stiline göre özelleştir.",
+      "Çok çekirdekli CPU atamak oyunun daha akıcı çalışmasını sağlar.",
+      "Emülatörü her hafta güncel tut; yeni sürümler performansı artırır."
     ],
-    "problemsTitle": "PC'de Sorun Giderme",
+    "problemsTitle": "Sık Karşılaşılan Sorunlar",
     "problems": [
       {
-        "title": "Siyah ekran",
-        "text": "Emülatörü uyumluluk / OpenGL modu değiştirilmiş şekilde yeniden başlatın veya çözünürlüğü düşürün."
+        "title": "Emülatör başlamıyor",
+        "text": "BIOS'ta sanallaştırma (Intel VT-x / AMD-V) desteğinin etkin olduğunu kontrol et. Ekran kartı sürücülerini güncelle."
       },
       {
-        "title": "APK kurulmuyor",
-        "text": "İndirmenin {fileSize} olarak bittiğini ve emülatör Android sürümünün {os} karşıladığını doğrulayın. Dosya kesilmiş görünüyorsa masterroyaleapk.com'dan yeniden indirin."
+        "title": "Oyun yavaş veya kasıyor",
+        "text": "Emülatöre daha fazla RAM ve CPU çekirdeği tahsis et. Arka planda çalışan uygulamaları kapat."
       },
       {
-        "title": "Gecikme ani yükselişleri",
-        "text": "FPS'yi sınırlayın, gereksiz emülatör eklentilerini kapatın ve VT-x / AMD-V'nin gerçekten etkin olduğundan emin olun. Hyper-V kaynakları için yarışan diğer sanallaştırma araçlarını kapatın."
-      },
-      {
-        "title": "Bağlantı / sürüm uyumsuzluğu",
-        "text": "Özel sunucular bazen eski istemcileri reddeder. Bu siteden en son APK'yi kurun, emülatör içinde uygulama önbelleğini temizleyin ve çakışan birden fazla özel sunucu APK'sini üst üste yığmaktan kaçının."
+        "title": "APK yüklenemiyor",
+        "text": "Emülatörü yönetici olarak çalıştır ve APK dosyasını emülatör penceresine sürükle-bırak ile yükle."
       }
     ],
-    "ctaTitle": "Emülatörünüz için APK'yi Alın",
-    "ctaText": "masterroyaleapk.com'dan indirin, ardından dosyayı BlueStacks veya tercih ettiğiniz emülatöre bırakın."
+    "ctaTitle": "Şimdi PC'de Oyna",
+    "ctaText": "APK'yı indir, emülatörüne kur ve Magic Brawl dünyasına geniş ekrandan katıl."
+  },
+  "Ios": {
+    "h1": "Magic Brawl iOS – iPhone ve iPad Kurulumu",
+    "intro": "Magic Brawl'ı iPhone veya iPad'ine kurmak için IPA dosyasını AltStore ile yüklemen yeterli. Jailbreak gerekmez.",
+    "whyTitle": "iOS'ta Magic Brawl",
+    "whyP": "Magic Brawl, iOS için özel olarak test edilmiş bir IPA sunar. Touch kontrolü ve Retina ekran desteğiyle mobil deneyim son derece akıcıdır.",
+    "stepsTitle": "iOS Kurulum Adımları",
+    "steps": [
+      "AltStore'u altstore.io adresinden bilgisayarına indir ve kur.",
+      "iPhone veya iPad'ini bilgisayara USB ile bağla.",
+      "AltStore'u cihazına yüklemek için iTunes veya Finder ile kurulumu tamamla.",
+      "magicbrawl.tr/magic-brawl-ios adresinden IPA dosyasını indir.",
+      "AltStore uygulamasını aç, '+' butonuna dokun ve IPA dosyasını seç.",
+      "Apple kimliğinle imzala; yükleme otomatik başlar.",
+      "Ayarlar > Genel > VPN ve Cihaz Yönetimi bölümünden uygulamaya güven ver."
+    ],
+    "tipsTitle": "iOS İpuçları",
+    "tips": [
+      "AltStore'un 7 günde bir yeniden imzalanması gerektiğini unutma; AltServer'ı açık bırak.",
+      "Wi-Fi bağlantısını ve yeterli pil seviyesini kontrol et.",
+      "iOS güncellemelerinden önce IPA'nın uyumluluğunu kontrol et."
+    ],
+    "troubleTitle": "iOS Sorun Giderme",
+    "trouble": [
+      {
+        "title": "Uygulama açılmıyor",
+        "text": "Ayarlar > Genel > VPN ve Cihaz Yönetimi altından uygulamaya güven verdiğinden emin ol."
+      },
+      {
+        "title": "AltStore imzalamıyor",
+        "text": "Apple kimliğinin iki faktörlü doğrulamasının etkin olduğunu kontrol et. AltServer'ı yeniden başlat."
+      },
+      {
+        "title": "IPA yüklenemiyor",
+        "text": "Depolama alanının yeterli olduğunu kontrol et. Farklı bir USB kablosu deneyebilirsin."
+      }
+    ],
+    "ctaTitle": "iOS IPA'yı İndir",
+    "ctaText": "iPhone ve iPad için Magic Brawl IPA – ücretsiz, AltStore ile kurulum."
   },
   "About": {
-    "h1": "Hakkımızda",
-    "p1": "masterroyaleapk.com'a hoş geldiniz — Vanilla ve Infinity oyun stilleriyle Clash Royale tarzı özel sunucu / mod APK olan Master Royale'e odaklı bilgilendirici bir web sitesi.",
-    "p2": "Oyuncuların ne kurduklarını anlamaları için indirme adımları, APK ayrıntıları, PC emülatör talimatları ve güvenlik hatırlatmaları yayınlıyoruz. Master Royale üçüncü taraf yazılımdır ve Supercell ile bağlı değildir. Bu site gerçek para kumar ürünleri satmaz ve JazzCash veya EasyPaisa nakit çekim özellikleri sunmaz.",
-    "coverTitle": "Neleri Kapsıyoruz",
-    "coverItems": [
-      "Android Master Royale APK indirme ve kurulum adımları",
-      "BlueStacks / LDPlayer tarzı kurulumlar için PC emülatör rehberleri",
-      "Vanilla vs Infinity açıklamaları ve pratik savaş ipuçları",
-      "Özel sunucu riskleri ve hesap güvenliği hakkında net sorumluluk reddi"
+    "h1": "Magic Brawl Hakkında",
+    "intro": "Magic Brawl, bağımsız bir yazılım ekibi olan Magic Team tarafından Brawl Stars hayranları için tasarlanmış özel bir sunucudur. Projemiz, oyunculara resmi oyunun kısıtlamaları olmadan özgür bir deneyim sunmayı hedefler.",
+    "p2": "Magic Brawl, Supercell'in resmi bir ürünü değildir ve Supercell ile herhangi bir iş ortaklığı bulunmamaktadır. Brawl Stars, Supercell'e ait bir markadır.",
+    "coverTitle": "Ne Sunuyoruz?",
+    "cover": [
+      "Magic Brawl APK indirme ve Android kurulum adımları",
+      "iOS IPA sideload rehberi",
+      "PC emülatör (BlueStacks) kurulumu",
+      "Ücretsiz pin / voucher ve sezon güncellemeleri",
+      "Güvenlik, hesap hijyeni ve SSS"
     ],
     "approachTitle": "Yaklaşımımız",
-    "approachP": "Sayfalar, Master Royale APK bilgisi arayan Pakistan'daki ve başka yerlerdeki oyuncular için anlaşılır İngilizceyle yazılmıştır. İddiaları dürüst tutuyoruz: sınırsız elmas ve altın, bankaya yatırılabilir nakit değil, özel sunucu oyun kaynaklarını ifade eder. Canlı sunucuda özellikler değiştiğinde, doğrulayabildiğimiz anda sürüm numaralarını ve kurulum notlarını güncelleriz.",
-    "touchTitle": "İletişime Geçin",
-    "touchP": "Bu web sitesi hakkında sorularınız mı var? support@masterroyaleapk.com adresine yazın veya Bize Ulaşın'ı ziyaret edin."
+    "approachP": "Magic Team, topluluğun geri bildirimleri doğrultusunda Magic Brawl'u sürekli iyileştirmektedir. Her güncellemede yalnızca yeni içerik eklemekle kalmaz, kararlılık ve performans da artırılır.",
+    "touchTitle": "İletişime Geç",
+    "touchP": "Sorularını, önerilerini veya hata bildirimlerini support@magicbrawl.tr adresine iletebilirsin. Ekibimiz 24-48 saat içinde dönüş yapar.",
+    "p1": "magicbrawl.tr, Magic Brawl özel sunucusu için Türkçe bilgilendirme ve indirme rehberleri sunar. Amacımız sürüm bilgisi, kurulum adımları, iOS/PC yolları ve güvenlik notlarını netleştirmektir.",
+    "coverItems": [
+      "Magic Brawl APK indirme ve Android kurulum adımları",
+      "iOS IPA sideload rehberi",
+      "PC emülatör (BlueStacks) kurulumu",
+      "Ücretsiz pin / voucher ve sezon güncellemeleri",
+      "Güvenlik, hesap hijyeni ve SSS"
+    ]
   },
   "Contact": {
-    "h1": "Bize Ulaşın",
-    "subtitle": "Bu web sitesi konusunda yardımcı olmak için buradayız",
-    "intro": "masterroyaleapk.com arkasındaki ekibe ulaşmak için bu sayfayı kullanın. Master Royale APK rehber soruları, bozuk bağlantılar, Hakkımızda açıklamaları ve gizlilik talepleri konusunda yardımcı olabiliriz. Resmi Supercell desteği sağlamıyoruz ve üçüncü tarafların kontrolündeki özel sunucu hesaplarını geri yükleyemeyiz.",
-    "emailTitle": "Bize E-posta Gönderin",
-    "emailText": "Bu bilgilendirici site hakkında soru veya endişelerinizi gönderin",
-    "responseTitle": "Ne Beklemelisiniz",
-    "responseP": "Web sitesi desteği ve gizlilik e-postalarına genellikle birkaç iş günü içinde yanıt veririz. Daha hızlı yardımcı olabilmemiz için net bir konu ekleyin (bozuk bağlantı, sürüm sorusu, gizlilik talebi). Üçüncü taraf shard'lardaki oyun içi kesintiler ve hesap sıfırlamaları bu site tarafından değil, o sunucu operatörleri tarafından yönetilir."
+    "h1": "İletişim",
+    "intro": "Destek ekibimize ulaşmak için aşağıdaki e-posta adresini kullanabilirsin. Teknik sorunlar, öneriler veya genel sorular için bekliyoruz.",
+    "emailTitle": "E-posta Adresi",
+    "emailP": "support@magicbrawl.tr adresine yazın.",
+    "responseTitle": "Yanıt Süresi",
+    "responseP": "Genellikle 24-48 saat içinde yanıt veriyoruz. Yoğun dönemlerde bu süre uzayabilir.",
+    "subtitle": "Magic Brawl rehberleri, indirme bağlantıları veya gizlilik talepleri için bize yazın.",
+    "emailText": "Destek ekibimize e-posta gönderin — genelde birkaç iş günü içinde yanıtlarız."
   },
   "Privacy": {
     "h1": "Gizlilik Politikası",
-    "updated": "Son Güncelleme: 22 Temmuz 2026",
+    "intro": "Bu gizlilik politikası magicbrawl.tr için geçerlidir.",
     "sections": [
       {
-        "title": "Giriş",
-        "body": "Bu Gizlilik Politikası, Master Royale özel sunucu APK'si hakkında bilgilendirici bir web sitesi olan masterroyaleapk.com'u ziyaret ettiğinizde Master Royale'in (« biz », « bizim » veya « bize ») bilgileri nasıl işlediğini açıklar. Her üçüncü taraf Master Royale oyun sunucusunun operatörü değiliz. APK içinde oluşturulan oyun hesapları, yalnızca bu web sitesi tarafından değil, o sunucu operatörleri tarafından yönetilir."
+        "title": "Toplanan Veriler",
+        "body": "Temel kullanım istatistikleri ve hata raporları, hizmetin iyileştirilmesi amacıyla anonim olarak toplanabilir. Kimlik doğrulama gerektiren özellikler için yalnızca oyun içi takma ad kullanılır."
       },
       {
-        "title": "Topladığımız Bilgiler",
-        "body": "Çoğu web sitesi gibi, barındırma veya analitik araçlarımız otomatik olarak IP adresi, tarayıcı türü, yaklaşık bölge, görüntülenen sayfalar, yönlendiren URL, ziyaret zaman damgaları ve temel performans metriklerini alabilir. support@masterroyaleapk.com adresine e-posta gönderirseniz, yanıtlayabilmemiz için dahil ettiğiniz adresi ve içeriği alırız. JazzCash, EasyPaisa veya banka şifreleri istemeyiz. Bize resmi Clash Royale hesap kimlik bilgileri göndermeyin."
+        "title": "Veri Kullanımı",
+        "body": "Toplanan veriler yalnızca hizmet kalitesini artırmak için kullanılır. Üçüncü taraflarla paylaşılmaz veya satılmaz."
       },
       {
-        "title": "Bilgileri Nasıl Kullanırız",
-        "body": "Bilgileri masterroyaleapk.com rehberlerini ve indirme sayfalarını işletmek ve iyileştirmek, destek veya gizlilik e-postalarına yanıt vermek, kesintileri, spam'i veya kötüye kullanımı teşhis etmek ve sınırlı süre için güvenlik günlüklerini tutmak amacıyla kullanırız."
+        "title": "Çerezler",
+        "body": "Web sitemiz, oturum yönetimi ve analitik için çerez kullanabilir. Tarayıcı ayarlarından çerezleri devre dışı bırakabilirsin."
       },
       {
-        "title": "Çerezler ve Yerel Depolama",
-        "body": "Site tercihleri ve temel analitik için gerekli çerezler veya yerel depolama kullanabiliriz. Tarayıcı ayarlarınızda çerezleri temizleyebilirsiniz. Tüm çerezleri engellemek bazı UI özelliklerini etkileyebilir ancak indirme rehberleri okunabilir kalır."
-      },
-      {
-        "title": "Üçüncü Taraf Hizmetler",
-        "body": "Sayfalar APK indirme uç noktalarına, emülatör satıcı sitelerine veya sosyal profillere bağlantı verebilir. Bu hedeflerin kendi gizlilik politikaları vardır. Cihazınıza Master Royale kurmak, bu web sitesinin doğrudan kontrolü dışında ayrı bir eylemdir. Kişisel bilgi satmayız. Bu sitede gerçek para cüzdanı işletmeyiz."
-      },
-      {
-        "title": "Veri Saklama ve Güvenlik",
-        "body": "E-posta yazışmaları yalnızca talebinizi çözmek veya yasal yükümlülükleri karşılamak için gerektiği kadar tutulur. Web sitesini korumak için makul teknik önlemler kullanırız, ancak hiçbir internet iletimi mükemmel güvenli değildir."
-      },
-      {
-        "title": "Seçenekleriniz",
-        "body": "Bize gönderdiğiniz e-postaların silinmesini talep etmek veya tuttuğumuz iletişim verilerini sormak için support@masterroyaleapk.com adresine yazın. Mesajı bulabilmemiz için yeterli ayrıntı ekleyin. Yasadışı veya dolandırıcılık önleme için gerekli güvenlik günlüklerini bozacak talepleri reddedebiliriz."
-      },
-      {
-        "title": "Çocuklar",
-        "body": "Bu site bir strateji oyunu APK'sini tartışır. 13 yaşından küçük çocuklara yönelik değildir. Bir çocuğun bize e-posta ile kişisel veri gönderdiğine inanıyorsanız desteğe yazın; mümkün olduğunda sileceğiz."
-      },
-      {
-        "title": "Politika Güncellemeleri",
-        "body": "Uygulamalarımız veya yasal gereksinimler değiştiğinde bu Gizlilik Politikası'nı güncelleyebiliriz. Üstteki « Son Güncelleme » tarihi, revizyonları yayınladığımızda değişecektir."
+        "title": "Veri Güvenliği",
+        "body": "Kullanıcı verilerini korumak için endüstri standardı güvenlik önlemleri uygulanmaktadır. Ancak internet üzerinden hiçbir iletim yüzde yüz güvenli değildir."
       },
       {
         "title": "İletişim",
-        "body": "Gizlilik soruları: support@masterroyaleapk.com · Bize Ulaşın · Sorumluluk Reddi"
+        "body": "Gizlilik politikasına ilişkin sorularınız için support@magicbrawl.tr adresine yazabilirsiniz."
       }
-    ]
+    ],
+    "updated": "Son güncelleme: 24 Kasım 2026"
   },
   "Disclaimer": {
     "h1": "Sorumluluk Reddi",
-    "subtitle": "Master Royale indirmeden önce lütfen okuyun",
+    "intro": "Bu sayfa yasal bilgilendirme amaçlıdır.",
     "sections": [
       {
-        "title": "Önemli Uyarı",
-        "body": "masterroyaleapk.com'u kullanarak, resmi olmayan APK'ler ve özel sunucular hakkında aşağıdaki koşulları kabul etmiş olursunuz."
+        "title": "Resmi Oyunla İlişki Yok",
+        "body": "Magic Brawl, Supercell tarafından geliştirilen Brawl Stars oyununun resmi bir ürünü veya bağlı ortağı değildir. Brawl Stars ve ilgili tüm ticari markalar Supercell'e aittir."
       },
       {
-        "title": "Supercell ile Bağlı Değil",
-        "body": "Master Royale, resmi olmayan Clash Royale tarzı özel sunucu / mod APK'dir. Clash Royale® ve ilgili markalar Supercell Oy'un ticari markalarıdır. Bu web sitesi ve üçüncü taraf Master Royale istemcisi Supercell tarafından onaylanmamış, sponsorlanmamış veya bağlı değildir. Resmi olmayan istemcileri kullanmak, resmi oyun için Supercell'in hizmet şartlarını ihlal edebilir."
+        "title": "Kullanım Riski",
+        "body": "Magic Brawl'ı kullanmak tamamen kendi sorumluluğundadır. Magic Team, üçüncü taraf yazılımlarından kaynaklanabilecek sorunlardan sorumlu tutulamaz."
       },
       {
-        "title": "Üçüncü Taraf APK ve Özel Sunucular",
-        "body": "masterroyaleapk.com'daki indirme bağlantıları ve kurulum rehberleri üçüncü taraf yazılımı açıklar. Özel sunucular çevrimdışı olabilir, ilerlemeyi silebilir, paket adlarını değiştirebilir veya haber vermeden değiştirilmiş ikili dosyalar gönderebilir. Her zaman ayrı bir hesap oluşturun ve resmi Supercell kimlik şifrenizi, e-posta OTP'nizi veya ödeme kimlik bilgilerinizi modlanmış bir istemcide asla yeniden kullanmayın."
+        "title": "Fikri Mülkiyet",
+        "body": "Magic Brawl içeriğinde yer alan brawler isimleri, görseller ve oyun mekaniğine ilişkin tüm haklar Supercell'e aittir. Bu sunucu, söz konusu varlıkları eğitim ve eğlence amaçlı kullanmaktadır."
       },
       {
-        "title": "Yalnızca Bilgilendirici Web Sitesi",
-        "body": "Bu sitedeki içerik genel bilgilendirme içindir: APK sürüm notları, Vanilla vs Infinity açıklamaları, Android ve PC emülatör ipuçları. Herhangi bir indirme hostunun, sunucu shard'ının veya « sınırsız elmas » gibi özellik setinin kesintisiz kullanılabilirliğini garanti etmiyoruz. Bu kaynaklar özel sunucu ortamında vardır ve değişebilir."
-      },
-      {
-        "title": "Gerçek Para Kazanç İddiası Yok",
-        "body": "Burada açıklandığı şekliyle Master Royale bir strateji / arcade özel sunucu deneyimidir. Bu web sitesi JazzCash, EasyPaisa veya diğer gerçek nakit yatırma/çekme kumar ürünlerini tanıtmamaktadır. Oyun içi elmaslar ve altın, Master Royale üzerinden bozdurulabilir banka bakiyeleri değildir."
-      },
-      {
-        "title": "Sideloading Riskleri",
-        "body": "Resmi uygulama mağazalarının dışından APK kurmak güvenlik riski taşır. « Bilinmeyen uygulamaları yükle »yi yalnızca güvendiğiniz kaynaklar için etkinleştirin, cihazları düzenli tarayın ve artık kullanmadığınız derlemeleri kaldırın. Değiştirilmiş oyun istemcileri ve kurduğunuz yazılım konusunda yerel yasalara uymak sizin sorumluluğunuzdadır."
-      },
-      {
-        "title": "Sorumluluk Sınırlaması",
-        "body": "Yasaların izin verdiği en geniş ölçüde, Master Royale ve masterroyaleapk.com cihaz hasarı, veri kaybı, resmi oyunlarda hesap yasakları, CTA'mız dışındaki ayna sitelerden gelen zararlı yazılım veya özel sunucu operatörleriyle anlaşmazlıklardan sorumlu değildir. Yazılımı kendi riskinizle kullanın."
-      },
-      {
-        "title": "Harici Bağlantılar",
-        "body": "Emülatör satıcılarına veya indirme aynalarına bağlantı verebiliriz. Bu siteler kontrolümüz dışındadır. Herhangi bir şey kurmadan önce şartlarını inceleyin."
-      },
-      {
-        "title": "İletişim",
-        "body": "Bu sorumluluk reddi hakkında sorular: support@masterroyaleapk.com veya Bize Ulaşın. Ayrıca Gizlilik Politikamıza bakın."
+        "title": "Hizmet Kesintileri",
+        "body": "Magic Brawl sunucuları bakım veya teknik sorunlar nedeniyle zaman zaman çevrimdışı olabilir. Magic Team bu durum için herhangi bir tazminat yükümlülüğü üstlenmez."
       }
-    ]
+    ],
+    "subtitle": "Magic Brawl üçüncü taraf özel sunucu yazılımıdır ve Supercell ile bağlantılı değildir."
   },
   "NotFound": {
+    "h1": "Sayfa Bulunamadı",
+    "text": "Aradığınız sayfa taşınmış veya silinmiş olabilir. Magic Brawl ana sayfasına dönebilirsiniz.",
+    "home": "Ana Sayfaya Dön",
     "title": "404",
-    "heading": "Sayfa Bulunamadı",
-    "text": "Bu URL eksik veya taşındı. Ücretsiz APK indirme rehberi, Vanilla vs Infinity notları ve PC emülatör ipuçları için Master Royale'e geri dönün.",
-    "home": "Ana Sayfaya Dön"
+    "heading": "Sayfa Bulunamadı"
   },
-  "Compare": {
-    "h1": "Master Royale Deneyiminizi Seçin",
-    "subtitle": "İki efsanevi yol sizi bekliyor. Oyun kaderiniz burada başlıyor!",
-    "compareTitle": "Özellikleri Karşılaştır",
-    "compareHeading": "Vanilla vs Infinity: Fark Nedir?",
-    "colFeature": "Özellik",
-    "colVanilla": "Vanilla",
-    "colInfinity": "Infinity",
-    "rows": [
-      {
-        "feature": "Oyun Deneyimi",
-        "vanilla": "Alışılmış ve Dengeli",
-        "infinity": "Çılgın ve Öngörülemez"
-      },
-      {
-        "feature": "Kart Koleksiyonu",
-        "vanilla": "Yalnızca Orijinal Kartlar",
-        "infinity": "Özel + Orijinal"
-      },
-      {
-        "feature": "Oyun Modları",
-        "vanilla": "Standart Modlar",
-        "infinity": "Özel Modlar"
-      },
-      {
-        "feature": "Rekabet Tarzı",
-        "vanilla": "Beceri Odaklı",
-        "infinity": "Yaratıcılık Odaklı"
-      },
-      {
-        "feature": "Güncellemeler",
-        "vanilla": "Stabil Meta",
-        "infinity": "Sürekli Yeni İçerik"
-      },
-      {
-        "feature": "Oyun İçi Komutlar",
-        "vanilla": "Evet",
-        "infinity": "Evet"
-      },
-      {
-        "feature": "Kaynaklar",
-        "vanilla": "Sınırsız",
-        "infinity": "Sınırsız"
-      },
-      {
-        "feature": "Her Şey Açık",
-        "vanilla": "Evet",
-        "infinity": "Evet"
-      },
-      {
-        "feature": "Kimler İçin İdeal",
-        "vanilla": "Strateji Severler",
-        "infinity": "Kaos Severler"
-      }
-    ],
-    "downloadSectionTitle": "Master Royale İndir",
-    "downloadSectionIntro": "İki efsanevi sürüm sizi bekliyor. Nostaljik oyun için Vanilla veya TikTok'ta gördüğünüz kaos için Infinity. İndirin ve hemen oynamaya başlayın!",
-    "vanillaTitle": "MR Vanilla",
-    "vanillaTag": "Nostalji sert vuruyor",
-    "vanillaDesc": "Hatırladığınız ve sevdiğiniz orijinal oyun deneyimi. Dengeli kartlar ve tanıdık etkinliklerle saf rekabetçi oynanış.",
-    "vanillaCta": "Vanilla'yı İndir",
-    "infinityTitle": "MR Infinity",
-    "infinityTag": "TikTok'ta görüldü",
-    "infinityDesc": "Her kuralı yıkan çılgın özel içerik. Oyun modları, anime karakterleri ve daha önce hiç görmediğiniz mekanikler.",
-    "infinityCta": "Infinity'yi İndir",
-    "guideTitle": "Master Royale Oyun Rehberi",
-    "guideIntro": "Sınırsız kaynaklarla arenaya hükmedin! Durdurulamaz olmak için gelişmiş stratejiler, deste kurma sırları ve pro teknikler öğrenin.",
-    "guides": [
-      {
-        "title": "Deste Kurma",
-        "heading": "Mükemmel Desteyi Kurun",
-        "text": "Sınırsız kaynaklarla özgürce deneyin! Klasik kartları özel kartlarla karıştırın (Infinity) veya saf stratejiye odaklanın (Vanilla). İlerleme duvarı yok demek daha büyük, daha cesur desteler demek.",
-        "tipLabel": "Pro İpucu:",
-        "tip": "Orijinal oyunda asla riske atmayacağınız çılgın kombinasyonları deneyin. Her şey açıkken tek sınırınız yaratıcılığınız!"
-      },
-      {
-        "title": "İksir Yönetimi",
-        "heading": "Sınırsız Güç",
-        "text": "İksir yükseltmeleri için grind'i unutun! Özel sunucuda sonsuz kaynaklarla saf strateji ve zamanlamaya odaklanın. Dev push'lar kurun, büyüleri zincirleyin ve epik savaşlar yaratın.",
-        "tipLabel": "Pro İpucu:",
-        "tip": "Orijinal oyunda imkânsız olacak çılgın kombolar yaratın. Tek sınır hayal gücünüz!"
-      },
-      {
-        "title": "Konumlandırma",
-        "heading": "Konumlandırmayı Ustalaştırın",
-        "text": "Sınırsız kaynaklarla konumlandırma daha da kritik hale gelir. Dev savunma duvarları kurun, düşmanları ordularla sarın ve benzersiz stratejiler için özel kartları (Infinity) kullanın.",
-        "tipLabel": "Pro İpucu:",
-        "tip": "Özel kartların benzersiz yeteneklerini deneyin. Bazılarının başka yerde bulamayacağınız özel konumlandırma mekanikleri var!"
-      }
-    ],
-    "advancedTitle": "Master Royale İleri Teknikler",
-    "advanced": [
-      {
-        "title": "Epik Kombolar",
-        "text": "Sınırsız kaynaklarla yıkıcı kombinasyonlar yaratın. Efsanevi kartları spamlayın, büyüleri zincirleyin ve kaos salın!"
-      },
-      {
-        "title": "Özel Kartlar (Infinity)",
-        "text": "Infinity'de benzersiz kartları ve crossover birimleri ustalaştırın. Özel yeteneklerini öğrenin ve durdurulamaz stratejiler oluşturun."
-      },
-      {
-        "title": "Turnuvalara Hükmedin",
-        "text": "Her şey açıkken saf beceri ve stratejiye odaklanın. Rekabetçi özel sunucu turnuvalarında ustalığınızı gösterin!"
-      }
-    ],
-    "unsureTitle": "Hâlâ Kararsız mısınız?",
-    "unsureText": "Topluluğumuza bir mesaj bırakın — oyuncular sizi doğru seçime yönlendirecek. Deneyimli Master Royale hayranlarından kişiselleştirilmiş öneriler alın!",
-    "discordCta": "Discord'da Sor",
-    "installTitle": "Master Royale Nasıl Kurulur ve Oynanır",
-    "installIntro": "Dakikalar içinde başlayın! İndirmek, kurmak ve arenaya hükmetmek için adım adım rehberimizi izleyin. Ayrıca yaygın sorunlar için sorun giderme ipuçları.",
-    "installSteps": [
-      {
-        "title": "APK İndir",
-        "text": "En güncel Master Royale APK'yi almak için Vanilla veya Infinity indirme düğmesine tıklayın. Ortak hub'ı mı tercih edersiniz? İndir sayfamızı kullanın.",
-        "note": "~300MB dosya boyutu"
-      },
-      {
-        "title": "Bilinmeyen Kaynakları Etkinleştir",
-        "text": "Ayarlar > Güvenlik (veya Uygulamalar > Özel erişim) bölümüne gidin ve tarayıcınız veya Dosyalar uygulaması için Bilinmeyen uygulamaları yükle'ye izin verin.",
-        "note": "Tüm Android cihazlar desteklenir"
-      },
-      {
-        "title": "Kur ve Başlat",
-        "text": "İndirilen APK'ye dokunun, istemleri izleyin, Master Royale'i başlatın ve yeni bir özel sunucu takma adı oluşturun — asla resmi Supercell şifrenizi kullanmayın.",
-        "note": "Ayrı özel sunucu hesabı"
-      }
-    ],
-    "troubleTitle": "Sorun Giderme Rehberi",
-    "trouble": [
-      {
-        "title": "Kurulum Başarısız mı?",
-        "text": "Yeterli depolama alanınız olduğundan (en az 2GB boş) ve Bilinmeyen uygulamaları yükle'nin açık olduğundan emin olun.",
-        "try": "Deneyin: Ayarlar > Uygulamalar > Özel Erişim > Bilinmeyen Uygulamaları Yükle"
-      },
-      {
-        "title": "Oyun Başlamıyor mu?",
-        "text": "Uygulama önbelleğini temizlemeyi veya yeniden kurmayı deneyin. Stabil bir internet bağlantınız olduğundan emin olun.",
-        "try": "Deneyin: Ayarlar > Uygulamalar > Master Royale > Depolama > Önbelleği Temizle"
-      },
-      {
-        "title": "Performans Sorunları mı?",
-        "text": "Diğer uygulamaları kapatın, cihazınızı yeniden başlatın veya oyun içi grafik ayarlarını düşürün.",
-        "try": "Deneyin: Oyun Ayarları > Grafikler > Düşük Kalite"
-      },
-      {
-        "title": "Bağlantı Sorunları mı?",
-        "text": "İnternet bağlantınızı kontrol edin ve Wi‑Fi ile mobil veri arasında geçiş yapmayı deneyin. Özel sunucular da bakımda olabilir.",
-        "try": "Deneyin: Yönlendiriciyi yeniden başlatın veya mobil hotspot kullanın"
-      },
-      {
-        "title": "Depolama Sorunları mı?",
-        "text": "Kullanılmayan uygulamaları veya medyayı silerek yer açın. Kurulum ve önbellek için en az 2GB boş tutun.",
-        "try": "Deneyin: Ayarlar > Depolama > Yer aç"
-      },
-      {
-        "title": "Hâlâ Sorun mu Yaşıyorsunuz?",
-        "text": "Deneyimli oyunculardan yardım için Discord topluluğumuza katılın veya siteyle ilgili sorular için support@masterroyaleapk.com adresine yazın.",
-        "try": "Yardım alın: Discord #support veya Bize Ulaşın"
-      }
-    ],
-    "readyTitle": "Arenaya Hükmetmeye Hazır mısınız?",
-    "readyText": "Master Royale efsanesi olma yolculuğunuz şimdi başlıyor. Vanilla veya Infinity'yi seçin ve dünyaya neyinizi gösterin!",
-    "readyCta": "Sunucunuzu Seçin",
-    "safetyTitle": "Güvenlik ve Bütünlük",
-    "safetyP1": "Yeni misiniz? Oyunu indirin, kurun ve içeri girin. Mümkün olduğunda, paketi doğrulayabilmeniz için indirme sayfalarında VirusTotal tarzı tarama kontrollerine atıfta bulunuruz. masterroyaleapk.com'daki resmi kurulum adımlarını tercih edin — garip paket kurulumcular yok.",
-    "safetyP2": "Bu, hayran yapımı / topluluk özel sunucu projesidir. Supercell tarafından onaylanmamış veya bağlı değildir. Topluluk için, topluluk tarafından yapılmıştır. Master Royale'de oynamak ayrı bir hesap veritabanı kullanır ve perakende Clash Royale ilerlemenizin yerini almaz veya erişmez.",
-    "badges": [
-      "Yayınlandığında topluluk tarafından tarandı",
-      "Tamamen Ücretsiz",
-      "Topluluk tarafından yönetilir",
-      "Perakende hesaplardan izole"
-    ],
-    "breadcrumb": "Vanilla vs Infinity"
+  "Blog": {
+    "h1": "Magic Brawl Blog",
+    "intro": "Magic Brawl güncellemeleri, brawler rehberleri, sezon haberleri ve özel sunucu ipuçları – hepsi burada.",
+    "readMore": "Devamını Oku",
+    "minRead": "dk okuma",
+    "backToBlog": "Blog'a Dön",
+    "relatedTitle": "İlgili Yazılar"
   }
 }

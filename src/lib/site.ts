@@ -1,52 +1,91 @@
-export const SITE_NAME = "Master Royale";
-export const SITE_ORIGIN = "https://masterroyaleapk.com";
-export const SITE_DOMAIN = "masterroyaleapk.com";
-export const SUPPORT_EMAIL = "support@masterroyaleapk.com";
+export const SITE_NAME = "Magic Brawl";
+export const SITE_ORIGIN = "https://magicbrawl.tr";
+export const SITE_DOMAIN = "magicbrawl.tr";
+export const SUPPORT_EMAIL = "support@magicbrawl.tr";
 
-/** Direct APK file (homepage download CTAs use this) */
-export const DOWNLOAD_APK_URL =
-  "https://dl.masterroyaleapk.com/file/master-royale/master-royale.apk";
-export const DOWNLOAD_VANILLA_URL = DOWNLOAD_APK_URL;
-export const DOWNLOAD_INFINITY_URL =
-  "https://dl.masterroyaleapk.com/file/master-royale/mr-infinity.apk";
+/** Official Magic Team Android APK (homepage + download CTAs) */
+export const DOWNLOAD_APK_URL = "https://magicbrawl.gg/latest_mb";
+export const DOWNLOAD_IPA_URL = "https://magicbrawl.gg/latest_mb_ipa";
 
-/** Download guide page. Its CTAs send users to the homepage. Kept noindex to avoid cannibalizing homepage download queries. */
-export const DOWNLOAD_PAGE_URL = "/download-master-royale";
+/** Download guide page. CTAs send users to the homepage download / official APK. */
+export const DOWNLOAD_PAGE_URL = "/download-magic-brawl";
 
-/** Update when Discord invite is ready */
-export const DISCORD_URL = "https://discord.com/invite/masterroyale";
+export const TELEGRAM_URL = "https://t.me/magics_en";
+export const DISCORD_URL = "https://discord.com/invite/magicbrawl";
 
 export const APP = {
-  name: "Master Royale",
-  displayName: "Master Royale MOD APK / Master Royale Infinity",
-  shortName: "Master Royale",
-  version: "v17 (3.2730.0)",
-  versionAlt: "3.2729.1",
-  fileSize: "145 MB",
-  fileSizeShort: "145 MB",
-  os: "Android 4.4+",
-  osNote: "Best on Android 5.0+ / recommended Android 8+",
-  category: "Arcade / Strategy / Action",
-  packageId: "net.master.royale",
-  ratingValue: "4.6",
-  ratingCount: "120000",
-  ratingCountDisplay: "120,000",
-  downloadsDisplay: "500K+",
-  price: "100% Free",
-  updated: "October 24, 2026",
+  name: "Magic Brawl",
+  displayName: "Magic Brawl APK / Özel Sunucu",
+  shortName: "Magic Brawl",
+  version: "v54.243",
+  versionAlt: "54.243",
+  fileSize: "471 MB",
+  fileSizeShort: "471 MB",
+  os: "Android 5.0+",
+  osNote: "En iyi deneyim Android 8+ / 3 GB+ RAM",
+  category: "Aksiyon / MOBA / Çok Oyunculu",
+  packageId: "com.magics.brawl",
+  ratingValue: "4.7",
+  ratingCount: "185000",
+  ratingCountDisplay: "185.000",
+  downloadsDisplay: "20M+",
+  price: "%100 Ücretsiz",
+  updated: "Kasım 2026",
+  season: "Sezon 22–23 · Starr Toon Studios",
 } as const;
 
 export const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/download-master-royale", label: "Download" },
-  { href: "/master-royale-for-pc", label: "PC Version" },
-  { href: "/about-us", label: "About Us" },
-  { href: "/contact-us", label: "Contact Us" },
+  { href: "/", label: "Ana Sayfa" },
+  { href: "/download-magic-brawl", label: "İndir" },
+  { href: "/magic-brawl-ios", label: "iOS" },
+  { href: "/magic-brawl-for-pc", label: "PC" },
+  { href: "/blog", label: "Blog" },
+  { href: "/about-us", label: "Hakkımızda" },
+  { href: "/contact-us", label: "İletişim" },
 ] as const;
 
 export const OG_IMAGE = `${SITE_ORIGIN}/feature/og-image.webp`;
-export const LOGO_IMAGE = `${SITE_ORIGIN}/master-royale-apk-logo.webp`;
-export const HERO_IMAGE = `${SITE_ORIGIN}/master-royale-king.webp`;
+export const LOGO_IMAGE = `${SITE_ORIGIN}/magic-brawl.webp`;
+export const HERO_IMAGE = `${SITE_ORIGIN}/magic-brawl.webp`;
 export const FAVICON = `${SITE_ORIGIN}/favicon.ico`;
-export const HERO_PATH = "/master-royale-king.webp";
-export const LOGO_PATH = "/master-royale-apk-logo.webp";
+export const HERO_PATH = "/magic-brawl.webp";
+export const LOGO_PATH = "/magic-brawl.webp";
+
+export const PINS = [
+  {
+    id: "six-seven",
+    name: "Six Seven Pin",
+    image: "/pin-wizard-67.webp",
+    alt: "Magic Brawl Six Seven sihirbaz rozeti",
+  },
+  {
+    id: "fumey-team",
+    name: "MBS Fumey",
+    image: "/fumey-team-pin.webp",
+    alt: "Magic Brawl MBS Fumey takım rozeti",
+  },
+  {
+    id: "fumey-frog",
+    name: "Fumey Frog Pin",
+    image: "/fumey-frog-pin.webp",
+    alt: "Magic Brawl Fumey Frog rozeti",
+  },
+  {
+    id: "goblin-clock",
+    name: "Goblin Clock Pin",
+    image: "/goblin-clock-pin.webp",
+    alt: "Magic Brawl Goblin Clock rozeti",
+  },
+  {
+    id: "goblin",
+    name: "Goblin Pin",
+    image: "/goblin-pin.webp",
+    alt: "Magic Brawl Goblin rozeti",
+  },
+  {
+    id: "coolglass",
+    name: "Cool Glass Pin",
+    image: "/coolglass_pin.webp",
+    alt: "Magic Brawl Cool Glass rozeti",
+  },
+] as const;

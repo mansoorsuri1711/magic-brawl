@@ -27,33 +27,29 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/download-card-rummy',
-        destination: '/download-master-royale',
+        source: '/download-master-royale',
+        destination: '/download-magic-brawl',
         permanent: true,
       },
       {
-        source: '/card-rummy-for-pc',
-        destination: '/master-royale-for-pc',
+        source: '/master-royale-for-pc',
+        destination: '/magic-brawl-for-pc',
         permanent: true,
       },
       {
-        source: '/blog',
+        source: '/vanilla-vs-infinity',
+        destination: '/magic-brawl-ios',
+        permanent: true,
+      },
+      // Former multi-language prefixes → Turkish-only URLs
+      {
+        source: '/:locale(en|fr|es|pt|de|it|tr)',
         destination: '/',
         permanent: true,
       },
       {
-        source: '/blog/:path*',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/deposit-money-in-card-rummy',
-        destination: '/download-master-royale',
-        permanent: true,
-      },
-      {
-        source: '/withdraw-money-from-card-rummy',
-        destination: '/download-master-royale',
+        source: '/:locale(en|fr|es|pt|de|it|tr)/:path*',
+        destination: '/:path*',
         permanent: true,
       },
     ];

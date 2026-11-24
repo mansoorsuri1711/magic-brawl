@@ -1,25 +1,24 @@
-export const locales = ["en", "fr", "tr", "es", "pt", "de", "it"] as const;
+export const locales = ["tr"] as const;
 export type Locale = (typeof locales)[number];
-export const defaultLocale: Locale = "en";
+export const defaultLocale: Locale = "tr";
 
 export const localeNames: Record<
   Locale,
   { label: string; native: string; flag: string }
 > = {
-  en: { label: "English", native: "ENGLISH", flag: "🇺🇸" },
-  fr: { label: "French", native: "FRANÇAIS", flag: "🇫🇷" },
-  tr: { label: "Turkish", native: "TÜRK", flag: "🇹🇷" },
-  es: { label: "Spanish", native: "ESPAÑOL", flag: "🇪🇸" },
-  pt: { label: "Portuguese", native: "PORTUGUESE", flag: "🇵🇹" },
-  de: { label: "German", native: "DEUTSCH", flag: "🇩🇪" },
-  it: { label: "Italian", native: "ITALIANO", flag: "🇮🇹" },
+  tr: { label: "Turkish", native: "TÜRKÇE", flag: "🇹🇷" },
 };
 
 export const pathnames = {
   "/": "/",
-  "/download-master-royale": "/download-master-royale",
-  "/vanilla-vs-infinity": "/vanilla-vs-infinity",
-  "/master-royale-for-pc": "/master-royale-for-pc",
+  "/download-magic-brawl": "/download-magic-brawl",
+  "/magic-brawl-ios": "/magic-brawl-ios",
+  "/magic-brawl-for-pc": "/magic-brawl-for-pc",
+  "/blog": "/blog",
+  "/blog/magic-brawl-guvenli-mi": "/blog/magic-brawl-guvenli-mi",
+  "/blog/magic-brawl-vs-nulls-brawl": "/blog/magic-brawl-vs-nulls-brawl",
+  "/blog/magic-brawl-pin-voucher-rehberi": "/blog/magic-brawl-pin-voucher-rehberi",
+  "/blog/magic-brawl-season-23-starr-toon": "/blog/magic-brawl-season-23-starr-toon",
   "/about-us": "/about-us",
   "/contact-us": "/contact-us",
   "/privacy": "/privacy",
